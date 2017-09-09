@@ -1,0 +1,125 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "StringInitializable"
+provides-nominal:
+- "P5Vapor19StringInitializable"
+- "Si"
+provides-member:
+- ["P5Vapor19StringInitializable", ""]
+- ["Si", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- "Int"
+- "String"
+- "StringInitializable"
+depends-member:
+- ["Ps17BitwiseOperations", "init"]
+- ["Ps7CVarArg", "init"]
+- ["Ps10Comparable", "init"]
+- ["Ps29CustomPlaygroundQuickLookable", "init"]
+- ["Ps17CustomReflectable", "init"]
+- ["Ps23CustomStringConvertible", "init"]
+- ["Ps9Equatable", "init"]
+- ["Ps27ExpressibleByIntegerLiteral", "init"]
+- ["Ps8Hashable", "init"]
+- ["Si", "deinit"]
+- ["Si", "init"]
+- ["Ps7Integer", "init"]
+- ["Ps17IntegerArithmetic", "init"]
+- ["Ps10MirrorPath", "init"]
+- ["P4Node17NodeInitializable", "init"]
+- ["P4Node17NodeRepresentable", "init"]
+- ["P7Routing15Parameterizable", "init"]
+- ["P13PathIndexable11PathIndexer", "init"]
+- ["P5Vapor23RequestContentSubscript", "init"]
+- ["Ps13SignedInteger", "init"]
+- ["Ps12SignedNumber", "init"]
+- ["Ps10Strideable", "init"]
+- ["P5Vapor19StringInitializable", "String"]
+- ["P5Vapor19StringInitializable", "init"]
+- ["P5Vapor19StringInitializable", ""]
+- ["Ps35_ExpressibleByBuiltinIntegerLiteral", "init"]
+- ["Ps9_Hashable", "init"]
+- ["Ps14_Incrementable", "init"]
+- ["Ps8_Integer", "init"]
+- ["Ps18_IntegerArithmetic", "init"]
+- ["Ps21_ObjectiveCBridgeable", "init"]
+- ["Ps14_SignedInteger", "init"]
+- ["Ps11_Strideable", "init"]
+depends-nominal:
+- "Ps17BitwiseOperations"
+- "Ps7CVarArg"
+- "Ps10Comparable"
+- "Ps29CustomPlaygroundQuickLookable"
+- "Ps17CustomReflectable"
+- "Ps23CustomStringConvertible"
+- "Ps9Equatable"
+- "Ps27ExpressibleByIntegerLiteral"
+- "Ps8Hashable"
+- "Si"
+- "Ps7Integer"
+- "Ps17IntegerArithmetic"
+- "Ps10MirrorPath"
+- "P4Node17NodeInitializable"
+- "P4Node17NodeRepresentable"
+- "P7Routing15Parameterizable"
+- "P13PathIndexable11PathIndexer"
+- "P5Vapor23RequestContentSubscript"
+- "Ps13SignedInteger"
+- "Ps12SignedNumber"
+- "Ps10Strideable"
+- "P5Vapor19StringInitializable"
+- "Ps35_ExpressibleByBuiltinIntegerLiteral"
+- "Ps9_Hashable"
+- "Ps14_Incrementable"
+- "Ps8_Integer"
+- "Ps18_IntegerArithmetic"
+- "Ps21_ObjectiveCBridgeable"
+- "Ps14_SignedInteger"
+- "Ps11_Strideable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/ObjectiveC.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Foundation.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreGraphics.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreText.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/ObjectiveC.swiftmodule"
+- "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/debug/URI.swiftmodule"
+- "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/debug/JSON.swiftmodule"
+- "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/debug/SMTP.swiftmodule"
+- "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/debug/HTTP.swiftmodule"
+- "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/debug/TLS.swiftmodule"
+- "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/debug/FormData.swiftmodule"
+- "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/debug/libc.swiftmodule"
+- "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/debug/Node.swiftmodule"
+- "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/debug/Cache.swiftmodule"
+- "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/debug/PathIndexable.swiftmodule"
+- "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/debug/Console.swiftmodule"
+- "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/debug/Core.swiftmodule"
+- "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/debug/Debugging.swiftmodule"
+- "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/debug/Routing.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.swiftmodule"
+- "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/debug/Random.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Foundation.swiftmodule"
+- "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/debug/Crypto.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreGraphics.swiftmodule"
+- "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/debug/Branches.swiftmodule"
+- "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/debug/Cookies.swiftmodule"
+- "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/debug/Configs.swiftmodule"
+- "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/debug/Sessions.swiftmodule"
+- "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/debug/Sockets.swiftmodule"
+- "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/debug/WebSockets.swiftmodule"
+- "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/debug/Bits.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/IOKit.swiftmodule"
+- "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/debug/BCrypt.swiftmodule"
+- "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/debug/Multipart.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/debug/Transport.swiftmodule"
+- "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/checkouts/engine.git-3311994267206676365/Sources/CHTTP/include/http_parser.h"
+- "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/checkouts/ctls.git-9210868160426949823/module.modulemap"
+- "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/debug/CHTTP.build/module.modulemap"
+- "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/debug/CSQLite.build/module.modulemap"
+interface-hash: "51207d3ecfcc5c73f5c9288bf633fcfb"

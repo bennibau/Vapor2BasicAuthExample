@@ -1,0 +1,6 @@
+version: "Apple Swift version 3.1 (swiftlang-802.0.53 clang-802.0.42)"
+options: "4026ef19e4677dadb7f99fb1b3a143da"
+build_time: [558250005, 207599000]
+inputs:
+  "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/checkouts/node.git-9175390252000121167/Sources/PathIndexable/PathIndexable+Subscripting.swift": [557941170, 0]
+  "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/checkouts/node.git-9175390252000121167/Sources/PathIndexable/PathIndexable.swift": [557941170, 0]

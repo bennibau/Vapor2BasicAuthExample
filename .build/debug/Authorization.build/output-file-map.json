@@ -1,0 +1,23 @@
+{
+  "": {
+    "swift-dependencies": "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/debug/Authorization.build/master.swiftdeps"
+  },
+  "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/checkouts/auth.git-9199502942084726963/Sources/Authorization/Authorizable.swift": {
+    "dependencies": "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/debug/Authorization.build/Authorizable.d",
+    "object": "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/debug/Authorization.build/Authorizable.swift.o",
+    "swiftmodule": "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/debug/Authorization.build/Authorizable~partial.swiftmodule",
+    "swift-dependencies": "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/debug/Authorization.build/Authorizable.swiftdeps"
+  },
+  "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/checkouts/auth.git-9199502942084726963/Sources/Authorization/AuthorizationError.swift": {
+    "dependencies": "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/debug/Authorization.build/AuthorizationError.d",
+    "object": "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/debug/Authorization.build/AuthorizationError.swift.o",
+    "swiftmodule": "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/debug/Authorization.build/AuthorizationError~partial.swiftmodule",
+    "swift-dependencies": "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/debug/Authorization.build/AuthorizationError.swiftdeps"
+  },
+  "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/checkouts/auth.git-9199502942084726963/Sources/Authorization/Permission.swift": {
+    "dependencies": "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/debug/Authorization.build/Permission.d",
+    "object": "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/debug/Authorization.build/Permission.swift.o",
+    "swiftmodule": "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/debug/Authorization.build/Permission~partial.swiftmodule",
+    "swift-dependencies": "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/debug/Authorization.build/Permission.swiftdeps"
+  }
+}

@@ -1,0 +1,86 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "Config"
+provides-nominal:
+- "V7Sockets6Config"
+provides-member:
+- ["V7Sockets6Config", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- "AddressFamily"
+- "AssignmentPrecedence"
+- "Bool"
+- "BooleanLiteralType"
+- "Config"
+- "Protocol"
+- "SocketType"
+depends-member:
+- !private ["O7Sockets13AddressFamily", "unspecified"]
+- !private ["P7Sockets21CTypeInt32Convertible", "TCP"]
+- !private ["P7Sockets21CTypeInt32Convertible", "UDP"]
+- !private ["P7Sockets21CTypeInt32Convertible", "datagram"]
+- !private ["P7Sockets21CTypeInt32Convertible", "stream"]
+- !private ["P7Sockets21CTypeInt32Convertible", "unspecified"]
+- ["V7Sockets6Config", "AddressFamily"]
+- ["V7Sockets6Config", "Bool"]
+- ["V7Sockets6Config", "Config"]
+- ["V7Sockets6Config", "Protocol"]
+- ["V7Sockets6Config", "SocketType"]
+- ["V7Sockets6Config", "TCP"]
+- ["V7Sockets6Config", "UDP"]
+- ["V7Sockets6Config", "addressFamily"]
+- ["V7Sockets6Config", "init"]
+- ["V7Sockets6Config", "protocolType"]
+- ["V7Sockets6Config", "reuseAddress"]
+- ["V7Sockets6Config", "socketType"]
+- !private ["Ps9Equatable", "TCP"]
+- !private ["Ps9Equatable", "UDP"]
+- !private ["Ps9Equatable", "datagram"]
+- !private ["Ps9Equatable", "stream"]
+- !private ["Ps9Equatable", "unspecified"]
+- !private ["Ps8Hashable", "TCP"]
+- !private ["Ps8Hashable", "UDP"]
+- !private ["Ps8Hashable", "datagram"]
+- !private ["Ps8Hashable", "stream"]
+- !private ["Ps8Hashable", "unspecified"]
+- !private ["O7Sockets8Protocol", "TCP"]
+- !private ["O7Sockets8Protocol", "UDP"]
+- !private ["O7Sockets10SocketType", "datagram"]
+- !private ["O7Sockets10SocketType", "stream"]
+- !private ["Ps9_Hashable", "TCP"]
+- !private ["Ps9_Hashable", "UDP"]
+- !private ["Ps9_Hashable", "datagram"]
+- !private ["Ps9_Hashable", "stream"]
+- !private ["Ps9_Hashable", "unspecified"]
+depends-nominal:
+- !private "O7Sockets13AddressFamily"
+- !private "P7Sockets21CTypeInt32Convertible"
+- "V7Sockets6Config"
+- !private "Ps9Equatable"
+- !private "Ps8Hashable"
+- !private "O7Sockets8Protocol"
+- !private "O7Sockets10SocketType"
+- !private "Ps9_Hashable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/ObjectiveC.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Foundation.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreGraphics.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreText.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/ObjectiveC.swiftmodule"
+- "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/debug/libc.swiftmodule"
+- "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/debug/Core.swiftmodule"
+- "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/debug/Debugging.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreGraphics.swiftmodule"
+- "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/debug/Bits.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/IOKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/debug/Transport.swiftmodule"
+- "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/debug/CHTTP.build/module.modulemap"
+- "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/debug/CSQLite.build/module.modulemap"
+interface-hash: "c2e980d4de40de24009eda4f12fcc781"

@@ -1,0 +1,506 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "ClientError"
+- "TCPClient"
+- "TLSClient"
+- "BasicClient"
+- "VERSION"
+- "userAgent"
+- "=="
+provides-nominal:
+- "O4HTTP11ClientError"
+- "C4HTTP11BasicClient"
+provides-member:
+- ["O4HTTP11ClientError", ""]
+- ["C4HTTP11BasicClient", ""]
+- ["P4HTTP6Client", ""]
+- ["P4HTTP6Client", "assertValid"]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "!"
+- "=="
+- !private ">"
+- "AssignmentPrecedence"
+- "BasicClient"
+- !private "BooleanLiteralType"
+- "Bytes"
+- !private "ChunkStream"
+- "Client"
+- "ClientError"
+- "ClientStream"
+- "Port"
+- "Request"
+- !private "RequestSerializer"
+- "Response"
+- !private "ResponseParser"
+- !private "StreamError"
+- "String"
+- "StringLiteralType"
+- "Swift"
+- "TCPClient"
+- "TCPInternetSocket"
+- "TLS"
+- "TLSClient"
+- "UnicodeScalarType"
+- "VERSION"
+- "userAgent"
+depends-member:
+- !private ["Ps9AnyObject", "Bytes"]
+- !private ["Ps9AnyObject", "ChunkStream"]
+- !private ["Ps9AnyObject", "ClientError"]
+- !private ["Ps9AnyObject", "RequestSerializer"]
+- !private ["Ps9AnyObject", "ResponseParser"]
+- !private ["Ps9AnyObject", "StreamError"]
+- !private ["Ps9AnyObject", "assertValid"]
+- !private ["Ps9AnyObject", "body"]
+- !private ["Ps9AnyObject", "buffer"]
+- !private ["Ps9AnyObject", "headers"]
+- ["Ps9AnyObject", "hostname"]
+- ["Ps9AnyObject", "init"]
+- !private ["Ps9AnyObject", "parse"]
+- ["Ps9AnyObject", "port"]
+- ["Ps9AnyObject", "respond"]
+- ["Ps9AnyObject", "scheme"]
+- !private ["Ps9AnyObject", "serialize"]
+- !private ["Ps9AnyObject", "stream"]
+- !private ["Ps9AnyObject", "uri"]
+- !private ["Ps9AnyObject", "userAgent"]
+- ["Ps9AnyObject", ""]
+- !private ["Sa", "count"]
+- !private ["Sa", "init"]
+- ["C4HTTP11BasicClient", "Bytes"]
+- !private ["C4HTTP11BasicClient", "ChunkStream"]
+- !private ["C4HTTP11BasicClient", "ClientError"]
+- ["C4HTTP11BasicClient", "Port"]
+- ["C4HTTP11BasicClient", "Request"]
+- !private ["C4HTTP11BasicClient", "RequestSerializer"]
+- ["C4HTTP11BasicClient", "Response"]
+- !private ["C4HTTP11BasicClient", "ResponseParser"]
+- !private ["C4HTTP11BasicClient", "StreamError"]
+- ["C4HTTP11BasicClient", "StreamType"]
+- ["C4HTTP11BasicClient", "String"]
+- !private ["C4HTTP11BasicClient", "assertValid"]
+- ["C4HTTP11BasicClient", "buffer"]
+- ["C4HTTP11BasicClient", "deinit"]
+- ["C4HTTP11BasicClient", "hostname"]
+- ["C4HTTP11BasicClient", "init"]
+- ["C4HTTP11BasicClient", "port"]
+- ["C4HTTP11BasicClient", "respond"]
+- ["C4HTTP11BasicClient", "scheme"]
+- ["C4HTTP11BasicClient", "stream"]
+- !private ["C4HTTP11BasicClient", "userAgent"]
+- !private ["Ps23BidirectionalCollection", "count"]
+- !private ["Ps23BidirectionalCollection", "init"]
+- !private ["Ps17BitwiseOperations", "hashValue"]
+- ["O4HTTP4Body", "chunked"]
+- ["O4HTTP4Body", "data"]
+- ["P4HTTP17BodyRepresentable", "chunked"]
+- ["P4HTTP17BodyRepresentable", "data"]
+- ["P4HTTP17BodyRepresentable", "init"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["P4HTTP14ByteSerializer", "init"]
+- !private ["P4HTTP14ByteSerializer", "serialize"]
+- ["P4Bits16BytesConvertible", "init"]
+- ["P4Bits18BytesInitializable", "init"]
+- ["P4Bits18BytesRepresentable", "init"]
+- !private ["P4HTTP11CHTTPParser", "init"]
+- !private ["P4HTTP11CHTTPParser", "parse"]
+- !private ["Ps7CVarArg", "count"]
+- !private ["Ps7CVarArg", "hashValue"]
+- ["Ps7CVarArg", "init"]
+- !private ["Ps7CVarArg", "subscript"]
+- !private ["C4HTTP11ChunkStream", "init"]
+- !private ["P4HTTP6Client", "Bytes"]
+- !private ["P4HTTP6Client", "ChunkStream"]
+- !private ["P4HTTP6Client", "ClientError"]
+- ["P4HTTP6Client", "Request"]
+- !private ["P4HTTP6Client", "RequestSerializer"]
+- !private ["P4HTTP6Client", "ResponseParser"]
+- !private ["P4HTTP6Client", "StreamError"]
+- ["P4HTTP6Client", "assertValid"]
+- !private ["P4HTTP6Client", "buffer"]
+- ["P4HTTP6Client", "hostname"]
+- ["P4HTTP6Client", "port"]
+- ["P4HTTP6Client", "respond"]
+- ["P4HTTP6Client", "scheme"]
+- !private ["P4HTTP6Client", "stream"]
+- !private ["P4HTTP6Client", "userAgent"]
+- ["P4HTTP6Client", ""]
+- ["O4HTTP11ClientError", "=="]
+- ["O4HTTP11ClientError", "_code"]
+- ["O4HTTP11ClientError", "_domain"]
+- ["O4HTTP11ClientError", "_getEmbeddedNSError"]
+- ["O4HTTP11ClientError", "_toAnyHashable"]
+- ["O4HTTP11ClientError", "_userInfo"]
+- ["O4HTTP11ClientError", "deinit"]
+- ["O4HTTP11ClientError", "hashValue"]
+- ["O4HTTP11ClientError", "invalidRequestHost"]
+- ["O4HTTP11ClientError", "invalidRequestPort"]
+- ["O4HTTP11ClientError", "invalidRequestScheme"]
+- ["O4HTTP11ClientError", "missingHost"]
+- ["O4HTTP11ClientError", "unableToConnect"]
+- ["O4HTTP11ClientError", "userInfoNotAllowedOnHTTP"]
+- !private ["P9Transport12ClientStream", "close"]
+- !private ["P9Transport12ClientStream", "connect"]
+- !private ["P9Transport12ClientStream", "hostname"]
+- !private ["P9Transport12ClientStream", "isClosed"]
+- !private ["P9Transport12ClientStream", "port"]
+- !private ["P9Transport12ClientStream", "read"]
+- !private ["P9Transport12ClientStream", "scheme"]
+- !private ["P9Transport12ClientStream", "write"]
+- !private ["Ps10Collection", "count"]
+- !private ["Ps10Collection", "init"]
+- !private ["Ps10Collection", "subscript"]
+- !private ["Ps10Comparable", "hashValue"]
+- ["Ps10Comparable", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "closed"]
+- !private ["Ps28CustomDebugStringConvertible", "count"]
+- ["Ps28CustomDebugStringConvertible", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "subscript"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "_getBuiltinLogicValue"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "hashValue"]
+- ["Ps29CustomPlaygroundQuickLookable", "init"]
+- !private ["Ps17CustomReflectable", "_getBuiltinLogicValue"]
+- !private ["Ps17CustomReflectable", "count"]
+- !private ["Ps17CustomReflectable", "hashValue"]
+- ["Ps17CustomReflectable", "init"]
+- !private ["Ps17CustomReflectable", "subscript"]
+- !private ["Ps23CustomStringConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps23CustomStringConvertible", "body"]
+- !private ["Ps23CustomStringConvertible", "count"]
+- !private ["Ps23CustomStringConvertible", "hashValue"]
+- !private ["Ps23CustomStringConvertible", "headers"]
+- ["Ps23CustomStringConvertible", "init"]
+- !private ["Ps23CustomStringConvertible", "stream"]
+- !private ["Ps23CustomStringConvertible", "subscript"]
+- !private ["Ps23CustomStringConvertible", "uri"]
+- !private ["Ps23CustomStringConvertible", "userInfo"]
+- !private ["P9Debugging10Debuggable", "closed"]
+- !private ["Vs10Dictionary", "deinit"]
+- !private ["Vs10Dictionary", "subscript"]
+- ["Ps9Equatable", "_code"]
+- ["Ps9Equatable", "_domain"]
+- !private ["Ps9Equatable", "_getBuiltinLogicValue"]
+- ["Ps9Equatable", "_getEmbeddedNSError"]
+- ["Ps9Equatable", "_toAnyHashable"]
+- ["Ps9Equatable", "_userInfo"]
+- !private ["Ps9Equatable", "closed"]
+- ["Ps9Equatable", "hashValue"]
+- ["Ps9Equatable", "init"]
+- !private ["Ps9Equatable", "unableToConnect"]
+- !private ["Ps9Equatable", "userInfoNotAllowedOnHTTP"]
+- ["Ps9Equatable", ""]
+- ["Ps5Error", "_code"]
+- ["Ps5Error", "_domain"]
+- ["Ps5Error", "_getEmbeddedNSError"]
+- ["Ps5Error", "_toAnyHashable"]
+- ["Ps5Error", "_userInfo"]
+- !private ["Ps5Error", "closed"]
+- ["Ps5Error", "hashValue"]
+- !private ["Ps5Error", "unableToConnect"]
+- !private ["Ps5Error", "userInfoNotAllowedOnHTTP"]
+- ["Ps5Error", ""]
+- ["Ps25ExpressibleByArrayLiteral", "chunked"]
+- !private ["Ps25ExpressibleByArrayLiteral", "count"]
+- ["Ps25ExpressibleByArrayLiteral", "data"]
+- !private ["Ps25ExpressibleByArrayLiteral", "init"]
+- !private ["Ps27ExpressibleByBooleanLiteral", "_getBuiltinLogicValue"]
+- !private ["Ps30ExpressibleByDictionaryLiteral", "subscript"]
+- ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "init"]
+- !private ["Ps27ExpressibleByIntegerLiteral", "hashValue"]
+- ["Ps26ExpressibleByStringLiteral", "init"]
+- ["Ps33ExpressibleByUnicodeScalarLiteral", "init"]
+- ["Ps8Hashable", "_code"]
+- ["Ps8Hashable", "_domain"]
+- !private ["Ps8Hashable", "_getBuiltinLogicValue"]
+- ["Ps8Hashable", "_getEmbeddedNSError"]
+- ["Ps8Hashable", "_toAnyHashable"]
+- ["Ps8Hashable", "_userInfo"]
+- !private ["Ps8Hashable", "closed"]
+- ["Ps8Hashable", "hashValue"]
+- ["Ps8Hashable", "init"]
+- !private ["Ps8Hashable", "unableToConnect"]
+- !private ["Ps8Hashable", "userInfoNotAllowedOnHTTP"]
+- ["Ps8Hashable", ""]
+- !private ["V4HTTP9HeaderKey", "deinit"]
+- !private ["Si", "hashValue"]
+- !private ["Ps7Integer", "hashValue"]
+- !private ["Ps17IntegerArithmetic", "hashValue"]
+- !private ["P9Transport14InternetStream", "Bytes"]
+- !private ["P9Transport14InternetStream", "ChunkStream"]
+- !private ["P9Transport14InternetStream", "ClientError"]
+- ["P9Transport14InternetStream", "Request"]
+- !private ["P9Transport14InternetStream", "RequestSerializer"]
+- !private ["P9Transport14InternetStream", "ResponseParser"]
+- !private ["P9Transport14InternetStream", "StreamError"]
+- !private ["P9Transport14InternetStream", "assertValid"]
+- !private ["P9Transport14InternetStream", "buffer"]
+- !private ["P9Transport14InternetStream", "close"]
+- !private ["P9Transport14InternetStream", "connect"]
+- ["P9Transport14InternetStream", "hostname"]
+- !private ["P9Transport14InternetStream", "isClosed"]
+- ["P9Transport14InternetStream", "port"]
+- !private ["P9Transport14InternetStream", "read"]
+- ["P9Transport14InternetStream", "respond"]
+- ["P9Transport14InternetStream", "scheme"]
+- !private ["P9Transport14InternetStream", "stream"]
+- !private ["P9Transport14InternetStream", "userAgent"]
+- !private ["P9Transport14InternetStream", "write"]
+- ["P9Transport14InternetStream", ""]
+- !private ["P4HTTP13KeyAccessible", "subscript"]
+- !private ["Ps25LosslessStringConvertible", "_getBuiltinLogicValue"]
+- ["Ps25LosslessStringConvertible", "init"]
+- !private ["P4HTTP7Message", "body"]
+- !private ["P4HTTP7Message", "headers"]
+- !private ["P4HTTP7Message", "stream"]
+- !private ["P4HTTP7Message", "uri"]
+- !private ["Ps10MirrorPath", "hashValue"]
+- ["Ps10MirrorPath", "init"]
+- !private ["Ps17MutableCollection", "count"]
+- !private ["Ps17MutableCollection", "init"]
+- ["PSo8NSCoding", "init"]
+- ["PSo9NSCopying", "init"]
+- ["PSo16NSMutableCopying", "init"]
+- ["PSo16NSObjectProtocol", "init"]
+- ["PSo14NSSecureCoding", "init"]
+- ["CSo8NSString", "init"]
+- !private ["Ps22RandomAccessCollection", "count"]
+- !private ["Ps22RandomAccessCollection", "init"]
+- !private ["Ps26RangeReplaceableCollection", "count"]
+- !private ["Ps26RangeReplaceableCollection", "init"]
+- !private ["P9Transport14ReadableStream", "close"]
+- !private ["P9Transport14ReadableStream", "connect"]
+- !private ["P9Transport14ReadableStream", "hostname"]
+- !private ["P9Transport14ReadableStream", "isClosed"]
+- !private ["P9Transport14ReadableStream", "port"]
+- !private ["P9Transport14ReadableStream", "read"]
+- !private ["P9Transport14ReadableStream", "scheme"]
+- !private ["P9Transport14ReadableStream", "write"]
+- !private ["C4HTTP7Request", "body"]
+- !private ["C4HTTP7Request", "deinit"]
+- !private ["C4HTTP7Request", "headers"]
+- !private ["C4HTTP7Request", "uri"]
+- !private ["C4HTTP17RequestSerializer", "init"]
+- !private ["C4HTTP17RequestSerializer", "serialize"]
+- !private ["P4HTTP9Responder", "Bytes"]
+- !private ["P4HTTP9Responder", "ChunkStream"]
+- !private ["P4HTTP9Responder", "ClientError"]
+- ["P4HTTP9Responder", "Request"]
+- !private ["P4HTTP9Responder", "RequestSerializer"]
+- !private ["P4HTTP9Responder", "ResponseParser"]
+- !private ["P4HTTP9Responder", "StreamError"]
+- !private ["P4HTTP9Responder", "assertValid"]
+- !private ["P4HTTP9Responder", "buffer"]
+- ["P4HTTP9Responder", "hostname"]
+- ["P4HTTP9Responder", "port"]
+- ["P4HTTP9Responder", "respond"]
+- ["P4HTTP9Responder", "scheme"]
+- !private ["P4HTTP9Responder", "stream"]
+- !private ["P4HTTP9Responder", "userAgent"]
+- ["P4HTTP9Responder", ""]
+- !private ["C4HTTP8Response", "deinit"]
+- !private ["C4HTTP8Response", "stream"]
+- !private ["C4HTTP14ResponseParser", "init"]
+- !private ["C4HTTP14ResponseParser", "parse"]
+- ["P4HTTP21ResponseRepresentable", "init"]
+- !private ["P4HTTP21ResponseRepresentable", "stream"]
+- !private ["Ps8Sequence", "count"]
+- !private ["Ps8Sequence", "init"]
+- !private ["Ps8Sequence", "subscript"]
+- !private ["Ps13SignedInteger", "hashValue"]
+- !private ["Ps12SignedNumber", "hashValue"]
+- !private ["P9Transport6Stream", "close"]
+- !private ["P9Transport6Stream", "connect"]
+- !private ["P9Transport6Stream", "hostname"]
+- !private ["P9Transport6Stream", "isClosed"]
+- !private ["P9Transport6Stream", "port"]
+- !private ["P9Transport6Stream", "read"]
+- !private ["P9Transport6Stream", "scheme"]
+- !private ["P9Transport6Stream", "write"]
+- !private ["O9Transport11StreamError", "closed"]
+- !private ["Ps10Strideable", "hashValue"]
+- ["SS", "init"]
+- ["Ps16TextOutputStream", "init"]
+- ["Ps20TextOutputStreamable", "init"]
+- !private ["V3URI3URI", "userInfo"]
+- !private ["P9Transport15WriteableStream", "close"]
+- !private ["P9Transport15WriteableStream", "connect"]
+- !private ["P9Transport15WriteableStream", "hostname"]
+- !private ["P9Transport15WriteableStream", "isClosed"]
+- !private ["P9Transport15WriteableStream", "port"]
+- !private ["P9Transport15WriteableStream", "read"]
+- !private ["P9Transport15WriteableStream", "scheme"]
+- !private ["P9Transport15WriteableStream", "write"]
+- !private ["Ps14_ArrayProtocol", "count"]
+- !private ["Ps14_ArrayProtocol", "init"]
+- !private ["Ps23_BidirectionalIndexable", "count"]
+- !private ["Ps23_BidirectionalIndexable", "init"]
+- !private ["Ps24_DestructorSafeContainer", "count"]
+- !private ["Ps24_DestructorSafeContainer", "init"]
+- !private ["Ps35_ExpressibleByBuiltinBooleanLiteral", "_getBuiltinLogicValue"]
+- ["Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral", "init"]
+- !private ["Ps35_ExpressibleByBuiltinIntegerLiteral", "hashValue"]
+- ["Ps34_ExpressibleByBuiltinStringLiteral", "init"]
+- ["Ps39_ExpressibleByBuiltinUTF16StringLiteral", "init"]
+- ["Ps41_ExpressibleByBuiltinUnicodeScalarLiteral", "init"]
+- ["Ps33_ExpressibleByStringInterpolation", "init"]
+- ["Ps35_HasCustomAnyHashableRepresentation", "init"]
+- ["Ps9_Hashable", "_code"]
+- ["Ps9_Hashable", "_domain"]
+- !private ["Ps9_Hashable", "_getBuiltinLogicValue"]
+- ["Ps9_Hashable", "_getEmbeddedNSError"]
+- ["Ps9_Hashable", "_toAnyHashable"]
+- ["Ps9_Hashable", "_userInfo"]
+- !private ["Ps9_Hashable", "closed"]
+- ["Ps9_Hashable", "hashValue"]
+- ["Ps9_Hashable", "init"]
+- !private ["Ps9_Hashable", "unableToConnect"]
+- !private ["Ps9_Hashable", "userInfoNotAllowedOnHTTP"]
+- ["Ps9_Hashable", ""]
+- !private ["Ps14_Incrementable", "hashValue"]
+- !private ["Ps10_Indexable", "count"]
+- !private ["Ps10_Indexable", "init"]
+- !private ["Ps10_Indexable", "subscript"]
+- !private ["Ps14_IndexableBase", "count"]
+- !private ["Ps14_IndexableBase", "init"]
+- !private ["Ps14_IndexableBase", "subscript"]
+- !private ["Ps8_Integer", "hashValue"]
+- !private ["Ps18_IntegerArithmetic", "hashValue"]
+- !private ["Ps17_MutableIndexable", "count"]
+- !private ["Ps17_MutableIndexable", "init"]
+- !private ["Ps21_ObjectiveCBridgeable", "_getBuiltinLogicValue"]
+- !private ["Ps21_ObjectiveCBridgeable", "count"]
+- !private ["Ps21_ObjectiveCBridgeable", "hashValue"]
+- ["Ps21_ObjectiveCBridgeable", "init"]
+- !private ["Ps21_ObjectiveCBridgeable", "subscript"]
+- !private ["Ps22_RandomAccessIndexable", "count"]
+- !private ["Ps22_RandomAccessIndexable", "init"]
+- !private ["Ps26_RangeReplaceableIndexable", "count"]
+- !private ["Ps26_RangeReplaceableIndexable", "init"]
+- !private ["Ps14_SignedInteger", "hashValue"]
+- !private ["Ps11_Strideable", "hashValue"]
+depends-nominal:
+- "Ps9AnyObject"
+- !private "Sa"
+- "C4HTTP11BasicClient"
+- !private "Ps23BidirectionalCollection"
+- !private "Ps17BitwiseOperations"
+- "O4HTTP4Body"
+- "P4HTTP17BodyRepresentable"
+- !private "Sb"
+- !private "P4HTTP14ByteSerializer"
+- "P4Bits16BytesConvertible"
+- "P4Bits18BytesInitializable"
+- "P4Bits18BytesRepresentable"
+- !private "P4HTTP11CHTTPParser"
+- "Ps7CVarArg"
+- !private "C4HTTP11ChunkStream"
+- "P4HTTP6Client"
+- "O4HTTP11ClientError"
+- !private "P9Transport12ClientStream"
+- !private "Ps10Collection"
+- "Ps10Comparable"
+- "Ps28CustomDebugStringConvertible"
+- "Ps29CustomPlaygroundQuickLookable"
+- "Ps17CustomReflectable"
+- "Ps23CustomStringConvertible"
+- !private "P9Debugging10Debuggable"
+- !private "Vs10Dictionary"
+- "Ps9Equatable"
+- "Ps5Error"
+- "Ps25ExpressibleByArrayLiteral"
+- !private "Ps27ExpressibleByBooleanLiteral"
+- !private "Ps30ExpressibleByDictionaryLiteral"
+- "Ps43ExpressibleByExtendedGraphemeClusterLiteral"
+- !private "Ps27ExpressibleByIntegerLiteral"
+- "Ps26ExpressibleByStringLiteral"
+- "Ps33ExpressibleByUnicodeScalarLiteral"
+- "Ps8Hashable"
+- !private "V4HTTP9HeaderKey"
+- !private "Si"
+- !private "Ps7Integer"
+- !private "Ps17IntegerArithmetic"
+- "P9Transport14InternetStream"
+- !private "P4HTTP13KeyAccessible"
+- "Ps25LosslessStringConvertible"
+- !private "P4HTTP7Message"
+- "Ps10MirrorPath"
+- !private "Ps17MutableCollection"
+- "PSo8NSCoding"
+- "PSo9NSCopying"
+- "PSo16NSMutableCopying"
+- "PSo16NSObjectProtocol"
+- "PSo14NSSecureCoding"
+- "CSo8NSString"
+- !private "Ps22RandomAccessCollection"
+- !private "Ps26RangeReplaceableCollection"
+- !private "P9Transport14ReadableStream"
+- !private "C4HTTP7Request"
+- !private "C4HTTP17RequestSerializer"
+- "P4HTTP9Responder"
+- !private "C4HTTP8Response"
+- !private "C4HTTP14ResponseParser"
+- "P4HTTP21ResponseRepresentable"
+- !private "Ps8Sequence"
+- !private "Ps13SignedInteger"
+- !private "Ps12SignedNumber"
+- !private "P9Transport6Stream"
+- !private "O9Transport11StreamError"
+- !private "Ps10Strideable"
+- "SS"
+- "Ps16TextOutputStream"
+- "Ps20TextOutputStreamable"
+- !private "V3URI3URI"
+- !private "P9Transport15WriteableStream"
+- !private "Ps14_ArrayProtocol"
+- !private "Ps23_BidirectionalIndexable"
+- !private "Ps24_DestructorSafeContainer"
+- !private "Ps35_ExpressibleByBuiltinBooleanLiteral"
+- "Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral"
+- !private "Ps35_ExpressibleByBuiltinIntegerLiteral"
+- "Ps34_ExpressibleByBuiltinStringLiteral"
+- "Ps39_ExpressibleByBuiltinUTF16StringLiteral"
+- "Ps41_ExpressibleByBuiltinUnicodeScalarLiteral"
+- "Ps33_ExpressibleByStringInterpolation"
+- "Ps35_HasCustomAnyHashableRepresentation"
+- "Ps9_Hashable"
+- !private "Ps14_Incrementable"
+- !private "Ps10_Indexable"
+- !private "Ps14_IndexableBase"
+- !private "Ps8_Integer"
+- !private "Ps18_IntegerArithmetic"
+- !private "Ps17_MutableIndexable"
+- "Ps21_ObjectiveCBridgeable"
+- !private "Ps22_RandomAccessIndexable"
+- !private "Ps26_RangeReplaceableIndexable"
+- !private "Ps14_SignedInteger"
+- !private "Ps11_Strideable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/ObjectiveC.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Foundation.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreGraphics.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreText.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/ObjectiveC.swiftmodule"
+- "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/debug/URI.swiftmodule"
+- "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/debug/TLS.swiftmodule"
+- "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/debug/libc.swiftmodule"
+- "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/debug/Core.swiftmodule"
+- "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/debug/Debugging.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.swiftmodule"
+- "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/debug/Random.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreGraphics.swiftmodule"
+- "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/debug/Sockets.swiftmodule"
+- "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/debug/Bits.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/IOKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/debug/Transport.swiftmodule"
+- "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/checkouts/engine.git-3311994267206676365/Sources/CHTTP/include/http_parser.h"
+- "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/checkouts/ctls.git-9210868160426949823/module.modulemap"
+- "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/debug/CHTTP.build/module.modulemap"
+- "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/debug/CSQLite.build/module.modulemap"
+interface-hash: "37727f05874f8d0b1cc5b8972b36a486"

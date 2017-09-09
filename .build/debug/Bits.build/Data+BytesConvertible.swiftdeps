@@ -1,0 +1,217 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+provides-nominal:
+- "V10Foundation4Data"
+provides-member:
+- ["V10Foundation4Data", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- "AssignmentPrecedence"
+- "Bytes"
+- "BytesConvertible"
+- "Data"
+- !private "UnsafeMutableBufferPointer"
+depends-member:
+- !private ["Sa", "init"]
+- !private ["Ps23BidirectionalCollection", "Bytes"]
+- !private ["Ps23BidirectionalCollection", "UnsafeMutableBufferPointer"]
+- !private ["Ps23BidirectionalCollection", "copyBytes"]
+- !private ["Ps23BidirectionalCollection", "count"]
+- ["Ps23BidirectionalCollection", "init"]
+- ["Ps23BidirectionalCollection", "makeBytes"]
+- !private ["P4Bits16BytesConvertible", "Bytes"]
+- !private ["P4Bits16BytesConvertible", "UnsafeMutableBufferPointer"]
+- !private ["P4Bits16BytesConvertible", "copyBytes"]
+- !private ["P4Bits16BytesConvertible", "count"]
+- ["P4Bits16BytesConvertible", "init"]
+- ["P4Bits16BytesConvertible", "makeBytes"]
+- ["P4Bits16BytesConvertible", ""]
+- !private ["P4Bits18BytesInitializable", "Bytes"]
+- !private ["P4Bits18BytesInitializable", "UnsafeMutableBufferPointer"]
+- !private ["P4Bits18BytesInitializable", "copyBytes"]
+- !private ["P4Bits18BytesInitializable", "count"]
+- ["P4Bits18BytesInitializable", "init"]
+- ["P4Bits18BytesInitializable", "makeBytes"]
+- ["P4Bits18BytesInitializable", ""]
+- !private ["P4Bits18BytesRepresentable", "Bytes"]
+- !private ["P4Bits18BytesRepresentable", "UnsafeMutableBufferPointer"]
+- !private ["P4Bits18BytesRepresentable", "copyBytes"]
+- !private ["P4Bits18BytesRepresentable", "count"]
+- ["P4Bits18BytesRepresentable", "init"]
+- ["P4Bits18BytesRepresentable", "makeBytes"]
+- ["P4Bits18BytesRepresentable", ""]
+- !private ["Ps7CVarArg", "init"]
+- !private ["Ps10Collection", "Bytes"]
+- !private ["Ps10Collection", "UnsafeMutableBufferPointer"]
+- !private ["Ps10Collection", "copyBytes"]
+- !private ["Ps10Collection", "count"]
+- ["Ps10Collection", "init"]
+- ["Ps10Collection", "makeBytes"]
+- !private ["Ps28CustomDebugStringConvertible", "Bytes"]
+- !private ["Ps28CustomDebugStringConvertible", "UnsafeMutableBufferPointer"]
+- !private ["Ps28CustomDebugStringConvertible", "copyBytes"]
+- !private ["Ps28CustomDebugStringConvertible", "count"]
+- ["Ps28CustomDebugStringConvertible", "init"]
+- ["Ps28CustomDebugStringConvertible", "makeBytes"]
+- !private ["Ps17CustomReflectable", "Bytes"]
+- !private ["Ps17CustomReflectable", "UnsafeMutableBufferPointer"]
+- !private ["Ps17CustomReflectable", "copyBytes"]
+- !private ["Ps17CustomReflectable", "count"]
+- ["Ps17CustomReflectable", "init"]
+- ["Ps17CustomReflectable", "makeBytes"]
+- !private ["Ps23CustomStringConvertible", "Bytes"]
+- !private ["Ps23CustomStringConvertible", "UnsafeMutableBufferPointer"]
+- !private ["Ps23CustomStringConvertible", "copyBytes"]
+- !private ["Ps23CustomStringConvertible", "count"]
+- ["Ps23CustomStringConvertible", "init"]
+- ["Ps23CustomStringConvertible", "makeBytes"]
+- ["V10Foundation4Data", "Bytes"]
+- !private ["V10Foundation4Data", "UnsafeMutableBufferPointer"]
+- !private ["V10Foundation4Data", "copyBytes"]
+- !private ["V10Foundation4Data", "count"]
+- ["V10Foundation4Data", "deinit"]
+- ["V10Foundation4Data", "init"]
+- ["V10Foundation4Data", "makeBytes"]
+- !private ["Ps9Equatable", "Bytes"]
+- !private ["Ps9Equatable", "UnsafeMutableBufferPointer"]
+- !private ["Ps9Equatable", "copyBytes"]
+- !private ["Ps9Equatable", "count"]
+- ["Ps9Equatable", "init"]
+- ["Ps9Equatable", "makeBytes"]
+- !private ["Ps25ExpressibleByArrayLiteral", "init"]
+- !private ["Ps8Hashable", "Bytes"]
+- !private ["Ps8Hashable", "UnsafeMutableBufferPointer"]
+- !private ["Ps8Hashable", "copyBytes"]
+- !private ["Ps8Hashable", "count"]
+- ["Ps8Hashable", "init"]
+- ["Ps8Hashable", "makeBytes"]
+- !private ["Ps17MutableCollection", "Bytes"]
+- !private ["Ps17MutableCollection", "UnsafeMutableBufferPointer"]
+- !private ["Ps17MutableCollection", "copyBytes"]
+- !private ["Ps17MutableCollection", "count"]
+- ["Ps17MutableCollection", "init"]
+- ["Ps17MutableCollection", "makeBytes"]
+- !private ["Ps22RandomAccessCollection", "Bytes"]
+- !private ["Ps22RandomAccessCollection", "UnsafeMutableBufferPointer"]
+- !private ["Ps22RandomAccessCollection", "copyBytes"]
+- !private ["Ps22RandomAccessCollection", "count"]
+- ["Ps22RandomAccessCollection", "init"]
+- ["Ps22RandomAccessCollection", "makeBytes"]
+- !private ["Ps26RangeReplaceableCollection", "Bytes"]
+- !private ["Ps26RangeReplaceableCollection", "UnsafeMutableBufferPointer"]
+- !private ["Ps26RangeReplaceableCollection", "copyBytes"]
+- !private ["Ps26RangeReplaceableCollection", "count"]
+- ["Ps26RangeReplaceableCollection", "init"]
+- ["Ps26RangeReplaceableCollection", "makeBytes"]
+- !private ["P10Foundation20ReferenceConvertible", "Bytes"]
+- !private ["P10Foundation20ReferenceConvertible", "UnsafeMutableBufferPointer"]
+- !private ["P10Foundation20ReferenceConvertible", "copyBytes"]
+- !private ["P10Foundation20ReferenceConvertible", "count"]
+- ["P10Foundation20ReferenceConvertible", "init"]
+- ["P10Foundation20ReferenceConvertible", "makeBytes"]
+- !private ["Ps8Sequence", "Bytes"]
+- !private ["Ps8Sequence", "UnsafeMutableBufferPointer"]
+- !private ["Ps8Sequence", "copyBytes"]
+- !private ["Ps8Sequence", "count"]
+- ["Ps8Sequence", "init"]
+- ["Ps8Sequence", "makeBytes"]
+- !private ["Sr", "init"]
+- !private ["Ps14_ArrayProtocol", "init"]
+- !private ["Ps23_BidirectionalIndexable", "Bytes"]
+- !private ["Ps23_BidirectionalIndexable", "UnsafeMutableBufferPointer"]
+- !private ["Ps23_BidirectionalIndexable", "copyBytes"]
+- !private ["Ps23_BidirectionalIndexable", "count"]
+- ["Ps23_BidirectionalIndexable", "init"]
+- ["Ps23_BidirectionalIndexable", "makeBytes"]
+- !private ["Ps24_DestructorSafeContainer", "init"]
+- !private ["Ps9_Hashable", "Bytes"]
+- !private ["Ps9_Hashable", "UnsafeMutableBufferPointer"]
+- !private ["Ps9_Hashable", "copyBytes"]
+- !private ["Ps9_Hashable", "count"]
+- ["Ps9_Hashable", "init"]
+- ["Ps9_Hashable", "makeBytes"]
+- !private ["Ps10_Indexable", "Bytes"]
+- !private ["Ps10_Indexable", "UnsafeMutableBufferPointer"]
+- !private ["Ps10_Indexable", "copyBytes"]
+- !private ["Ps10_Indexable", "count"]
+- ["Ps10_Indexable", "init"]
+- ["Ps10_Indexable", "makeBytes"]
+- !private ["Ps14_IndexableBase", "Bytes"]
+- !private ["Ps14_IndexableBase", "UnsafeMutableBufferPointer"]
+- !private ["Ps14_IndexableBase", "copyBytes"]
+- !private ["Ps14_IndexableBase", "count"]
+- ["Ps14_IndexableBase", "init"]
+- ["Ps14_IndexableBase", "makeBytes"]
+- !private ["Ps17_MutableIndexable", "Bytes"]
+- !private ["Ps17_MutableIndexable", "UnsafeMutableBufferPointer"]
+- !private ["Ps17_MutableIndexable", "copyBytes"]
+- !private ["Ps17_MutableIndexable", "count"]
+- ["Ps17_MutableIndexable", "init"]
+- ["Ps17_MutableIndexable", "makeBytes"]
+- !private ["Ps21_ObjectiveCBridgeable", "Bytes"]
+- !private ["Ps21_ObjectiveCBridgeable", "UnsafeMutableBufferPointer"]
+- !private ["Ps21_ObjectiveCBridgeable", "copyBytes"]
+- !private ["Ps21_ObjectiveCBridgeable", "count"]
+- ["Ps21_ObjectiveCBridgeable", "init"]
+- ["Ps21_ObjectiveCBridgeable", "makeBytes"]
+- !private ["Ps22_RandomAccessIndexable", "Bytes"]
+- !private ["Ps22_RandomAccessIndexable", "UnsafeMutableBufferPointer"]
+- !private ["Ps22_RandomAccessIndexable", "copyBytes"]
+- !private ["Ps22_RandomAccessIndexable", "count"]
+- ["Ps22_RandomAccessIndexable", "init"]
+- ["Ps22_RandomAccessIndexable", "makeBytes"]
+- !private ["Ps26_RangeReplaceableIndexable", "Bytes"]
+- !private ["Ps26_RangeReplaceableIndexable", "UnsafeMutableBufferPointer"]
+- !private ["Ps26_RangeReplaceableIndexable", "copyBytes"]
+- !private ["Ps26_RangeReplaceableIndexable", "count"]
+- ["Ps26_RangeReplaceableIndexable", "init"]
+- ["Ps26_RangeReplaceableIndexable", "makeBytes"]
+depends-nominal:
+- !private "Sa"
+- "Ps23BidirectionalCollection"
+- "P4Bits16BytesConvertible"
+- "P4Bits18BytesInitializable"
+- "P4Bits18BytesRepresentable"
+- !private "Ps7CVarArg"
+- "Ps10Collection"
+- "Ps28CustomDebugStringConvertible"
+- "Ps17CustomReflectable"
+- "Ps23CustomStringConvertible"
+- "V10Foundation4Data"
+- "Ps9Equatable"
+- !private "Ps25ExpressibleByArrayLiteral"
+- "Ps8Hashable"
+- "Ps17MutableCollection"
+- "Ps22RandomAccessCollection"
+- "Ps26RangeReplaceableCollection"
+- "P10Foundation20ReferenceConvertible"
+- "Ps8Sequence"
+- !private "Sr"
+- !private "Ps14_ArrayProtocol"
+- "Ps23_BidirectionalIndexable"
+- !private "Ps24_DestructorSafeContainer"
+- "Ps9_Hashable"
+- "Ps10_Indexable"
+- "Ps14_IndexableBase"
+- "Ps17_MutableIndexable"
+- "Ps21_ObjectiveCBridgeable"
+- "Ps22_RandomAccessIndexable"
+- "Ps26_RangeReplaceableIndexable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/ObjectiveC.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Foundation.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreGraphics.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreText.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/IOKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/debug/CHTTP.build/module.modulemap"
+- "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/debug/CSQLite.build/module.modulemap"
+interface-hash: "7378b558dd497dc2db4636f847fc31dc"

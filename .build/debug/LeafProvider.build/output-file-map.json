@@ -1,0 +1,29 @@
+{
+  "": {
+    "swift-dependencies": "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/debug/LeafProvider.build/master.swiftdeps"
+  },
+  "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/checkouts/leaf-provider.git--3406657661258480084/Sources/LeafProvider/Keys.swift": {
+    "dependencies": "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/debug/LeafProvider.build/Keys.d",
+    "object": "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/debug/LeafProvider.build/Keys.swift.o",
+    "swiftmodule": "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/debug/LeafProvider.build/Keys~partial.swiftmodule",
+    "swift-dependencies": "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/debug/LeafProvider.build/Keys.swiftdeps"
+  },
+  "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/checkouts/leaf-provider.git--3406657661258480084/Sources/LeafProvider/LeafProviderError.swift": {
+    "dependencies": "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/debug/LeafProvider.build/LeafProviderError.d",
+    "object": "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/debug/LeafProvider.build/LeafProviderError.swift.o",
+    "swiftmodule": "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/debug/LeafProvider.build/LeafProviderError~partial.swiftmodule",
+    "swift-dependencies": "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/debug/LeafProvider.build/LeafProviderError.swiftdeps"
+  },
+  "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/checkouts/leaf-provider.git--3406657661258480084/Sources/LeafProvider/LeafRenderer.swift": {
+    "dependencies": "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/debug/LeafProvider.build/LeafRenderer.d",
+    "object": "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/debug/LeafProvider.build/LeafRenderer.swift.o",
+    "swiftmodule": "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/debug/LeafProvider.build/LeafRenderer~partial.swiftmodule",
+    "swift-dependencies": "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/debug/LeafProvider.build/LeafRenderer.swiftdeps"
+  },
+  "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/checkouts/leaf-provider.git--3406657661258480084/Sources/LeafProvider/Provider.swift": {
+    "dependencies": "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/debug/LeafProvider.build/Provider.d",
+    "object": "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/debug/LeafProvider.build/Provider.swift.o",
+    "swiftmodule": "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/debug/LeafProvider.build/Provider~partial.swiftmodule",
+    "swift-dependencies": "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/debug/LeafProvider.build/Provider.swiftdeps"
+  }
+}

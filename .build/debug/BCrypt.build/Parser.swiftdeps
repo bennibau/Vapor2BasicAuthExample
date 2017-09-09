@@ -1,0 +1,463 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "Parser"
+provides-nominal:
+- "C6BCrypt6Parser"
+provides-member:
+- ["C6BCrypt6Parser", ""]
+- ["C6BCrypt6Parser", "init"]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "&&"
+- !private "..<"
+- !private "=="
+- !private ">="
+- "AssignmentPrecedence"
+- !private "BCryptError"
+- !private "Base64"
+- !private "Byte"
+- "Bytes"
+- "BytesConvertible"
+- !private "FloatLiteralType"
+- !private "IntegerLiteralType"
+- "Parser"
+- "Salt"
+- "UInt"
+- !private "||"
+- !private "~="
+depends-member:
+- !private ["Ps9AnyObject", "BCryptError"]
+- !private ["Ps9AnyObject", "Base64"]
+- !private ["Ps9AnyObject", "Byte"]
+- !private ["Ps9AnyObject", "Salt"]
+- !private ["Ps9AnyObject", "UInt"]
+- !private ["Ps9AnyObject", "costBytes"]
+- !private ["Ps9AnyObject", "encodedDigest"]
+- !private ["Ps9AnyObject", "encodedSalt"]
+- !private ["Ps9AnyObject", "init"]
+- !private ["Ps9AnyObject", "parseCost"]
+- !private ["Ps9AnyObject", "parseVersion"]
+- !private ["Ps9AnyObject", "versionBytes"]
+- ["Ps9AnyObject", ""]
+- !private ["Sa", "count"]
+- !private ["Sa", "decimalInt"]
+- !private ["Sa", "split"]
+- !private ["Sa", "subscript"]
+- !private ["Vs10ArraySlice", "array"]
+- !private ["Vs10ArraySlice", "count"]
+- !private ["O6BCrypt11BCryptError", "deinit"]
+- !private ["O6BCrypt11BCryptError", "invalidHash"]
+- !private ["O6BCrypt11BCryptError", "invalidSaltCost"]
+- !private ["O6BCrypt11BCryptError", "invalidSaltVersion"]
+- !private ["O6BCrypt11BCryptError", "unsupportedSaltVersion"]
+- !private ["V6BCrypt6Base64", "decode"]
+- !private ["Ps23BidirectionalCollection", "array"]
+- !private ["Ps23BidirectionalCollection", "count"]
+- !private ["Ps23BidirectionalCollection", "decimalInt"]
+- !private ["Ps23BidirectionalCollection", "split"]
+- !private ["Ps23BidirectionalCollection", "subscript"]
+- !private ["Ps17BitwiseOperations", "a"]
+- !private ["Ps17BitwiseOperations", "dollar"]
+- !private ["Ps17BitwiseOperations", "init"]
+- !private ["Ps17BitwiseOperations", "two"]
+- !private ["Ps17BitwiseOperations", "x"]
+- !private ["Ps17BitwiseOperations", "y"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["P4Bits16BytesConvertible", "a"]
+- !private ["P4Bits16BytesConvertible", "dollar"]
+- !private ["P4Bits16BytesConvertible", "makeBytes"]
+- !private ["P4Bits16BytesConvertible", "two"]
+- !private ["P4Bits16BytesConvertible", "x"]
+- !private ["P4Bits16BytesConvertible", "y"]
+- !private ["P4Bits18BytesInitializable", "a"]
+- !private ["P4Bits18BytesInitializable", "dollar"]
+- !private ["P4Bits18BytesInitializable", "makeBytes"]
+- !private ["P4Bits18BytesInitializable", "two"]
+- !private ["P4Bits18BytesInitializable", "x"]
+- !private ["P4Bits18BytesInitializable", "y"]
+- !private ["P4Bits18BytesRepresentable", "a"]
+- !private ["P4Bits18BytesRepresentable", "dollar"]
+- !private ["P4Bits18BytesRepresentable", "makeBytes"]
+- !private ["P4Bits18BytesRepresentable", "two"]
+- !private ["P4Bits18BytesRepresentable", "x"]
+- !private ["P4Bits18BytesRepresentable", "y"]
+- !private ["Ps7CVarArg", "a"]
+- !private ["Ps7CVarArg", "count"]
+- !private ["Ps7CVarArg", "decimalInt"]
+- !private ["Ps7CVarArg", "dollar"]
+- !private ["Ps7CVarArg", "init"]
+- !private ["Ps7CVarArg", "split"]
+- !private ["Ps7CVarArg", "subscript"]
+- !private ["Ps7CVarArg", "two"]
+- !private ["Ps7CVarArg", "x"]
+- !private ["Ps7CVarArg", "y"]
+- !private ["Ps10Collection", "array"]
+- !private ["Ps10Collection", "count"]
+- !private ["Ps10Collection", "decimalInt"]
+- !private ["Ps10Collection", "split"]
+- !private ["Ps10Collection", "subscript"]
+- !private ["Ps10Comparable", "a"]
+- !private ["Ps10Comparable", "dollar"]
+- !private ["Ps10Comparable", "init"]
+- !private ["Ps10Comparable", "two"]
+- !private ["Ps10Comparable", "x"]
+- !private ["Ps10Comparable", "y"]
+- !private ["Ps28CustomDebugStringConvertible", "array"]
+- !private ["Ps28CustomDebugStringConvertible", "count"]
+- !private ["Ps28CustomDebugStringConvertible", "decimalInt"]
+- !private ["Ps28CustomDebugStringConvertible", "invalidHash"]
+- !private ["Ps28CustomDebugStringConvertible", "invalidSaltCost"]
+- !private ["Ps28CustomDebugStringConvertible", "invalidSaltVersion"]
+- !private ["Ps28CustomDebugStringConvertible", "split"]
+- !private ["Ps28CustomDebugStringConvertible", "subscript"]
+- !private ["Ps28CustomDebugStringConvertible", "unsupportedSaltVersion"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "_getBuiltinLogicValue"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "a"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "dollar"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "init"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "two"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "x"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "y"]
+- !private ["Ps17CustomReflectable", "_getBuiltinLogicValue"]
+- !private ["Ps17CustomReflectable", "a"]
+- !private ["Ps17CustomReflectable", "array"]
+- !private ["Ps17CustomReflectable", "count"]
+- !private ["Ps17CustomReflectable", "decimalInt"]
+- !private ["Ps17CustomReflectable", "dollar"]
+- !private ["Ps17CustomReflectable", "init"]
+- !private ["Ps17CustomReflectable", "split"]
+- !private ["Ps17CustomReflectable", "subscript"]
+- !private ["Ps17CustomReflectable", "two"]
+- !private ["Ps17CustomReflectable", "x"]
+- !private ["Ps17CustomReflectable", "y"]
+- !private ["Ps23CustomStringConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps23CustomStringConvertible", "a"]
+- !private ["Ps23CustomStringConvertible", "array"]
+- !private ["Ps23CustomStringConvertible", "count"]
+- !private ["Ps23CustomStringConvertible", "decimalInt"]
+- !private ["Ps23CustomStringConvertible", "dollar"]
+- !private ["Ps23CustomStringConvertible", "init"]
+- !private ["Ps23CustomStringConvertible", "split"]
+- !private ["Ps23CustomStringConvertible", "subscript"]
+- !private ["Ps23CustomStringConvertible", "two"]
+- !private ["Ps23CustomStringConvertible", "x"]
+- !private ["Ps23CustomStringConvertible", "y"]
+- !private ["P9Debugging10Debuggable", "invalidHash"]
+- !private ["P9Debugging10Debuggable", "invalidSaltCost"]
+- !private ["P9Debugging10Debuggable", "invalidSaltVersion"]
+- !private ["P9Debugging10Debuggable", "unsupportedSaltVersion"]
+- !private ["Ps9Equatable", "_getBuiltinLogicValue"]
+- !private ["Ps9Equatable", "a"]
+- !private ["Ps9Equatable", "dollar"]
+- !private ["Ps9Equatable", "init"]
+- !private ["Ps9Equatable", "invalidHash"]
+- !private ["Ps9Equatable", "invalidSaltCost"]
+- !private ["Ps9Equatable", "invalidSaltVersion"]
+- !private ["Ps9Equatable", "none"]
+- !private ["Ps9Equatable", "two"]
+- !private ["Ps9Equatable", "unsupportedSaltVersion"]
+- !private ["Ps9Equatable", "x"]
+- !private ["Ps9Equatable", "y"]
+- !private ["Ps5Error", "invalidHash"]
+- !private ["Ps5Error", "invalidSaltCost"]
+- !private ["Ps5Error", "invalidSaltVersion"]
+- !private ["Ps5Error", "unsupportedSaltVersion"]
+- !private ["Ps25ExpressibleByArrayLiteral", "array"]
+- !private ["Ps25ExpressibleByArrayLiteral", "count"]
+- !private ["Ps25ExpressibleByArrayLiteral", "decimalInt"]
+- !private ["Ps25ExpressibleByArrayLiteral", "split"]
+- !private ["Ps25ExpressibleByArrayLiteral", "subscript"]
+- !private ["Ps27ExpressibleByBooleanLiteral", "_getBuiltinLogicValue"]
+- !private ["Ps27ExpressibleByIntegerLiteral", "a"]
+- !private ["Ps27ExpressibleByIntegerLiteral", "dollar"]
+- !private ["Ps27ExpressibleByIntegerLiteral", "init"]
+- !private ["Ps27ExpressibleByIntegerLiteral", "two"]
+- !private ["Ps27ExpressibleByIntegerLiteral", "x"]
+- !private ["Ps27ExpressibleByIntegerLiteral", "y"]
+- !private ["Ps8Hashable", "_getBuiltinLogicValue"]
+- !private ["Ps8Hashable", "a"]
+- !private ["Ps8Hashable", "dollar"]
+- !private ["Ps8Hashable", "init"]
+- !private ["Ps8Hashable", "invalidHash"]
+- !private ["Ps8Hashable", "invalidSaltCost"]
+- !private ["Ps8Hashable", "invalidSaltVersion"]
+- !private ["Ps8Hashable", "none"]
+- !private ["Ps8Hashable", "two"]
+- !private ["Ps8Hashable", "unsupportedSaltVersion"]
+- !private ["Ps8Hashable", "x"]
+- !private ["Ps8Hashable", "y"]
+- !private ["Ps7Integer", "a"]
+- !private ["Ps7Integer", "dollar"]
+- !private ["Ps7Integer", "init"]
+- !private ["Ps7Integer", "two"]
+- !private ["Ps7Integer", "x"]
+- !private ["Ps7Integer", "y"]
+- !private ["Ps17IntegerArithmetic", "a"]
+- !private ["Ps17IntegerArithmetic", "dollar"]
+- !private ["Ps17IntegerArithmetic", "init"]
+- !private ["Ps17IntegerArithmetic", "two"]
+- !private ["Ps17IntegerArithmetic", "x"]
+- !private ["Ps17IntegerArithmetic", "y"]
+- !private ["Ps25LosslessStringConvertible", "_getBuiltinLogicValue"]
+- !private ["Vs25MutableBidirectionalSlice", "array"]
+- !private ["Ps17MutableCollection", "array"]
+- !private ["Ps17MutableCollection", "count"]
+- !private ["Ps17MutableCollection", "decimalInt"]
+- !private ["Ps17MutableCollection", "split"]
+- !private ["Ps17MutableCollection", "subscript"]
+- !private ["Vs24MutableRandomAccessSlice", "array"]
+- !private ["Vs12MutableSlice", "array"]
+- !private ["C6BCrypt6Parser", "BCryptError"]
+- !private ["C6BCrypt6Parser", "Base64"]
+- !private ["C6BCrypt6Parser", "Byte"]
+- ["C6BCrypt6Parser", "Bytes"]
+- ["C6BCrypt6Parser", "BytesConvertible"]
+- ["C6BCrypt6Parser", "Salt"]
+- ["C6BCrypt6Parser", "UInt"]
+- ["C6BCrypt6Parser", "costBytes"]
+- ["C6BCrypt6Parser", "deinit"]
+- ["C6BCrypt6Parser", "encodedDigest"]
+- ["C6BCrypt6Parser", "encodedSalt"]
+- ["C6BCrypt6Parser", "init"]
+- ["C6BCrypt6Parser", "parseCost"]
+- ["C6BCrypt6Parser", "parseDigest"]
+- ["C6BCrypt6Parser", "parseSalt"]
+- ["C6BCrypt6Parser", "parseVersion"]
+- ["C6BCrypt6Parser", "versionBytes"]
+- !private ["Ps22RandomAccessCollection", "array"]
+- !private ["Ps22RandomAccessCollection", "count"]
+- !private ["Ps22RandomAccessCollection", "decimalInt"]
+- !private ["Ps22RandomAccessCollection", "split"]
+- !private ["Ps22RandomAccessCollection", "subscript"]
+- !private ["Ps26RangeReplaceableCollection", "array"]
+- !private ["Ps26RangeReplaceableCollection", "count"]
+- !private ["Ps26RangeReplaceableCollection", "decimalInt"]
+- !private ["Ps26RangeReplaceableCollection", "split"]
+- !private ["Ps26RangeReplaceableCollection", "subscript"]
+- !private ["Vs21RangeReplaceableSlice", "array"]
+- !private ["Ps16RawRepresentable", "invalidHash"]
+- !private ["Ps16RawRepresentable", "invalidSaltCost"]
+- !private ["Ps16RawRepresentable", "invalidSaltVersion"]
+- !private ["Ps16RawRepresentable", "unsupportedSaltVersion"]
+- ["V6BCrypt4Salt", "Version"]
+- !private ["V6BCrypt4Salt", "init"]
+- !private ["OOV6BCrypt4Salt7Version6Scheme", "a"]
+- !private ["OOV6BCrypt4Salt7Version6Scheme", "none"]
+- !private ["OOV6BCrypt4Salt7Version6Scheme", "x"]
+- !private ["OOV6BCrypt4Salt7Version6Scheme", "y"]
+- !private ["Ps8Sequence", "array"]
+- !private ["Ps8Sequence", "count"]
+- !private ["Ps8Sequence", "decimalInt"]
+- !private ["Ps8Sequence", "split"]
+- !private ["Ps8Sequence", "subscript"]
+- !private ["Ps10Strideable", "a"]
+- !private ["Ps10Strideable", "dollar"]
+- !private ["Ps10Strideable", "init"]
+- !private ["Ps10Strideable", "two"]
+- !private ["Ps10Strideable", "x"]
+- !private ["Ps10Strideable", "y"]
+- !private ["Su", "init"]
+- !private ["Vs5UInt8", "a"]
+- !private ["Vs5UInt8", "dollar"]
+- !private ["Vs5UInt8", "two"]
+- !private ["Vs5UInt8", "x"]
+- !private ["Vs5UInt8", "y"]
+- !private ["Ps15UnsignedInteger", "a"]
+- !private ["Ps15UnsignedInteger", "dollar"]
+- !private ["Ps15UnsignedInteger", "init"]
+- !private ["Ps15UnsignedInteger", "two"]
+- !private ["Ps15UnsignedInteger", "x"]
+- !private ["Ps15UnsignedInteger", "y"]
+- !private ["OV6BCrypt4Salt7Version", "two"]
+- !private ["Ps14_ArrayProtocol", "array"]
+- !private ["Ps14_ArrayProtocol", "count"]
+- !private ["Ps14_ArrayProtocol", "decimalInt"]
+- !private ["Ps14_ArrayProtocol", "split"]
+- !private ["Ps14_ArrayProtocol", "subscript"]
+- !private ["Ps23_BidirectionalIndexable", "array"]
+- !private ["Ps23_BidirectionalIndexable", "count"]
+- !private ["Ps23_BidirectionalIndexable", "decimalInt"]
+- !private ["Ps23_BidirectionalIndexable", "split"]
+- !private ["Ps23_BidirectionalIndexable", "subscript"]
+- !private ["Ps24_DestructorSafeContainer", "array"]
+- !private ["Ps24_DestructorSafeContainer", "count"]
+- !private ["Ps24_DestructorSafeContainer", "decimalInt"]
+- !private ["Ps24_DestructorSafeContainer", "split"]
+- !private ["Ps24_DestructorSafeContainer", "subscript"]
+- !private ["Ps28_DisallowMixedSignArithmetic", "a"]
+- !private ["Ps28_DisallowMixedSignArithmetic", "dollar"]
+- !private ["Ps28_DisallowMixedSignArithmetic", "init"]
+- !private ["Ps28_DisallowMixedSignArithmetic", "two"]
+- !private ["Ps28_DisallowMixedSignArithmetic", "x"]
+- !private ["Ps28_DisallowMixedSignArithmetic", "y"]
+- !private ["Ps35_ExpressibleByBuiltinBooleanLiteral", "_getBuiltinLogicValue"]
+- !private ["Ps35_ExpressibleByBuiltinIntegerLiteral", "a"]
+- !private ["Ps35_ExpressibleByBuiltinIntegerLiteral", "dollar"]
+- !private ["Ps35_ExpressibleByBuiltinIntegerLiteral", "init"]
+- !private ["Ps35_ExpressibleByBuiltinIntegerLiteral", "two"]
+- !private ["Ps35_ExpressibleByBuiltinIntegerLiteral", "x"]
+- !private ["Ps35_ExpressibleByBuiltinIntegerLiteral", "y"]
+- !private ["Ps9_Hashable", "_getBuiltinLogicValue"]
+- !private ["Ps9_Hashable", "a"]
+- !private ["Ps9_Hashable", "dollar"]
+- !private ["Ps9_Hashable", "init"]
+- !private ["Ps9_Hashable", "invalidHash"]
+- !private ["Ps9_Hashable", "invalidSaltCost"]
+- !private ["Ps9_Hashable", "invalidSaltVersion"]
+- !private ["Ps9_Hashable", "none"]
+- !private ["Ps9_Hashable", "two"]
+- !private ["Ps9_Hashable", "unsupportedSaltVersion"]
+- !private ["Ps9_Hashable", "x"]
+- !private ["Ps9_Hashable", "y"]
+- !private ["Ps14_Incrementable", "a"]
+- !private ["Ps14_Incrementable", "dollar"]
+- !private ["Ps14_Incrementable", "init"]
+- !private ["Ps14_Incrementable", "two"]
+- !private ["Ps14_Incrementable", "x"]
+- !private ["Ps14_Incrementable", "y"]
+- !private ["Ps10_Indexable", "array"]
+- !private ["Ps10_Indexable", "count"]
+- !private ["Ps10_Indexable", "decimalInt"]
+- !private ["Ps10_Indexable", "split"]
+- !private ["Ps10_Indexable", "subscript"]
+- !private ["Ps14_IndexableBase", "array"]
+- !private ["Ps14_IndexableBase", "count"]
+- !private ["Ps14_IndexableBase", "decimalInt"]
+- !private ["Ps14_IndexableBase", "split"]
+- !private ["Ps14_IndexableBase", "subscript"]
+- !private ["Ps8_Integer", "a"]
+- !private ["Ps8_Integer", "dollar"]
+- !private ["Ps8_Integer", "init"]
+- !private ["Ps8_Integer", "two"]
+- !private ["Ps8_Integer", "x"]
+- !private ["Ps8_Integer", "y"]
+- !private ["Ps18_IntegerArithmetic", "a"]
+- !private ["Ps18_IntegerArithmetic", "dollar"]
+- !private ["Ps18_IntegerArithmetic", "init"]
+- !private ["Ps18_IntegerArithmetic", "two"]
+- !private ["Ps18_IntegerArithmetic", "x"]
+- !private ["Ps18_IntegerArithmetic", "y"]
+- !private ["Ps17_MutableIndexable", "array"]
+- !private ["Ps17_MutableIndexable", "count"]
+- !private ["Ps17_MutableIndexable", "decimalInt"]
+- !private ["Ps17_MutableIndexable", "split"]
+- !private ["Ps17_MutableIndexable", "subscript"]
+- !private ["Ps21_ObjectiveCBridgeable", "_getBuiltinLogicValue"]
+- !private ["Ps21_ObjectiveCBridgeable", "a"]
+- !private ["Ps21_ObjectiveCBridgeable", "count"]
+- !private ["Ps21_ObjectiveCBridgeable", "decimalInt"]
+- !private ["Ps21_ObjectiveCBridgeable", "dollar"]
+- !private ["Ps21_ObjectiveCBridgeable", "init"]
+- !private ["Ps21_ObjectiveCBridgeable", "split"]
+- !private ["Ps21_ObjectiveCBridgeable", "subscript"]
+- !private ["Ps21_ObjectiveCBridgeable", "two"]
+- !private ["Ps21_ObjectiveCBridgeable", "x"]
+- !private ["Ps21_ObjectiveCBridgeable", "y"]
+- !private ["Ps22_RandomAccessIndexable", "array"]
+- !private ["Ps22_RandomAccessIndexable", "count"]
+- !private ["Ps22_RandomAccessIndexable", "decimalInt"]
+- !private ["Ps22_RandomAccessIndexable", "split"]
+- !private ["Ps22_RandomAccessIndexable", "subscript"]
+- !private ["Ps26_RangeReplaceableIndexable", "array"]
+- !private ["Ps26_RangeReplaceableIndexable", "count"]
+- !private ["Ps26_RangeReplaceableIndexable", "decimalInt"]
+- !private ["Ps26_RangeReplaceableIndexable", "split"]
+- !private ["Ps26_RangeReplaceableIndexable", "subscript"]
+- !private ["Ps11_Strideable", "a"]
+- !private ["Ps11_Strideable", "dollar"]
+- !private ["Ps11_Strideable", "init"]
+- !private ["Ps11_Strideable", "two"]
+- !private ["Ps11_Strideable", "x"]
+- !private ["Ps11_Strideable", "y"]
+- !private ["Ps14_StringElement", "a"]
+- !private ["Ps14_StringElement", "dollar"]
+- !private ["Ps14_StringElement", "two"]
+- !private ["Ps14_StringElement", "x"]
+- !private ["Ps14_StringElement", "y"]
+depends-nominal:
+- "Ps9AnyObject"
+- !private "Sa"
+- !private "Vs10ArraySlice"
+- !private "O6BCrypt11BCryptError"
+- !private "V6BCrypt6Base64"
+- !private "Ps23BidirectionalCollection"
+- !private "Ps17BitwiseOperations"
+- !private "Sb"
+- !private "P4Bits16BytesConvertible"
+- !private "P4Bits18BytesInitializable"
+- !private "P4Bits18BytesRepresentable"
+- !private "Ps7CVarArg"
+- !private "Ps10Collection"
+- !private "Ps10Comparable"
+- !private "Ps28CustomDebugStringConvertible"
+- !private "Ps29CustomPlaygroundQuickLookable"
+- !private "Ps17CustomReflectable"
+- !private "Ps23CustomStringConvertible"
+- !private "P9Debugging10Debuggable"
+- !private "Ps9Equatable"
+- !private "Ps5Error"
+- !private "Ps25ExpressibleByArrayLiteral"
+- !private "Ps27ExpressibleByBooleanLiteral"
+- !private "Ps27ExpressibleByIntegerLiteral"
+- !private "Ps8Hashable"
+- !private "Ps7Integer"
+- !private "Ps17IntegerArithmetic"
+- !private "Ps25LosslessStringConvertible"
+- !private "Vs25MutableBidirectionalSlice"
+- !private "Ps17MutableCollection"
+- !private "Vs24MutableRandomAccessSlice"
+- !private "Vs12MutableSlice"
+- "C6BCrypt6Parser"
+- !private "Ps22RandomAccessCollection"
+- !private "Ps26RangeReplaceableCollection"
+- !private "Vs21RangeReplaceableSlice"
+- !private "Ps16RawRepresentable"
+- "V6BCrypt4Salt"
+- !private "OOV6BCrypt4Salt7Version6Scheme"
+- !private "Ps8Sequence"
+- !private "Ps10Strideable"
+- !private "Su"
+- !private "Vs5UInt8"
+- !private "Ps15UnsignedInteger"
+- !private "OV6BCrypt4Salt7Version"
+- !private "Ps14_ArrayProtocol"
+- !private "Ps23_BidirectionalIndexable"
+- !private "Ps24_DestructorSafeContainer"
+- !private "Ps28_DisallowMixedSignArithmetic"
+- !private "Ps35_ExpressibleByBuiltinBooleanLiteral"
+- !private "Ps35_ExpressibleByBuiltinIntegerLiteral"
+- !private "Ps9_Hashable"
+- !private "Ps14_Incrementable"
+- !private "Ps10_Indexable"
+- !private "Ps14_IndexableBase"
+- !private "Ps8_Integer"
+- !private "Ps18_IntegerArithmetic"
+- !private "Ps17_MutableIndexable"
+- !private "Ps21_ObjectiveCBridgeable"
+- !private "Ps22_RandomAccessIndexable"
+- !private "Ps26_RangeReplaceableIndexable"
+- !private "Ps11_Strideable"
+- !private "Ps14_StringElement"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/ObjectiveC.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Foundation.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreGraphics.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreText.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/ObjectiveC.swiftmodule"
+- "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/debug/libc.swiftmodule"
+- "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/debug/Core.swiftmodule"
+- "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/debug/Debugging.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.swiftmodule"
+- "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/debug/Random.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreGraphics.swiftmodule"
+- "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/debug/Bits.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/IOKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/debug/CHTTP.build/module.modulemap"
+- "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/debug/CSQLite.build/module.modulemap"
+interface-hash: "a028dbb3340b2a9ce5ea0f25b1c569b3"

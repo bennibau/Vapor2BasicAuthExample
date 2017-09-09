@@ -1,0 +1,8 @@
+version: "Apple Swift version 3.1 (swiftlang-802.0.53 clang-802.0.42)"
+options: "15bd3c68dfedf238d1c2050d63eeed2e"
+build_time: [558250033, 10399000]
+inputs:
+  "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/checkouts/leaf-provider.git--3406657661258480084/Sources/LeafProvider/Keys.swift": [557941169, 0]
+  "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/checkouts/leaf-provider.git--3406657661258480084/Sources/LeafProvider/LeafProviderError.swift": [557941169, 0]
+  "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/checkouts/leaf-provider.git--3406657661258480084/Sources/LeafProvider/LeafRenderer.swift": [557941169, 0]
+  "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/checkouts/leaf-provider.git--3406657661258480084/Sources/LeafProvider/Provider.swift": [557941169, 0]

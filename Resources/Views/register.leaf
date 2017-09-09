@@ -1,0 +1,9 @@
+
+
+<form action="" method="post">
+<input type="hidden" name="type" value="registerUser" />
+<input class="u-full-width" type="email" name="email" placeholder="Email" id="linkInput">
+<input class="u-full-width" type="text" name="name" placeholder="Name" id="linkInput">
+<input class="u-full-width" type="password" name="password" placeholder="Password" id="linkInput">
+<input class="button-primary" type="submit" value="Register">
+</form>

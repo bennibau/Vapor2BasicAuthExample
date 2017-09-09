@@ -1,0 +1,13 @@
+version: "Apple Swift version 3.1 (swiftlang-802.0.53 clang-802.0.42)"
+options: "7338e76468b1b9ae2e1530108b9c3bd1"
+build_time: [558250010, 993897000]
+inputs:
+  "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/checkouts/json.git-9153249592855998091/Sources/JSON/JSON+Bytes.swift": [557941171, 0]
+  "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/checkouts/json.git-9153249592855998091/Sources/JSON/JSON+Equatable.swift": [557941171, 0]
+  "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/checkouts/json.git-9153249592855998091/Sources/JSON/JSON+Fuzzy.swift": [557941171, 0]
+  "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/checkouts/json.git-9153249592855998091/Sources/JSON/JSON+Parse.swift": [557941171, 0]
+  "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/checkouts/json.git-9153249592855998091/Sources/JSON/JSON+Serialize.swift": [557941171, 0]
+  "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/checkouts/json.git-9153249592855998091/Sources/JSON/JSON.swift": [557941171, 0]
+  "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/checkouts/json.git-9153249592855998091/Sources/JSON/JSONContext.swift": [557941171, 0]
+  "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/checkouts/json.git-9153249592855998091/Sources/JSON/JSONRepresentable.swift": [557941171, 0]
+  "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/checkouts/json.git-9153249592855998091/Sources/JSON/Sequence+Convertible.swift": [557941171, 0]

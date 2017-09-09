@@ -1,0 +1,362 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "socket_addrinfo"
+- "InternetAddressResolver"
+- "Resolver"
+provides-nominal:
+- "P7Sockets23InternetAddressResolver"
+- "V7Sockets8Resolver"
+provides-member:
+- ["P7Sockets23InternetAddressResolver", ""]
+- ["V7Sockets8Resolver", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "=="
+- !private "??"
+- !private "AI_PASSIVE"
+- !private "AddressFamily"
+- "AssignmentPrecedence"
+- "Config"
+- "Darwin"
+- !private "FloatLiteralType"
+- !private "Int32"
+- !private "IntegerLiteralType"
+- "InternetAddress"
+- "InternetAddressResolver"
+- !private "OpaquePointer"
+- "ResolvedInternetAddress"
+- "Resolver"
+- !private "SocketsError"
+- !private "String"
+- !private "StringLiteralType"
+- !private "UnicodeScalarType"
+- !private "UnsafeMutablePointer"
+- !private "freeaddrinfo"
+- !private "gai_strerror"
+- !private "getaddrinfo"
+- !private "sockaddr_in"
+- !private "sockaddr_in6"
+- !private "sockaddr_storage"
+- "socket_addrinfo"
+depends-member:
+- !private ["O7Sockets13AddressFamily", "deinit"]
+- ["O7Sockets13AddressFamily", "inet"]
+- ["O7Sockets13AddressFamily", "inet6"]
+- !private ["O7Sockets13AddressFamily", "init"]
+- !private ["O7Sockets13AddressFamily", "toCType"]
+- !private ["Ps9AnyObject", "addressFamily"]
+- !private ["Ps9AnyObject", "init"]
+- !private ["Ps17BitwiseOperations", "init"]
+- !private ["Ps17BitwiseOperations", "toString"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["P4Bits16BytesConvertible", "init"]
+- !private ["P4Bits16BytesConvertible", "toString"]
+- !private ["P4Bits18BytesInitializable", "init"]
+- !private ["P4Bits18BytesInitializable", "toString"]
+- !private ["P4Bits18BytesRepresentable", "init"]
+- !private ["P4Bits18BytesRepresentable", "toString"]
+- ["P7Sockets21CTypeInt32Convertible", "inet"]
+- ["P7Sockets21CTypeInt32Convertible", "inet6"]
+- !private ["P7Sockets21CTypeInt32Convertible", "init"]
+- !private ["P7Sockets21CTypeInt32Convertible", "toCType"]
+- !private ["Ps7CVarArg", "allocate"]
+- !private ["Ps7CVarArg", "assign"]
+- !private ["Ps7CVarArg", "init"]
+- !private ["Ps7CVarArg", "initialize"]
+- !private ["Ps7CVarArg", "pointee"]
+- !private ["Ps7CVarArg", "toString"]
+- !private ["Ps10Comparable", "allocate"]
+- !private ["Ps10Comparable", "assign"]
+- !private ["Ps10Comparable", "init"]
+- !private ["Ps10Comparable", "initialize"]
+- !private ["Ps10Comparable", "pointee"]
+- !private ["Ps10Comparable", "toString"]
+- !private ["V7Sockets6Config", "addressFamily"]
+- !private ["V7Sockets6Config", "protocolType"]
+- !private ["V7Sockets6Config", "socketType"]
+- !private ["Ps28CustomDebugStringConvertible", "allocate"]
+- !private ["Ps28CustomDebugStringConvertible", "assign"]
+- !private ["Ps28CustomDebugStringConvertible", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "initialize"]
+- !private ["Ps28CustomDebugStringConvertible", "pointee"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "_getBuiltinLogicValue"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "allocate"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "assign"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "init"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "initialize"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "pointee"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "toString"]
+- !private ["Ps17CustomReflectable", "_getBuiltinLogicValue"]
+- !private ["Ps17CustomReflectable", "allocate"]
+- !private ["Ps17CustomReflectable", "assign"]
+- !private ["Ps17CustomReflectable", "init"]
+- !private ["Ps17CustomReflectable", "initialize"]
+- !private ["Ps17CustomReflectable", "pointee"]
+- !private ["Ps17CustomReflectable", "toString"]
+- !private ["Ps23CustomStringConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps23CustomStringConvertible", "addressFamily"]
+- !private ["Ps23CustomStringConvertible", "init"]
+- !private ["Ps23CustomStringConvertible", "toString"]
+- !private ["P9Debugging10Debuggable", "init"]
+- !private ["Ps9Equatable", "_getBuiltinLogicValue"]
+- !private ["Ps9Equatable", "addressFamily"]
+- !private ["Ps9Equatable", "allocate"]
+- !private ["Ps9Equatable", "assign"]
+- ["Ps9Equatable", "inet"]
+- ["Ps9Equatable", "inet6"]
+- !private ["Ps9Equatable", "init"]
+- !private ["Ps9Equatable", "initialize"]
+- !private ["Ps9Equatable", "pointee"]
+- !private ["Ps9Equatable", "toCType"]
+- !private ["Ps9Equatable", "toString"]
+- !private ["Ps5Error", "init"]
+- !private ["O7Sockets11ErrorReason", "concreteSocketAddressFamilyRequired"]
+- !private ["O7Sockets11ErrorReason", "ipAddressResolutionFailed"]
+- !private ["O7Sockets11ErrorReason", "ipAddressValidationFailed"]
+- !private ["Ps27ExpressibleByBooleanLiteral", "_getBuiltinLogicValue"]
+- !private ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "init"]
+- !private ["Ps27ExpressibleByIntegerLiteral", "init"]
+- !private ["Ps27ExpressibleByIntegerLiteral", "toString"]
+- !private ["Ps26ExpressibleByStringLiteral", "init"]
+- !private ["Ps33ExpressibleByUnicodeScalarLiteral", "init"]
+- !private ["Ps8Hashable", "_getBuiltinLogicValue"]
+- !private ["Ps8Hashable", "allocate"]
+- !private ["Ps8Hashable", "assign"]
+- ["Ps8Hashable", "inet"]
+- ["Ps8Hashable", "inet6"]
+- !private ["Ps8Hashable", "init"]
+- !private ["Ps8Hashable", "initialize"]
+- !private ["Ps8Hashable", "pointee"]
+- !private ["Ps8Hashable", "toCType"]
+- !private ["Ps8Hashable", "toString"]
+- !private ["Vs5Int32", "init"]
+- !private ["Ps7Integer", "init"]
+- !private ["Ps7Integer", "toString"]
+- !private ["Ps17IntegerArithmetic", "init"]
+- !private ["Ps17IntegerArithmetic", "toString"]
+- !private ["V7Sockets15InternetAddress", "hostname"]
+- !private ["V7Sockets15InternetAddress", "port"]
+- !private ["P7Sockets23InternetAddressResolver", "AI_PASSIVE"]
+- !private ["P7Sockets23InternetAddressResolver", "AddressFamily"]
+- ["P7Sockets23InternetAddressResolver", "Config"]
+- !private ["P7Sockets23InternetAddressResolver", "Int32"]
+- ["P7Sockets23InternetAddressResolver", "InternetAddress"]
+- !private ["P7Sockets23InternetAddressResolver", "OpaquePointer"]
+- ["P7Sockets23InternetAddressResolver", "ResolvedInternetAddress"]
+- !private ["P7Sockets23InternetAddressResolver", "SocketsError"]
+- !private ["P7Sockets23InternetAddressResolver", "String"]
+- !private ["P7Sockets23InternetAddressResolver", "UnsafeMutablePointer"]
+- !private ["P7Sockets23InternetAddressResolver", "freeaddrinfo"]
+- !private ["P7Sockets23InternetAddressResolver", "gai_strerror"]
+- !private ["P7Sockets23InternetAddressResolver", "getaddrinfo"]
+- ["P7Sockets23InternetAddressResolver", "resolve"]
+- !private ["P7Sockets23InternetAddressResolver", "sockaddr_storage"]
+- !private ["P7Sockets23InternetAddressResolver", "socket_addrinfo"]
+- ["P7Sockets23InternetAddressResolver", ""]
+- !private ["Ps25LosslessStringConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps25LosslessStringConvertible", "init"]
+- !private ["Ps10MirrorPath", "init"]
+- !private ["PSo8NSCoding", "init"]
+- !private ["PSo9NSCopying", "init"]
+- !private ["PSo16NSMutableCopying", "init"]
+- !private ["PSo16NSObjectProtocol", "init"]
+- !private ["PSo14NSSecureCoding", "init"]
+- !private ["CSo8NSString", "init"]
+- !private ["Vs13OpaquePointer", "init"]
+- !private ["O7Sockets8Protocol", "deinit"]
+- !private ["O7Sockets8Protocol", "toCType"]
+- !private ["C7Sockets23ResolvedInternetAddress", "addressFamily"]
+- !private ["C7Sockets23ResolvedInternetAddress", "init"]
+- !private ["V7Sockets8Resolver", "AI_PASSIVE"]
+- !private ["V7Sockets8Resolver", "AddressFamily"]
+- ["V7Sockets8Resolver", "Config"]
+- !private ["V7Sockets8Resolver", "Int32"]
+- ["V7Sockets8Resolver", "InternetAddress"]
+- !private ["V7Sockets8Resolver", "OpaquePointer"]
+- ["V7Sockets8Resolver", "ResolvedInternetAddress"]
+- !private ["V7Sockets8Resolver", "SocketsError"]
+- !private ["V7Sockets8Resolver", "String"]
+- !private ["V7Sockets8Resolver", "UnsafeMutablePointer"]
+- ["V7Sockets8Resolver", "deinit"]
+- !private ["V7Sockets8Resolver", "freeaddrinfo"]
+- !private ["V7Sockets8Resolver", "gai_strerror"]
+- !private ["V7Sockets8Resolver", "getaddrinfo"]
+- ["V7Sockets8Resolver", "init"]
+- ["V7Sockets8Resolver", "resolve"]
+- !private ["V7Sockets8Resolver", "sockaddr_in"]
+- !private ["V7Sockets8Resolver", "sockaddr_in6"]
+- !private ["V7Sockets8Resolver", "sockaddr_storage"]
+- !private ["V7Sockets8Resolver", "socket_addrinfo"]
+- !private ["Ps13SignedInteger", "init"]
+- !private ["Ps12SignedNumber", "init"]
+- !private ["O7Sockets10SocketType", "deinit"]
+- !private ["O7Sockets10SocketType", "toCType"]
+- !private ["V7Sockets12SocketsError", "deinit"]
+- !private ["V7Sockets12SocketsError", "init"]
+- !private ["Ps10Strideable", "allocate"]
+- !private ["Ps10Strideable", "assign"]
+- !private ["Ps10Strideable", "init"]
+- !private ["Ps10Strideable", "initialize"]
+- !private ["Ps10Strideable", "pointee"]
+- !private ["Ps10Strideable", "toString"]
+- !private ["SS", "init"]
+- !private ["P7Sockets17StringConvertable", "toString"]
+- !private ["Ps16TextOutputStream", "init"]
+- !private ["Ps20TextOutputStreamable", "init"]
+- !private ["Vs6UInt16", "deinit"]
+- !private ["Vs6UInt16", "toString"]
+- !private ["Sp", "allocate"]
+- !private ["Sp", "assign"]
+- !private ["Sp", "init"]
+- !private ["Sp", "initialize"]
+- !private ["Sp", "pointee"]
+- !private ["Ps15UnsignedInteger", "toString"]
+- !private ["Ps28_DisallowMixedSignArithmetic", "toString"]
+- !private ["Ps35_ExpressibleByBuiltinBooleanLiteral", "_getBuiltinLogicValue"]
+- !private ["Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral", "init"]
+- !private ["Ps35_ExpressibleByBuiltinIntegerLiteral", "init"]
+- !private ["Ps35_ExpressibleByBuiltinIntegerLiteral", "toString"]
+- !private ["Ps34_ExpressibleByBuiltinStringLiteral", "init"]
+- !private ["Ps39_ExpressibleByBuiltinUTF16StringLiteral", "init"]
+- !private ["Ps41_ExpressibleByBuiltinUnicodeScalarLiteral", "init"]
+- !private ["Ps33_ExpressibleByStringInterpolation", "init"]
+- !private ["Ps35_HasCustomAnyHashableRepresentation", "init"]
+- !private ["Ps9_Hashable", "_getBuiltinLogicValue"]
+- !private ["Ps9_Hashable", "allocate"]
+- !private ["Ps9_Hashable", "assign"]
+- ["Ps9_Hashable", "inet"]
+- ["Ps9_Hashable", "inet6"]
+- !private ["Ps9_Hashable", "init"]
+- !private ["Ps9_Hashable", "initialize"]
+- !private ["Ps9_Hashable", "pointee"]
+- !private ["Ps9_Hashable", "toCType"]
+- !private ["Ps9_Hashable", "toString"]
+- !private ["Ps14_Incrementable", "init"]
+- !private ["Ps14_Incrementable", "toString"]
+- !private ["Ps8_Integer", "init"]
+- !private ["Ps8_Integer", "toString"]
+- !private ["Ps18_IntegerArithmetic", "init"]
+- !private ["Ps18_IntegerArithmetic", "toString"]
+- !private ["Ps21_ObjectiveCBridgeable", "_getBuiltinLogicValue"]
+- !private ["Ps21_ObjectiveCBridgeable", "init"]
+- !private ["Ps21_ObjectiveCBridgeable", "toString"]
+- !private ["Ps8_Pointer", "allocate"]
+- !private ["Ps8_Pointer", "assign"]
+- !private ["Ps8_Pointer", "init"]
+- !private ["Ps8_Pointer", "initialize"]
+- !private ["Ps8_Pointer", "pointee"]
+- !private ["Ps14_SignedInteger", "init"]
+- !private ["Ps11_Strideable", "allocate"]
+- !private ["Ps11_Strideable", "assign"]
+- !private ["Ps11_Strideable", "init"]
+- !private ["Ps11_Strideable", "initialize"]
+- !private ["Ps11_Strideable", "pointee"]
+- !private ["Ps11_Strideable", "toString"]
+- !private ["Ps14_StringElement", "toString"]
+- !private ["VSC8addrinfo", "ai_addr"]
+- !private ["VSC8addrinfo", "ai_family"]
+- !private ["VSC8addrinfo", "ai_flags"]
+- !private ["VSC8addrinfo", "ai_protocol"]
+- !private ["VSC8addrinfo", "ai_socktype"]
+- !private ["VSC8addrinfo", "init"]
+- !private ["VSC8sockaddr", "sa_family"]
+- !private ["VSC16sockaddr_storage", "init"]
+depends-nominal:
+- "O7Sockets13AddressFamily"
+- !private "Ps9AnyObject"
+- !private "Ps17BitwiseOperations"
+- !private "Sb"
+- !private "P4Bits16BytesConvertible"
+- !private "P4Bits18BytesInitializable"
+- !private "P4Bits18BytesRepresentable"
+- "P7Sockets21CTypeInt32Convertible"
+- !private "Ps7CVarArg"
+- !private "Ps10Comparable"
+- !private "V7Sockets6Config"
+- !private "Ps28CustomDebugStringConvertible"
+- !private "Ps29CustomPlaygroundQuickLookable"
+- !private "Ps17CustomReflectable"
+- !private "Ps23CustomStringConvertible"
+- !private "P9Debugging10Debuggable"
+- "Ps9Equatable"
+- !private "Ps5Error"
+- !private "O7Sockets11ErrorReason"
+- !private "Ps27ExpressibleByBooleanLiteral"
+- !private "Ps43ExpressibleByExtendedGraphemeClusterLiteral"
+- !private "Ps27ExpressibleByIntegerLiteral"
+- !private "Ps26ExpressibleByStringLiteral"
+- !private "Ps33ExpressibleByUnicodeScalarLiteral"
+- "Ps8Hashable"
+- !private "Vs5Int32"
+- !private "Ps7Integer"
+- !private "Ps17IntegerArithmetic"
+- !private "V7Sockets15InternetAddress"
+- "P7Sockets23InternetAddressResolver"
+- !private "Ps25LosslessStringConvertible"
+- !private "Ps10MirrorPath"
+- !private "PSo8NSCoding"
+- !private "PSo9NSCopying"
+- !private "PSo16NSMutableCopying"
+- !private "PSo16NSObjectProtocol"
+- !private "PSo14NSSecureCoding"
+- !private "CSo8NSString"
+- !private "Vs13OpaquePointer"
+- !private "O7Sockets8Protocol"
+- !private "C7Sockets23ResolvedInternetAddress"
+- "V7Sockets8Resolver"
+- !private "Ps13SignedInteger"
+- !private "Ps12SignedNumber"
+- !private "O7Sockets10SocketType"
+- !private "V7Sockets12SocketsError"
+- !private "Ps10Strideable"
+- !private "SS"
+- !private "P7Sockets17StringConvertable"
+- !private "Ps16TextOutputStream"
+- !private "Ps20TextOutputStreamable"
+- !private "Vs6UInt16"
+- !private "Sp"
+- !private "Ps15UnsignedInteger"
+- !private "Ps28_DisallowMixedSignArithmetic"
+- !private "Ps35_ExpressibleByBuiltinBooleanLiteral"
+- !private "Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral"
+- !private "Ps35_ExpressibleByBuiltinIntegerLiteral"
+- !private "Ps34_ExpressibleByBuiltinStringLiteral"
+- !private "Ps39_ExpressibleByBuiltinUTF16StringLiteral"
+- !private "Ps41_ExpressibleByBuiltinUnicodeScalarLiteral"
+- !private "Ps33_ExpressibleByStringInterpolation"
+- !private "Ps35_HasCustomAnyHashableRepresentation"
+- "Ps9_Hashable"
+- !private "Ps14_Incrementable"
+- !private "Ps8_Integer"
+- !private "Ps18_IntegerArithmetic"
+- !private "Ps21_ObjectiveCBridgeable"
+- !private "Ps8_Pointer"
+- !private "Ps14_SignedInteger"
+- !private "Ps11_Strideable"
+- !private "Ps14_StringElement"
+- !private "VSC8addrinfo"
+- !private "VSC8sockaddr"
+- !private "VSC16sockaddr_storage"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/ObjectiveC.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Foundation.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreGraphics.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreText.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/ObjectiveC.swiftmodule"
+- "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/debug/libc.swiftmodule"
+- "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/debug/Core.swiftmodule"
+- "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/debug/Debugging.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreGraphics.swiftmodule"
+- "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/debug/Bits.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/IOKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/debug/Transport.swiftmodule"
+- "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/debug/CHTTP.build/module.modulemap"
+- "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/debug/CSQLite.build/module.modulemap"
+interface-hash: "8f7f19f2f056f5652ef43d25fd739776"

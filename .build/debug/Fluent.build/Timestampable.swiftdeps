@@ -1,0 +1,191 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "Timestampable"
+provides-nominal:
+- "P6Fluent13Timestampable"
+provides-member:
+- ["P6Fluent13Timestampable", ""]
+- ["P6Fluent13Timestampable", "updatedAtKey"]
+- ["P6Fluent13Timestampable", "createdAtKey"]
+- ["P6Fluent13Timestampable", "createdAt"]
+- ["P6Fluent13Timestampable", "updatedAt"]
+provides-dynamic-lookup:
+depends-top-level:
+- "AssignmentPrecedence"
+- "Date"
+- "Entity"
+- "String"
+- !private "StringLiteralType"
+- "Timestampable"
+depends-member:
+- !private ["Ps9AnyObject", "createdAt"]
+- !private ["Ps9AnyObject", "init"]
+- !private ["Ps9AnyObject", "updatedAt"]
+- !private ["P4Bits16BytesConvertible", "init"]
+- !private ["P4Bits18BytesInitializable", "init"]
+- !private ["P4Bits18BytesRepresentable", "init"]
+- !private ["Ps7CVarArg", "init"]
+- !private ["Ps10Comparable", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "init"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "init"]
+- !private ["Ps17CustomReflectable", "init"]
+- !private ["Ps23CustomStringConvertible", "init"]
+- ["P6Fluent6Entity", "Date"]
+- ["P6Fluent6Entity", "String"]
+- ["P6Fluent6Entity", "createdAt"]
+- ["P6Fluent6Entity", "createdAtKey"]
+- !private ["P6Fluent6Entity", "keyNamingConvention"]
+- !private ["P6Fluent6Entity", "storage"]
+- ["P6Fluent6Entity", "updatedAt"]
+- ["P6Fluent6Entity", "updatedAtKey"]
+- ["P6Fluent6Entity", ""]
+- ["Ps9Equatable", "camelCase"]
+- !private ["Ps9Equatable", "init"]
+- ["Ps9Equatable", "snake_case"]
+- !private ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "init"]
+- !private ["Ps26ExpressibleByStringLiteral", "init"]
+- !private ["Ps33ExpressibleByUnicodeScalarLiteral", "init"]
+- ["Ps8Hashable", "camelCase"]
+- !private ["Ps8Hashable", "init"]
+- ["Ps8Hashable", "snake_case"]
+- ["O6Fluent19KeyNamingConvention", "camelCase"]
+- ["O6Fluent19KeyNamingConvention", "snake_case"]
+- !private ["Ps25LosslessStringConvertible", "init"]
+- !private ["Ps10MirrorPath", "init"]
+- !private ["PSo8NSCoding", "init"]
+- !private ["PSo9NSCopying", "init"]
+- !private ["PSo16NSMutableCopying", "init"]
+- !private ["PSo16NSObjectProtocol", "init"]
+- !private ["PSo14NSSecureCoding", "init"]
+- !private ["CSo8NSString", "init"]
+- !private ["P4Node17NodeInitializable", "init"]
+- !private ["P4Node17NodeRepresentable", "init"]
+- !private ["P13PathIndexable11PathIndexer", "init"]
+- ["P6Fluent14RowConvertible", "Date"]
+- ["P6Fluent14RowConvertible", "String"]
+- ["P6Fluent14RowConvertible", "createdAt"]
+- ["P6Fluent14RowConvertible", "createdAtKey"]
+- !private ["P6Fluent14RowConvertible", "keyNamingConvention"]
+- !private ["P6Fluent14RowConvertible", "storage"]
+- ["P6Fluent14RowConvertible", "updatedAt"]
+- ["P6Fluent14RowConvertible", "updatedAtKey"]
+- ["P6Fluent16RowInitializable", "Date"]
+- ["P6Fluent16RowInitializable", "String"]
+- ["P6Fluent16RowInitializable", "createdAt"]
+- ["P6Fluent16RowInitializable", "createdAtKey"]
+- !private ["P6Fluent16RowInitializable", "keyNamingConvention"]
+- !private ["P6Fluent16RowInitializable", "storage"]
+- ["P6Fluent16RowInitializable", "updatedAt"]
+- ["P6Fluent16RowInitializable", "updatedAtKey"]
+- ["P6Fluent16RowRepresentable", "Date"]
+- ["P6Fluent16RowRepresentable", "String"]
+- ["P6Fluent16RowRepresentable", "createdAt"]
+- ["P6Fluent16RowRepresentable", "createdAtKey"]
+- !private ["P6Fluent16RowRepresentable", "keyNamingConvention"]
+- !private ["P6Fluent16RowRepresentable", "storage"]
+- ["P6Fluent16RowRepresentable", "updatedAt"]
+- ["P6Fluent16RowRepresentable", "updatedAtKey"]
+- ["P6Fluent8Storable", "Date"]
+- ["P6Fluent8Storable", "String"]
+- ["P6Fluent8Storable", "createdAt"]
+- ["P6Fluent8Storable", "createdAtKey"]
+- !private ["P6Fluent8Storable", "keyNamingConvention"]
+- !private ["P6Fluent8Storable", "storage"]
+- ["P6Fluent8Storable", "updatedAt"]
+- ["P6Fluent8Storable", "updatedAtKey"]
+- !private ["C6Fluent7Storage", "createdAt"]
+- !private ["C6Fluent7Storage", "updatedAt"]
+- !private ["SS", "init"]
+- !private ["Ps16TextOutputStream", "init"]
+- !private ["Ps20TextOutputStreamable", "init"]
+- ["P6Fluent13Timestampable", "Date"]
+- ["P6Fluent13Timestampable", "String"]
+- ["P6Fluent13Timestampable", "createdAt"]
+- ["P6Fluent13Timestampable", "createdAtKey"]
+- !private ["P6Fluent13Timestampable", "keyNamingConvention"]
+- !private ["P6Fluent13Timestampable", "storage"]
+- ["P6Fluent13Timestampable", "updatedAt"]
+- ["P6Fluent13Timestampable", "updatedAtKey"]
+- !private ["Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral", "init"]
+- !private ["Ps34_ExpressibleByBuiltinStringLiteral", "init"]
+- !private ["Ps39_ExpressibleByBuiltinUTF16StringLiteral", "init"]
+- !private ["Ps41_ExpressibleByBuiltinUnicodeScalarLiteral", "init"]
+- !private ["Ps33_ExpressibleByStringInterpolation", "init"]
+- !private ["Ps35_HasCustomAnyHashableRepresentation", "init"]
+- ["Ps9_Hashable", "camelCase"]
+- !private ["Ps9_Hashable", "init"]
+- ["Ps9_Hashable", "snake_case"]
+- !private ["Ps21_ObjectiveCBridgeable", "init"]
+depends-nominal:
+- !private "Ps9AnyObject"
+- !private "P4Bits16BytesConvertible"
+- !private "P4Bits18BytesInitializable"
+- !private "P4Bits18BytesRepresentable"
+- !private "Ps7CVarArg"
+- !private "Ps10Comparable"
+- !private "Ps28CustomDebugStringConvertible"
+- !private "Ps29CustomPlaygroundQuickLookable"
+- !private "Ps17CustomReflectable"
+- !private "Ps23CustomStringConvertible"
+- "P6Fluent6Entity"
+- "Ps9Equatable"
+- !private "Ps43ExpressibleByExtendedGraphemeClusterLiteral"
+- !private "Ps26ExpressibleByStringLiteral"
+- !private "Ps33ExpressibleByUnicodeScalarLiteral"
+- "Ps8Hashable"
+- "O6Fluent19KeyNamingConvention"
+- !private "Ps25LosslessStringConvertible"
+- !private "Ps10MirrorPath"
+- !private "PSo8NSCoding"
+- !private "PSo9NSCopying"
+- !private "PSo16NSMutableCopying"
+- !private "PSo16NSObjectProtocol"
+- !private "PSo14NSSecureCoding"
+- !private "CSo8NSString"
+- !private "P4Node17NodeInitializable"
+- !private "P4Node17NodeRepresentable"
+- !private "P13PathIndexable11PathIndexer"
+- "P6Fluent14RowConvertible"
+- "P6Fluent16RowInitializable"
+- "P6Fluent16RowRepresentable"
+- "P6Fluent8Storable"
+- !private "C6Fluent7Storage"
+- !private "SS"
+- !private "Ps16TextOutputStream"
+- !private "Ps20TextOutputStreamable"
+- "P6Fluent13Timestampable"
+- !private "Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral"
+- !private "Ps34_ExpressibleByBuiltinStringLiteral"
+- !private "Ps39_ExpressibleByBuiltinUTF16StringLiteral"
+- !private "Ps41_ExpressibleByBuiltinUnicodeScalarLiteral"
+- !private "Ps33_ExpressibleByStringInterpolation"
+- !private "Ps35_HasCustomAnyHashableRepresentation"
+- "Ps9_Hashable"
+- !private "Ps21_ObjectiveCBridgeable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/ObjectiveC.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Foundation.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreGraphics.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreText.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/ObjectiveC.swiftmodule"
+- "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/debug/libc.swiftmodule"
+- "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/debug/Node.swiftmodule"
+- "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/debug/PathIndexable.swiftmodule"
+- "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/debug/Core.swiftmodule"
+- "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/debug/SQLite.swiftmodule"
+- "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/debug/Debugging.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.swiftmodule"
+- "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/debug/Random.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreGraphics.swiftmodule"
+- "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/debug/Bits.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/IOKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/checkouts/sqlite.git--8232814251736334455/Sources/CSQLite/include/sqlite3.h"
+- "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/debug/CHTTP.build/module.modulemap"
+- "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/debug/CSQLite.build/module.modulemap"
+interface-hash: "334bdc5ef1ff06d1a018234a36457ee0"

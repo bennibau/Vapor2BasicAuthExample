@@ -1,0 +1,141 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "EmailBodyRepresentable"
+provides-nominal:
+- "P4SMTP22EmailBodyRepresentable"
+- "SS"
+- "V4SMTP9EmailBody"
+provides-member:
+- ["P4SMTP22EmailBodyRepresentable", ""]
+- ["SS", ""]
+- ["V4SMTP9EmailBody", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- "EmailBody"
+- "EmailBodyRepresentable"
+- "String"
+depends-member:
+- !private ["OV4SMTP9EmailBody8BodyType", "plain"]
+- !private ["P4Bits16BytesConvertible", "EmailBody"]
+- ["P4Bits16BytesConvertible", "emailBody"]
+- !private ["P4Bits18BytesInitializable", "EmailBody"]
+- ["P4Bits18BytesInitializable", "emailBody"]
+- !private ["P4Bits18BytesRepresentable", "EmailBody"]
+- ["P4Bits18BytesRepresentable", "emailBody"]
+- !private ["Ps7CVarArg", "EmailBody"]
+- ["Ps7CVarArg", "emailBody"]
+- !private ["Ps10Comparable", "EmailBody"]
+- ["Ps10Comparable", "emailBody"]
+- !private ["Ps28CustomDebugStringConvertible", "EmailBody"]
+- ["Ps28CustomDebugStringConvertible", "emailBody"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "EmailBody"]
+- ["Ps29CustomPlaygroundQuickLookable", "emailBody"]
+- !private ["Ps17CustomReflectable", "EmailBody"]
+- ["Ps17CustomReflectable", "emailBody"]
+- !private ["Ps23CustomStringConvertible", "EmailBody"]
+- ["Ps23CustomStringConvertible", "emailBody"]
+- !private ["P4SMTP25EmailAddressRepresentable", "EmailBody"]
+- ["P4SMTP25EmailAddressRepresentable", "emailBody"]
+- ["V4SMTP9EmailBody", "EmailBody"]
+- ["V4SMTP9EmailBody", "deinit"]
+- ["V4SMTP9EmailBody", "emailBody"]
+- !private ["V4SMTP9EmailBody", "init"]
+- ["P4SMTP22EmailBodyRepresentable", "EmailBody"]
+- ["P4SMTP22EmailBodyRepresentable", "emailBody"]
+- !private ["P4SMTP22EmailBodyRepresentable", "init"]
+- ["P4SMTP22EmailBodyRepresentable", ""]
+- !private ["Ps9Equatable", "EmailBody"]
+- ["Ps9Equatable", "emailBody"]
+- !private ["Ps9Equatable", "init"]
+- !private ["Ps9Equatable", "plain"]
+- !private ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "EmailBody"]
+- ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "emailBody"]
+- !private ["Ps26ExpressibleByStringLiteral", "EmailBody"]
+- ["Ps26ExpressibleByStringLiteral", "emailBody"]
+- !private ["Ps33ExpressibleByUnicodeScalarLiteral", "EmailBody"]
+- ["Ps33ExpressibleByUnicodeScalarLiteral", "emailBody"]
+- !private ["Ps8Hashable", "EmailBody"]
+- ["Ps8Hashable", "emailBody"]
+- !private ["Ps8Hashable", "plain"]
+- !private ["Ps25LosslessStringConvertible", "EmailBody"]
+- ["Ps25LosslessStringConvertible", "emailBody"]
+- !private ["Ps10MirrorPath", "EmailBody"]
+- ["Ps10MirrorPath", "emailBody"]
+- ["SS", "EmailBody"]
+- ["SS", "deinit"]
+- ["SS", "emailBody"]
+- !private ["Ps16TextOutputStream", "EmailBody"]
+- ["Ps16TextOutputStream", "emailBody"]
+- !private ["Ps20TextOutputStreamable", "EmailBody"]
+- ["Ps20TextOutputStreamable", "emailBody"]
+- !private ["Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral", "EmailBody"]
+- ["Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral", "emailBody"]
+- !private ["Ps34_ExpressibleByBuiltinStringLiteral", "EmailBody"]
+- ["Ps34_ExpressibleByBuiltinStringLiteral", "emailBody"]
+- !private ["Ps39_ExpressibleByBuiltinUTF16StringLiteral", "EmailBody"]
+- ["Ps39_ExpressibleByBuiltinUTF16StringLiteral", "emailBody"]
+- !private ["Ps41_ExpressibleByBuiltinUnicodeScalarLiteral", "EmailBody"]
+- ["Ps41_ExpressibleByBuiltinUnicodeScalarLiteral", "emailBody"]
+- !private ["Ps33_ExpressibleByStringInterpolation", "EmailBody"]
+- ["Ps33_ExpressibleByStringInterpolation", "emailBody"]
+- !private ["Ps9_Hashable", "EmailBody"]
+- ["Ps9_Hashable", "emailBody"]
+- !private ["Ps9_Hashable", "plain"]
+- !private ["Ps21_ObjectiveCBridgeable", "EmailBody"]
+- ["Ps21_ObjectiveCBridgeable", "emailBody"]
+depends-nominal:
+- !private "OV4SMTP9EmailBody8BodyType"
+- "P4Bits16BytesConvertible"
+- "P4Bits18BytesInitializable"
+- "P4Bits18BytesRepresentable"
+- "Ps7CVarArg"
+- "Ps10Comparable"
+- "Ps28CustomDebugStringConvertible"
+- "Ps29CustomPlaygroundQuickLookable"
+- "Ps17CustomReflectable"
+- "Ps23CustomStringConvertible"
+- "P4SMTP25EmailAddressRepresentable"
+- "V4SMTP9EmailBody"
+- "P4SMTP22EmailBodyRepresentable"
+- "Ps9Equatable"
+- "Ps43ExpressibleByExtendedGraphemeClusterLiteral"
+- "Ps26ExpressibleByStringLiteral"
+- "Ps33ExpressibleByUnicodeScalarLiteral"
+- "Ps8Hashable"
+- "Ps25LosslessStringConvertible"
+- "Ps10MirrorPath"
+- "SS"
+- "Ps16TextOutputStream"
+- "Ps20TextOutputStreamable"
+- "Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral"
+- "Ps34_ExpressibleByBuiltinStringLiteral"
+- "Ps39_ExpressibleByBuiltinUTF16StringLiteral"
+- "Ps41_ExpressibleByBuiltinUnicodeScalarLiteral"
+- "Ps33_ExpressibleByStringInterpolation"
+- "Ps9_Hashable"
+- "Ps21_ObjectiveCBridgeable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/ObjectiveC.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Foundation.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreGraphics.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreText.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/ObjectiveC.swiftmodule"
+- "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/debug/libc.swiftmodule"
+- "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/debug/Core.swiftmodule"
+- "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/debug/Debugging.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreGraphics.swiftmodule"
+- "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/debug/Sockets.swiftmodule"
+- "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/debug/Bits.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/IOKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/debug/Transport.swiftmodule"
+- "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/checkouts/ctls.git-9210868160426949823/module.modulemap"
+- "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/debug/CHTTP.build/module.modulemap"
+- "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/debug/CSQLite.build/module.modulemap"
+interface-hash: "7c1e91a21d8caf505a93b6c6da3feeba"

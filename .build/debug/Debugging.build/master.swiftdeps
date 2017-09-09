@@ -1,0 +1,5 @@
+version: "Apple Swift version 3.1 (swiftlang-802.0.53 clang-802.0.42)"
+options: "7244bea3d030085c6a6c2fed59083f82"
+build_time: [558249999, 950292000]
+inputs:
+  "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/checkouts/debugging.git-4365319567167379684/Sources/Debugging/Debuggable.swift": [557941170, 0]

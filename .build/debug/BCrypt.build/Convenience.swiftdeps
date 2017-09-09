@@ -1,0 +1,86 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+provides-nominal:
+provides-member:
+- ["C6BCrypt4Hash", ""]
+- ["C6BCrypt4Hash", "make"]
+- ["C6BCrypt4Hash", "make"]
+- ["C6BCrypt4Hash", "verify"]
+- ["C6BCrypt4Hash", "verify"]
+- ["C6BCrypt4Hash", "verify"]
+- ["C6BCrypt4Hash", "verify"]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "=="
+- !private "??"
+- !private "Array"
+- "Bool"
+- "Bytes"
+- "BytesConvertible"
+- "Hash"
+- !private "Parser"
+- "Salt"
+- !private "Serializer"
+depends-member:
+- !private ["Ps9AnyObject", "Hash"]
+- !private ["Ps9AnyObject", "Parser"]
+- !private ["Ps9AnyObject", "Serializer"]
+- !private ["Ps9AnyObject", "digest"]
+- !private ["Ps9AnyObject", "init"]
+- !private ["Ps9AnyObject", "make"]
+- !private ["Ps9AnyObject", "parseDigest"]
+- !private ["Ps9AnyObject", "parseSalt"]
+- !private ["Ps9AnyObject", "salt"]
+- !private ["Ps9AnyObject", "serialize"]
+- !private ["Ps9AnyObject", "verify"]
+- !private ["P4Bits16BytesConvertible", "makeBytes"]
+- !private ["P4Bits18BytesInitializable", "makeBytes"]
+- !private ["P4Bits18BytesRepresentable", "makeBytes"]
+- ["C6BCrypt4Hash", "Bool"]
+- ["C6BCrypt4Hash", "Bytes"]
+- ["C6BCrypt4Hash", "BytesConvertible"]
+- !private ["C6BCrypt4Hash", "Hash"]
+- !private ["C6BCrypt4Hash", "Parser"]
+- ["C6BCrypt4Hash", "Salt"]
+- !private ["C6BCrypt4Hash", "Serializer"]
+- !private ["C6BCrypt4Hash", "digest"]
+- !private ["C6BCrypt4Hash", "init"]
+- ["C6BCrypt4Hash", "make"]
+- !private ["C6BCrypt4Hash", "salt"]
+- ["C6BCrypt4Hash", "verify"]
+- !private ["C6BCrypt6Parser", "init"]
+- !private ["C6BCrypt6Parser", "parseDigest"]
+- !private ["C6BCrypt6Parser", "parseSalt"]
+- !private ["C6BCrypt10Serializer", "init"]
+- !private ["C6BCrypt10Serializer", "serialize"]
+depends-nominal:
+- !private "Ps9AnyObject"
+- !private "P4Bits16BytesConvertible"
+- !private "P4Bits18BytesInitializable"
+- !private "P4Bits18BytesRepresentable"
+- "C6BCrypt4Hash"
+- !private "C6BCrypt6Parser"
+- !private "C6BCrypt10Serializer"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/ObjectiveC.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Foundation.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreGraphics.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreText.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/ObjectiveC.swiftmodule"
+- "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/debug/libc.swiftmodule"
+- "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/debug/Core.swiftmodule"
+- "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/debug/Debugging.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.swiftmodule"
+- "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/debug/Random.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreGraphics.swiftmodule"
+- "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/debug/Bits.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/IOKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/debug/CHTTP.build/module.modulemap"
+- "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/debug/CSQLite.build/module.modulemap"
+interface-hash: "68e61ac35b817c82c2d4ac33dedd130c"

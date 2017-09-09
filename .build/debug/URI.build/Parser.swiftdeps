@@ -1,0 +1,587 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "URIParser"
+provides-nominal:
+- "C3URI9URIParser"
+provides-member:
+- ["C3URI9URIParser", ""]
+- ["V3URI3URI", ""]
+- ["Sa", ""]
+- ["C3URI9URIParser", "parse"]
+- ["V3URI3URI", "init"]
+- ["Sa", "makeCBytes"]
+- ["Sa", "string"]
+- ["Sa", "bytes"]
+- ["Sa", "bytes"]
+- ["Sa", "bytes"]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "+"
+- !private "..<"
+- !private ">"
+- !private "??"
+- "Array"
+- "AssignmentPrecedence"
+- !private "BooleanLiteralType"
+- "Byte"
+- "Bytes"
+- "BytesConvertible"
+- "CChar"
+- !private "FloatLiteralType"
+- "Int"
+- !private "IntegerLiteralType"
+- !private "Port"
+- "String"
+- !private "StringLiteralType"
+- "UInt16"
+- "URI"
+- "URIParser"
+- "UnsafePointer"
+- !private "http_parser_parse_url"
+- !private "http_parser_url"
+- "http_parser_url_field_data"
+- !private "http_parser_url_init"
+- !private "~="
+depends-member:
+- !private ["Ps9AnyObject", "Port"]
+- !private ["Ps9AnyObject", "URI"]
+- ["Ps9AnyObject", "URIParser"]
+- !private ["Ps9AnyObject", "http_parser_parse_url"]
+- !private ["Ps9AnyObject", "http_parser_url"]
+- !private ["Ps9AnyObject", "http_parser_url_init"]
+- ["Ps9AnyObject", "init"]
+- !private ["Ps9AnyObject", "parse"]
+- !private ["Ps9AnyObject", "shared"]
+- ["Ps9AnyObject", ""]
+- ["Sa", "Byte"]
+- ["Sa", "Bytes"]
+- ["Sa", "CChar"]
+- ["Sa", "Int"]
+- ["Sa", "Iterator"]
+- ["Sa", "String"]
+- ["Sa", "UInt16"]
+- ["Sa", "UnsafePointer"]
+- ["Sa", "bytes"]
+- !private ["Sa", "count"]
+- ["Sa", "http_parser_url_field_data"]
+- ["Sa", "makeCBytes"]
+- !private ["Sa", "makeString"]
+- !private ["Sa", "split"]
+- ["Sa", "string"]
+- !private ["Sa", "subscript"]
+- !private ["Sa", "withUnsafeBytes"]
+- !private ["Vs10ArraySlice", "array"]
+- !private ["Vs10ArraySlice", "makeString"]
+- ["Ps23BidirectionalCollection", "Byte"]
+- !private ["Ps23BidirectionalCollection", "CChar"]
+- !private ["Ps23BidirectionalCollection", "Int"]
+- ["Ps23BidirectionalCollection", "Iterator"]
+- !private ["Ps23BidirectionalCollection", "array"]
+- !private ["Ps23BidirectionalCollection", "baseAddress"]
+- !private ["Ps23BidirectionalCollection", "bytes"]
+- !private ["Ps23BidirectionalCollection", "count"]
+- !private ["Ps23BidirectionalCollection", "makeCBytes"]
+- !private ["Ps23BidirectionalCollection", "makeString"]
+- !private ["Ps23BidirectionalCollection", "split"]
+- !private ["Ps23BidirectionalCollection", "string"]
+- !private ["Ps23BidirectionalCollection", "subscript"]
+- !private ["Ps23BidirectionalCollection", "withUnsafeBytes"]
+- !private ["Ps17BitwiseOperations", "colon"]
+- !private ["Ps17BitwiseOperations", "init"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["P4Bits16BytesConvertible", "colon"]
+- !private ["P4Bits16BytesConvertible", "init"]
+- !private ["P4Bits16BytesConvertible", "makeBytes"]
+- !private ["P4Bits18BytesInitializable", "colon"]
+- !private ["P4Bits18BytesInitializable", "init"]
+- !private ["P4Bits18BytesInitializable", "makeBytes"]
+- !private ["P4Bits18BytesRepresentable", "colon"]
+- !private ["P4Bits18BytesRepresentable", "init"]
+- !private ["P4Bits18BytesRepresentable", "makeBytes"]
+- ["Ps7CVarArg", "Byte"]
+- !private ["Ps7CVarArg", "CChar"]
+- !private ["Ps7CVarArg", "Int"]
+- ["Ps7CVarArg", "Iterator"]
+- !private ["Ps7CVarArg", "bytes"]
+- !private ["Ps7CVarArg", "colon"]
+- !private ["Ps7CVarArg", "count"]
+- !private ["Ps7CVarArg", "init"]
+- !private ["Ps7CVarArg", "makeCBytes"]
+- !private ["Ps7CVarArg", "makeString"]
+- !private ["Ps7CVarArg", "split"]
+- !private ["Ps7CVarArg", "string"]
+- !private ["Ps7CVarArg", "subscript"]
+- !private ["Ps7CVarArg", "withUnsafeBytes"]
+- ["Ps10Collection", "Byte"]
+- !private ["Ps10Collection", "CChar"]
+- !private ["Ps10Collection", "Int"]
+- ["Ps10Collection", "Iterator"]
+- !private ["Ps10Collection", "array"]
+- !private ["Ps10Collection", "baseAddress"]
+- !private ["Ps10Collection", "bytes"]
+- !private ["Ps10Collection", "count"]
+- !private ["Ps10Collection", "makeCBytes"]
+- !private ["Ps10Collection", "makeString"]
+- !private ["Ps10Collection", "split"]
+- !private ["Ps10Collection", "string"]
+- !private ["Ps10Collection", "subscript"]
+- !private ["Ps10Collection", "withUnsafeBytes"]
+- !private ["Ps10Comparable", "assumingMemoryBound"]
+- !private ["Ps10Comparable", "colon"]
+- !private ["Ps10Comparable", "init"]
+- ["Ps28CustomDebugStringConvertible", "Byte"]
+- !private ["Ps28CustomDebugStringConvertible", "CChar"]
+- !private ["Ps28CustomDebugStringConvertible", "Int"]
+- ["Ps28CustomDebugStringConvertible", "Iterator"]
+- !private ["Ps28CustomDebugStringConvertible", "array"]
+- !private ["Ps28CustomDebugStringConvertible", "assumingMemoryBound"]
+- !private ["Ps28CustomDebugStringConvertible", "baseAddress"]
+- !private ["Ps28CustomDebugStringConvertible", "bytes"]
+- !private ["Ps28CustomDebugStringConvertible", "count"]
+- !private ["Ps28CustomDebugStringConvertible", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "makeCBytes"]
+- !private ["Ps28CustomDebugStringConvertible", "makeString"]
+- !private ["Ps28CustomDebugStringConvertible", "split"]
+- !private ["Ps28CustomDebugStringConvertible", "string"]
+- !private ["Ps28CustomDebugStringConvertible", "subscript"]
+- !private ["Ps28CustomDebugStringConvertible", "withUnsafeBytes"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "_getBuiltinLogicValue"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "assumingMemoryBound"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "colon"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "init"]
+- ["Ps17CustomReflectable", "Byte"]
+- !private ["Ps17CustomReflectable", "CChar"]
+- !private ["Ps17CustomReflectable", "Int"]
+- ["Ps17CustomReflectable", "Iterator"]
+- !private ["Ps17CustomReflectable", "_getBuiltinLogicValue"]
+- !private ["Ps17CustomReflectable", "array"]
+- !private ["Ps17CustomReflectable", "assumingMemoryBound"]
+- !private ["Ps17CustomReflectable", "bytes"]
+- !private ["Ps17CustomReflectable", "colon"]
+- !private ["Ps17CustomReflectable", "count"]
+- !private ["Ps17CustomReflectable", "init"]
+- !private ["Ps17CustomReflectable", "makeCBytes"]
+- !private ["Ps17CustomReflectable", "makeString"]
+- !private ["Ps17CustomReflectable", "split"]
+- !private ["Ps17CustomReflectable", "string"]
+- !private ["Ps17CustomReflectable", "subscript"]
+- !private ["Ps17CustomReflectable", "withUnsafeBytes"]
+- ["Ps23CustomStringConvertible", "Byte"]
+- !private ["Ps23CustomStringConvertible", "CChar"]
+- !private ["Ps23CustomStringConvertible", "Int"]
+- ["Ps23CustomStringConvertible", "Iterator"]
+- !private ["Ps23CustomStringConvertible", "URIParser"]
+- !private ["Ps23CustomStringConvertible", "UserInfo"]
+- !private ["Ps23CustomStringConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps23CustomStringConvertible", "array"]
+- !private ["Ps23CustomStringConvertible", "bytes"]
+- !private ["Ps23CustomStringConvertible", "colon"]
+- !private ["Ps23CustomStringConvertible", "count"]
+- !private ["Ps23CustomStringConvertible", "init"]
+- !private ["Ps23CustomStringConvertible", "makeCBytes"]
+- !private ["Ps23CustomStringConvertible", "makeString"]
+- !private ["Ps23CustomStringConvertible", "split"]
+- !private ["Ps23CustomStringConvertible", "string"]
+- !private ["Ps23CustomStringConvertible", "subscript"]
+- !private ["Ps23CustomStringConvertible", "withUnsafeBytes"]
+- !private ["Ps9Equatable", "_getBuiltinLogicValue"]
+- !private ["Ps9Equatable", "assumingMemoryBound"]
+- !private ["Ps9Equatable", "colon"]
+- !private ["Ps9Equatable", "init"]
+- ["Ps25ExpressibleByArrayLiteral", "Byte"]
+- !private ["Ps25ExpressibleByArrayLiteral", "CChar"]
+- !private ["Ps25ExpressibleByArrayLiteral", "Int"]
+- ["Ps25ExpressibleByArrayLiteral", "Iterator"]
+- !private ["Ps25ExpressibleByArrayLiteral", "array"]
+- !private ["Ps25ExpressibleByArrayLiteral", "bytes"]
+- !private ["Ps25ExpressibleByArrayLiteral", "count"]
+- !private ["Ps25ExpressibleByArrayLiteral", "makeCBytes"]
+- !private ["Ps25ExpressibleByArrayLiteral", "makeString"]
+- !private ["Ps25ExpressibleByArrayLiteral", "split"]
+- !private ["Ps25ExpressibleByArrayLiteral", "string"]
+- !private ["Ps25ExpressibleByArrayLiteral", "subscript"]
+- !private ["Ps25ExpressibleByArrayLiteral", "withUnsafeBytes"]
+- !private ["Ps27ExpressibleByBooleanLiteral", "_getBuiltinLogicValue"]
+- !private ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "init"]
+- !private ["Ps27ExpressibleByIntegerLiteral", "colon"]
+- !private ["Ps27ExpressibleByIntegerLiteral", "init"]
+- !private ["Ps26ExpressibleByStringLiteral", "init"]
+- !private ["Ps33ExpressibleByUnicodeScalarLiteral", "init"]
+- !private ["Ps8Hashable", "_getBuiltinLogicValue"]
+- !private ["Ps8Hashable", "assumingMemoryBound"]
+- !private ["Ps8Hashable", "colon"]
+- !private ["Ps8Hashable", "init"]
+- ["Vs16IndexingIterator", "Element"]
+- !private ["Si", "init"]
+- !private ["Ps7Integer", "colon"]
+- !private ["Ps7Integer", "init"]
+- !private ["Ps17IntegerArithmetic", "colon"]
+- !private ["Ps17IntegerArithmetic", "init"]
+- ["Ps16IteratorProtocol", "Element"]
+- !private ["Ps25LosslessStringConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps25LosslessStringConvertible", "init"]
+- !private ["Ps10MirrorPath", "init"]
+- !private ["Vs25MutableBidirectionalSlice", "array"]
+- ["Ps17MutableCollection", "Byte"]
+- !private ["Ps17MutableCollection", "CChar"]
+- !private ["Ps17MutableCollection", "Int"]
+- ["Ps17MutableCollection", "Iterator"]
+- !private ["Ps17MutableCollection", "array"]
+- !private ["Ps17MutableCollection", "bytes"]
+- !private ["Ps17MutableCollection", "count"]
+- !private ["Ps17MutableCollection", "makeCBytes"]
+- !private ["Ps17MutableCollection", "makeString"]
+- !private ["Ps17MutableCollection", "split"]
+- !private ["Ps17MutableCollection", "string"]
+- !private ["Ps17MutableCollection", "subscript"]
+- !private ["Ps17MutableCollection", "withUnsafeBytes"]
+- !private ["Vs24MutableRandomAccessSlice", "array"]
+- !private ["Vs12MutableSlice", "array"]
+- !private ["PSo8NSCoding", "init"]
+- !private ["PSo9NSCopying", "init"]
+- !private ["PSo16NSMutableCopying", "init"]
+- !private ["PSo16NSObjectProtocol", "init"]
+- !private ["PSo14NSSecureCoding", "init"]
+- !private ["CSo8NSString", "init"]
+- ["Ps22RandomAccessCollection", "Byte"]
+- !private ["Ps22RandomAccessCollection", "CChar"]
+- !private ["Ps22RandomAccessCollection", "Int"]
+- ["Ps22RandomAccessCollection", "Iterator"]
+- !private ["Ps22RandomAccessCollection", "array"]
+- !private ["Ps22RandomAccessCollection", "baseAddress"]
+- !private ["Ps22RandomAccessCollection", "bytes"]
+- !private ["Ps22RandomAccessCollection", "count"]
+- !private ["Ps22RandomAccessCollection", "makeCBytes"]
+- !private ["Ps22RandomAccessCollection", "makeString"]
+- !private ["Ps22RandomAccessCollection", "split"]
+- !private ["Ps22RandomAccessCollection", "string"]
+- !private ["Ps22RandomAccessCollection", "subscript"]
+- !private ["Ps22RandomAccessCollection", "withUnsafeBytes"]
+- ["Ps26RangeReplaceableCollection", "Byte"]
+- !private ["Ps26RangeReplaceableCollection", "CChar"]
+- !private ["Ps26RangeReplaceableCollection", "Int"]
+- ["Ps26RangeReplaceableCollection", "Iterator"]
+- !private ["Ps26RangeReplaceableCollection", "array"]
+- !private ["Ps26RangeReplaceableCollection", "bytes"]
+- !private ["Ps26RangeReplaceableCollection", "count"]
+- !private ["Ps26RangeReplaceableCollection", "makeCBytes"]
+- !private ["Ps26RangeReplaceableCollection", "makeString"]
+- !private ["Ps26RangeReplaceableCollection", "split"]
+- !private ["Ps26RangeReplaceableCollection", "string"]
+- !private ["Ps26RangeReplaceableCollection", "subscript"]
+- !private ["Ps26RangeReplaceableCollection", "withUnsafeBytes"]
+- !private ["Vs21RangeReplaceableSlice", "array"]
+- ["Ps8Sequence", "Byte"]
+- !private ["Ps8Sequence", "CChar"]
+- ["Ps8Sequence", "Element"]
+- !private ["Ps8Sequence", "Int"]
+- ["Ps8Sequence", "Iterator"]
+- !private ["Ps8Sequence", "array"]
+- !private ["Ps8Sequence", "baseAddress"]
+- !private ["Ps8Sequence", "bytes"]
+- !private ["Ps8Sequence", "count"]
+- !private ["Ps8Sequence", "makeCBytes"]
+- !private ["Ps8Sequence", "makeString"]
+- !private ["Ps8Sequence", "split"]
+- !private ["Ps8Sequence", "string"]
+- !private ["Ps8Sequence", "subscript"]
+- !private ["Ps8Sequence", "withUnsafeBytes"]
+- !private ["Ps13SignedInteger", "init"]
+- !private ["Ps12SignedNumber", "init"]
+- !private ["Ps10Strideable", "assumingMemoryBound"]
+- !private ["Ps10Strideable", "colon"]
+- !private ["Ps10Strideable", "init"]
+- !private ["SS", "init"]
+- !private ["Ps16TextOutputStream", "init"]
+- !private ["Ps20TextOutputStreamable", "init"]
+- !private ["Vs6UInt16", "init"]
+- !private ["Vs5UInt8", "colon"]
+- ["V3URI3URI", "BytesConvertible"]
+- !private ["V3URI3URI", "URIParser"]
+- !private ["V3URI3URI", "UserInfo"]
+- ["V3URI3URI", "init"]
+- ["C3URI9URIParser", "Bytes"]
+- ["C3URI9URIParser", "BytesConvertible"]
+- !private ["C3URI9URIParser", "Port"]
+- ["C3URI9URIParser", "URI"]
+- ["C3URI9URIParser", "URIParser"]
+- ["C3URI9URIParser", "deinit"]
+- !private ["C3URI9URIParser", "http_parser_parse_url"]
+- !private ["C3URI9URIParser", "http_parser_url"]
+- !private ["C3URI9URIParser", "http_parser_url_init"]
+- ["C3URI9URIParser", "init"]
+- ["C3URI9URIParser", "parse"]
+- ["C3URI9URIParser", "shared"]
+- !private ["Vs22UnsafeRawBufferPointer", "baseAddress"]
+- !private ["SV", "assumingMemoryBound"]
+- !private ["Ps15UnsignedInteger", "colon"]
+- !private ["Ps15UnsignedInteger", "init"]
+- !private ["VV3URI3URI8UserInfo", "init"]
+- ["Ps14_ArrayProtocol", "Byte"]
+- !private ["Ps14_ArrayProtocol", "CChar"]
+- !private ["Ps14_ArrayProtocol", "Int"]
+- ["Ps14_ArrayProtocol", "Iterator"]
+- !private ["Ps14_ArrayProtocol", "array"]
+- !private ["Ps14_ArrayProtocol", "bytes"]
+- !private ["Ps14_ArrayProtocol", "count"]
+- !private ["Ps14_ArrayProtocol", "makeCBytes"]
+- !private ["Ps14_ArrayProtocol", "makeString"]
+- !private ["Ps14_ArrayProtocol", "split"]
+- !private ["Ps14_ArrayProtocol", "string"]
+- !private ["Ps14_ArrayProtocol", "subscript"]
+- !private ["Ps14_ArrayProtocol", "withUnsafeBytes"]
+- ["Ps23_BidirectionalIndexable", "Byte"]
+- !private ["Ps23_BidirectionalIndexable", "CChar"]
+- !private ["Ps23_BidirectionalIndexable", "Int"]
+- ["Ps23_BidirectionalIndexable", "Iterator"]
+- !private ["Ps23_BidirectionalIndexable", "array"]
+- !private ["Ps23_BidirectionalIndexable", "baseAddress"]
+- !private ["Ps23_BidirectionalIndexable", "bytes"]
+- !private ["Ps23_BidirectionalIndexable", "count"]
+- !private ["Ps23_BidirectionalIndexable", "makeCBytes"]
+- !private ["Ps23_BidirectionalIndexable", "makeString"]
+- !private ["Ps23_BidirectionalIndexable", "split"]
+- !private ["Ps23_BidirectionalIndexable", "string"]
+- !private ["Ps23_BidirectionalIndexable", "subscript"]
+- !private ["Ps23_BidirectionalIndexable", "withUnsafeBytes"]
+- ["Ps24_DestructorSafeContainer", "Byte"]
+- !private ["Ps24_DestructorSafeContainer", "CChar"]
+- !private ["Ps24_DestructorSafeContainer", "Int"]
+- ["Ps24_DestructorSafeContainer", "Iterator"]
+- !private ["Ps24_DestructorSafeContainer", "array"]
+- !private ["Ps24_DestructorSafeContainer", "bytes"]
+- !private ["Ps24_DestructorSafeContainer", "count"]
+- !private ["Ps24_DestructorSafeContainer", "makeCBytes"]
+- !private ["Ps24_DestructorSafeContainer", "makeString"]
+- !private ["Ps24_DestructorSafeContainer", "split"]
+- !private ["Ps24_DestructorSafeContainer", "string"]
+- !private ["Ps24_DestructorSafeContainer", "subscript"]
+- !private ["Ps24_DestructorSafeContainer", "withUnsafeBytes"]
+- !private ["Ps28_DisallowMixedSignArithmetic", "colon"]
+- !private ["Ps28_DisallowMixedSignArithmetic", "init"]
+- !private ["Ps35_ExpressibleByBuiltinBooleanLiteral", "_getBuiltinLogicValue"]
+- !private ["Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral", "init"]
+- !private ["Ps35_ExpressibleByBuiltinIntegerLiteral", "colon"]
+- !private ["Ps35_ExpressibleByBuiltinIntegerLiteral", "init"]
+- !private ["Ps34_ExpressibleByBuiltinStringLiteral", "init"]
+- !private ["Ps39_ExpressibleByBuiltinUTF16StringLiteral", "init"]
+- !private ["Ps41_ExpressibleByBuiltinUnicodeScalarLiteral", "init"]
+- !private ["Ps33_ExpressibleByStringInterpolation", "init"]
+- !private ["Ps35_HasCustomAnyHashableRepresentation", "init"]
+- !private ["Ps9_Hashable", "_getBuiltinLogicValue"]
+- !private ["Ps9_Hashable", "assumingMemoryBound"]
+- !private ["Ps9_Hashable", "colon"]
+- !private ["Ps9_Hashable", "init"]
+- !private ["Ps14_Incrementable", "colon"]
+- !private ["Ps14_Incrementable", "init"]
+- ["Ps10_Indexable", "Byte"]
+- !private ["Ps10_Indexable", "CChar"]
+- !private ["Ps10_Indexable", "Int"]
+- ["Ps10_Indexable", "Iterator"]
+- !private ["Ps10_Indexable", "array"]
+- !private ["Ps10_Indexable", "baseAddress"]
+- !private ["Ps10_Indexable", "bytes"]
+- !private ["Ps10_Indexable", "count"]
+- !private ["Ps10_Indexable", "makeCBytes"]
+- !private ["Ps10_Indexable", "makeString"]
+- !private ["Ps10_Indexable", "split"]
+- !private ["Ps10_Indexable", "string"]
+- !private ["Ps10_Indexable", "subscript"]
+- !private ["Ps10_Indexable", "withUnsafeBytes"]
+- ["Ps14_IndexableBase", "Byte"]
+- !private ["Ps14_IndexableBase", "CChar"]
+- !private ["Ps14_IndexableBase", "Int"]
+- ["Ps14_IndexableBase", "Iterator"]
+- !private ["Ps14_IndexableBase", "array"]
+- !private ["Ps14_IndexableBase", "baseAddress"]
+- !private ["Ps14_IndexableBase", "bytes"]
+- !private ["Ps14_IndexableBase", "count"]
+- !private ["Ps14_IndexableBase", "makeCBytes"]
+- !private ["Ps14_IndexableBase", "makeString"]
+- !private ["Ps14_IndexableBase", "split"]
+- !private ["Ps14_IndexableBase", "string"]
+- !private ["Ps14_IndexableBase", "subscript"]
+- !private ["Ps14_IndexableBase", "withUnsafeBytes"]
+- !private ["Ps8_Integer", "colon"]
+- !private ["Ps8_Integer", "init"]
+- !private ["Ps18_IntegerArithmetic", "colon"]
+- !private ["Ps18_IntegerArithmetic", "init"]
+- ["Ps17_MutableIndexable", "Byte"]
+- !private ["Ps17_MutableIndexable", "CChar"]
+- !private ["Ps17_MutableIndexable", "Int"]
+- ["Ps17_MutableIndexable", "Iterator"]
+- !private ["Ps17_MutableIndexable", "array"]
+- !private ["Ps17_MutableIndexable", "bytes"]
+- !private ["Ps17_MutableIndexable", "count"]
+- !private ["Ps17_MutableIndexable", "makeCBytes"]
+- !private ["Ps17_MutableIndexable", "makeString"]
+- !private ["Ps17_MutableIndexable", "split"]
+- !private ["Ps17_MutableIndexable", "string"]
+- !private ["Ps17_MutableIndexable", "subscript"]
+- !private ["Ps17_MutableIndexable", "withUnsafeBytes"]
+- ["Ps21_ObjectiveCBridgeable", "Byte"]
+- !private ["Ps21_ObjectiveCBridgeable", "CChar"]
+- !private ["Ps21_ObjectiveCBridgeable", "Int"]
+- ["Ps21_ObjectiveCBridgeable", "Iterator"]
+- !private ["Ps21_ObjectiveCBridgeable", "_getBuiltinLogicValue"]
+- !private ["Ps21_ObjectiveCBridgeable", "bytes"]
+- !private ["Ps21_ObjectiveCBridgeable", "colon"]
+- !private ["Ps21_ObjectiveCBridgeable", "count"]
+- !private ["Ps21_ObjectiveCBridgeable", "init"]
+- !private ["Ps21_ObjectiveCBridgeable", "makeCBytes"]
+- !private ["Ps21_ObjectiveCBridgeable", "makeString"]
+- !private ["Ps21_ObjectiveCBridgeable", "split"]
+- !private ["Ps21_ObjectiveCBridgeable", "string"]
+- !private ["Ps21_ObjectiveCBridgeable", "subscript"]
+- !private ["Ps21_ObjectiveCBridgeable", "withUnsafeBytes"]
+- !private ["Ps8_Pointer", "assumingMemoryBound"]
+- ["Ps22_RandomAccessIndexable", "Byte"]
+- !private ["Ps22_RandomAccessIndexable", "CChar"]
+- !private ["Ps22_RandomAccessIndexable", "Int"]
+- ["Ps22_RandomAccessIndexable", "Iterator"]
+- !private ["Ps22_RandomAccessIndexable", "array"]
+- !private ["Ps22_RandomAccessIndexable", "baseAddress"]
+- !private ["Ps22_RandomAccessIndexable", "bytes"]
+- !private ["Ps22_RandomAccessIndexable", "count"]
+- !private ["Ps22_RandomAccessIndexable", "makeCBytes"]
+- !private ["Ps22_RandomAccessIndexable", "makeString"]
+- !private ["Ps22_RandomAccessIndexable", "split"]
+- !private ["Ps22_RandomAccessIndexable", "string"]
+- !private ["Ps22_RandomAccessIndexable", "subscript"]
+- !private ["Ps22_RandomAccessIndexable", "withUnsafeBytes"]
+- ["Ps26_RangeReplaceableIndexable", "Byte"]
+- !private ["Ps26_RangeReplaceableIndexable", "CChar"]
+- !private ["Ps26_RangeReplaceableIndexable", "Int"]
+- ["Ps26_RangeReplaceableIndexable", "Iterator"]
+- !private ["Ps26_RangeReplaceableIndexable", "array"]
+- !private ["Ps26_RangeReplaceableIndexable", "bytes"]
+- !private ["Ps26_RangeReplaceableIndexable", "count"]
+- !private ["Ps26_RangeReplaceableIndexable", "makeCBytes"]
+- !private ["Ps26_RangeReplaceableIndexable", "makeString"]
+- !private ["Ps26_RangeReplaceableIndexable", "split"]
+- !private ["Ps26_RangeReplaceableIndexable", "string"]
+- !private ["Ps26_RangeReplaceableIndexable", "subscript"]
+- !private ["Ps26_RangeReplaceableIndexable", "withUnsafeBytes"]
+- !private ["Ps14_SignedInteger", "init"]
+- !private ["Ps11_Strideable", "assumingMemoryBound"]
+- !private ["Ps11_Strideable", "colon"]
+- !private ["Ps11_Strideable", "init"]
+- !private ["Ps14_StringElement", "colon"]
+- !private ["Ps14_StringElement", "init"]
+- !private ["VSC15http_parser_url", "field_data"]
+- !private ["VSC15http_parser_url", "init"]
+- !private ["VSC26http_parser_url_field_data", "len"]
+- !private ["VSC26http_parser_url_field_data", "off"]
+depends-nominal:
+- "Ps9AnyObject"
+- "Sa"
+- !private "Vs10ArraySlice"
+- "Ps23BidirectionalCollection"
+- !private "Ps17BitwiseOperations"
+- !private "Sb"
+- !private "P4Bits16BytesConvertible"
+- !private "P4Bits18BytesInitializable"
+- !private "P4Bits18BytesRepresentable"
+- "Ps7CVarArg"
+- "Ps10Collection"
+- !private "Ps10Comparable"
+- "Ps28CustomDebugStringConvertible"
+- !private "Ps29CustomPlaygroundQuickLookable"
+- "Ps17CustomReflectable"
+- "Ps23CustomStringConvertible"
+- !private "Ps9Equatable"
+- "Ps25ExpressibleByArrayLiteral"
+- !private "Ps27ExpressibleByBooleanLiteral"
+- !private "Ps43ExpressibleByExtendedGraphemeClusterLiteral"
+- !private "Ps27ExpressibleByIntegerLiteral"
+- !private "Ps26ExpressibleByStringLiteral"
+- !private "Ps33ExpressibleByUnicodeScalarLiteral"
+- !private "Ps8Hashable"
+- "Vs16IndexingIterator"
+- !private "Si"
+- !private "Ps7Integer"
+- !private "Ps17IntegerArithmetic"
+- "Ps16IteratorProtocol"
+- !private "Ps25LosslessStringConvertible"
+- !private "Ps10MirrorPath"
+- !private "Vs25MutableBidirectionalSlice"
+- "Ps17MutableCollection"
+- !private "Vs24MutableRandomAccessSlice"
+- !private "Vs12MutableSlice"
+- !private "PSo8NSCoding"
+- !private "PSo9NSCopying"
+- !private "PSo16NSMutableCopying"
+- !private "PSo16NSObjectProtocol"
+- !private "PSo14NSSecureCoding"
+- !private "CSo8NSString"
+- "Ps22RandomAccessCollection"
+- "Ps26RangeReplaceableCollection"
+- !private "Vs21RangeReplaceableSlice"
+- "Ps8Sequence"
+- !private "Ps13SignedInteger"
+- !private "Ps12SignedNumber"
+- !private "Ps10Strideable"
+- !private "SS"
+- !private "Ps16TextOutputStream"
+- !private "Ps20TextOutputStreamable"
+- !private "Vs6UInt16"
+- !private "Vs5UInt8"
+- "V3URI3URI"
+- "C3URI9URIParser"
+- !private "Vs22UnsafeRawBufferPointer"
+- !private "SV"
+- !private "Ps15UnsignedInteger"
+- !private "VV3URI3URI8UserInfo"
+- "Ps14_ArrayProtocol"
+- "Ps23_BidirectionalIndexable"
+- "Ps24_DestructorSafeContainer"
+- !private "Ps28_DisallowMixedSignArithmetic"
+- !private "Ps35_ExpressibleByBuiltinBooleanLiteral"
+- !private "Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral"
+- !private "Ps35_ExpressibleByBuiltinIntegerLiteral"
+- !private "Ps34_ExpressibleByBuiltinStringLiteral"
+- !private "Ps39_ExpressibleByBuiltinUTF16StringLiteral"
+- !private "Ps41_ExpressibleByBuiltinUnicodeScalarLiteral"
+- !private "Ps33_ExpressibleByStringInterpolation"
+- !private "Ps35_HasCustomAnyHashableRepresentation"
+- !private "Ps9_Hashable"
+- !private "Ps14_Incrementable"
+- "Ps10_Indexable"
+- "Ps14_IndexableBase"
+- !private "Ps8_Integer"
+- !private "Ps18_IntegerArithmetic"
+- "Ps17_MutableIndexable"
+- "Ps21_ObjectiveCBridgeable"
+- !private "Ps8_Pointer"
+- "Ps22_RandomAccessIndexable"
+- "Ps26_RangeReplaceableIndexable"
+- !private "Ps14_SignedInteger"
+- !private "Ps11_Strideable"
+- !private "Ps14_StringElement"
+- !private "VSC15http_parser_url"
+- !private "VSC26http_parser_url_field_data"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/ObjectiveC.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Foundation.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreGraphics.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreText.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/ObjectiveC.swiftmodule"
+- "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/debug/libc.swiftmodule"
+- "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/debug/Core.swiftmodule"
+- "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/debug/Debugging.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreGraphics.swiftmodule"
+- "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/debug/Bits.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/IOKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/debug/Transport.swiftmodule"
+- "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/checkouts/engine.git-3311994267206676365/Sources/CHTTP/include/http_parser.h"
+- "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/checkouts/ctls.git-9210868160426949823/module.modulemap"
+- "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/debug/CHTTP.build/module.modulemap"
+- "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/debug/CSQLite.build/module.modulemap"
+interface-hash: "edbfc4d000dee843d1488b31e01308a2"

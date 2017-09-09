@@ -1,0 +1,82 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "Tag"
+provides-nominal:
+- "P4Leaf3Tag"
+provides-member:
+- ["P4Leaf3Tag", ""]
+- ["P4Leaf3Tag", "compileBody"]
+- ["P4Leaf3Tag", "postCompile"]
+- ["P4Leaf3Tag", "postCompile"]
+- ["P4Leaf3Tag", "makeArguments"]
+- ["P4Leaf3Tag", "shouldRender"]
+- ["P4Leaf3Tag", "render"]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "!="
+- "ArgumentList"
+- "Bool"
+- "Bytes"
+- "Context"
+- "Leaf"
+- "Node"
+- "Stem"
+- "String"
+- "Tag"
+- "TagTemplate"
+depends-member:
+- !private ["Ps9AnyObject", "makeArguments"]
+- !private ["Ps9AnyObject", "render"]
+- !private ["Ps9AnyObject", "spawnLeaf"]
+- !private ["Ps23CustomStringConvertible", "makeArguments"]
+- !private ["Ps9Equatable", "makeArguments"]
+- !private ["C4Leaf4Stem", "render"]
+- !private ["C4Leaf4Stem", "spawnLeaf"]
+- ["P4Leaf3Tag", "ArgumentList"]
+- ["P4Leaf3Tag", "Bool"]
+- ["P4Leaf3Tag", "Bytes"]
+- ["P4Leaf3Tag", "Context"]
+- ["P4Leaf3Tag", "Leaf"]
+- ["P4Leaf3Tag", "Node"]
+- ["P4Leaf3Tag", "Stem"]
+- ["P4Leaf3Tag", "String"]
+- ["P4Leaf3Tag", "TagTemplate"]
+- ["P4Leaf3Tag", "compileBody"]
+- ["P4Leaf3Tag", "makeArguments"]
+- ["P4Leaf3Tag", "name"]
+- ["P4Leaf3Tag", "postCompile"]
+- ["P4Leaf3Tag", "render"]
+- ["P4Leaf3Tag", "run"]
+- ["P4Leaf3Tag", "shouldRender"]
+- !private ["C4Leaf11TagTemplate", "makeArguments"]
+depends-nominal:
+- !private "Ps9AnyObject"
+- !private "Ps23CustomStringConvertible"
+- !private "Ps9Equatable"
+- !private "C4Leaf4Stem"
+- "P4Leaf3Tag"
+- !private "C4Leaf11TagTemplate"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/ObjectiveC.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Foundation.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreGraphics.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreText.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/ObjectiveC.swiftmodule"
+- "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/debug/libc.swiftmodule"
+- "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/debug/Node.swiftmodule"
+- "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/debug/PathIndexable.swiftmodule"
+- "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/debug/Core.swiftmodule"
+- "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/debug/Debugging.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreGraphics.swiftmodule"
+- "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/debug/Bits.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/IOKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/debug/CHTTP.build/module.modulemap"
+- "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/debug/CSQLite.build/module.modulemap"
+interface-hash: "76e90630937b153fd8ba4fe40fdc632f"

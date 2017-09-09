@@ -1,0 +1,140 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+provides-nominal:
+provides-member:
+- ["P7Sockets9RawSocket", ""]
+- ["P7Sockets9RawSocket", "getErrorCode"]
+- ["P7Sockets9RawSocket", "getKeepAlive"]
+- ["P7Sockets9RawSocket", "setKeepAlive"]
+- ["P7Sockets9RawSocket", "getReuseAddress"]
+- ["P7Sockets9RawSocket", "setReuseAddress"]
+- ["P7Sockets9RawSocket", "getReceivingTimeout"]
+- ["P7Sockets9RawSocket", "setReceivingTimeout"]
+- ["P7Sockets9RawSocket", "getSendingTimeout"]
+- ["P7Sockets9RawSocket", "setSendingTimeout"]
+- ["P7Sockets9RawSocket", "setTimeout"]
+provides-dynamic-lookup:
+depends-top-level:
+- "Bool"
+- "Double"
+- "Int32"
+- "RawSocket"
+- !private "SOL_SOCKET"
+- !private "SO_ERROR"
+- !private "SO_KEEPALIVE"
+- !private "SO_RCVTIMEO"
+- !private "SO_REUSEADDR"
+- !private "SO_SNDTIMEO"
+- !private "SocketsError"
+- "timeval"
+depends-member:
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["Ps28CustomDebugStringConvertible", "init"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "_getBuiltinLogicValue"]
+- !private ["Ps17CustomReflectable", "_getBuiltinLogicValue"]
+- !private ["Ps23CustomStringConvertible", "_getBuiltinLogicValue"]
+- !private ["P9Debugging10Debuggable", "init"]
+- !private ["V7Sockets10Descriptor", "getBoolOption"]
+- !private ["V7Sockets10Descriptor", "getOption"]
+- !private ["V7Sockets10Descriptor", "setBoolOption"]
+- !private ["V7Sockets10Descriptor", "setOption"]
+- !private ["Ps9Equatable", "_getBuiltinLogicValue"]
+- !private ["Ps9Equatable", "init"]
+- !private ["Ps5Error", "init"]
+- !private ["O7Sockets11ErrorReason", "socketIsClosed"]
+- !private ["Ps27ExpressibleByBooleanLiteral", "_getBuiltinLogicValue"]
+- !private ["Ps27ExpressibleByIntegerLiteral", "getBoolOption"]
+- !private ["Ps27ExpressibleByIntegerLiteral", "getOption"]
+- !private ["Ps27ExpressibleByIntegerLiteral", "setBoolOption"]
+- !private ["Ps27ExpressibleByIntegerLiteral", "setOption"]
+- !private ["Ps8Hashable", "_getBuiltinLogicValue"]
+- !private ["Ps25LosslessStringConvertible", "_getBuiltinLogicValue"]
+- ["P7Sockets9RawSocket", "Bool"]
+- ["P7Sockets9RawSocket", "Double"]
+- ["P7Sockets9RawSocket", "Int32"]
+- !private ["P7Sockets9RawSocket", "SOL_SOCKET"]
+- !private ["P7Sockets9RawSocket", "SO_ERROR"]
+- !private ["P7Sockets9RawSocket", "SO_KEEPALIVE"]
+- !private ["P7Sockets9RawSocket", "SO_RCVTIMEO"]
+- !private ["P7Sockets9RawSocket", "SO_REUSEADDR"]
+- !private ["P7Sockets9RawSocket", "SO_SNDTIMEO"]
+- !private ["P7Sockets9RawSocket", "SocketsError"]
+- !private ["P7Sockets9RawSocket", "descriptor"]
+- ["P7Sockets9RawSocket", "getErrorCode"]
+- ["P7Sockets9RawSocket", "getKeepAlive"]
+- ["P7Sockets9RawSocket", "getReceivingTimeout"]
+- ["P7Sockets9RawSocket", "getReuseAddress"]
+- ["P7Sockets9RawSocket", "getSendingTimeout"]
+- !private ["P7Sockets9RawSocket", "isClosed"]
+- ["P7Sockets9RawSocket", "setKeepAlive"]
+- ["P7Sockets9RawSocket", "setReceivingTimeout"]
+- ["P7Sockets9RawSocket", "setReuseAddress"]
+- ["P7Sockets9RawSocket", "setSendingTimeout"]
+- ["P7Sockets9RawSocket", "setTimeout"]
+- ["P7Sockets9RawSocket", "timeval"]
+- !private ["V7Sockets12SocketsError", "deinit"]
+- !private ["V7Sockets12SocketsError", "init"]
+- ["P9Transport6Stream", "Bool"]
+- ["P9Transport6Stream", "Double"]
+- ["P9Transport6Stream", "Int32"]
+- !private ["P9Transport6Stream", "SOL_SOCKET"]
+- !private ["P9Transport6Stream", "SO_ERROR"]
+- !private ["P9Transport6Stream", "SO_KEEPALIVE"]
+- !private ["P9Transport6Stream", "SO_RCVTIMEO"]
+- !private ["P9Transport6Stream", "SO_REUSEADDR"]
+- !private ["P9Transport6Stream", "SO_SNDTIMEO"]
+- !private ["P9Transport6Stream", "SocketsError"]
+- !private ["P9Transport6Stream", "descriptor"]
+- !private ["P9Transport6Stream", "isClosed"]
+- !private ["P9Transport6Stream", "setReceivingTimeout"]
+- !private ["P9Transport6Stream", "setSendingTimeout"]
+- ["P9Transport6Stream", "timeval"]
+- !private ["Ps35_ExpressibleByBuiltinBooleanLiteral", "_getBuiltinLogicValue"]
+- !private ["Ps9_Hashable", "_getBuiltinLogicValue"]
+- !private ["Ps21_ObjectiveCBridgeable", "_getBuiltinLogicValue"]
+- !private ["VSC7timeval", "init"]
+depends-nominal:
+- !private "Sb"
+- !private "Ps28CustomDebugStringConvertible"
+- !private "Ps29CustomPlaygroundQuickLookable"
+- !private "Ps17CustomReflectable"
+- !private "Ps23CustomStringConvertible"
+- !private "P9Debugging10Debuggable"
+- !private "V7Sockets10Descriptor"
+- !private "Ps9Equatable"
+- !private "Ps5Error"
+- !private "O7Sockets11ErrorReason"
+- !private "Ps27ExpressibleByBooleanLiteral"
+- !private "Ps27ExpressibleByIntegerLiteral"
+- !private "Ps8Hashable"
+- !private "Ps25LosslessStringConvertible"
+- "P7Sockets9RawSocket"
+- !private "V7Sockets12SocketsError"
+- "P9Transport6Stream"
+- !private "Ps35_ExpressibleByBuiltinBooleanLiteral"
+- !private "Ps9_Hashable"
+- !private "Ps21_ObjectiveCBridgeable"
+- !private "VSC7timeval"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/ObjectiveC.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Foundation.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreGraphics.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreText.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/ObjectiveC.swiftmodule"
+- "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/debug/libc.swiftmodule"
+- "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/debug/Core.swiftmodule"
+- "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/debug/Debugging.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreGraphics.swiftmodule"
+- "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/debug/Bits.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/IOKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/debug/Transport.swiftmodule"
+- "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/debug/CHTTP.build/module.modulemap"
+- "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/debug/CSQLite.build/module.modulemap"
+interface-hash: "1f59e24719ea0b89e8cc15762bf22307"

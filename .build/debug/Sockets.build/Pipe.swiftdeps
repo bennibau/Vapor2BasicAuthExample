@@ -1,0 +1,279 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "Pipeable"
+provides-nominal:
+- "P7Sockets8Pipeable"
+- "C7Sockets20TCPEstablishedSocket"
+provides-member:
+- ["P7Sockets8Pipeable", ""]
+- ["C7Sockets20TCPEstablishedSocket", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "!="
+- !private "AF_LOCAL"
+- !private "Descriptor"
+- !private "FloatLiteralType"
+- !private "Int32"
+- !private "IntegerLiteralType"
+- "Pipeable"
+- !private "SocketType"
+- !private "SocketsError"
+- "TCPEstablishedSocket"
+- "TCPReadableSocket"
+- "TCPWriteableSocket"
+- !private "socketpair"
+depends-member:
+- !private ["Ps9AnyObject", "AF_LOCAL"]
+- !private ["Ps9AnyObject", "Descriptor"]
+- !private ["Ps9AnyObject", "SocketType"]
+- !private ["Ps9AnyObject", "SocketsError"]
+- !private ["Ps9AnyObject", "TCPEstablishedSocket"]
+- !private ["Ps9AnyObject", "init"]
+- ["Ps9AnyObject", "pipe"]
+- !private ["Ps9AnyObject", "socketpair"]
+- !private ["Sa", "forEach"]
+- !private ["Sa", "map"]
+- !private ["Sa", "subscript"]
+- !private ["Ps23BidirectionalCollection", "forEach"]
+- !private ["Ps23BidirectionalCollection", "map"]
+- !private ["Ps23BidirectionalCollection", "subscript"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["P7Sockets21CTypeInt32Convertible", "stream"]
+- !private ["P7Sockets21CTypeInt32Convertible", "toCType"]
+- !private ["Ps7CVarArg", "forEach"]
+- !private ["Ps7CVarArg", "map"]
+- !private ["Ps7CVarArg", "subscript"]
+- !private ["Ps10Collection", "forEach"]
+- !private ["Ps10Collection", "map"]
+- !private ["Ps10Collection", "subscript"]
+- !private ["Ps28CustomDebugStringConvertible", "forEach"]
+- !private ["Ps28CustomDebugStringConvertible", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "map"]
+- !private ["Ps28CustomDebugStringConvertible", "subscript"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "_getBuiltinLogicValue"]
+- !private ["Ps17CustomReflectable", "_getBuiltinLogicValue"]
+- !private ["Ps17CustomReflectable", "forEach"]
+- !private ["Ps17CustomReflectable", "map"]
+- !private ["Ps17CustomReflectable", "subscript"]
+- !private ["Ps23CustomStringConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps23CustomStringConvertible", "forEach"]
+- !private ["Ps23CustomStringConvertible", "map"]
+- !private ["Ps23CustomStringConvertible", "subscript"]
+- !private ["P9Debugging10Debuggable", "init"]
+- !private ["V7Sockets10Descriptor", "deinit"]
+- !private ["V7Sockets10Descriptor", "disableSIGPIPE"]
+- !private ["V7Sockets10Descriptor", "init"]
+- !private ["Ps9Equatable", "_getBuiltinLogicValue"]
+- !private ["Ps9Equatable", "stream"]
+- !private ["Ps9Equatable", "toCType"]
+- !private ["Ps5Error", "init"]
+- !private ["O7Sockets11ErrorReason", "pipeCreationFailed"]
+- !private ["Ps25ExpressibleByArrayLiteral", "forEach"]
+- !private ["Ps25ExpressibleByArrayLiteral", "map"]
+- !private ["Ps25ExpressibleByArrayLiteral", "subscript"]
+- !private ["Ps27ExpressibleByBooleanLiteral", "_getBuiltinLogicValue"]
+- !private ["Ps27ExpressibleByIntegerLiteral", "disableSIGPIPE"]
+- !private ["Ps27ExpressibleByIntegerLiteral", "init"]
+- !private ["Ps8Hashable", "_getBuiltinLogicValue"]
+- !private ["Ps8Hashable", "stream"]
+- !private ["Ps8Hashable", "toCType"]
+- !private ["Ps25LosslessStringConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps17MutableCollection", "forEach"]
+- !private ["Ps17MutableCollection", "map"]
+- !private ["Ps17MutableCollection", "subscript"]
+- !private ["P7Sockets8Pipeable", "AF_LOCAL"]
+- !private ["P7Sockets8Pipeable", "Descriptor"]
+- !private ["P7Sockets8Pipeable", "SocketType"]
+- !private ["P7Sockets8Pipeable", "SocketsError"]
+- !private ["P7Sockets8Pipeable", "TCPEstablishedSocket"]
+- ["P7Sockets8Pipeable", "TCPReadableSocket"]
+- ["P7Sockets8Pipeable", "TCPWriteableSocket"]
+- !private ["P7Sockets8Pipeable", "init"]
+- ["P7Sockets8Pipeable", "pipe"]
+- !private ["P7Sockets8Pipeable", "socketpair"]
+- ["P7Sockets8Pipeable", ""]
+- !private ["Ps22RandomAccessCollection", "forEach"]
+- !private ["Ps22RandomAccessCollection", "map"]
+- !private ["Ps22RandomAccessCollection", "subscript"]
+- !private ["Ps26RangeReplaceableCollection", "forEach"]
+- !private ["Ps26RangeReplaceableCollection", "map"]
+- !private ["Ps26RangeReplaceableCollection", "subscript"]
+- !private ["P7Sockets9RawSocket", "AF_LOCAL"]
+- !private ["P7Sockets9RawSocket", "Descriptor"]
+- !private ["P7Sockets9RawSocket", "SocketType"]
+- !private ["P7Sockets9RawSocket", "SocketsError"]
+- !private ["P7Sockets9RawSocket", "TCPEstablishedSocket"]
+- !private ["P7Sockets9RawSocket", "init"]
+- ["P7Sockets9RawSocket", "pipe"]
+- !private ["P7Sockets9RawSocket", "socketpair"]
+- !private ["P9Transport14ReadableStream", "AF_LOCAL"]
+- !private ["P9Transport14ReadableStream", "Descriptor"]
+- !private ["P9Transport14ReadableStream", "SocketType"]
+- !private ["P9Transport14ReadableStream", "SocketsError"]
+- !private ["P9Transport14ReadableStream", "TCPEstablishedSocket"]
+- !private ["P9Transport14ReadableStream", "init"]
+- ["P9Transport14ReadableStream", "pipe"]
+- !private ["P9Transport14ReadableStream", "socketpair"]
+- !private ["Ps8Sequence", "forEach"]
+- !private ["Ps8Sequence", "map"]
+- !private ["Ps8Sequence", "subscript"]
+- !private ["O7Sockets10SocketType", "deinit"]
+- !private ["O7Sockets10SocketType", "stream"]
+- !private ["O7Sockets10SocketType", "toCType"]
+- !private ["V7Sockets12SocketsError", "deinit"]
+- !private ["V7Sockets12SocketsError", "init"]
+- !private ["P9Transport6Stream", "AF_LOCAL"]
+- !private ["P9Transport6Stream", "Descriptor"]
+- !private ["P9Transport6Stream", "SocketType"]
+- !private ["P9Transport6Stream", "SocketsError"]
+- !private ["P9Transport6Stream", "TCPEstablishedSocket"]
+- !private ["P9Transport6Stream", "init"]
+- ["P9Transport6Stream", "pipe"]
+- !private ["P9Transport6Stream", "socketpair"]
+- !private ["C7Sockets20TCPEstablishedSocket", "AF_LOCAL"]
+- !private ["C7Sockets20TCPEstablishedSocket", "Descriptor"]
+- !private ["C7Sockets20TCPEstablishedSocket", "Int32"]
+- !private ["C7Sockets20TCPEstablishedSocket", "SocketType"]
+- !private ["C7Sockets20TCPEstablishedSocket", "SocketsError"]
+- !private ["C7Sockets20TCPEstablishedSocket", "TCPEstablishedSocket"]
+- ["C7Sockets20TCPEstablishedSocket", "TCPReadableSocket"]
+- ["C7Sockets20TCPEstablishedSocket", "TCPWriteableSocket"]
+- ["C7Sockets20TCPEstablishedSocket", "deinit"]
+- !private ["C7Sockets20TCPEstablishedSocket", "init"]
+- ["C7Sockets20TCPEstablishedSocket", "pipe"]
+- !private ["C7Sockets20TCPEstablishedSocket", "socketpair"]
+- !private ["P7Sockets17TCPReadableSocket", "AF_LOCAL"]
+- !private ["P7Sockets17TCPReadableSocket", "Descriptor"]
+- !private ["P7Sockets17TCPReadableSocket", "SocketType"]
+- !private ["P7Sockets17TCPReadableSocket", "SocketsError"]
+- !private ["P7Sockets17TCPReadableSocket", "TCPEstablishedSocket"]
+- !private ["P7Sockets17TCPReadableSocket", "init"]
+- ["P7Sockets17TCPReadableSocket", "pipe"]
+- !private ["P7Sockets17TCPReadableSocket", "socketpair"]
+- !private ["P7Sockets9TCPSocket", "AF_LOCAL"]
+- !private ["P7Sockets9TCPSocket", "Descriptor"]
+- !private ["P7Sockets9TCPSocket", "SocketType"]
+- !private ["P7Sockets9TCPSocket", "SocketsError"]
+- !private ["P7Sockets9TCPSocket", "TCPEstablishedSocket"]
+- !private ["P7Sockets9TCPSocket", "init"]
+- ["P7Sockets9TCPSocket", "pipe"]
+- !private ["P7Sockets9TCPSocket", "socketpair"]
+- !private ["P7Sockets18TCPWriteableSocket", "AF_LOCAL"]
+- !private ["P7Sockets18TCPWriteableSocket", "Descriptor"]
+- !private ["P7Sockets18TCPWriteableSocket", "SocketType"]
+- !private ["P7Sockets18TCPWriteableSocket", "SocketsError"]
+- !private ["P7Sockets18TCPWriteableSocket", "TCPEstablishedSocket"]
+- !private ["P7Sockets18TCPWriteableSocket", "init"]
+- ["P7Sockets18TCPWriteableSocket", "pipe"]
+- !private ["P7Sockets18TCPWriteableSocket", "socketpair"]
+- !private ["P9Transport15WriteableStream", "AF_LOCAL"]
+- !private ["P9Transport15WriteableStream", "Descriptor"]
+- !private ["P9Transport15WriteableStream", "SocketType"]
+- !private ["P9Transport15WriteableStream", "SocketsError"]
+- !private ["P9Transport15WriteableStream", "TCPEstablishedSocket"]
+- !private ["P9Transport15WriteableStream", "init"]
+- ["P9Transport15WriteableStream", "pipe"]
+- !private ["P9Transport15WriteableStream", "socketpair"]
+- !private ["Ps14_ArrayProtocol", "forEach"]
+- !private ["Ps14_ArrayProtocol", "map"]
+- !private ["Ps14_ArrayProtocol", "subscript"]
+- !private ["Ps23_BidirectionalIndexable", "forEach"]
+- !private ["Ps23_BidirectionalIndexable", "map"]
+- !private ["Ps23_BidirectionalIndexable", "subscript"]
+- !private ["Ps24_DestructorSafeContainer", "forEach"]
+- !private ["Ps24_DestructorSafeContainer", "map"]
+- !private ["Ps24_DestructorSafeContainer", "subscript"]
+- !private ["Ps35_ExpressibleByBuiltinBooleanLiteral", "_getBuiltinLogicValue"]
+- !private ["Ps9_Hashable", "_getBuiltinLogicValue"]
+- !private ["Ps9_Hashable", "stream"]
+- !private ["Ps9_Hashable", "toCType"]
+- !private ["Ps10_Indexable", "forEach"]
+- !private ["Ps10_Indexable", "map"]
+- !private ["Ps10_Indexable", "subscript"]
+- !private ["Ps14_IndexableBase", "forEach"]
+- !private ["Ps14_IndexableBase", "map"]
+- !private ["Ps14_IndexableBase", "subscript"]
+- !private ["Ps17_MutableIndexable", "forEach"]
+- !private ["Ps17_MutableIndexable", "map"]
+- !private ["Ps17_MutableIndexable", "subscript"]
+- !private ["Ps21_ObjectiveCBridgeable", "_getBuiltinLogicValue"]
+- !private ["Ps21_ObjectiveCBridgeable", "forEach"]
+- !private ["Ps21_ObjectiveCBridgeable", "map"]
+- !private ["Ps21_ObjectiveCBridgeable", "subscript"]
+- !private ["Ps22_RandomAccessIndexable", "forEach"]
+- !private ["Ps22_RandomAccessIndexable", "map"]
+- !private ["Ps22_RandomAccessIndexable", "subscript"]
+- !private ["Ps26_RangeReplaceableIndexable", "forEach"]
+- !private ["Ps26_RangeReplaceableIndexable", "map"]
+- !private ["Ps26_RangeReplaceableIndexable", "subscript"]
+depends-nominal:
+- "Ps9AnyObject"
+- !private "Sa"
+- !private "Ps23BidirectionalCollection"
+- !private "Sb"
+- !private "P7Sockets21CTypeInt32Convertible"
+- !private "Ps7CVarArg"
+- !private "Ps10Collection"
+- !private "Ps28CustomDebugStringConvertible"
+- !private "Ps29CustomPlaygroundQuickLookable"
+- !private "Ps17CustomReflectable"
+- !private "Ps23CustomStringConvertible"
+- !private "P9Debugging10Debuggable"
+- !private "V7Sockets10Descriptor"
+- !private "Ps9Equatable"
+- !private "Ps5Error"
+- !private "O7Sockets11ErrorReason"
+- !private "Ps25ExpressibleByArrayLiteral"
+- !private "Ps27ExpressibleByBooleanLiteral"
+- !private "Ps27ExpressibleByIntegerLiteral"
+- !private "Ps8Hashable"
+- !private "Ps25LosslessStringConvertible"
+- !private "Ps17MutableCollection"
+- "P7Sockets8Pipeable"
+- !private "Ps22RandomAccessCollection"
+- !private "Ps26RangeReplaceableCollection"
+- "P7Sockets9RawSocket"
+- "P9Transport14ReadableStream"
+- !private "Ps8Sequence"
+- !private "O7Sockets10SocketType"
+- !private "V7Sockets12SocketsError"
+- "P9Transport6Stream"
+- "C7Sockets20TCPEstablishedSocket"
+- "P7Sockets17TCPReadableSocket"
+- "P7Sockets9TCPSocket"
+- "P7Sockets18TCPWriteableSocket"
+- "P9Transport15WriteableStream"
+- !private "Ps14_ArrayProtocol"
+- !private "Ps23_BidirectionalIndexable"
+- !private "Ps24_DestructorSafeContainer"
+- !private "Ps35_ExpressibleByBuiltinBooleanLiteral"
+- !private "Ps9_Hashable"
+- !private "Ps10_Indexable"
+- !private "Ps14_IndexableBase"
+- !private "Ps17_MutableIndexable"
+- !private "Ps21_ObjectiveCBridgeable"
+- !private "Ps22_RandomAccessIndexable"
+- !private "Ps26_RangeReplaceableIndexable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/ObjectiveC.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Foundation.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreGraphics.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreText.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/ObjectiveC.swiftmodule"
+- "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/debug/libc.swiftmodule"
+- "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/debug/Core.swiftmodule"
+- "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/debug/Debugging.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreGraphics.swiftmodule"
+- "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/debug/Bits.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/IOKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/debug/Transport.swiftmodule"
+- "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/debug/CHTTP.build/module.modulemap"
+- "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/debug/CSQLite.build/module.modulemap"
+interface-hash: "f451978208067f8cf1699f2b7fff6c6e"

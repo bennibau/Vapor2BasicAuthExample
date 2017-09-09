@@ -1,0 +1,160 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+provides-nominal:
+- "V4JSON4JSON"
+provides-member:
+- ["O4HTTP4Body", ""]
+- ["V4JSON4JSON", ""]
+- ["O4HTTP4Body", "init"]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "Array"
+- "Body"
+- "BodyRepresentable"
+- "JSON"
+depends-member:
+- ["O4HTTP4Body", "JSON"]
+- !private ["O4HTTP4Body", "data"]
+- ["O4HTTP4Body", "init"]
+- !private ["P4HTTP17BodyRepresentable", "Body"]
+- !private ["P4HTTP17BodyRepresentable", "data"]
+- !private ["P4HTTP17BodyRepresentable", "init"]
+- ["P4HTTP17BodyRepresentable", "makeBody"]
+- !private ["P4HTTP17BodyRepresentable", "makeBytes"]
+- ["P4HTTP17BodyRepresentable", ""]
+- !private ["P4Bits16BytesConvertible", "Body"]
+- ["P4Bits16BytesConvertible", "makeBody"]
+- !private ["P4Bits16BytesConvertible", "makeBytes"]
+- !private ["P4Bits18BytesInitializable", "Body"]
+- ["P4Bits18BytesInitializable", "makeBody"]
+- !private ["P4Bits18BytesInitializable", "makeBytes"]
+- !private ["P4Bits18BytesRepresentable", "Body"]
+- ["P4Bits18BytesRepresentable", "makeBody"]
+- !private ["P4Bits18BytesRepresentable", "makeBytes"]
+- !private ["Ps9Equatable", "Body"]
+- ["Ps9Equatable", "makeBody"]
+- !private ["Ps9Equatable", "makeBytes"]
+- !private ["Ps25ExpressibleByArrayLiteral", "Body"]
+- !private ["Ps25ExpressibleByArrayLiteral", "data"]
+- !private ["Ps25ExpressibleByArrayLiteral", "init"]
+- ["Ps25ExpressibleByArrayLiteral", "makeBody"]
+- !private ["Ps25ExpressibleByArrayLiteral", "makeBytes"]
+- !private ["Ps27ExpressibleByBooleanLiteral", "Body"]
+- ["Ps27ExpressibleByBooleanLiteral", "makeBody"]
+- !private ["Ps27ExpressibleByBooleanLiteral", "makeBytes"]
+- !private ["Ps30ExpressibleByDictionaryLiteral", "Body"]
+- ["Ps30ExpressibleByDictionaryLiteral", "makeBody"]
+- !private ["Ps30ExpressibleByDictionaryLiteral", "makeBytes"]
+- !private ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "Body"]
+- ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "makeBody"]
+- !private ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "makeBytes"]
+- !private ["Ps25ExpressibleByFloatLiteral", "Body"]
+- ["Ps25ExpressibleByFloatLiteral", "makeBody"]
+- !private ["Ps25ExpressibleByFloatLiteral", "makeBytes"]
+- !private ["Ps27ExpressibleByIntegerLiteral", "Body"]
+- ["Ps27ExpressibleByIntegerLiteral", "makeBody"]
+- !private ["Ps27ExpressibleByIntegerLiteral", "makeBytes"]
+- !private ["Ps23ExpressibleByNilLiteral", "Body"]
+- ["Ps23ExpressibleByNilLiteral", "makeBody"]
+- !private ["Ps23ExpressibleByNilLiteral", "makeBytes"]
+- !private ["Ps26ExpressibleByStringLiteral", "Body"]
+- ["Ps26ExpressibleByStringLiteral", "makeBody"]
+- !private ["Ps26ExpressibleByStringLiteral", "makeBytes"]
+- !private ["Ps33ExpressibleByUnicodeScalarLiteral", "Body"]
+- ["Ps33ExpressibleByUnicodeScalarLiteral", "makeBody"]
+- !private ["Ps33ExpressibleByUnicodeScalarLiteral", "makeBytes"]
+- !private ["P4Node14FuzzyConverter", "Body"]
+- ["P4Node14FuzzyConverter", "makeBody"]
+- !private ["P4Node14FuzzyConverter", "makeBytes"]
+- ["V4JSON4JSON", "Body"]
+- ["V4JSON4JSON", "deinit"]
+- ["V4JSON4JSON", "makeBody"]
+- !private ["V4JSON4JSON", "makeBytes"]
+- !private ["P4JSON17JSONRepresentable", "Body"]
+- ["P4JSON17JSONRepresentable", "makeBody"]
+- !private ["P4JSON17JSONRepresentable", "makeBytes"]
+- !private ["P4Node17NodeInitializable", "Body"]
+- ["P4Node17NodeInitializable", "makeBody"]
+- !private ["P4Node17NodeInitializable", "makeBytes"]
+- !private ["P4Node17NodeRepresentable", "Body"]
+- ["P4Node17NodeRepresentable", "makeBody"]
+- !private ["P4Node17NodeRepresentable", "makeBytes"]
+- !private ["P13PathIndexable13PathIndexable", "Body"]
+- ["P13PathIndexable13PathIndexable", "makeBody"]
+- !private ["P13PathIndexable13PathIndexable", "makeBytes"]
+- !private ["P4HTTP21ResponseRepresentable", "Body"]
+- ["P4HTTP21ResponseRepresentable", "makeBody"]
+- !private ["P4HTTP21ResponseRepresentable", "makeBytes"]
+- !private ["P4Node21StructuredDataWrapper", "Body"]
+- ["P4Node21StructuredDataWrapper", "makeBody"]
+- !private ["P4Node21StructuredDataWrapper", "makeBytes"]
+depends-nominal:
+- "O4HTTP4Body"
+- "P4HTTP17BodyRepresentable"
+- "P4Bits16BytesConvertible"
+- "P4Bits18BytesInitializable"
+- "P4Bits18BytesRepresentable"
+- "Ps9Equatable"
+- "Ps25ExpressibleByArrayLiteral"
+- "Ps27ExpressibleByBooleanLiteral"
+- "Ps30ExpressibleByDictionaryLiteral"
+- "Ps43ExpressibleByExtendedGraphemeClusterLiteral"
+- "Ps25ExpressibleByFloatLiteral"
+- "Ps27ExpressibleByIntegerLiteral"
+- "Ps23ExpressibleByNilLiteral"
+- "Ps26ExpressibleByStringLiteral"
+- "Ps33ExpressibleByUnicodeScalarLiteral"
+- "P4Node14FuzzyConverter"
+- "V4JSON4JSON"
+- "P4JSON17JSONRepresentable"
+- "P4Node17NodeInitializable"
+- "P4Node17NodeRepresentable"
+- "P13PathIndexable13PathIndexable"
+- "P4HTTP21ResponseRepresentable"
+- "P4Node21StructuredDataWrapper"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/ObjectiveC.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Foundation.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreGraphics.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreText.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/ObjectiveC.swiftmodule"
+- "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/debug/URI.swiftmodule"
+- "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/debug/JSON.swiftmodule"
+- "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/debug/SMTP.swiftmodule"
+- "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/debug/HTTP.swiftmodule"
+- "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/debug/TLS.swiftmodule"
+- "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/debug/FormData.swiftmodule"
+- "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/debug/libc.swiftmodule"
+- "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/debug/Node.swiftmodule"
+- "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/debug/Cache.swiftmodule"
+- "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/debug/PathIndexable.swiftmodule"
+- "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/debug/Console.swiftmodule"
+- "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/debug/Core.swiftmodule"
+- "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/debug/Debugging.swiftmodule"
+- "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/debug/Routing.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.swiftmodule"
+- "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/debug/Random.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Foundation.swiftmodule"
+- "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/debug/Crypto.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreGraphics.swiftmodule"
+- "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/debug/Branches.swiftmodule"
+- "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/debug/Cookies.swiftmodule"
+- "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/debug/Configs.swiftmodule"
+- "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/debug/Sessions.swiftmodule"
+- "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/debug/Sockets.swiftmodule"
+- "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/debug/WebSockets.swiftmodule"
+- "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/debug/Bits.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/IOKit.swiftmodule"
+- "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/debug/BCrypt.swiftmodule"
+- "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/debug/Multipart.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/debug/Transport.swiftmodule"
+- "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/checkouts/engine.git-3311994267206676365/Sources/CHTTP/include/http_parser.h"
+- "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/checkouts/ctls.git-9210868160426949823/module.modulemap"
+- "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/debug/CHTTP.build/module.modulemap"
+- "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/debug/CSQLite.build/module.modulemap"
+interface-hash: "f30473418174866fa83b509bcf2a3344"

@@ -1,0 +1,136 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+provides-nominal:
+provides-member:
+- ["Vs5UInt8", ""]
+- ["Vs5UInt8", "A"]
+- ["Vs5UInt8", "B"]
+- ["Vs5UInt8", "C"]
+- ["Vs5UInt8", "D"]
+- ["Vs5UInt8", "E"]
+- ["Vs5UInt8", "F"]
+- ["Vs5UInt8", "G"]
+- ["Vs5UInt8", "H"]
+- ["Vs5UInt8", "I"]
+- ["Vs5UInt8", "J"]
+- ["Vs5UInt8", "K"]
+- ["Vs5UInt8", "L"]
+- ["Vs5UInt8", "M"]
+- ["Vs5UInt8", "N"]
+- ["Vs5UInt8", "O"]
+- ["Vs5UInt8", "P"]
+- ["Vs5UInt8", "Q"]
+- ["Vs5UInt8", "R"]
+- ["Vs5UInt8", "S"]
+- ["Vs5UInt8", "T"]
+- ["Vs5UInt8", "U"]
+- ["Vs5UInt8", "V"]
+- ["Vs5UInt8", "W"]
+- ["Vs5UInt8", "X"]
+- ["Vs5UInt8", "Y"]
+- ["Vs5UInt8", "Z"]
+- ["Vs5UInt8", "a"]
+- ["Vs5UInt8", "b"]
+- ["Vs5UInt8", "c"]
+- ["Vs5UInt8", "d"]
+- ["Vs5UInt8", "e"]
+- ["Vs5UInt8", "f"]
+- ["Vs5UInt8", "g"]
+- ["Vs5UInt8", "h"]
+- ["Vs5UInt8", "i"]
+- ["Vs5UInt8", "j"]
+- ["Vs5UInt8", "k"]
+- ["Vs5UInt8", "l"]
+- ["Vs5UInt8", "m"]
+- ["Vs5UInt8", "n"]
+- ["Vs5UInt8", "o"]
+- ["Vs5UInt8", "p"]
+- ["Vs5UInt8", "q"]
+- ["Vs5UInt8", "r"]
+- ["Vs5UInt8", "s"]
+- ["Vs5UInt8", "t"]
+- ["Vs5UInt8", "u"]
+- ["Vs5UInt8", "v"]
+- ["Vs5UInt8", "w"]
+- ["Vs5UInt8", "x"]
+- ["Vs5UInt8", "y"]
+- ["Vs5UInt8", "z"]
+provides-dynamic-lookup:
+depends-top-level:
+- "Byte"
+- "FloatLiteralType"
+- "IntegerLiteralType"
+depends-member:
+- ["Vs5UInt8", "A"]
+- ["Vs5UInt8", "B"]
+- ["Vs5UInt8", "Byte"]
+- ["Vs5UInt8", "C"]
+- ["Vs5UInt8", "D"]
+- ["Vs5UInt8", "E"]
+- ["Vs5UInt8", "F"]
+- ["Vs5UInt8", "G"]
+- ["Vs5UInt8", "H"]
+- ["Vs5UInt8", "I"]
+- ["Vs5UInt8", "J"]
+- ["Vs5UInt8", "K"]
+- ["Vs5UInt8", "L"]
+- ["Vs5UInt8", "M"]
+- ["Vs5UInt8", "N"]
+- ["Vs5UInt8", "O"]
+- ["Vs5UInt8", "P"]
+- ["Vs5UInt8", "Q"]
+- ["Vs5UInt8", "R"]
+- ["Vs5UInt8", "S"]
+- ["Vs5UInt8", "T"]
+- ["Vs5UInt8", "U"]
+- ["Vs5UInt8", "V"]
+- ["Vs5UInt8", "W"]
+- ["Vs5UInt8", "X"]
+- ["Vs5UInt8", "Y"]
+- ["Vs5UInt8", "Z"]
+- ["Vs5UInt8", "a"]
+- ["Vs5UInt8", "b"]
+- ["Vs5UInt8", "c"]
+- ["Vs5UInt8", "d"]
+- ["Vs5UInt8", "e"]
+- ["Vs5UInt8", "f"]
+- ["Vs5UInt8", "g"]
+- ["Vs5UInt8", "h"]
+- ["Vs5UInt8", "i"]
+- ["Vs5UInt8", "j"]
+- ["Vs5UInt8", "k"]
+- ["Vs5UInt8", "l"]
+- ["Vs5UInt8", "m"]
+- ["Vs5UInt8", "n"]
+- ["Vs5UInt8", "o"]
+- ["Vs5UInt8", "p"]
+- ["Vs5UInt8", "q"]
+- ["Vs5UInt8", "r"]
+- ["Vs5UInt8", "s"]
+- ["Vs5UInt8", "t"]
+- ["Vs5UInt8", "u"]
+- ["Vs5UInt8", "v"]
+- ["Vs5UInt8", "w"]
+- ["Vs5UInt8", "x"]
+- ["Vs5UInt8", "y"]
+- ["Vs5UInt8", "z"]
+depends-nominal:
+- "Vs5UInt8"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/ObjectiveC.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Foundation.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreGraphics.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreText.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/IOKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/debug/CHTTP.build/module.modulemap"
+- "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/debug/CSQLite.build/module.modulemap"
+interface-hash: "017e9356ffd42d0a5daa9b942735b746"

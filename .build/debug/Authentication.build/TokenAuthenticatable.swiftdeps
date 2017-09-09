@@ -1,0 +1,206 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "TokenAuthenticatable"
+provides-nominal:
+- "P14Authentication20TokenAuthenticatable"
+provides-member:
+- ["P14Authentication20TokenAuthenticatable", ""]
+- ["P14Authentication20TokenAuthenticatable", "tokenKey"]
+- ["P14Authentication20TokenAuthenticatable", "authenticate"]
+- ["P14Authentication20TokenAuthenticatable", "authenticate"]
+provides-dynamic-lookup:
+depends-top-level:
+- "Authenticatable"
+- !private "AuthenticationError"
+- "Entity"
+- "String"
+- !private "StringLiteralType"
+- "Token"
+- "TokenAuthenticatable"
+depends-member:
+- !private ["Ps9AnyObject", "filter"]
+- !private ["Ps9AnyObject", "first"]
+- !private ["Ps9AnyObject", "init"]
+- !private ["Ps9AnyObject", "join"]
+- !private ["P14Authentication15Authenticatable", "AuthenticationError"]
+- ["P14Authentication15Authenticatable", "Entity"]
+- ["P14Authentication15Authenticatable", "Self"]
+- ["P14Authentication15Authenticatable", "String"]
+- ["P14Authentication15Authenticatable", "Token"]
+- !private ["P14Authentication15Authenticatable", "TokenType"]
+- ["P14Authentication15Authenticatable", "authenticate"]
+- !private ["P14Authentication15Authenticatable", "makeQuery"]
+- ["P14Authentication15Authenticatable", "tokenKey"]
+- ["P14Authentication15Authenticatable", ""]
+- !private ["O14Authentication19AuthenticationError", "deinit"]
+- !private ["O14Authentication19AuthenticationError", "invalidCredentials"]
+- !private ["P4Bits16BytesConvertible", "init"]
+- !private ["P4Bits18BytesInitializable", "init"]
+- !private ["P4Bits18BytesRepresentable", "init"]
+- !private ["Ps7CVarArg", "init"]
+- !private ["Ps10Comparable", "init"]
+- !private ["P14Authentication11Credentials", "string"]
+- !private ["Ps28CustomDebugStringConvertible", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "invalidCredentials"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "init"]
+- !private ["Ps17CustomReflectable", "init"]
+- !private ["Ps23CustomStringConvertible", "init"]
+- !private ["P9Debugging10Debuggable", "invalidCredentials"]
+- !private ["P6Fluent6Entity", "AuthenticationError"]
+- ["P6Fluent6Entity", "Self"]
+- ["P6Fluent6Entity", "Token"]
+- !private ["P6Fluent6Entity", "TokenType"]
+- !private ["P6Fluent6Entity", "makeQuery"]
+- !private ["P6Fluent6Entity", "tokenKey"]
+- !private ["Ps9Equatable", "init"]
+- !private ["Ps5Error", "invalidCredentials"]
+- !private ["P6Fluent21ExecutorRepresentable", "filter"]
+- !private ["P6Fluent21ExecutorRepresentable", "first"]
+- !private ["P6Fluent21ExecutorRepresentable", "join"]
+- !private ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "init"]
+- !private ["Ps26ExpressibleByStringLiteral", "init"]
+- !private ["Ps33ExpressibleByUnicodeScalarLiteral", "init"]
+- !private ["Ps8Hashable", "init"]
+- !private ["Ps25LosslessStringConvertible", "init"]
+- !private ["Ps10MirrorPath", "init"]
+- !private ["PSo8NSCoding", "init"]
+- !private ["PSo9NSCopying", "init"]
+- !private ["PSo16NSMutableCopying", "init"]
+- !private ["PSo16NSObjectProtocol", "init"]
+- !private ["PSo14NSSecureCoding", "init"]
+- !private ["CSo8NSString", "init"]
+- !private ["P4Node17NodeInitializable", "init"]
+- !private ["P4Node17NodeRepresentable", "init"]
+- !private ["P13PathIndexable11PathIndexer", "init"]
+- !private ["C6Fluent5Query", "filter"]
+- !private ["C6Fluent5Query", "first"]
+- !private ["C6Fluent5Query", "join"]
+- !private ["P6Fluent18QueryRepresentable", "filter"]
+- !private ["P6Fluent18QueryRepresentable", "first"]
+- !private ["P6Fluent18QueryRepresentable", "join"]
+- !private ["P6Fluent14RowConvertible", "AuthenticationError"]
+- ["P6Fluent14RowConvertible", "Self"]
+- ["P6Fluent14RowConvertible", "Token"]
+- !private ["P6Fluent14RowConvertible", "TokenType"]
+- !private ["P6Fluent14RowConvertible", "makeQuery"]
+- !private ["P6Fluent14RowConvertible", "tokenKey"]
+- !private ["P6Fluent16RowInitializable", "AuthenticationError"]
+- ["P6Fluent16RowInitializable", "Self"]
+- ["P6Fluent16RowInitializable", "Token"]
+- !private ["P6Fluent16RowInitializable", "TokenType"]
+- !private ["P6Fluent16RowInitializable", "makeQuery"]
+- !private ["P6Fluent16RowInitializable", "tokenKey"]
+- !private ["P6Fluent16RowRepresentable", "AuthenticationError"]
+- ["P6Fluent16RowRepresentable", "Self"]
+- ["P6Fluent16RowRepresentable", "Token"]
+- !private ["P6Fluent16RowRepresentable", "TokenType"]
+- !private ["P6Fluent16RowRepresentable", "makeQuery"]
+- !private ["P6Fluent16RowRepresentable", "tokenKey"]
+- !private ["P6Fluent8Storable", "AuthenticationError"]
+- ["P6Fluent8Storable", "Self"]
+- ["P6Fluent8Storable", "Token"]
+- !private ["P6Fluent8Storable", "TokenType"]
+- !private ["P6Fluent8Storable", "makeQuery"]
+- !private ["P6Fluent8Storable", "tokenKey"]
+- !private ["SS", "init"]
+- !private ["Ps16TextOutputStream", "init"]
+- !private ["Ps20TextOutputStreamable", "init"]
+- !private ["V14Authentication5Token", "string"]
+- !private ["P14Authentication20TokenAuthenticatable", "AuthenticationError"]
+- ["P14Authentication20TokenAuthenticatable", "Entity"]
+- ["P14Authentication20TokenAuthenticatable", "Self"]
+- ["P14Authentication20TokenAuthenticatable", "String"]
+- ["P14Authentication20TokenAuthenticatable", "Token"]
+- ["P14Authentication20TokenAuthenticatable", "TokenType"]
+- ["P14Authentication20TokenAuthenticatable", "authenticate"]
+- !private ["P14Authentication20TokenAuthenticatable", "makeQuery"]
+- ["P14Authentication20TokenAuthenticatable", "tokenKey"]
+- !private ["Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral", "init"]
+- !private ["Ps34_ExpressibleByBuiltinStringLiteral", "init"]
+- !private ["Ps39_ExpressibleByBuiltinUTF16StringLiteral", "init"]
+- !private ["Ps41_ExpressibleByBuiltinUnicodeScalarLiteral", "init"]
+- !private ["Ps33_ExpressibleByStringInterpolation", "init"]
+- !private ["Ps35_HasCustomAnyHashableRepresentation", "init"]
+- !private ["Ps9_Hashable", "init"]
+- !private ["Ps21_ObjectiveCBridgeable", "init"]
+depends-nominal:
+- !private "Ps9AnyObject"
+- "P14Authentication15Authenticatable"
+- !private "O14Authentication19AuthenticationError"
+- !private "P4Bits16BytesConvertible"
+- !private "P4Bits18BytesInitializable"
+- !private "P4Bits18BytesRepresentable"
+- !private "Ps7CVarArg"
+- !private "Ps10Comparable"
+- !private "P14Authentication11Credentials"
+- !private "Ps28CustomDebugStringConvertible"
+- !private "Ps29CustomPlaygroundQuickLookable"
+- !private "Ps17CustomReflectable"
+- !private "Ps23CustomStringConvertible"
+- !private "P9Debugging10Debuggable"
+- "P6Fluent6Entity"
+- !private "Ps9Equatable"
+- !private "Ps5Error"
+- !private "P6Fluent21ExecutorRepresentable"
+- !private "Ps43ExpressibleByExtendedGraphemeClusterLiteral"
+- !private "Ps26ExpressibleByStringLiteral"
+- !private "Ps33ExpressibleByUnicodeScalarLiteral"
+- !private "Ps8Hashable"
+- !private "Ps25LosslessStringConvertible"
+- !private "Ps10MirrorPath"
+- !private "PSo8NSCoding"
+- !private "PSo9NSCopying"
+- !private "PSo16NSMutableCopying"
+- !private "PSo16NSObjectProtocol"
+- !private "PSo14NSSecureCoding"
+- !private "CSo8NSString"
+- !private "P4Node17NodeInitializable"
+- !private "P4Node17NodeRepresentable"
+- !private "P13PathIndexable11PathIndexer"
+- !private "C6Fluent5Query"
+- !private "P6Fluent18QueryRepresentable"
+- "P6Fluent14RowConvertible"
+- "P6Fluent16RowInitializable"
+- "P6Fluent16RowRepresentable"
+- "P6Fluent8Storable"
+- !private "SS"
+- !private "Ps16TextOutputStream"
+- !private "Ps20TextOutputStreamable"
+- !private "V14Authentication5Token"
+- "P14Authentication20TokenAuthenticatable"
+- !private "Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral"
+- !private "Ps34_ExpressibleByBuiltinStringLiteral"
+- !private "Ps39_ExpressibleByBuiltinUTF16StringLiteral"
+- !private "Ps41_ExpressibleByBuiltinUnicodeScalarLiteral"
+- !private "Ps33_ExpressibleByStringInterpolation"
+- !private "Ps35_HasCustomAnyHashableRepresentation"
+- !private "Ps9_Hashable"
+- !private "Ps21_ObjectiveCBridgeable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/ObjectiveC.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Foundation.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreGraphics.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreText.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/ObjectiveC.swiftmodule"
+- "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/debug/libc.swiftmodule"
+- "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/debug/Node.swiftmodule"
+- "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/debug/PathIndexable.swiftmodule"
+- "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/debug/Core.swiftmodule"
+- "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/debug/SQLite.swiftmodule"
+- "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/debug/Debugging.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.swiftmodule"
+- "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/debug/Random.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreGraphics.swiftmodule"
+- "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/debug/Bits.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/IOKit.swiftmodule"
+- "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/debug/Fluent.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/checkouts/sqlite.git--8232814251736334455/Sources/CSQLite/include/sqlite3.h"
+- "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/debug/CHTTP.build/module.modulemap"
+- "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/debug/CSQLite.build/module.modulemap"
+interface-hash: "94aff708b4e6e79159868312dbc56a6c"

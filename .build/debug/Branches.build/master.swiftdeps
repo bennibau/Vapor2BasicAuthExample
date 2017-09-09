@@ -1,0 +1,7 @@
+version: "Apple Swift version 3.1 (swiftlang-802.0.53 clang-802.0.42)"
+options: "5a1b14cb1a6df79991ab52af4cf5c6d6"
+build_time: [558250018, 996537000]
+inputs:
+  "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/checkouts/routing.git-5366657101075133678/Sources/Branches/Branch+Paths.swift": [557941170, 0]
+  "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/checkouts/routing.git-5366657101075133678/Sources/Branches/Branch.swift": [557941170, 0]
+  "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/checkouts/routing.git-5366657101075133678/Sources/Branches/SubBranchMap.swift": [557941170, 0]

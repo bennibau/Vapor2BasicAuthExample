@@ -1,0 +1,144 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "Database"
+provides-nominal:
+- "C6Fluent8Database"
+provides-member:
+- ["C6Fluent8Database", ""]
+- ["C6Fluent8Database", "queryLogger"]
+- ["C6Fluent8Database", "query"]
+provides-dynamic-lookup:
+depends-top-level:
+- "AssignmentPrecedence"
+- "Database"
+- "Driver"
+- "Executor"
+- "FloatLiteralType"
+- "IdentifierType"
+- "Int"
+- "IntegerLiteralType"
+- "KeyNamingConvention"
+- "Node"
+- "Query"
+- "QueryLog"
+- "QueryLogger"
+- "RawOr"
+- "String"
+- "ThreadConnectionPool"
+depends-member:
+- !private ["Ps9AnyObject", "QueryLog"]
+- !private ["Ps9AnyObject", "ThreadConnectionPool"]
+- !private ["Ps9AnyObject", "driver"]
+- !private ["Ps9AnyObject", "idKey"]
+- !private ["Ps9AnyObject", "idType"]
+- !private ["Ps9AnyObject", "init"]
+- !private ["Ps9AnyObject", "keyNamingConvention"]
+- ["Ps9AnyObject", "log"]
+- ["Ps9AnyObject", "query"]
+- ["Ps9AnyObject", "queryLogger"]
+- !private ["Ps9AnyObject", "threadConnectionPool"]
+- ["Ps9AnyObject", ""]
+- !private ["Ps23CustomStringConvertible", "init"]
+- ["C6Fluent8Database", "Database"]
+- ["C6Fluent8Database", "Driver"]
+- ["C6Fluent8Database", "IdentifierType"]
+- ["C6Fluent8Database", "Int"]
+- ["C6Fluent8Database", "KeyNamingConvention"]
+- ["C6Fluent8Database", "Node"]
+- ["C6Fluent8Database", "Query"]
+- ["C6Fluent8Database", "QueryLog"]
+- ["C6Fluent8Database", "QueryLogCallback"]
+- ["C6Fluent8Database", "QueryLogger"]
+- ["C6Fluent8Database", "RawOr"]
+- ["C6Fluent8Database", "String"]
+- ["C6Fluent8Database", "ThreadConnectionPool"]
+- ["C6Fluent8Database", "default"]
+- ["C6Fluent8Database", "deinit"]
+- ["C6Fluent8Database", "driver"]
+- ["C6Fluent8Database", "idKey"]
+- ["C6Fluent8Database", "idType"]
+- ["C6Fluent8Database", "init"]
+- ["C6Fluent8Database", "keyNamingConvention"]
+- ["C6Fluent8Database", "log"]
+- ["C6Fluent8Database", "map"]
+- ["C6Fluent8Database", "query"]
+- ["C6Fluent8Database", "queryLogger"]
+- ["C6Fluent8Database", "threadConnectionPool"]
+- !private ["P6Fluent6Driver", "idKey"]
+- !private ["P6Fluent6Driver", "idType"]
+- !private ["P6Fluent6Driver", "keyNamingConvention"]
+- !private ["P6Fluent6Driver", "queryLogger"]
+- !private ["P6Fluent8Executor", "QueryLog"]
+- !private ["P6Fluent8Executor", "ThreadConnectionPool"]
+- !private ["P6Fluent8Executor", "driver"]
+- !private ["P6Fluent8Executor", "idKey"]
+- !private ["P6Fluent8Executor", "idType"]
+- !private ["P6Fluent8Executor", "init"]
+- !private ["P6Fluent8Executor", "keyNamingConvention"]
+- ["P6Fluent8Executor", "log"]
+- ["P6Fluent8Executor", "query"]
+- ["P6Fluent8Executor", "queryLogger"]
+- !private ["P6Fluent8Executor", "threadConnectionPool"]
+- ["P6Fluent8Executor", ""]
+- !private ["V6Fluent8QueryLog", "init"]
+- !private ["P6Fluent11QueryLogger", "QueryLog"]
+- !private ["P6Fluent11QueryLogger", "ThreadConnectionPool"]
+- !private ["P6Fluent11QueryLogger", "driver"]
+- !private ["P6Fluent11QueryLogger", "idKey"]
+- !private ["P6Fluent11QueryLogger", "idType"]
+- !private ["P6Fluent11QueryLogger", "keyNamingConvention"]
+- ["P6Fluent11QueryLogger", "log"]
+- ["P6Fluent11QueryLogger", "query"]
+- ["P6Fluent11QueryLogger", "queryLogger"]
+- !private ["P6Fluent11QueryLogger", "threadConnectionPool"]
+- ["P6Fluent11QueryLogger", ""]
+- !private ["C6Fluent20ThreadConnectionPool", "deinit"]
+- !private ["C6Fluent20ThreadConnectionPool", "init"]
+- !private ["C6Fluent20ThreadConnectionPool", "query"]
+- !private ["P6Fluent12Transactable", "QueryLog"]
+- !private ["P6Fluent12Transactable", "ThreadConnectionPool"]
+- !private ["P6Fluent12Transactable", "driver"]
+- !private ["P6Fluent12Transactable", "idKey"]
+- !private ["P6Fluent12Transactable", "idType"]
+- !private ["P6Fluent12Transactable", "keyNamingConvention"]
+- ["P6Fluent12Transactable", "log"]
+- ["P6Fluent12Transactable", "query"]
+- ["P6Fluent12Transactable", "queryLogger"]
+- !private ["P6Fluent12Transactable", "threadConnectionPool"]
+depends-nominal:
+- "Ps9AnyObject"
+- !private "Ps23CustomStringConvertible"
+- "C6Fluent8Database"
+- !private "P6Fluent6Driver"
+- "P6Fluent8Executor"
+- !private "V6Fluent8QueryLog"
+- "P6Fluent11QueryLogger"
+- !private "C6Fluent20ThreadConnectionPool"
+- "P6Fluent12Transactable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/ObjectiveC.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Foundation.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreGraphics.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreText.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/ObjectiveC.swiftmodule"
+- "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/debug/libc.swiftmodule"
+- "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/debug/Node.swiftmodule"
+- "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/debug/PathIndexable.swiftmodule"
+- "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/debug/Core.swiftmodule"
+- "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/debug/SQLite.swiftmodule"
+- "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/debug/Debugging.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.swiftmodule"
+- "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/debug/Random.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreGraphics.swiftmodule"
+- "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/debug/Bits.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/IOKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/checkouts/sqlite.git--8232814251736334455/Sources/CSQLite/include/sqlite3.h"
+- "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/debug/CHTTP.build/module.modulemap"
+- "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/debug/CSQLite.build/module.modulemap"
+interface-hash: "e4d835d6796dc40fa5828db1b3e578aa"

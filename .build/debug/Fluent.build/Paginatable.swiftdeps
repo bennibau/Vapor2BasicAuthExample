@@ -1,0 +1,126 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "Paginatable"
+- "defaultPageSize"
+provides-nominal:
+- "P6Fluent11Paginatable"
+provides-member:
+- ["P6Fluent11Paginatable", ""]
+- ["P6Fluent11Paginatable", "defaultPageSize"]
+- ["P6Fluent11Paginatable", "maxPageSize"]
+- ["P6Fluent11Paginatable", "defaultPageSorts"]
+provides-dynamic-lookup:
+depends-top-level:
+- "Entity"
+- "FloatLiteralType"
+- !private "Fluent"
+- "Int"
+- "IntegerLiteralType"
+- "Paginatable"
+- "Sort"
+- "Timestampable"
+- "defaultPageSize"
+depends-member:
+- !private ["OV6Fluent4Sort9Direction", "descending"]
+- !private ["P6Fluent6Entity", "Fluent"]
+- ["P6Fluent6Entity", "Int"]
+- !private ["P6Fluent6Entity", "Self"]
+- ["P6Fluent6Entity", "Sort"]
+- ["P6Fluent6Entity", "Timestampable"]
+- !private ["P6Fluent6Entity", "createdAtKey"]
+- ["P6Fluent6Entity", "defaultPageSize"]
+- ["P6Fluent6Entity", "defaultPageSorts"]
+- ["P6Fluent6Entity", "maxPageSize"]
+- ["P6Fluent6Entity", ""]
+- !private ["Ps9Equatable", "descending"]
+- !private ["Ps8Hashable", "descending"]
+- !private ["P6Fluent11Paginatable", "Fluent"]
+- ["P6Fluent11Paginatable", "Int"]
+- !private ["P6Fluent11Paginatable", "Self"]
+- ["P6Fluent11Paginatable", "Sort"]
+- ["P6Fluent11Paginatable", "Timestampable"]
+- !private ["P6Fluent11Paginatable", "createdAtKey"]
+- ["P6Fluent11Paginatable", "defaultPageSize"]
+- ["P6Fluent11Paginatable", "defaultPageSorts"]
+- ["P6Fluent11Paginatable", "maxPageSize"]
+- !private ["P6Fluent14RowConvertible", "Fluent"]
+- ["P6Fluent14RowConvertible", "Int"]
+- !private ["P6Fluent14RowConvertible", "Self"]
+- ["P6Fluent14RowConvertible", "Sort"]
+- ["P6Fluent14RowConvertible", "Timestampable"]
+- !private ["P6Fluent14RowConvertible", "createdAtKey"]
+- ["P6Fluent14RowConvertible", "defaultPageSize"]
+- ["P6Fluent14RowConvertible", "defaultPageSorts"]
+- ["P6Fluent14RowConvertible", "maxPageSize"]
+- !private ["P6Fluent16RowInitializable", "Fluent"]
+- ["P6Fluent16RowInitializable", "Int"]
+- !private ["P6Fluent16RowInitializable", "Self"]
+- ["P6Fluent16RowInitializable", "Sort"]
+- ["P6Fluent16RowInitializable", "Timestampable"]
+- !private ["P6Fluent16RowInitializable", "createdAtKey"]
+- ["P6Fluent16RowInitializable", "defaultPageSize"]
+- ["P6Fluent16RowInitializable", "defaultPageSorts"]
+- ["P6Fluent16RowInitializable", "maxPageSize"]
+- !private ["P6Fluent16RowRepresentable", "Fluent"]
+- ["P6Fluent16RowRepresentable", "Int"]
+- !private ["P6Fluent16RowRepresentable", "Self"]
+- ["P6Fluent16RowRepresentable", "Sort"]
+- ["P6Fluent16RowRepresentable", "Timestampable"]
+- !private ["P6Fluent16RowRepresentable", "createdAtKey"]
+- ["P6Fluent16RowRepresentable", "defaultPageSize"]
+- ["P6Fluent16RowRepresentable", "defaultPageSorts"]
+- ["P6Fluent16RowRepresentable", "maxPageSize"]
+- !private ["V6Fluent4Sort", "init"]
+- !private ["P6Fluent8Storable", "Fluent"]
+- ["P6Fluent8Storable", "Int"]
+- !private ["P6Fluent8Storable", "Self"]
+- ["P6Fluent8Storable", "Sort"]
+- ["P6Fluent8Storable", "Timestampable"]
+- !private ["P6Fluent8Storable", "createdAtKey"]
+- ["P6Fluent8Storable", "defaultPageSize"]
+- ["P6Fluent8Storable", "defaultPageSorts"]
+- ["P6Fluent8Storable", "maxPageSize"]
+- !private ["P6Fluent13Timestampable", "Self"]
+- ["P6Fluent13Timestampable", "Sort"]
+- !private ["P6Fluent13Timestampable", "createdAtKey"]
+- !private ["Ps9_Hashable", "descending"]
+depends-nominal:
+- !private "OV6Fluent4Sort9Direction"
+- "P6Fluent6Entity"
+- !private "Ps9Equatable"
+- !private "Ps8Hashable"
+- "P6Fluent11Paginatable"
+- "P6Fluent14RowConvertible"
+- "P6Fluent16RowInitializable"
+- "P6Fluent16RowRepresentable"
+- !private "V6Fluent4Sort"
+- "P6Fluent8Storable"
+- "P6Fluent13Timestampable"
+- !private "Ps9_Hashable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/ObjectiveC.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Foundation.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreGraphics.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreText.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/ObjectiveC.swiftmodule"
+- "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/debug/libc.swiftmodule"
+- "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/debug/Node.swiftmodule"
+- "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/debug/PathIndexable.swiftmodule"
+- "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/debug/Core.swiftmodule"
+- "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/debug/SQLite.swiftmodule"
+- "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/debug/Debugging.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.swiftmodule"
+- "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/debug/Random.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreGraphics.swiftmodule"
+- "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/debug/Bits.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/IOKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/checkouts/sqlite.git--8232814251736334455/Sources/CSQLite/include/sqlite3.h"
+- "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/debug/CHTTP.build/module.modulemap"
+- "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/debug/CSQLite.build/module.modulemap"
+interface-hash: "e8d37c50d5da31f46aa64e92f5188b0e"

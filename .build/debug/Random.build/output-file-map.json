@@ -1,0 +1,41 @@
+{
+  "": {
+    "swift-dependencies": "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/debug/Random.build/master.swiftdeps"
+  },
+  "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/checkouts/random.git--3118593962244350674/Sources/Random/Array+Random.swift": {
+    "dependencies": "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/debug/Random.build/Array+Random.d",
+    "object": "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/debug/Random.build/Array+Random.swift.o",
+    "swiftmodule": "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/debug/Random.build/Array+Random~partial.swiftmodule",
+    "swift-dependencies": "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/debug/Random.build/Array+Random.swiftdeps"
+  },
+  "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/checkouts/random.git--3118593962244350674/Sources/Random/EmptyInitializable.swift": {
+    "dependencies": "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/debug/Random.build/EmptyInitializable.d",
+    "object": "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/debug/Random.build/EmptyInitializable.swift.o",
+    "swiftmodule": "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/debug/Random.build/EmptyInitializable~partial.swiftmodule",
+    "swift-dependencies": "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/debug/Random.build/EmptyInitializable.swiftdeps"
+  },
+  "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/checkouts/random.git--3118593962244350674/Sources/Random/Exports.swift": {
+    "dependencies": "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/debug/Random.build/Exports.d",
+    "object": "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/debug/Random.build/Exports.swift.o",
+    "swiftmodule": "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/debug/Random.build/Exports~partial.swiftmodule",
+    "swift-dependencies": "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/debug/Random.build/Exports.swiftdeps"
+  },
+  "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/checkouts/random.git--3118593962244350674/Sources/Random/OSRandom.swift": {
+    "dependencies": "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/debug/Random.build/OSRandom.d",
+    "object": "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/debug/Random.build/OSRandom.swift.o",
+    "swiftmodule": "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/debug/Random.build/OSRandom~partial.swiftmodule",
+    "swift-dependencies": "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/debug/Random.build/OSRandom.swiftdeps"
+  },
+  "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/checkouts/random.git--3118593962244350674/Sources/Random/RandomProtocol.swift": {
+    "dependencies": "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/debug/Random.build/RandomProtocol.d",
+    "object": "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/debug/Random.build/RandomProtocol.swift.o",
+    "swiftmodule": "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/debug/Random.build/RandomProtocol~partial.swiftmodule",
+    "swift-dependencies": "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/debug/Random.build/RandomProtocol.swiftdeps"
+  },
+  "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/checkouts/random.git--3118593962244350674/Sources/Random/URandom.swift": {
+    "dependencies": "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/debug/Random.build/URandom.d",
+    "object": "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/debug/Random.build/URandom.swift.o",
+    "swiftmodule": "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/debug/Random.build/URandom~partial.swiftmodule",
+    "swift-dependencies": "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/debug/Random.build/URandom.swiftdeps"
+  }
+}

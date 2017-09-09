@@ -1,0 +1,380 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "CContext"
+- "CMethod"
+- "CSSL"
+- "Context"
+provides-nominal:
+- "C3TLS7Context"
+provides-member:
+- ["C3TLS7Context", ""]
+- ["C3TLS7Context", "loadSignature"]
+- ["C3TLS7Context", "loadCertificates"]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "!"
+- !private "=="
+- !private "??"
+- "AssignmentPrecedence"
+- !private "BIO_new_mem_buf"
+- "Bool"
+- "BooleanLiteralType"
+- "CContext"
+- "CMethod"
+- "CSSL"
+- "Certificates"
+- "Context"
+- !private "FloatLiteralType"
+- !private "Int32"
+- !private "IntegerLiteralType"
+- "Mode"
+- "OPENSSL_add_all_algorithms_conf"
+- "OPENSSL_config"
+- !private "PEM_read_bio_PrivateKey"
+- !private "PEM_read_bio_X509"
+- "SSL"
+- !private "SSL_CTRL_MODE"
+- !private "SSL_CTRL_OPTIONS"
+- "SSL_CTX"
+- !private "SSL_CTX_check_private_key"
+- !private "SSL_CTX_ctrl"
+- !private "SSL_CTX_free"
+- !private "SSL_CTX_load_verify_locations"
+- !private "SSL_CTX_new"
+- !private "SSL_CTX_set_cipher_list"
+- !private "SSL_CTX_set_verify"
+- !private "SSL_CTX_use_PrivateKey"
+- !private "SSL_CTX_use_PrivateKey_file"
+- !private "SSL_CTX_use_certificate"
+- !private "SSL_CTX_use_certificate_chain_file"
+- !private "SSL_CTX_use_certificate_file"
+- !private "SSL_FILETYPE_PEM"
+- "SSL_METHOD"
+- !private "SSL_MODE_AUTO_RETRY"
+- !private "SSL_OP_NO_COMPRESSION"
+- !private "SSL_OP_NO_SSLv2"
+- !private "SSL_OP_NO_SSLv3"
+- !private "SSL_VERIFY_NONE"
+- "SSL_library_init"
+- "SSL_load_error_strings"
+- !private "SSLv23_client_method"
+- !private "SSLv23_server_method"
+- "String"
+- !private "StringLiteralType"
+- !private "TLSError"
+- "UnsafeMutablePointer"
+- "UnsafePointer"
+- !private "fatalError"
+- !private "|"
+- !private "||"
+depends-member:
+- !private ["Ps9AnyObject", "BIO_new_mem_buf"]
+- !private ["Ps9AnyObject", "Context"]
+- !private ["Ps9AnyObject", "Int32"]
+- ["Ps9AnyObject", "OPENSSL_add_all_algorithms_conf"]
+- ["Ps9AnyObject", "OPENSSL_config"]
+- !private ["Ps9AnyObject", "PEM_read_bio_PrivateKey"]
+- !private ["Ps9AnyObject", "PEM_read_bio_X509"]
+- !private ["Ps9AnyObject", "SSL_CTRL_MODE"]
+- !private ["Ps9AnyObject", "SSL_CTRL_OPTIONS"]
+- !private ["Ps9AnyObject", "SSL_CTX_check_private_key"]
+- !private ["Ps9AnyObject", "SSL_CTX_ctrl"]
+- !private ["Ps9AnyObject", "SSL_CTX_free"]
+- !private ["Ps9AnyObject", "SSL_CTX_load_verify_locations"]
+- !private ["Ps9AnyObject", "SSL_CTX_new"]
+- !private ["Ps9AnyObject", "SSL_CTX_set_cipher_list"]
+- !private ["Ps9AnyObject", "SSL_CTX_set_verify"]
+- !private ["Ps9AnyObject", "SSL_CTX_use_PrivateKey"]
+- !private ["Ps9AnyObject", "SSL_CTX_use_PrivateKey_file"]
+- !private ["Ps9AnyObject", "SSL_CTX_use_certificate"]
+- !private ["Ps9AnyObject", "SSL_CTX_use_certificate_chain_file"]
+- !private ["Ps9AnyObject", "SSL_CTX_use_certificate_file"]
+- !private ["Ps9AnyObject", "SSL_FILETYPE_PEM"]
+- !private ["Ps9AnyObject", "SSL_MODE_AUTO_RETRY"]
+- !private ["Ps9AnyObject", "SSL_OP_NO_COMPRESSION"]
+- !private ["Ps9AnyObject", "SSL_OP_NO_SSLv2"]
+- !private ["Ps9AnyObject", "SSL_OP_NO_SSLv3"]
+- !private ["Ps9AnyObject", "SSL_VERIFY_NONE"]
+- ["Ps9AnyObject", "SSL_library_init"]
+- ["Ps9AnyObject", "SSL_load_error_strings"]
+- !private ["Ps9AnyObject", "SSLv23_client_method"]
+- !private ["Ps9AnyObject", "SSLv23_server_method"]
+- !private ["Ps9AnyObject", "TLSError"]
+- !private ["Ps9AnyObject", "assert"]
+- !private ["Ps9AnyObject", "cContext"]
+- !private ["Ps9AnyObject", "certificates"]
+- !private ["Ps9AnyObject", "fatalError"]
+- !private ["Ps9AnyObject", "init"]
+- !private ["Ps9AnyObject", "isGloballyInitialized"]
+- !private ["Ps9AnyObject", "loadCertificates"]
+- !private ["Ps9AnyObject", "loadSignature"]
+- !private ["Ps9AnyObject", "makeError"]
+- !private ["Ps9AnyObject", "mode"]
+- !private ["Ps9AnyObject", "verifyCertificates"]
+- !private ["Ps9AnyObject", "verifyHost"]
+- ["Ps9AnyObject", ""]
+- !private ["Sa", "count"]
+- !private ["Ps23BidirectionalCollection", "count"]
+- !private ["Ps17BitwiseOperations", "init"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["P4Bits16BytesConvertible", "init"]
+- !private ["P4Bits18BytesInitializable", "init"]
+- !private ["P4Bits18BytesRepresentable", "init"]
+- !private ["Ps7CVarArg", "count"]
+- !private ["Ps7CVarArg", "init"]
+- ["O3TLS12Certificates", "Signature"]
+- !private ["O3TLS12Certificates", "areSelfSigned"]
+- ["O3TLS12Certificates", "bytes"]
+- ["O3TLS12Certificates", "certificateAuthority"]
+- ["O3TLS12Certificates", "chain"]
+- !private ["O3TLS12Certificates", "defaults"]
+- ["O3TLS12Certificates", "files"]
+- ["O3TLS12Certificates", "none"]
+- !private ["Ps10Collection", "count"]
+- !private ["Ps10Comparable", "init"]
+- !private ["C3TLS7Context", "BIO_new_mem_buf"]
+- ["C3TLS7Context", "Bool"]
+- ["C3TLS7Context", "CContext"]
+- !private ["C3TLS7Context", "CMethod"]
+- ["C3TLS7Context", "Certificates"]
+- !private ["C3TLS7Context", "Context"]
+- !private ["C3TLS7Context", "Int32"]
+- ["C3TLS7Context", "Mode"]
+- ["C3TLS7Context", "OPENSSL_add_all_algorithms_conf"]
+- ["C3TLS7Context", "OPENSSL_config"]
+- !private ["C3TLS7Context", "PEM_read_bio_PrivateKey"]
+- !private ["C3TLS7Context", "PEM_read_bio_X509"]
+- !private ["C3TLS7Context", "SSL_CTRL_MODE"]
+- !private ["C3TLS7Context", "SSL_CTRL_OPTIONS"]
+- !private ["C3TLS7Context", "SSL_CTX_check_private_key"]
+- !private ["C3TLS7Context", "SSL_CTX_ctrl"]
+- !private ["C3TLS7Context", "SSL_CTX_free"]
+- !private ["C3TLS7Context", "SSL_CTX_load_verify_locations"]
+- !private ["C3TLS7Context", "SSL_CTX_new"]
+- !private ["C3TLS7Context", "SSL_CTX_set_cipher_list"]
+- !private ["C3TLS7Context", "SSL_CTX_set_verify"]
+- !private ["C3TLS7Context", "SSL_CTX_use_PrivateKey"]
+- !private ["C3TLS7Context", "SSL_CTX_use_PrivateKey_file"]
+- !private ["C3TLS7Context", "SSL_CTX_use_certificate"]
+- !private ["C3TLS7Context", "SSL_CTX_use_certificate_chain_file"]
+- !private ["C3TLS7Context", "SSL_CTX_use_certificate_file"]
+- !private ["C3TLS7Context", "SSL_FILETYPE_PEM"]
+- !private ["C3TLS7Context", "SSL_MODE_AUTO_RETRY"]
+- !private ["C3TLS7Context", "SSL_OP_NO_COMPRESSION"]
+- !private ["C3TLS7Context", "SSL_OP_NO_SSLv2"]
+- !private ["C3TLS7Context", "SSL_OP_NO_SSLv3"]
+- !private ["C3TLS7Context", "SSL_VERIFY_NONE"]
+- ["C3TLS7Context", "SSL_library_init"]
+- ["C3TLS7Context", "SSL_load_error_strings"]
+- !private ["C3TLS7Context", "SSLv23_client_method"]
+- !private ["C3TLS7Context", "SSLv23_server_method"]
+- ["C3TLS7Context", "String"]
+- !private ["C3TLS7Context", "TLSError"]
+- !private ["C3TLS7Context", "assert"]
+- ["C3TLS7Context", "cContext"]
+- ["C3TLS7Context", "certificates"]
+- ["C3TLS7Context", "deinit"]
+- !private ["C3TLS7Context", "fatalError"]
+- ["C3TLS7Context", "init"]
+- !private ["C3TLS7Context", "isGloballyInitialized"]
+- ["C3TLS7Context", "loadCertificates"]
+- ["C3TLS7Context", "loadSignature"]
+- !private ["C3TLS7Context", "makeError"]
+- ["C3TLS7Context", "mode"]
+- ["C3TLS7Context", "verifyCertificates"]
+- ["C3TLS7Context", "verifyHost"]
+- !private ["Ps28CustomDebugStringConvertible", "client"]
+- !private ["Ps28CustomDebugStringConvertible", "count"]
+- !private ["Ps28CustomDebugStringConvertible", "init"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "_getBuiltinLogicValue"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "init"]
+- !private ["Ps17CustomReflectable", "_getBuiltinLogicValue"]
+- !private ["Ps17CustomReflectable", "client"]
+- !private ["Ps17CustomReflectable", "count"]
+- !private ["Ps17CustomReflectable", "init"]
+- !private ["Ps23CustomStringConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps23CustomStringConvertible", "count"]
+- !private ["Ps23CustomStringConvertible", "init"]
+- !private ["P9Debugging10Debuggable", "init"]
+- !private ["Ps9Equatable", "_getBuiltinLogicValue"]
+- ["Ps9Equatable", "client"]
+- !private ["Ps9Equatable", "init"]
+- ["Ps9Equatable", "server"]
+- !private ["Ps5Error", "init"]
+- !private ["Ps25ExpressibleByArrayLiteral", "count"]
+- !private ["Ps27ExpressibleByBooleanLiteral", "_getBuiltinLogicValue"]
+- !private ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "init"]
+- !private ["Ps27ExpressibleByIntegerLiteral", "init"]
+- !private ["Ps23ExpressibleByNilLiteral", "client"]
+- !private ["Ps26ExpressibleByStringLiteral", "init"]
+- !private ["Ps33ExpressibleByUnicodeScalarLiteral", "init"]
+- !private ["Ps8Hashable", "_getBuiltinLogicValue"]
+- ["Ps8Hashable", "client"]
+- !private ["Ps8Hashable", "init"]
+- ["Ps8Hashable", "server"]
+- !private ["Vs5Int32", "init"]
+- !private ["Ps7Integer", "init"]
+- !private ["Ps17IntegerArithmetic", "init"]
+- !private ["Ps25LosslessStringConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps25LosslessStringConvertible", "init"]
+- !private ["Ps10MirrorPath", "init"]
+- ["O3TLS4Mode", "client"]
+- !private ["O3TLS4Mode", "deinit"]
+- ["O3TLS4Mode", "server"]
+- !private ["Ps17MutableCollection", "count"]
+- !private ["PSo8NSCoding", "init"]
+- !private ["PSo9NSCopying", "init"]
+- !private ["PSo16NSMutableCopying", "init"]
+- !private ["PSo16NSObjectProtocol", "init"]
+- !private ["PSo14NSSecureCoding", "init"]
+- !private ["CSo8NSString", "init"]
+- !private ["Sq", "client"]
+- !private ["Ps22RandomAccessCollection", "count"]
+- !private ["Ps26RangeReplaceableCollection", "count"]
+- !private ["Ps8Sequence", "count"]
+- ["OO3TLS12Certificates9Signature", "selfSigned"]
+- ["OO3TLS12Certificates9Signature", "signedDirectory"]
+- ["OO3TLS12Certificates9Signature", "signedFile"]
+- !private ["Ps13SignedInteger", "init"]
+- !private ["Ps12SignedNumber", "init"]
+- !private ["Vs12StaticString", "init"]
+- !private ["Ps10Strideable", "init"]
+- !private ["SS", "init"]
+- !private ["V3TLS8TLSError", "deinit"]
+- !private ["V3TLS8TLSError", "init"]
+- !private ["Ps16TextOutputStream", "init"]
+- !private ["Ps20TextOutputStreamable", "init"]
+- !private ["Ps14_ArrayProtocol", "count"]
+- !private ["Ps23_BidirectionalIndexable", "count"]
+- !private ["Ps24_DestructorSafeContainer", "count"]
+- !private ["Ps35_ExpressibleByBuiltinBooleanLiteral", "_getBuiltinLogicValue"]
+- !private ["Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral", "init"]
+- !private ["Ps35_ExpressibleByBuiltinIntegerLiteral", "init"]
+- !private ["Ps34_ExpressibleByBuiltinStringLiteral", "init"]
+- !private ["Ps39_ExpressibleByBuiltinUTF16StringLiteral", "init"]
+- !private ["Ps41_ExpressibleByBuiltinUnicodeScalarLiteral", "init"]
+- !private ["Ps33_ExpressibleByStringInterpolation", "init"]
+- !private ["Ps35_HasCustomAnyHashableRepresentation", "init"]
+- !private ["Ps9_Hashable", "_getBuiltinLogicValue"]
+- ["Ps9_Hashable", "client"]
+- !private ["Ps9_Hashable", "init"]
+- ["Ps9_Hashable", "server"]
+- !private ["Ps14_Incrementable", "init"]
+- !private ["Ps10_Indexable", "count"]
+- !private ["Ps14_IndexableBase", "count"]
+- !private ["Ps8_Integer", "init"]
+- !private ["Ps18_IntegerArithmetic", "init"]
+- !private ["Ps17_MutableIndexable", "count"]
+- !private ["Ps21_ObjectiveCBridgeable", "_getBuiltinLogicValue"]
+- !private ["Ps21_ObjectiveCBridgeable", "client"]
+- !private ["Ps21_ObjectiveCBridgeable", "count"]
+- !private ["Ps21_ObjectiveCBridgeable", "init"]
+- !private ["Vs26_OptionalNilComparisonType", "client"]
+- !private ["Ps22_RandomAccessIndexable", "count"]
+- !private ["Ps26_RangeReplaceableIndexable", "count"]
+- !private ["Ps14_SignedInteger", "init"]
+- !private ["Ps11_Strideable", "init"]
+depends-nominal:
+- "Ps9AnyObject"
+- !private "Sa"
+- !private "Ps23BidirectionalCollection"
+- !private "Ps17BitwiseOperations"
+- !private "Sb"
+- !private "P4Bits16BytesConvertible"
+- !private "P4Bits18BytesInitializable"
+- !private "P4Bits18BytesRepresentable"
+- !private "Ps7CVarArg"
+- "O3TLS12Certificates"
+- !private "Ps10Collection"
+- !private "Ps10Comparable"
+- "C3TLS7Context"
+- !private "Ps28CustomDebugStringConvertible"
+- !private "Ps29CustomPlaygroundQuickLookable"
+- !private "Ps17CustomReflectable"
+- !private "Ps23CustomStringConvertible"
+- !private "P9Debugging10Debuggable"
+- "Ps9Equatable"
+- !private "Ps5Error"
+- !private "Ps25ExpressibleByArrayLiteral"
+- !private "Ps27ExpressibleByBooleanLiteral"
+- !private "Ps43ExpressibleByExtendedGraphemeClusterLiteral"
+- !private "Ps27ExpressibleByIntegerLiteral"
+- !private "Ps23ExpressibleByNilLiteral"
+- !private "Ps26ExpressibleByStringLiteral"
+- !private "Ps33ExpressibleByUnicodeScalarLiteral"
+- "Ps8Hashable"
+- !private "Vs5Int32"
+- !private "Ps7Integer"
+- !private "Ps17IntegerArithmetic"
+- !private "Ps25LosslessStringConvertible"
+- !private "Ps10MirrorPath"
+- "O3TLS4Mode"
+- !private "Ps17MutableCollection"
+- !private "PSo8NSCoding"
+- !private "PSo9NSCopying"
+- !private "PSo16NSMutableCopying"
+- !private "PSo16NSObjectProtocol"
+- !private "PSo14NSSecureCoding"
+- !private "CSo8NSString"
+- !private "Sq"
+- !private "Ps22RandomAccessCollection"
+- !private "Ps26RangeReplaceableCollection"
+- !private "Ps8Sequence"
+- "OO3TLS12Certificates9Signature"
+- !private "Ps13SignedInteger"
+- !private "Ps12SignedNumber"
+- !private "Vs12StaticString"
+- !private "Ps10Strideable"
+- !private "SS"
+- !private "V3TLS8TLSError"
+- !private "Ps16TextOutputStream"
+- !private "Ps20TextOutputStreamable"
+- !private "Ps14_ArrayProtocol"
+- !private "Ps23_BidirectionalIndexable"
+- !private "Ps24_DestructorSafeContainer"
+- !private "Ps35_ExpressibleByBuiltinBooleanLiteral"
+- !private "Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral"
+- !private "Ps35_ExpressibleByBuiltinIntegerLiteral"
+- !private "Ps34_ExpressibleByBuiltinStringLiteral"
+- !private "Ps39_ExpressibleByBuiltinUTF16StringLiteral"
+- !private "Ps41_ExpressibleByBuiltinUnicodeScalarLiteral"
+- !private "Ps33_ExpressibleByStringInterpolation"
+- !private "Ps35_HasCustomAnyHashableRepresentation"
+- "Ps9_Hashable"
+- !private "Ps14_Incrementable"
+- !private "Ps10_Indexable"
+- !private "Ps14_IndexableBase"
+- !private "Ps8_Integer"
+- !private "Ps18_IntegerArithmetic"
+- !private "Ps17_MutableIndexable"
+- !private "Ps21_ObjectiveCBridgeable"
+- !private "Vs26_OptionalNilComparisonType"
+- !private "Ps22_RandomAccessIndexable"
+- !private "Ps26_RangeReplaceableIndexable"
+- !private "Ps14_SignedInteger"
+- !private "Ps11_Strideable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/ObjectiveC.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Foundation.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreGraphics.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreText.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/ObjectiveC.swiftmodule"
+- "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/debug/libc.swiftmodule"
+- "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/debug/Core.swiftmodule"
+- "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/debug/Debugging.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreGraphics.swiftmodule"
+- "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/debug/Sockets.swiftmodule"
+- "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/debug/Bits.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/IOKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/debug/Transport.swiftmodule"
+- "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/checkouts/ctls.git-9210868160426949823/module.modulemap"
+- "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/debug/CHTTP.build/module.modulemap"
+- "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/debug/CSQLite.build/module.modulemap"
+interface-hash: "6d271d6e60c5da0fa76c1cdba7e5ba0e"

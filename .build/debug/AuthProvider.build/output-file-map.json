@@ -1,0 +1,65 @@
+{
+  "": {
+    "swift-dependencies": "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/debug/AuthProvider.build/master.swiftdeps"
+  },
+  "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/checkouts/auth-provider.git-2099911502650186246/Sources/AuthProvider/AuthError.swift": {
+    "dependencies": "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/debug/AuthProvider.build/AuthError.d",
+    "object": "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/debug/AuthProvider.build/AuthError.swift.o",
+    "swiftmodule": "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/debug/AuthProvider.build/AuthError~partial.swiftmodule",
+    "swift-dependencies": "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/debug/AuthProvider.build/AuthError.swiftdeps"
+  },
+  "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/checkouts/auth-provider.git-2099911502650186246/Sources/AuthProvider/BCryptHasher+PasswordVerifier.swift": {
+    "dependencies": "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/debug/AuthProvider.build/BCryptHasher+PasswordVerifier.d",
+    "object": "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/debug/AuthProvider.build/BCryptHasher+PasswordVerifier.swift.o",
+    "swiftmodule": "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/debug/AuthProvider.build/BCryptHasher+PasswordVerifier~partial.swiftmodule",
+    "swift-dependencies": "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/debug/AuthProvider.build/BCryptHasher+PasswordVerifier.swiftdeps"
+  },
+  "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/checkouts/auth-provider.git-2099911502650186246/Sources/AuthProvider/Exports.swift": {
+    "dependencies": "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/debug/AuthProvider.build/Exports.d",
+    "object": "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/debug/AuthProvider.build/Exports.swift.o",
+    "swiftmodule": "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/debug/AuthProvider.build/Exports~partial.swiftmodule",
+    "swift-dependencies": "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/debug/AuthProvider.build/Exports.swiftdeps"
+  },
+  "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/checkouts/auth-provider.git-2099911502650186246/Sources/AuthProvider/Helper.swift": {
+    "dependencies": "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/debug/AuthProvider.build/Helper.d",
+    "object": "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/debug/AuthProvider.build/Helper.swift.o",
+    "swiftmodule": "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/debug/AuthProvider.build/Helper~partial.swiftmodule",
+    "swift-dependencies": "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/debug/AuthProvider.build/Helper.swiftdeps"
+  },
+  "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/checkouts/auth-provider.git-2099911502650186246/Sources/AuthProvider/InverseRedirectMiddleware.swift": {
+    "dependencies": "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/debug/AuthProvider.build/InverseRedirectMiddleware.d",
+    "object": "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/debug/AuthProvider.build/InverseRedirectMiddleware.swift.o",
+    "swiftmodule": "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/debug/AuthProvider.build/InverseRedirectMiddleware~partial.swiftmodule",
+    "swift-dependencies": "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/debug/AuthProvider.build/InverseRedirectMiddleware.swiftdeps"
+  },
+  "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/checkouts/auth-provider.git-2099911502650186246/Sources/AuthProvider/Persistable.swift": {
+    "dependencies": "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/debug/AuthProvider.build/Persistable.d",
+    "object": "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/debug/AuthProvider.build/Persistable.swift.o",
+    "swiftmodule": "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/debug/AuthProvider.build/Persistable~partial.swiftmodule",
+    "swift-dependencies": "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/debug/AuthProvider.build/Persistable.swiftdeps"
+  },
+  "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/checkouts/auth-provider.git-2099911502650186246/Sources/AuthProvider/Provider.swift": {
+    "dependencies": "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/debug/AuthProvider.build/Provider.d",
+    "object": "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/debug/AuthProvider.build/Provider.swift.o",
+    "swiftmodule": "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/debug/AuthProvider.build/Provider~partial.swiftmodule",
+    "swift-dependencies": "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/debug/AuthProvider.build/Provider.swiftdeps"
+  },
+  "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/checkouts/auth-provider.git-2099911502650186246/Sources/AuthProvider/RedirectMiddleware.swift": {
+    "dependencies": "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/debug/AuthProvider.build/RedirectMiddleware.d",
+    "object": "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/debug/AuthProvider.build/RedirectMiddleware.swift.o",
+    "swiftmodule": "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/debug/AuthProvider.build/RedirectMiddleware~partial.swiftmodule",
+    "swift-dependencies": "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/debug/AuthProvider.build/RedirectMiddleware.swiftdeps"
+  },
+  "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/checkouts/auth-provider.git-2099911502650186246/Sources/AuthProvider/SessionPersistable.swift": {
+    "dependencies": "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/debug/AuthProvider.build/SessionPersistable.d",
+    "object": "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/debug/AuthProvider.build/SessionPersistable.swift.o",
+    "swiftmodule": "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/debug/AuthProvider.build/SessionPersistable~partial.swiftmodule",
+    "swift-dependencies": "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/debug/AuthProvider.build/SessionPersistable.swiftdeps"
+  },
+  "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/checkouts/auth-provider.git-2099911502650186246/Sources/AuthProvider/TokenMiddleware.swift": {
+    "dependencies": "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/debug/AuthProvider.build/TokenMiddleware.d",
+    "object": "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/debug/AuthProvider.build/TokenMiddleware.swift.o",
+    "swiftmodule": "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/debug/AuthProvider.build/TokenMiddleware~partial.swiftmodule",
+    "swift-dependencies": "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/debug/AuthProvider.build/TokenMiddleware.swiftdeps"
+  }
+}

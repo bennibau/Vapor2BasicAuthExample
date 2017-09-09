@@ -1,0 +1,8 @@
+version: "Apple Swift version 3.1 (swiftlang-802.0.53 clang-802.0.42)"
+options: "6c9c41d57787e605fb1255bfcc91d844"
+build_time: [558250034, 763026000]
+inputs:
+  "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/Sources/App/Config+Setup.swift": !dirty [558249633, 0]
+  "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/Sources/App/Droplet+Setup.swift": [557938893, 0]
+  "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/Sources/App/Routes.swift": !dirty [557945636, 0]
+  "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/Sources/App/Controllers/HelloController.swift": [557938893, 0]

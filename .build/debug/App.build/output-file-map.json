@@ -1,0 +1,29 @@
+{
+  "": {
+    "swift-dependencies": "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/debug/App.build/master.swiftdeps"
+  },
+  "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/Sources/App/Config+Setup.swift": {
+    "dependencies": "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/debug/App.build/Config+Setup.d",
+    "object": "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/debug/App.build/Config+Setup.swift.o",
+    "swiftmodule": "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/debug/App.build/Config+Setup~partial.swiftmodule",
+    "swift-dependencies": "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/debug/App.build/Config+Setup.swiftdeps"
+  },
+  "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/Sources/App/Droplet+Setup.swift": {
+    "dependencies": "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/debug/App.build/Droplet+Setup.d",
+    "object": "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/debug/App.build/Droplet+Setup.swift.o",
+    "swiftmodule": "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/debug/App.build/Droplet+Setup~partial.swiftmodule",
+    "swift-dependencies": "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/debug/App.build/Droplet+Setup.swiftdeps"
+  },
+  "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/Sources/App/Routes.swift": {
+    "dependencies": "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/debug/App.build/Routes.d",
+    "object": "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/debug/App.build/Routes.swift.o",
+    "swiftmodule": "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/debug/App.build/Routes~partial.swiftmodule",
+    "swift-dependencies": "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/debug/App.build/Routes.swiftdeps"
+  },
+  "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/Sources/App/Controllers/HelloController.swift": {
+    "dependencies": "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/debug/App.build/HelloController.d",
+    "object": "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/debug/App.build/Controllers/HelloController.swift.o",
+    "swiftmodule": "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/debug/App.build/HelloController~partial.swiftmodule",
+    "swift-dependencies": "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/debug/App.build/HelloController.swiftdeps"
+  }
+}

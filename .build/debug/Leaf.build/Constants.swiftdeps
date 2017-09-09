@@ -1,0 +1,210 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "TOKEN"
+- "SUFFIX"
+- "defaultTags"
+provides-nominal:
+provides-member:
+provides-dynamic-lookup:
+depends-top-level:
+- "Byte"
+- "Else"
+- "Embed"
+- "Equal"
+- "Export"
+- "Extend"
+- "If"
+- "Import"
+- "Index"
+- "Loop"
+- "Raw"
+- "SUFFIX"
+- "String"
+- "StringLiteralType"
+- "TOKEN"
+- "Tag"
+- "Uppercased"
+- "Variable"
+- "defaultTags"
+depends-member:
+- ["Ps9AnyObject", "init"]
+- ["P4Leaf8BasicTag", "init"]
+- ["Ps17BitwiseOperations", "numberSign"]
+- ["P4Bits16BytesConvertible", "init"]
+- ["P4Bits16BytesConvertible", "numberSign"]
+- ["P4Bits18BytesInitializable", "init"]
+- ["P4Bits18BytesInitializable", "numberSign"]
+- ["P4Bits18BytesRepresentable", "init"]
+- ["P4Bits18BytesRepresentable", "numberSign"]
+- ["Ps7CVarArg", "init"]
+- ["Ps7CVarArg", "numberSign"]
+- ["Ps10Comparable", "init"]
+- ["Ps10Comparable", "numberSign"]
+- ["Ps28CustomDebugStringConvertible", "init"]
+- ["Ps29CustomPlaygroundQuickLookable", "init"]
+- ["Ps29CustomPlaygroundQuickLookable", "numberSign"]
+- ["Ps17CustomReflectable", "init"]
+- ["Ps17CustomReflectable", "numberSign"]
+- ["Ps23CustomStringConvertible", "init"]
+- ["Ps23CustomStringConvertible", "numberSign"]
+- ["C4Leaf4Else", "deinit"]
+- ["C4Leaf4Else", "init"]
+- ["C4Leaf5Embed", "deinit"]
+- ["C4Leaf5Embed", "init"]
+- ["C4Leaf5Equal", "deinit"]
+- ["C4Leaf5Equal", "init"]
+- ["Ps9Equatable", "init"]
+- ["Ps9Equatable", "numberSign"]
+- ["C4Leaf6Export", "deinit"]
+- ["C4Leaf6Export", "init"]
+- ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "init"]
+- ["Ps27ExpressibleByIntegerLiteral", "numberSign"]
+- ["Ps26ExpressibleByStringLiteral", "init"]
+- ["Ps33ExpressibleByUnicodeScalarLiteral", "init"]
+- ["C4Leaf6Extend", "deinit"]
+- ["C4Leaf6Extend", "init"]
+- ["Ps8Hashable", "init"]
+- ["Ps8Hashable", "numberSign"]
+- ["C4Leaf2If", "deinit"]
+- ["C4Leaf2If", "init"]
+- ["C4Leaf6Import", "deinit"]
+- ["C4Leaf6Import", "init"]
+- ["C4Leaf5Index", "deinit"]
+- ["C4Leaf5Index", "init"]
+- ["Ps7Integer", "numberSign"]
+- ["Ps17IntegerArithmetic", "numberSign"]
+- ["C4Leaf4Loop", "deinit"]
+- ["C4Leaf4Loop", "init"]
+- ["Ps25LosslessStringConvertible", "init"]
+- ["Ps10MirrorPath", "init"]
+- ["PSo8NSCoding", "init"]
+- ["PSo9NSCopying", "init"]
+- ["PSo16NSMutableCopying", "init"]
+- ["PSo16NSObjectProtocol", "init"]
+- ["PSo14NSSecureCoding", "init"]
+- ["CSo8NSString", "init"]
+- ["P4Node17NodeInitializable", "init"]
+- ["P4Node17NodeInitializable", "numberSign"]
+- ["P4Node17NodeRepresentable", "init"]
+- ["P4Node17NodeRepresentable", "numberSign"]
+- ["P13PathIndexable11PathIndexer", "init"]
+- ["C4Leaf3Raw", "deinit"]
+- ["C4Leaf3Raw", "init"]
+- ["Ps10Strideable", "numberSign"]
+- ["SS", "init"]
+- ["P4Leaf3Tag", "init"]
+- ["Ps16TextOutputStream", "init"]
+- ["Ps20TextOutputStreamable", "init"]
+- ["Vs5UInt8", "numberSign"]
+- ["Ps15UnsignedInteger", "numberSign"]
+- ["C4Leaf10Uppercased", "deinit"]
+- ["C4Leaf10Uppercased", "init"]
+- ["C4Leaf8Variable", "deinit"]
+- ["C4Leaf8Variable", "init"]
+- ["Ps28_DisallowMixedSignArithmetic", "numberSign"]
+- ["Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral", "init"]
+- ["Ps35_ExpressibleByBuiltinIntegerLiteral", "numberSign"]
+- ["Ps34_ExpressibleByBuiltinStringLiteral", "init"]
+- ["Ps39_ExpressibleByBuiltinUTF16StringLiteral", "init"]
+- ["Ps41_ExpressibleByBuiltinUnicodeScalarLiteral", "init"]
+- ["Ps33_ExpressibleByStringInterpolation", "init"]
+- ["Ps35_HasCustomAnyHashableRepresentation", "init"]
+- ["Ps9_Hashable", "init"]
+- ["Ps9_Hashable", "numberSign"]
+- ["Ps14_Incrementable", "numberSign"]
+- ["Ps8_Integer", "numberSign"]
+- ["Ps18_IntegerArithmetic", "numberSign"]
+- ["Ps21_ObjectiveCBridgeable", "init"]
+- ["Ps21_ObjectiveCBridgeable", "numberSign"]
+- ["Ps11_Strideable", "numberSign"]
+- ["Ps14_StringElement", "numberSign"]
+depends-nominal:
+- "Ps9AnyObject"
+- "P4Leaf8BasicTag"
+- "Ps17BitwiseOperations"
+- "P4Bits16BytesConvertible"
+- "P4Bits18BytesInitializable"
+- "P4Bits18BytesRepresentable"
+- "Ps7CVarArg"
+- "Ps10Comparable"
+- "Ps28CustomDebugStringConvertible"
+- "Ps29CustomPlaygroundQuickLookable"
+- "Ps17CustomReflectable"
+- "Ps23CustomStringConvertible"
+- "C4Leaf4Else"
+- "C4Leaf5Embed"
+- "C4Leaf5Equal"
+- "Ps9Equatable"
+- "C4Leaf6Export"
+- "Ps43ExpressibleByExtendedGraphemeClusterLiteral"
+- "Ps27ExpressibleByIntegerLiteral"
+- "Ps26ExpressibleByStringLiteral"
+- "Ps33ExpressibleByUnicodeScalarLiteral"
+- "C4Leaf6Extend"
+- "Ps8Hashable"
+- "C4Leaf2If"
+- "C4Leaf6Import"
+- "C4Leaf5Index"
+- "Ps7Integer"
+- "Ps17IntegerArithmetic"
+- "C4Leaf4Loop"
+- "Ps25LosslessStringConvertible"
+- "Ps10MirrorPath"
+- "PSo8NSCoding"
+- "PSo9NSCopying"
+- "PSo16NSMutableCopying"
+- "PSo16NSObjectProtocol"
+- "PSo14NSSecureCoding"
+- "CSo8NSString"
+- "P4Node17NodeInitializable"
+- "P4Node17NodeRepresentable"
+- "P13PathIndexable11PathIndexer"
+- "C4Leaf3Raw"
+- "Ps10Strideable"
+- "SS"
+- "P4Leaf3Tag"
+- "Ps16TextOutputStream"
+- "Ps20TextOutputStreamable"
+- "Vs5UInt8"
+- "Ps15UnsignedInteger"
+- "C4Leaf10Uppercased"
+- "C4Leaf8Variable"
+- "Ps28_DisallowMixedSignArithmetic"
+- "Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral"
+- "Ps35_ExpressibleByBuiltinIntegerLiteral"
+- "Ps34_ExpressibleByBuiltinStringLiteral"
+- "Ps39_ExpressibleByBuiltinUTF16StringLiteral"
+- "Ps41_ExpressibleByBuiltinUnicodeScalarLiteral"
+- "Ps33_ExpressibleByStringInterpolation"
+- "Ps35_HasCustomAnyHashableRepresentation"
+- "Ps9_Hashable"
+- "Ps14_Incrementable"
+- "Ps8_Integer"
+- "Ps18_IntegerArithmetic"
+- "Ps21_ObjectiveCBridgeable"
+- "Ps11_Strideable"
+- "Ps14_StringElement"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/ObjectiveC.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Foundation.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreGraphics.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreText.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/ObjectiveC.swiftmodule"
+- "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/debug/libc.swiftmodule"
+- "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/debug/Node.swiftmodule"
+- "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/debug/PathIndexable.swiftmodule"
+- "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/debug/Core.swiftmodule"
+- "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/debug/Debugging.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreGraphics.swiftmodule"
+- "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/debug/Bits.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/IOKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/debug/CHTTP.build/module.modulemap"
+- "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/debug/CSQLite.build/module.modulemap"
+interface-hash: "1289cfd58b25926d46a73b9d095793ed"

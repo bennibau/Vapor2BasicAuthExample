@@ -1,0 +1,286 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "Provider"
+provides-nominal:
+- "C12LeafProvider8Provider"
+provides-member:
+- ["C12LeafProvider8Provider", ""]
+- ["C5Vapor7Droplet", ""]
+- ["C5Vapor7Droplet", "stem"]
+- ["C5Vapor7Droplet", "assertStem"]
+provides-dynamic-lookup:
+depends-top-level:
+- "AssignmentPrecedence"
+- "CastingPrecedence"
+- "Config"
+- "Droplet"
+- !private "LeafProviderError"
+- !private "LeafRenderer"
+- "Provider"
+- "Stem"
+- "StringLiteralType"
+- "Vapor"
+- !private "stemKey"
+depends-member:
+- !private ["Ps9AnyObject", "LeafProviderError"]
+- !private ["Ps9AnyObject", "LeafRenderer"]
+- !private ["Ps9AnyObject", "addConfigurable"]
+- ["Ps9AnyObject", "beforeRun"]
+- ["Ps9AnyObject", "boot"]
+- ["Ps9AnyObject", "init"]
+- ["Ps9AnyObject", "publicDir"]
+- ["Ps9AnyObject", "repositoryName"]
+- !private ["Ps9AnyObject", "stem"]
+- !private ["Ps9AnyObject", "stemKey"]
+- !private ["Ps9AnyObject", "storage"]
+- !private ["Ps9AnyObject", "view"]
+- ["Ps9AnyObject", "viewsDir"]
+- ["Ps9AnyObject", ""]
+- ["P4HTTP17BodyRepresentable", "init"]
+- ["P4Bits16BytesConvertible", "init"]
+- ["P4Bits18BytesInitializable", "init"]
+- ["P4Bits18BytesRepresentable", "init"]
+- ["Ps7CVarArg", "init"]
+- !private ["Ps7CVarArg", "subscript"]
+- !private ["Ps10Collection", "subscript"]
+- ["Ps10Comparable", "init"]
+- !private ["C7Configs6Config", "addConfigurable"]
+- !private ["P7Configs19ConfigInitializable", "LeafRenderer"]
+- ["P7Configs19ConfigInitializable", "beforeRun"]
+- ["P7Configs19ConfigInitializable", "boot"]
+- ["P7Configs19ConfigInitializable", "init"]
+- ["P7Configs19ConfigInitializable", "publicDir"]
+- ["P7Configs19ConfigInitializable", "repositoryName"]
+- !private ["P7Configs19ConfigInitializable", "stem"]
+- ["P7Configs19ConfigInitializable", "viewsDir"]
+- ["P7Configs19ConfigInitializable", ""]
+- ["Ps28CustomDebugStringConvertible", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "stemNotSet"]
+- !private ["Ps28CustomDebugStringConvertible", "subscript"]
+- ["Ps29CustomPlaygroundQuickLookable", "init"]
+- ["Ps17CustomReflectable", "init"]
+- !private ["Ps17CustomReflectable", "subscript"]
+- ["Ps23CustomStringConvertible", "init"]
+- !private ["Ps23CustomStringConvertible", "subscript"]
+- !private ["P9Debugging10Debuggable", "stemNotSet"]
+- !private ["Vs10Dictionary", "subscript"]
+- !private ["C5Vapor7Droplet", "LeafProviderError"]
+- ["C5Vapor7Droplet", "Stem"]
+- ["C5Vapor7Droplet", "assertStem"]
+- ["C5Vapor7Droplet", "stem"]
+- !private ["C5Vapor7Droplet", "stemKey"]
+- !private ["C5Vapor7Droplet", "storage"]
+- !private ["C5Vapor7Droplet", "view"]
+- ["P4SMTP25EmailAddressRepresentable", "init"]
+- ["P4SMTP22EmailBodyRepresentable", "init"]
+- !private ["Ps9Equatable", "addConfigurable"]
+- ["Ps9Equatable", "init"]
+- !private ["Ps9Equatable", "stemNotSet"]
+- !private ["Ps5Error", "stemNotSet"]
+- !private ["Ps25ExpressibleByArrayLiteral", "addConfigurable"]
+- !private ["Ps27ExpressibleByBooleanLiteral", "addConfigurable"]
+- !private ["Ps30ExpressibleByDictionaryLiteral", "addConfigurable"]
+- !private ["Ps30ExpressibleByDictionaryLiteral", "subscript"]
+- !private ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "addConfigurable"]
+- ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "init"]
+- !private ["Ps25ExpressibleByFloatLiteral", "addConfigurable"]
+- !private ["Ps27ExpressibleByIntegerLiteral", "addConfigurable"]
+- !private ["Ps23ExpressibleByNilLiteral", "addConfigurable"]
+- !private ["Ps26ExpressibleByStringLiteral", "addConfigurable"]
+- ["Ps26ExpressibleByStringLiteral", "init"]
+- !private ["Ps33ExpressibleByUnicodeScalarLiteral", "addConfigurable"]
+- ["Ps33ExpressibleByUnicodeScalarLiteral", "init"]
+- ["Ps8Hashable", "init"]
+- !private ["Ps8Hashable", "stemNotSet"]
+- !private ["P4HTTP13KeyAccessible", "subscript"]
+- !private ["P7Configs13KeyAccessible", "subscript"]
+- !private ["O12LeafProvider17LeafProviderError", "deinit"]
+- !private ["O12LeafProvider17LeafProviderError", "stemNotSet"]
+- !private ["C12LeafProvider12LeafRenderer", "deinit"]
+- !private ["C12LeafProvider12LeafRenderer", "init"]
+- !private ["C12LeafProvider12LeafRenderer", "stem"]
+- ["Ps25LosslessStringConvertible", "init"]
+- ["Ps10MirrorPath", "init"]
+- ["PSo8NSCoding", "init"]
+- ["PSo9NSCopying", "init"]
+- ["PSo16NSMutableCopying", "init"]
+- ["PSo16NSObjectProtocol", "init"]
+- ["PSo14NSSecureCoding", "init"]
+- ["CSo8NSString", "init"]
+- !private ["P4Node17NodeInitializable", "addConfigurable"]
+- ["P4Node17NodeInitializable", "init"]
+- !private ["P4Node17NodeInitializable", "subscript"]
+- !private ["P4Node17NodeRepresentable", "addConfigurable"]
+- ["P4Node17NodeRepresentable", "init"]
+- !private ["P4Node17NodeRepresentable", "subscript"]
+- ["P7Routing15Parameterizable", "init"]
+- !private ["P13PathIndexable13PathIndexable", "addConfigurable"]
+- ["P13PathIndexable11PathIndexer", "init"]
+- ["C12LeafProvider8Provider", "Config"]
+- ["C12LeafProvider8Provider", "Droplet"]
+- !private ["C12LeafProvider8Provider", "LeafRenderer"]
+- ["C12LeafProvider8Provider", "beforeRun"]
+- ["C12LeafProvider8Provider", "boot"]
+- ["C12LeafProvider8Provider", "deinit"]
+- ["C12LeafProvider8Provider", "init"]
+- ["C12LeafProvider8Provider", "publicDir"]
+- ["C12LeafProvider8Provider", "repositoryName"]
+- ["C12LeafProvider8Provider", "viewsDir"]
+- !private ["P5Vapor8Provider", "LeafRenderer"]
+- ["P5Vapor8Provider", "beforeRun"]
+- ["P5Vapor8Provider", "boot"]
+- ["P5Vapor8Provider", "init"]
+- ["P5Vapor8Provider", "publicDir"]
+- ["P5Vapor8Provider", "repositoryName"]
+- ["P5Vapor8Provider", "viewsDir"]
+- ["P5Vapor8Provider", ""]
+- ["P5Vapor23RequestContentSubscript", "init"]
+- !private ["P4HTTP9Responder", "LeafProviderError"]
+- !private ["P4HTTP9Responder", "stem"]
+- !private ["P4HTTP9Responder", "stemKey"]
+- !private ["P4HTTP9Responder", "storage"]
+- !private ["P4HTTP9Responder", "view"]
+- ["P4HTTP21ResponseRepresentable", "init"]
+- !private ["P7Routing12RouteBuilder", "LeafProviderError"]
+- !private ["P7Routing12RouteBuilder", "stem"]
+- !private ["P7Routing12RouteBuilder", "stemKey"]
+- !private ["P7Routing12RouteBuilder", "storage"]
+- !private ["P7Routing12RouteBuilder", "view"]
+- !private ["Ps8Sequence", "subscript"]
+- ["SS", "init"]
+- !private ["P4Node21StructuredDataWrapper", "addConfigurable"]
+- ["Ps16TextOutputStream", "init"]
+- ["Ps20TextOutputStreamable", "init"]
+- !private ["P5Vapor12ViewRenderer", "init"]
+- !private ["P5Vapor12ViewRenderer", "stem"]
+- ["Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral", "init"]
+- ["Ps34_ExpressibleByBuiltinStringLiteral", "init"]
+- ["Ps39_ExpressibleByBuiltinUTF16StringLiteral", "init"]
+- ["Ps41_ExpressibleByBuiltinUnicodeScalarLiteral", "init"]
+- ["Ps33_ExpressibleByStringInterpolation", "init"]
+- ["Ps35_HasCustomAnyHashableRepresentation", "init"]
+- ["Ps9_Hashable", "init"]
+- !private ["Ps9_Hashable", "stemNotSet"]
+- !private ["Ps10_Indexable", "subscript"]
+- !private ["Ps14_IndexableBase", "subscript"]
+- ["Ps21_ObjectiveCBridgeable", "init"]
+- !private ["Ps21_ObjectiveCBridgeable", "subscript"]
+depends-nominal:
+- "Ps9AnyObject"
+- "P4HTTP17BodyRepresentable"
+- "P4Bits16BytesConvertible"
+- "P4Bits18BytesInitializable"
+- "P4Bits18BytesRepresentable"
+- "Ps7CVarArg"
+- !private "Ps10Collection"
+- "Ps10Comparable"
+- !private "C7Configs6Config"
+- "P7Configs19ConfigInitializable"
+- "Ps28CustomDebugStringConvertible"
+- "Ps29CustomPlaygroundQuickLookable"
+- "Ps17CustomReflectable"
+- "Ps23CustomStringConvertible"
+- !private "P9Debugging10Debuggable"
+- !private "Vs10Dictionary"
+- "C5Vapor7Droplet"
+- "P4SMTP25EmailAddressRepresentable"
+- "P4SMTP22EmailBodyRepresentable"
+- "Ps9Equatable"
+- !private "Ps5Error"
+- !private "Ps25ExpressibleByArrayLiteral"
+- !private "Ps27ExpressibleByBooleanLiteral"
+- !private "Ps30ExpressibleByDictionaryLiteral"
+- "Ps43ExpressibleByExtendedGraphemeClusterLiteral"
+- !private "Ps25ExpressibleByFloatLiteral"
+- !private "Ps27ExpressibleByIntegerLiteral"
+- !private "Ps23ExpressibleByNilLiteral"
+- "Ps26ExpressibleByStringLiteral"
+- "Ps33ExpressibleByUnicodeScalarLiteral"
+- "Ps8Hashable"
+- !private "P4HTTP13KeyAccessible"
+- !private "P7Configs13KeyAccessible"
+- !private "O12LeafProvider17LeafProviderError"
+- !private "C12LeafProvider12LeafRenderer"
+- "Ps25LosslessStringConvertible"
+- "Ps10MirrorPath"
+- "PSo8NSCoding"
+- "PSo9NSCopying"
+- "PSo16NSMutableCopying"
+- "PSo16NSObjectProtocol"
+- "PSo14NSSecureCoding"
+- "CSo8NSString"
+- "P4Node17NodeInitializable"
+- "P4Node17NodeRepresentable"
+- "P7Routing15Parameterizable"
+- !private "P13PathIndexable13PathIndexable"
+- "P13PathIndexable11PathIndexer"
+- "C12LeafProvider8Provider"
+- "P5Vapor8Provider"
+- "P5Vapor23RequestContentSubscript"
+- !private "P4HTTP9Responder"
+- "P4HTTP21ResponseRepresentable"
+- !private "P7Routing12RouteBuilder"
+- !private "Ps8Sequence"
+- "SS"
+- !private "P4Node21StructuredDataWrapper"
+- "Ps16TextOutputStream"
+- "Ps20TextOutputStreamable"
+- !private "P5Vapor12ViewRenderer"
+- "Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral"
+- "Ps34_ExpressibleByBuiltinStringLiteral"
+- "Ps39_ExpressibleByBuiltinUTF16StringLiteral"
+- "Ps41_ExpressibleByBuiltinUnicodeScalarLiteral"
+- "Ps33_ExpressibleByStringInterpolation"
+- "Ps35_HasCustomAnyHashableRepresentation"
+- "Ps9_Hashable"
+- !private "Ps10_Indexable"
+- !private "Ps14_IndexableBase"
+- "Ps21_ObjectiveCBridgeable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/ObjectiveC.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Foundation.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreGraphics.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreText.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/ObjectiveC.swiftmodule"
+- "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/debug/URI.swiftmodule"
+- "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/debug/JSON.swiftmodule"
+- "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/debug/SMTP.swiftmodule"
+- "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/debug/HTTP.swiftmodule"
+- "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/debug/TLS.swiftmodule"
+- "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/debug/FormData.swiftmodule"
+- "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/debug/libc.swiftmodule"
+- "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/debug/Node.swiftmodule"
+- "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/debug/Cache.swiftmodule"
+- "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/debug/PathIndexable.swiftmodule"
+- "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/debug/Console.swiftmodule"
+- "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/debug/Core.swiftmodule"
+- "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/debug/Leaf.swiftmodule"
+- "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/debug/Debugging.swiftmodule"
+- "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/debug/Routing.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.swiftmodule"
+- "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/debug/Random.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Foundation.swiftmodule"
+- "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/debug/Crypto.swiftmodule"
+- "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/debug/Vapor.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreGraphics.swiftmodule"
+- "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/debug/Branches.swiftmodule"
+- "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/debug/Cookies.swiftmodule"
+- "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/debug/Configs.swiftmodule"
+- "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/debug/Sessions.swiftmodule"
+- "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/debug/Sockets.swiftmodule"
+- "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/debug/WebSockets.swiftmodule"
+- "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/debug/Bits.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/IOKit.swiftmodule"
+- "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/debug/BCrypt.swiftmodule"
+- "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/debug/Multipart.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/debug/Transport.swiftmodule"
+- "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/checkouts/engine.git-3311994267206676365/Sources/CHTTP/include/http_parser.h"
+- "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/checkouts/ctls.git-9210868160426949823/module.modulemap"
+- "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/debug/CHTTP.build/module.modulemap"
+- "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/debug/CSQLite.build/module.modulemap"
+interface-hash: "77d58c8c030f71f3603f70a105994fa7"

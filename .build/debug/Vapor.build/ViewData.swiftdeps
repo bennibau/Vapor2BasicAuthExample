@@ -1,0 +1,412 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "ViewData"
+- "ViewDataRepresentable"
+- "ViewDataInitializable"
+- "ViewDataConvertible"
+provides-nominal:
+- "V5Vapor8ViewData"
+- "P5Vapor21ViewDataRepresentable"
+- "P5Vapor21ViewDataInitializable"
+provides-member:
+- ["V5Vapor8ViewData", ""]
+- ["P5Vapor21ViewDataRepresentable", ""]
+- ["P5Vapor21ViewDataInitializable", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- "=="
+- !private "??"
+- "AssignmentPrecedence"
+- "CastingPrecedence"
+- "Context"
+- "FuzzyConverter"
+- "Node"
+- "StructuredData"
+- "StructuredDataWrapper"
+- "ViewContext"
+- "ViewData"
+- "ViewDataConvertible"
+- "ViewDataInitializable"
+- "ViewDataRepresentable"
+- !private "emptyContext"
+depends-member:
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["P4Node7Context", "isViewContext"]
+- ["P4Node7Context", "shared"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "_getBuiltinLogicValue"]
+- !private ["Ps17CustomReflectable", "_getBuiltinLogicValue"]
+- !private ["Ps23CustomStringConvertible", "_getBuiltinLogicValue"]
+- ["Ps9Equatable", "ViewContext"]
+- !private ["Ps9Equatable", "ViewData"]
+- !private ["Ps9Equatable", "_getBuiltinLogicValue"]
+- ["Ps9Equatable", "context"]
+- !private ["Ps9Equatable", "converted"]
+- ["Ps9Equatable", "defaultContext"]
+- !private ["Ps9Equatable", "emptyContext"]
+- ["Ps9Equatable", "init"]
+- ["Ps9Equatable", "initialize"]
+- ["Ps9Equatable", "makeNode"]
+- ["Ps9Equatable", "makeViewData"]
+- ["Ps9Equatable", "pathIndexableArray"]
+- ["Ps9Equatable", "pathIndexableObject"]
+- ["Ps9Equatable", "represent"]
+- ["Ps9Equatable", "wrapped"]
+- ["Ps9Equatable", ""]
+- ["Ps25ExpressibleByArrayLiteral", "ViewContext"]
+- !private ["Ps25ExpressibleByArrayLiteral", "ViewData"]
+- ["Ps25ExpressibleByArrayLiteral", "context"]
+- !private ["Ps25ExpressibleByArrayLiteral", "converted"]
+- ["Ps25ExpressibleByArrayLiteral", "defaultContext"]
+- !private ["Ps25ExpressibleByArrayLiteral", "emptyContext"]
+- ["Ps25ExpressibleByArrayLiteral", "init"]
+- ["Ps25ExpressibleByArrayLiteral", "initialize"]
+- ["Ps25ExpressibleByArrayLiteral", "makeNode"]
+- ["Ps25ExpressibleByArrayLiteral", "makeViewData"]
+- ["Ps25ExpressibleByArrayLiteral", "pathIndexableArray"]
+- ["Ps25ExpressibleByArrayLiteral", "pathIndexableObject"]
+- ["Ps25ExpressibleByArrayLiteral", "represent"]
+- ["Ps25ExpressibleByArrayLiteral", "wrapped"]
+- ["Ps25ExpressibleByArrayLiteral", ""]
+- ["Ps27ExpressibleByBooleanLiteral", "ViewContext"]
+- !private ["Ps27ExpressibleByBooleanLiteral", "ViewData"]
+- !private ["Ps27ExpressibleByBooleanLiteral", "_getBuiltinLogicValue"]
+- ["Ps27ExpressibleByBooleanLiteral", "context"]
+- !private ["Ps27ExpressibleByBooleanLiteral", "converted"]
+- ["Ps27ExpressibleByBooleanLiteral", "defaultContext"]
+- !private ["Ps27ExpressibleByBooleanLiteral", "emptyContext"]
+- ["Ps27ExpressibleByBooleanLiteral", "init"]
+- ["Ps27ExpressibleByBooleanLiteral", "initialize"]
+- ["Ps27ExpressibleByBooleanLiteral", "makeNode"]
+- ["Ps27ExpressibleByBooleanLiteral", "makeViewData"]
+- ["Ps27ExpressibleByBooleanLiteral", "pathIndexableArray"]
+- ["Ps27ExpressibleByBooleanLiteral", "pathIndexableObject"]
+- ["Ps27ExpressibleByBooleanLiteral", "represent"]
+- ["Ps27ExpressibleByBooleanLiteral", "wrapped"]
+- ["Ps27ExpressibleByBooleanLiteral", ""]
+- ["Ps30ExpressibleByDictionaryLiteral", "ViewContext"]
+- !private ["Ps30ExpressibleByDictionaryLiteral", "ViewData"]
+- ["Ps30ExpressibleByDictionaryLiteral", "context"]
+- !private ["Ps30ExpressibleByDictionaryLiteral", "converted"]
+- ["Ps30ExpressibleByDictionaryLiteral", "defaultContext"]
+- !private ["Ps30ExpressibleByDictionaryLiteral", "emptyContext"]
+- ["Ps30ExpressibleByDictionaryLiteral", "init"]
+- ["Ps30ExpressibleByDictionaryLiteral", "initialize"]
+- ["Ps30ExpressibleByDictionaryLiteral", "makeNode"]
+- ["Ps30ExpressibleByDictionaryLiteral", "makeViewData"]
+- ["Ps30ExpressibleByDictionaryLiteral", "pathIndexableArray"]
+- ["Ps30ExpressibleByDictionaryLiteral", "pathIndexableObject"]
+- ["Ps30ExpressibleByDictionaryLiteral", "represent"]
+- ["Ps30ExpressibleByDictionaryLiteral", "wrapped"]
+- ["Ps30ExpressibleByDictionaryLiteral", ""]
+- ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "ViewContext"]
+- !private ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "ViewData"]
+- ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "context"]
+- !private ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "converted"]
+- ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "defaultContext"]
+- !private ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "emptyContext"]
+- ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "init"]
+- ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "initialize"]
+- ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "makeNode"]
+- ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "makeViewData"]
+- ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "pathIndexableArray"]
+- ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "pathIndexableObject"]
+- ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "represent"]
+- ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "wrapped"]
+- ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", ""]
+- ["Ps25ExpressibleByFloatLiteral", "ViewContext"]
+- !private ["Ps25ExpressibleByFloatLiteral", "ViewData"]
+- ["Ps25ExpressibleByFloatLiteral", "context"]
+- !private ["Ps25ExpressibleByFloatLiteral", "converted"]
+- ["Ps25ExpressibleByFloatLiteral", "defaultContext"]
+- !private ["Ps25ExpressibleByFloatLiteral", "emptyContext"]
+- ["Ps25ExpressibleByFloatLiteral", "init"]
+- ["Ps25ExpressibleByFloatLiteral", "initialize"]
+- ["Ps25ExpressibleByFloatLiteral", "makeNode"]
+- ["Ps25ExpressibleByFloatLiteral", "makeViewData"]
+- ["Ps25ExpressibleByFloatLiteral", "pathIndexableArray"]
+- ["Ps25ExpressibleByFloatLiteral", "pathIndexableObject"]
+- ["Ps25ExpressibleByFloatLiteral", "represent"]
+- ["Ps25ExpressibleByFloatLiteral", "wrapped"]
+- ["Ps25ExpressibleByFloatLiteral", ""]
+- ["Ps27ExpressibleByIntegerLiteral", "ViewContext"]
+- !private ["Ps27ExpressibleByIntegerLiteral", "ViewData"]
+- ["Ps27ExpressibleByIntegerLiteral", "context"]
+- !private ["Ps27ExpressibleByIntegerLiteral", "converted"]
+- ["Ps27ExpressibleByIntegerLiteral", "defaultContext"]
+- !private ["Ps27ExpressibleByIntegerLiteral", "emptyContext"]
+- ["Ps27ExpressibleByIntegerLiteral", "init"]
+- ["Ps27ExpressibleByIntegerLiteral", "initialize"]
+- ["Ps27ExpressibleByIntegerLiteral", "makeNode"]
+- ["Ps27ExpressibleByIntegerLiteral", "makeViewData"]
+- ["Ps27ExpressibleByIntegerLiteral", "pathIndexableArray"]
+- ["Ps27ExpressibleByIntegerLiteral", "pathIndexableObject"]
+- ["Ps27ExpressibleByIntegerLiteral", "represent"]
+- ["Ps27ExpressibleByIntegerLiteral", "wrapped"]
+- ["Ps27ExpressibleByIntegerLiteral", ""]
+- ["Ps23ExpressibleByNilLiteral", "ViewContext"]
+- !private ["Ps23ExpressibleByNilLiteral", "ViewData"]
+- ["Ps23ExpressibleByNilLiteral", "context"]
+- !private ["Ps23ExpressibleByNilLiteral", "converted"]
+- ["Ps23ExpressibleByNilLiteral", "defaultContext"]
+- !private ["Ps23ExpressibleByNilLiteral", "emptyContext"]
+- ["Ps23ExpressibleByNilLiteral", "init"]
+- ["Ps23ExpressibleByNilLiteral", "initialize"]
+- ["Ps23ExpressibleByNilLiteral", "makeNode"]
+- ["Ps23ExpressibleByNilLiteral", "makeViewData"]
+- ["Ps23ExpressibleByNilLiteral", "pathIndexableArray"]
+- ["Ps23ExpressibleByNilLiteral", "pathIndexableObject"]
+- ["Ps23ExpressibleByNilLiteral", "represent"]
+- ["Ps23ExpressibleByNilLiteral", "wrapped"]
+- ["Ps23ExpressibleByNilLiteral", ""]
+- ["Ps26ExpressibleByStringLiteral", "ViewContext"]
+- !private ["Ps26ExpressibleByStringLiteral", "ViewData"]
+- ["Ps26ExpressibleByStringLiteral", "context"]
+- !private ["Ps26ExpressibleByStringLiteral", "converted"]
+- ["Ps26ExpressibleByStringLiteral", "defaultContext"]
+- !private ["Ps26ExpressibleByStringLiteral", "emptyContext"]
+- ["Ps26ExpressibleByStringLiteral", "init"]
+- ["Ps26ExpressibleByStringLiteral", "initialize"]
+- ["Ps26ExpressibleByStringLiteral", "makeNode"]
+- ["Ps26ExpressibleByStringLiteral", "makeViewData"]
+- ["Ps26ExpressibleByStringLiteral", "pathIndexableArray"]
+- ["Ps26ExpressibleByStringLiteral", "pathIndexableObject"]
+- ["Ps26ExpressibleByStringLiteral", "represent"]
+- ["Ps26ExpressibleByStringLiteral", "wrapped"]
+- ["Ps26ExpressibleByStringLiteral", ""]
+- ["Ps33ExpressibleByUnicodeScalarLiteral", "ViewContext"]
+- !private ["Ps33ExpressibleByUnicodeScalarLiteral", "ViewData"]
+- ["Ps33ExpressibleByUnicodeScalarLiteral", "context"]
+- !private ["Ps33ExpressibleByUnicodeScalarLiteral", "converted"]
+- ["Ps33ExpressibleByUnicodeScalarLiteral", "defaultContext"]
+- !private ["Ps33ExpressibleByUnicodeScalarLiteral", "emptyContext"]
+- ["Ps33ExpressibleByUnicodeScalarLiteral", "init"]
+- ["Ps33ExpressibleByUnicodeScalarLiteral", "initialize"]
+- ["Ps33ExpressibleByUnicodeScalarLiteral", "makeNode"]
+- ["Ps33ExpressibleByUnicodeScalarLiteral", "makeViewData"]
+- ["Ps33ExpressibleByUnicodeScalarLiteral", "pathIndexableArray"]
+- ["Ps33ExpressibleByUnicodeScalarLiteral", "pathIndexableObject"]
+- ["Ps33ExpressibleByUnicodeScalarLiteral", "represent"]
+- ["Ps33ExpressibleByUnicodeScalarLiteral", "wrapped"]
+- ["Ps33ExpressibleByUnicodeScalarLiteral", ""]
+- ["P4Node14FuzzyConverter", "ViewContext"]
+- !private ["P4Node14FuzzyConverter", "ViewData"]
+- ["P4Node14FuzzyConverter", "context"]
+- !private ["P4Node14FuzzyConverter", "converted"]
+- ["P4Node14FuzzyConverter", "defaultContext"]
+- !private ["P4Node14FuzzyConverter", "emptyContext"]
+- ["P4Node14FuzzyConverter", "init"]
+- ["P4Node14FuzzyConverter", "initialize"]
+- ["P4Node14FuzzyConverter", "makeNode"]
+- ["P4Node14FuzzyConverter", "makeViewData"]
+- ["P4Node14FuzzyConverter", "pathIndexableArray"]
+- ["P4Node14FuzzyConverter", "pathIndexableObject"]
+- ["P4Node14FuzzyConverter", "represent"]
+- ["P4Node14FuzzyConverter", "wrapped"]
+- ["P4Node14FuzzyConverter", ""]
+- !private ["Ps8Hashable", "_getBuiltinLogicValue"]
+- !private ["Ps25LosslessStringConvertible", "_getBuiltinLogicValue"]
+- !private ["V4Node4Node", "context"]
+- !private ["V4Node4Node", "converted"]
+- ["P4Node17NodeInitializable", "ViewContext"]
+- !private ["P4Node17NodeInitializable", "ViewData"]
+- !private ["P4Node17NodeInitializable", "_getBuiltinLogicValue"]
+- ["P4Node17NodeInitializable", "context"]
+- !private ["P4Node17NodeInitializable", "converted"]
+- ["P4Node17NodeInitializable", "defaultContext"]
+- !private ["P4Node17NodeInitializable", "emptyContext"]
+- ["P4Node17NodeInitializable", "init"]
+- ["P4Node17NodeInitializable", "initialize"]
+- ["P4Node17NodeInitializable", "makeNode"]
+- ["P4Node17NodeInitializable", "makeViewData"]
+- ["P4Node17NodeInitializable", "pathIndexableArray"]
+- ["P4Node17NodeInitializable", "pathIndexableObject"]
+- ["P4Node17NodeInitializable", "represent"]
+- ["P4Node17NodeInitializable", "wrapped"]
+- ["P4Node17NodeInitializable", ""]
+- ["P4Node17NodeRepresentable", "ViewContext"]
+- !private ["P4Node17NodeRepresentable", "ViewData"]
+- !private ["P4Node17NodeRepresentable", "_getBuiltinLogicValue"]
+- ["P4Node17NodeRepresentable", "context"]
+- !private ["P4Node17NodeRepresentable", "converted"]
+- ["P4Node17NodeRepresentable", "defaultContext"]
+- !private ["P4Node17NodeRepresentable", "emptyContext"]
+- ["P4Node17NodeRepresentable", "init"]
+- ["P4Node17NodeRepresentable", "initialize"]
+- ["P4Node17NodeRepresentable", "makeNode"]
+- ["P4Node17NodeRepresentable", "makeViewData"]
+- ["P4Node17NodeRepresentable", "pathIndexableArray"]
+- ["P4Node17NodeRepresentable", "pathIndexableObject"]
+- ["P4Node17NodeRepresentable", "represent"]
+- ["P4Node17NodeRepresentable", "wrapped"]
+- ["P4Node17NodeRepresentable", ""]
+- ["P13PathIndexable13PathIndexable", "ViewContext"]
+- !private ["P13PathIndexable13PathIndexable", "ViewData"]
+- ["P13PathIndexable13PathIndexable", "context"]
+- !private ["P13PathIndexable13PathIndexable", "converted"]
+- ["P13PathIndexable13PathIndexable", "defaultContext"]
+- !private ["P13PathIndexable13PathIndexable", "emptyContext"]
+- ["P13PathIndexable13PathIndexable", "init"]
+- ["P13PathIndexable13PathIndexable", "initialize"]
+- ["P13PathIndexable13PathIndexable", "makeNode"]
+- ["P13PathIndexable13PathIndexable", "makeViewData"]
+- ["P13PathIndexable13PathIndexable", "pathIndexableArray"]
+- ["P13PathIndexable13PathIndexable", "pathIndexableObject"]
+- ["P13PathIndexable13PathIndexable", "represent"]
+- ["P13PathIndexable13PathIndexable", "wrapped"]
+- ["P13PathIndexable13PathIndexable", ""]
+- ["P4Node21StructuredDataWrapper", "ViewContext"]
+- !private ["P4Node21StructuredDataWrapper", "ViewData"]
+- ["P4Node21StructuredDataWrapper", "context"]
+- !private ["P4Node21StructuredDataWrapper", "converted"]
+- ["P4Node21StructuredDataWrapper", "defaultContext"]
+- !private ["P4Node21StructuredDataWrapper", "emptyContext"]
+- ["P4Node21StructuredDataWrapper", "init"]
+- ["P4Node21StructuredDataWrapper", "initialize"]
+- ["P4Node21StructuredDataWrapper", "makeNode"]
+- ["P4Node21StructuredDataWrapper", "makeViewData"]
+- ["P4Node21StructuredDataWrapper", "pathIndexableArray"]
+- ["P4Node21StructuredDataWrapper", "pathIndexableObject"]
+- ["P4Node21StructuredDataWrapper", "represent"]
+- ["P4Node21StructuredDataWrapper", "wrapped"]
+- ["P4Node21StructuredDataWrapper", ""]
+- ["V5Vapor11ViewContext", "deinit"]
+- ["V5Vapor11ViewContext", "shared"]
+- ["V5Vapor8ViewData", "BooleanLiteralType"]
+- ["V5Vapor8ViewData", "Context"]
+- ["V5Vapor8ViewData", "Element"]
+- ["V5Vapor8ViewData", "ExtendedGraphemeClusterLiteralType"]
+- ["V5Vapor8ViewData", "FloatLiteralType"]
+- ["V5Vapor8ViewData", "IntegerLiteralType"]
+- ["V5Vapor8ViewData", "Key"]
+- ["V5Vapor8ViewData", "Node"]
+- ["V5Vapor8ViewData", "StringLiteralType"]
+- ["V5Vapor8ViewData", "StructuredData"]
+- ["V5Vapor8ViewData", "UnicodeScalarLiteralType"]
+- ["V5Vapor8ViewData", "Value"]
+- ["V5Vapor8ViewData", "ViewContext"]
+- ["V5Vapor8ViewData", "ViewData"]
+- !private ["V5Vapor8ViewData", "ViewDataInitializable"]
+- !private ["V5Vapor8ViewData", "ViewDataRepresentable"]
+- ["V5Vapor8ViewData", "context"]
+- !private ["V5Vapor8ViewData", "converted"]
+- ["V5Vapor8ViewData", "defaultContext"]
+- ["V5Vapor8ViewData", "deinit"]
+- !private ["V5Vapor8ViewData", "emptyContext"]
+- ["V5Vapor8ViewData", "init"]
+- ["V5Vapor8ViewData", "initialize"]
+- ["V5Vapor8ViewData", "makeNode"]
+- ["V5Vapor8ViewData", "makeViewData"]
+- ["V5Vapor8ViewData", "pathIndexableArray"]
+- ["V5Vapor8ViewData", "pathIndexableObject"]
+- ["V5Vapor8ViewData", "represent"]
+- ["V5Vapor8ViewData", "wrapped"]
+- ["P5Vapor21ViewDataInitializable", "ViewContext"]
+- ["P5Vapor21ViewDataInitializable", "ViewData"]
+- ["P5Vapor21ViewDataInitializable", "context"]
+- !private ["P5Vapor21ViewDataInitializable", "converted"]
+- ["P5Vapor21ViewDataInitializable", "defaultContext"]
+- !private ["P5Vapor21ViewDataInitializable", "emptyContext"]
+- ["P5Vapor21ViewDataInitializable", "init"]
+- ["P5Vapor21ViewDataInitializable", "initialize"]
+- ["P5Vapor21ViewDataInitializable", "makeNode"]
+- ["P5Vapor21ViewDataInitializable", "makeViewData"]
+- ["P5Vapor21ViewDataInitializable", "pathIndexableArray"]
+- ["P5Vapor21ViewDataInitializable", "pathIndexableObject"]
+- ["P5Vapor21ViewDataInitializable", "represent"]
+- ["P5Vapor21ViewDataInitializable", "wrapped"]
+- ["P5Vapor21ViewDataInitializable", ""]
+- ["P5Vapor21ViewDataRepresentable", "ViewContext"]
+- ["P5Vapor21ViewDataRepresentable", "ViewData"]
+- ["P5Vapor21ViewDataRepresentable", "context"]
+- !private ["P5Vapor21ViewDataRepresentable", "converted"]
+- ["P5Vapor21ViewDataRepresentable", "defaultContext"]
+- !private ["P5Vapor21ViewDataRepresentable", "emptyContext"]
+- ["P5Vapor21ViewDataRepresentable", "init"]
+- ["P5Vapor21ViewDataRepresentable", "initialize"]
+- ["P5Vapor21ViewDataRepresentable", "makeNode"]
+- ["P5Vapor21ViewDataRepresentable", "makeViewData"]
+- ["P5Vapor21ViewDataRepresentable", "pathIndexableArray"]
+- ["P5Vapor21ViewDataRepresentable", "pathIndexableObject"]
+- ["P5Vapor21ViewDataRepresentable", "represent"]
+- ["P5Vapor21ViewDataRepresentable", "wrapped"]
+- ["P5Vapor21ViewDataRepresentable", ""]
+- !private ["Ps35_ExpressibleByBuiltinBooleanLiteral", "_getBuiltinLogicValue"]
+- !private ["Ps9_Hashable", "_getBuiltinLogicValue"]
+- !private ["Ps21_ObjectiveCBridgeable", "_getBuiltinLogicValue"]
+depends-nominal:
+- !private "Sb"
+- "P4Node7Context"
+- !private "Ps29CustomPlaygroundQuickLookable"
+- !private "Ps17CustomReflectable"
+- !private "Ps23CustomStringConvertible"
+- "Ps9Equatable"
+- "Ps25ExpressibleByArrayLiteral"
+- "Ps27ExpressibleByBooleanLiteral"
+- "Ps30ExpressibleByDictionaryLiteral"
+- "Ps43ExpressibleByExtendedGraphemeClusterLiteral"
+- "Ps25ExpressibleByFloatLiteral"
+- "Ps27ExpressibleByIntegerLiteral"
+- "Ps23ExpressibleByNilLiteral"
+- "Ps26ExpressibleByStringLiteral"
+- "Ps33ExpressibleByUnicodeScalarLiteral"
+- "P4Node14FuzzyConverter"
+- !private "Ps8Hashable"
+- !private "Ps25LosslessStringConvertible"
+- !private "V4Node4Node"
+- "P4Node17NodeInitializable"
+- "P4Node17NodeRepresentable"
+- "P13PathIndexable13PathIndexable"
+- "P4Node21StructuredDataWrapper"
+- "V5Vapor11ViewContext"
+- "V5Vapor8ViewData"
+- "P5Vapor21ViewDataInitializable"
+- "P5Vapor21ViewDataRepresentable"
+- !private "Ps35_ExpressibleByBuiltinBooleanLiteral"
+- !private "Ps9_Hashable"
+- !private "Ps21_ObjectiveCBridgeable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/ObjectiveC.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Foundation.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreGraphics.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreText.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/ObjectiveC.swiftmodule"
+- "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/debug/URI.swiftmodule"
+- "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/debug/JSON.swiftmodule"
+- "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/debug/SMTP.swiftmodule"
+- "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/debug/HTTP.swiftmodule"
+- "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/debug/TLS.swiftmodule"
+- "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/debug/FormData.swiftmodule"
+- "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/debug/libc.swiftmodule"
+- "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/debug/Node.swiftmodule"
+- "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/debug/Cache.swiftmodule"
+- "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/debug/PathIndexable.swiftmodule"
+- "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/debug/Console.swiftmodule"
+- "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/debug/Core.swiftmodule"
+- "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/debug/Debugging.swiftmodule"
+- "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/debug/Routing.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.swiftmodule"
+- "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/debug/Random.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Foundation.swiftmodule"
+- "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/debug/Crypto.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreGraphics.swiftmodule"
+- "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/debug/Branches.swiftmodule"
+- "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/debug/Cookies.swiftmodule"
+- "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/debug/Configs.swiftmodule"
+- "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/debug/Sessions.swiftmodule"
+- "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/debug/Sockets.swiftmodule"
+- "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/debug/WebSockets.swiftmodule"
+- "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/debug/Bits.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/IOKit.swiftmodule"
+- "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/debug/BCrypt.swiftmodule"
+- "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/debug/Multipart.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/debug/Transport.swiftmodule"
+- "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/checkouts/engine.git-3311994267206676365/Sources/CHTTP/include/http_parser.h"
+- "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/checkouts/ctls.git-9210868160426949823/module.modulemap"
+- "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/debug/CHTTP.build/module.modulemap"
+- "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/debug/CSQLite.build/module.modulemap"
+interface-hash: "d580241d09de9a66c73d199e0745f014"

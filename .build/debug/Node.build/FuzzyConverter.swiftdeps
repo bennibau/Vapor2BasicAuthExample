@@ -1,0 +1,247 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "FuzzyConverter"
+provides-nominal:
+- "P4Node14FuzzyConverter"
+provides-member:
+- ["P4Node14FuzzyConverter", ""]
+- ["V4Node4Node", ""]
+- ["Sa", ""]
+- ["V4Node4Node", "fuzzy"]
+- ["Sa", "initialize"]
+- ["Sa", "represent"]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "??"
+- "Array"
+- "AssignmentPrecedence"
+- "Context"
+- "FuzzyConverter"
+- "Node"
+- !private "NodeError"
+- !private "_fuzzyTypes"
+depends-member:
+- ["Sa", "Context"]
+- ["Sa", "FuzzyConverter"]
+- ["Sa", "Iterator"]
+- ["Sa", "Node"]
+- !private ["Sa", "NodeError"]
+- ["Sa", "initialize"]
+- ["Sa", "represent"]
+- ["Ps23BidirectionalCollection", "FuzzyConverter"]
+- ["Ps23BidirectionalCollection", "Iterator"]
+- !private ["Ps23BidirectionalCollection", "Node"]
+- !private ["Ps23BidirectionalCollection", "NodeError"]
+- ["Ps7CVarArg", "FuzzyConverter"]
+- ["Ps7CVarArg", "Iterator"]
+- !private ["Ps7CVarArg", "Node"]
+- !private ["Ps7CVarArg", "NodeError"]
+- ["Ps10Collection", "FuzzyConverter"]
+- ["Ps10Collection", "Iterator"]
+- !private ["Ps10Collection", "Node"]
+- !private ["Ps10Collection", "NodeError"]
+- ["Ps28CustomDebugStringConvertible", "FuzzyConverter"]
+- ["Ps28CustomDebugStringConvertible", "Iterator"]
+- !private ["Ps28CustomDebugStringConvertible", "Node"]
+- !private ["Ps28CustomDebugStringConvertible", "NodeError"]
+- !private ["Ps28CustomDebugStringConvertible", "noFuzzyConverter"]
+- ["Ps17CustomReflectable", "FuzzyConverter"]
+- ["Ps17CustomReflectable", "Iterator"]
+- !private ["Ps17CustomReflectable", "Node"]
+- !private ["Ps17CustomReflectable", "NodeError"]
+- ["Ps23CustomStringConvertible", "FuzzyConverter"]
+- ["Ps23CustomStringConvertible", "Iterator"]
+- !private ["Ps23CustomStringConvertible", "Node"]
+- !private ["Ps23CustomStringConvertible", "NodeError"]
+- !private ["P9Debugging10Debuggable", "noFuzzyConverter"]
+- !private ["Ps9Equatable", "_fuzzyTypes"]
+- !private ["Ps9Equatable", "defaultContext"]
+- !private ["Ps9Equatable", "fuzzy"]
+- !private ["Ps5Error", "noFuzzyConverter"]
+- ["Ps25ExpressibleByArrayLiteral", "FuzzyConverter"]
+- ["Ps25ExpressibleByArrayLiteral", "Iterator"]
+- !private ["Ps25ExpressibleByArrayLiteral", "Node"]
+- !private ["Ps25ExpressibleByArrayLiteral", "NodeError"]
+- !private ["Ps25ExpressibleByArrayLiteral", "_fuzzyTypes"]
+- !private ["Ps25ExpressibleByArrayLiteral", "defaultContext"]
+- !private ["Ps25ExpressibleByArrayLiteral", "fuzzy"]
+- !private ["Ps27ExpressibleByBooleanLiteral", "_fuzzyTypes"]
+- !private ["Ps27ExpressibleByBooleanLiteral", "defaultContext"]
+- !private ["Ps27ExpressibleByBooleanLiteral", "fuzzy"]
+- !private ["Ps30ExpressibleByDictionaryLiteral", "_fuzzyTypes"]
+- !private ["Ps30ExpressibleByDictionaryLiteral", "defaultContext"]
+- !private ["Ps30ExpressibleByDictionaryLiteral", "fuzzy"]
+- !private ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "_fuzzyTypes"]
+- !private ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "defaultContext"]
+- !private ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "fuzzy"]
+- !private ["Ps25ExpressibleByFloatLiteral", "_fuzzyTypes"]
+- !private ["Ps25ExpressibleByFloatLiteral", "defaultContext"]
+- !private ["Ps25ExpressibleByFloatLiteral", "fuzzy"]
+- !private ["Ps27ExpressibleByIntegerLiteral", "_fuzzyTypes"]
+- !private ["Ps27ExpressibleByIntegerLiteral", "defaultContext"]
+- !private ["Ps27ExpressibleByIntegerLiteral", "fuzzy"]
+- !private ["Ps23ExpressibleByNilLiteral", "_fuzzyTypes"]
+- !private ["Ps23ExpressibleByNilLiteral", "defaultContext"]
+- !private ["Ps23ExpressibleByNilLiteral", "fuzzy"]
+- !private ["Ps26ExpressibleByStringLiteral", "_fuzzyTypes"]
+- !private ["Ps26ExpressibleByStringLiteral", "defaultContext"]
+- !private ["Ps26ExpressibleByStringLiteral", "fuzzy"]
+- !private ["Ps33ExpressibleByUnicodeScalarLiteral", "_fuzzyTypes"]
+- !private ["Ps33ExpressibleByUnicodeScalarLiteral", "defaultContext"]
+- !private ["Ps33ExpressibleByUnicodeScalarLiteral", "fuzzy"]
+- ["P4Node14FuzzyConverter", "Context"]
+- ["P4Node14FuzzyConverter", "Node"]
+- !private ["P4Node14FuzzyConverter", "_fuzzyTypes"]
+- !private ["P4Node14FuzzyConverter", "defaultContext"]
+- !private ["P4Node14FuzzyConverter", "fuzzy"]
+- ["P4Node14FuzzyConverter", "initialize"]
+- ["P4Node14FuzzyConverter", "represent"]
+- ["Vs16IndexingIterator", "Element"]
+- ["Ps16IteratorProtocol", "Element"]
+- ["Ps17MutableCollection", "FuzzyConverter"]
+- ["Ps17MutableCollection", "Iterator"]
+- !private ["Ps17MutableCollection", "Node"]
+- !private ["Ps17MutableCollection", "NodeError"]
+- ["V4Node4Node", "FuzzyConverter"]
+- !private ["V4Node4Node", "_fuzzyTypes"]
+- !private ["V4Node4Node", "defaultContext"]
+- ["V4Node4Node", "deinit"]
+- ["V4Node4Node", "fuzzy"]
+- !private ["O4Node9NodeError", "deinit"]
+- !private ["O4Node9NodeError", "noFuzzyConverter"]
+- ["P4Node17NodeInitializable", "FuzzyConverter"]
+- ["P4Node17NodeInitializable", "Iterator"]
+- !private ["P4Node17NodeInitializable", "Node"]
+- !private ["P4Node17NodeInitializable", "NodeError"]
+- !private ["P4Node17NodeInitializable", "_fuzzyTypes"]
+- !private ["P4Node17NodeInitializable", "defaultContext"]
+- !private ["P4Node17NodeInitializable", "fuzzy"]
+- ["P4Node17NodeRepresentable", "FuzzyConverter"]
+- ["P4Node17NodeRepresentable", "Iterator"]
+- !private ["P4Node17NodeRepresentable", "Node"]
+- !private ["P4Node17NodeRepresentable", "NodeError"]
+- !private ["P4Node17NodeRepresentable", "_fuzzyTypes"]
+- !private ["P4Node17NodeRepresentable", "defaultContext"]
+- !private ["P4Node17NodeRepresentable", "fuzzy"]
+- !private ["C4Node13ObjectContext", "deinit"]
+- !private ["P13PathIndexable13PathIndexable", "_fuzzyTypes"]
+- !private ["P13PathIndexable13PathIndexable", "defaultContext"]
+- !private ["P13PathIndexable13PathIndexable", "fuzzy"]
+- ["Ps22RandomAccessCollection", "FuzzyConverter"]
+- ["Ps22RandomAccessCollection", "Iterator"]
+- !private ["Ps22RandomAccessCollection", "Node"]
+- !private ["Ps22RandomAccessCollection", "NodeError"]
+- ["Ps26RangeReplaceableCollection", "FuzzyConverter"]
+- ["Ps26RangeReplaceableCollection", "Iterator"]
+- !private ["Ps26RangeReplaceableCollection", "Node"]
+- !private ["Ps26RangeReplaceableCollection", "NodeError"]
+- ["Ps8Sequence", "Element"]
+- ["Ps8Sequence", "FuzzyConverter"]
+- ["Ps8Sequence", "Iterator"]
+- !private ["Ps8Sequence", "Node"]
+- !private ["Ps8Sequence", "NodeError"]
+- !private ["P4Node21StructuredDataWrapper", "_fuzzyTypes"]
+- !private ["P4Node21StructuredDataWrapper", "defaultContext"]
+- !private ["P4Node21StructuredDataWrapper", "fuzzy"]
+- ["Ps14_ArrayProtocol", "FuzzyConverter"]
+- ["Ps14_ArrayProtocol", "Iterator"]
+- !private ["Ps14_ArrayProtocol", "Node"]
+- !private ["Ps14_ArrayProtocol", "NodeError"]
+- ["Ps23_BidirectionalIndexable", "FuzzyConverter"]
+- ["Ps23_BidirectionalIndexable", "Iterator"]
+- !private ["Ps23_BidirectionalIndexable", "Node"]
+- !private ["Ps23_BidirectionalIndexable", "NodeError"]
+- ["Ps24_DestructorSafeContainer", "FuzzyConverter"]
+- ["Ps24_DestructorSafeContainer", "Iterator"]
+- !private ["Ps24_DestructorSafeContainer", "Node"]
+- !private ["Ps24_DestructorSafeContainer", "NodeError"]
+- ["Ps10_Indexable", "FuzzyConverter"]
+- ["Ps10_Indexable", "Iterator"]
+- !private ["Ps10_Indexable", "Node"]
+- !private ["Ps10_Indexable", "NodeError"]
+- ["Ps14_IndexableBase", "FuzzyConverter"]
+- ["Ps14_IndexableBase", "Iterator"]
+- !private ["Ps14_IndexableBase", "Node"]
+- !private ["Ps14_IndexableBase", "NodeError"]
+- ["Ps17_MutableIndexable", "FuzzyConverter"]
+- ["Ps17_MutableIndexable", "Iterator"]
+- !private ["Ps17_MutableIndexable", "Node"]
+- !private ["Ps17_MutableIndexable", "NodeError"]
+- ["Ps21_ObjectiveCBridgeable", "FuzzyConverter"]
+- ["Ps21_ObjectiveCBridgeable", "Iterator"]
+- !private ["Ps21_ObjectiveCBridgeable", "Node"]
+- !private ["Ps21_ObjectiveCBridgeable", "NodeError"]
+- ["Ps22_RandomAccessIndexable", "FuzzyConverter"]
+- ["Ps22_RandomAccessIndexable", "Iterator"]
+- !private ["Ps22_RandomAccessIndexable", "Node"]
+- !private ["Ps22_RandomAccessIndexable", "NodeError"]
+- ["Ps26_RangeReplaceableIndexable", "FuzzyConverter"]
+- ["Ps26_RangeReplaceableIndexable", "Iterator"]
+- !private ["Ps26_RangeReplaceableIndexable", "Node"]
+- !private ["Ps26_RangeReplaceableIndexable", "NodeError"]
+depends-nominal:
+- "Sa"
+- "Ps23BidirectionalCollection"
+- "Ps7CVarArg"
+- "Ps10Collection"
+- "Ps28CustomDebugStringConvertible"
+- "Ps17CustomReflectable"
+- "Ps23CustomStringConvertible"
+- !private "P9Debugging10Debuggable"
+- !private "Ps9Equatable"
+- !private "Ps5Error"
+- "Ps25ExpressibleByArrayLiteral"
+- !private "Ps27ExpressibleByBooleanLiteral"
+- !private "Ps30ExpressibleByDictionaryLiteral"
+- !private "Ps43ExpressibleByExtendedGraphemeClusterLiteral"
+- !private "Ps25ExpressibleByFloatLiteral"
+- !private "Ps27ExpressibleByIntegerLiteral"
+- !private "Ps23ExpressibleByNilLiteral"
+- !private "Ps26ExpressibleByStringLiteral"
+- !private "Ps33ExpressibleByUnicodeScalarLiteral"
+- "P4Node14FuzzyConverter"
+- "Vs16IndexingIterator"
+- "Ps16IteratorProtocol"
+- "Ps17MutableCollection"
+- "V4Node4Node"
+- !private "O4Node9NodeError"
+- "P4Node17NodeInitializable"
+- "P4Node17NodeRepresentable"
+- !private "C4Node13ObjectContext"
+- !private "P13PathIndexable13PathIndexable"
+- "Ps22RandomAccessCollection"
+- "Ps26RangeReplaceableCollection"
+- "Ps8Sequence"
+- !private "P4Node21StructuredDataWrapper"
+- "Ps14_ArrayProtocol"
+- "Ps23_BidirectionalIndexable"
+- "Ps24_DestructorSafeContainer"
+- "Ps10_Indexable"
+- "Ps14_IndexableBase"
+- "Ps17_MutableIndexable"
+- "Ps21_ObjectiveCBridgeable"
+- "Ps22_RandomAccessIndexable"
+- "Ps26_RangeReplaceableIndexable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/ObjectiveC.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Foundation.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreGraphics.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreText.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/ObjectiveC.swiftmodule"
+- "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/debug/libc.swiftmodule"
+- "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/debug/PathIndexable.swiftmodule"
+- "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/debug/Core.swiftmodule"
+- "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/debug/Debugging.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreGraphics.swiftmodule"
+- "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/debug/Bits.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/IOKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/debug/CHTTP.build/module.modulemap"
+- "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/debug/CSQLite.build/module.modulemap"
+interface-hash: "cb554b7564c9c76fd5f34692adb5c46a"

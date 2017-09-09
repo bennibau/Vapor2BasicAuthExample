@@ -1,0 +1,16 @@
+version: "Apple Swift version 3.1 (swiftlang-802.0.53 clang-802.0.42)"
+options: "7e23368d13cd4e3429c246565495b9f1"
+build_time: [558250010, 188059000]
+inputs:
+  "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/checkouts/tls.git-2678149690400510061/Sources/TLS/Certificates.swift": [557941171, 0]
+  "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/checkouts/tls.git-2678149690400510061/Sources/TLS/ClientSocket.swift": [557941171, 0]
+  "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/checkouts/tls.git-2678149690400510061/Sources/TLS/Context.swift": [557941171, 0]
+  "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/checkouts/tls.git-2678149690400510061/Sources/TLS/Error.swift": [557941171, 0]
+  "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/checkouts/tls.git-2678149690400510061/Sources/TLS/Exports.swift": [557941171, 0]
+  "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/checkouts/tls.git-2678149690400510061/Sources/TLS/InternetSocket.swift": [557941171, 0]
+  "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/checkouts/tls.git-2678149690400510061/Sources/TLS/Mode.swift": [557941171, 0]
+  "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/checkouts/tls.git-2678149690400510061/Sources/TLS/ReadableSocket.swift": [557941171, 0]
+  "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/checkouts/tls.git-2678149690400510061/Sources/TLS/ServerSocket.swift": [557941171, 0]
+  "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/checkouts/tls.git-2678149690400510061/Sources/TLS/Socket.swift": [557941171, 0]
+  "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/checkouts/tls.git-2678149690400510061/Sources/TLS/Utilities.swift": [557941171, 0]
+  "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/checkouts/tls.git-2678149690400510061/Sources/TLS/WriteableSocket.swift": [557941171, 0]

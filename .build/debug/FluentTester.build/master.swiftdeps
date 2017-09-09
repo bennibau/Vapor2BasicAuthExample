@@ -1,0 +1,20 @@
+version: "Apple Swift version 3.1 (swiftlang-802.0.53 clang-802.0.42)"
+options: "09058bcdcc2eee412dba8691117da3bf"
+build_time: [558250026, 819465000]
+inputs:
+  "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/checkouts/fluent.git-6251908308727715749/Sources/FluentTester/Atom.swift": [557940832, 0]
+  "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/checkouts/fluent.git-6251908308727715749/Sources/FluentTester/Compound.swift": [557940832, 0]
+  "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/checkouts/fluent.git-6251908308727715749/Sources/FluentTester/Student.swift": [557940832, 0]
+  "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/checkouts/fluent.git-6251908308727715749/Sources/FluentTester/Tester+Chunk.swift": [557940832, 0]
+  "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/checkouts/fluent.git-6251908308727715749/Sources/FluentTester/Tester+CustomKeys.swift": [557940832, 0]
+  "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/checkouts/fluent.git-6251908308727715749/Sources/FluentTester/Tester+ForeignKey.swift": [557940832, 0]
+  "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/checkouts/fluent.git-6251908308727715749/Sources/FluentTester/Tester+Index.swift": [557940832, 0]
+  "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/checkouts/fluent.git-6251908308727715749/Sources/FluentTester/Tester+InsertAndFind.swift": [557940832, 0]
+  "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/checkouts/fluent.git-6251908308727715749/Sources/FluentTester/Tester+Paginate.swift": [557940832, 0]
+  "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/checkouts/fluent.git-6251908308727715749/Sources/FluentTester/Tester+PivotsAndRelations.swift": [557940832, 0]
+  "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/checkouts/fluent.git-6251908308727715749/Sources/FluentTester/Tester+Schema.swift": [557940832, 0]
+  "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/checkouts/fluent.git-6251908308727715749/Sources/FluentTester/Tester+SoftDelete.swift": [557940832, 0]
+  "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/checkouts/fluent.git-6251908308727715749/Sources/FluentTester/Tester+Timestamps.swift": [557940832, 0]
+  "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/checkouts/fluent.git-6251908308727715749/Sources/FluentTester/Tester+Transaction.swift": [557940832, 0]
+  "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/checkouts/fluent.git-6251908308727715749/Sources/FluentTester/Tester+Utilities.swift": [557940832, 0]
+  "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/checkouts/fluent.git-6251908308727715749/Sources/FluentTester/Tester.swift": [557940832, 0]

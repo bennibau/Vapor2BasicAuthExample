@@ -1,0 +1,405 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "TLSError"
+provides-nominal:
+- "V3TLS8TLSError"
+provides-member:
+- ["V3TLS8TLSError", ""]
+- ["P3TLS6Socket", ""]
+- ["C3TLS7Context", ""]
+- ["P3TLS6Socket", "assert"]
+- ["P3TLS6Socket", "makeError"]
+- ["C3TLS7Context", "assert"]
+- ["C3TLS7Context", "makeError"]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "!="
+- !private "+"
+- !private "=="
+- !private "??"
+- !private "Array"
+- "AssignmentPrecedence"
+- !private "BIO_free"
+- !private "BIO_new"
+- !private "BIO_number_written"
+- !private "BIO_read"
+- !private "BIO_s_mem"
+- "Context"
+- "Debuggable"
+- !private "ERR_get_error"
+- !private "ERR_print_errors"
+- !private "ERR_reason_error_string"
+- "Error"
+- !private "FloatLiteralType"
+- !private "Int"
+- "Int32"
+- !private "Int8"
+- !private "IntegerLiteralType"
+- !private "SSL_ERROR_SSL"
+- !private "SSL_ERROR_SYSCALL"
+- !private "SSL_ERROR_WANT_ACCEPT"
+- !private "SSL_ERROR_WANT_CONNECT"
+- !private "SSL_ERROR_WANT_READ"
+- !private "SSL_ERROR_WANT_WRITE"
+- !private "SSL_ERROR_WANT_X509_LOOKUP"
+- !private "SSL_ERROR_ZERO_RETURN"
+- !private "SSL_get_error"
+- "Socket"
+- "String"
+- !private "StringLiteralType"
+- "TLSError"
+- !private "UnicodeScalarType"
+- !private "errno"
+- !private "strerror"
+- !private "~="
+depends-member:
+- !private ["Ps9AnyObject", "ERR_get_error"]
+- !private ["Ps9AnyObject", "ERR_reason_error_string"]
+- !private ["Ps9AnyObject", "String"]
+- !private ["Ps9AnyObject", "TLSError"]
+- !private ["Ps9AnyObject", "errorReason"]
+- !private ["Ps9AnyObject", "init"]
+- !private ["Ps9AnyObject", "makeError"]
+- !private ["Sa", "init"]
+- !private ["Sa", "withUnsafeMutableBufferPointer"]
+- !private ["Ps23BidirectionalCollection", "baseAddress"]
+- !private ["Ps23BidirectionalCollection", "init"]
+- !private ["Ps23BidirectionalCollection", "withUnsafeMutableBufferPointer"]
+- !private ["Ps17BitwiseOperations", "init"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["P4Bits16BytesConvertible", "init"]
+- !private ["P4Bits18BytesInitializable", "init"]
+- !private ["P4Bits18BytesRepresentable", "init"]
+- !private ["Ps7CVarArg", "init"]
+- !private ["Ps7CVarArg", "withUnsafeMutableBufferPointer"]
+- !private ["Ps10Collection", "baseAddress"]
+- !private ["Ps10Collection", "init"]
+- !private ["Ps10Collection", "withUnsafeMutableBufferPointer"]
+- !private ["Ps10Comparable", "init"]
+- !private ["C3TLS7Context", "ERR_get_error"]
+- !private ["C3TLS7Context", "ERR_reason_error_string"]
+- ["C3TLS7Context", "Int32"]
+- ["C3TLS7Context", "String"]
+- ["C3TLS7Context", "TLSError"]
+- ["C3TLS7Context", "assert"]
+- !private ["C3TLS7Context", "errorReason"]
+- ["C3TLS7Context", "makeError"]
+- ["Ps28CustomDebugStringConvertible", "_code"]
+- ["Ps28CustomDebugStringConvertible", "_domain"]
+- ["Ps28CustomDebugStringConvertible", "_getEmbeddedNSError"]
+- ["Ps28CustomDebugStringConvertible", "_userInfo"]
+- !private ["Ps28CustomDebugStringConvertible", "baseAddress"]
+- ["Ps28CustomDebugStringConvertible", "debugDescription"]
+- ["Ps28CustomDebugStringConvertible", "documentationLinks"]
+- !private ["Ps28CustomDebugStringConvertible", "functionName"]
+- ["Ps28CustomDebugStringConvertible", "gitHubIssues"]
+- ["Ps28CustomDebugStringConvertible", "identifier"]
+- !private ["Ps28CustomDebugStringConvertible", "init"]
+- ["Ps28CustomDebugStringConvertible", "possibleCauses"]
+- ["Ps28CustomDebugStringConvertible", "readableName"]
+- ["Ps28CustomDebugStringConvertible", "reason"]
+- !private ["Ps28CustomDebugStringConvertible", "returnCode"]
+- ["Ps28CustomDebugStringConvertible", "stackOverflowQuestions"]
+- ["Ps28CustomDebugStringConvertible", "suggestedFixes"]
+- ["Ps28CustomDebugStringConvertible", "typeIdentifier"]
+- !private ["Ps28CustomDebugStringConvertible", "withUnsafeMutableBufferPointer"]
+- ["Ps28CustomDebugStringConvertible", ""]
+- !private ["Ps29CustomPlaygroundQuickLookable", "_getBuiltinLogicValue"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "init"]
+- !private ["Ps17CustomReflectable", "_getBuiltinLogicValue"]
+- !private ["Ps17CustomReflectable", "init"]
+- !private ["Ps17CustomReflectable", "withUnsafeMutableBufferPointer"]
+- !private ["Ps23CustomStringConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps23CustomStringConvertible", "init"]
+- !private ["Ps23CustomStringConvertible", "withUnsafeMutableBufferPointer"]
+- ["P9Debugging10Debuggable", "_code"]
+- ["P9Debugging10Debuggable", "_domain"]
+- ["P9Debugging10Debuggable", "_getEmbeddedNSError"]
+- ["P9Debugging10Debuggable", "_userInfo"]
+- ["P9Debugging10Debuggable", "debugDescription"]
+- ["P9Debugging10Debuggable", "documentationLinks"]
+- !private ["P9Debugging10Debuggable", "functionName"]
+- ["P9Debugging10Debuggable", "gitHubIssues"]
+- ["P9Debugging10Debuggable", "identifier"]
+- !private ["P9Debugging10Debuggable", "init"]
+- ["P9Debugging10Debuggable", "possibleCauses"]
+- ["P9Debugging10Debuggable", "readableName"]
+- ["P9Debugging10Debuggable", "reason"]
+- !private ["P9Debugging10Debuggable", "returnCode"]
+- ["P9Debugging10Debuggable", "stackOverflowQuestions"]
+- ["P9Debugging10Debuggable", "suggestedFixes"]
+- ["P9Debugging10Debuggable", "typeIdentifier"]
+- ["P9Debugging10Debuggable", ""]
+- !private ["Ps9Equatable", "_getBuiltinLogicValue"]
+- !private ["Ps9Equatable", "init"]
+- ["Ps5Error", "_code"]
+- ["Ps5Error", "_domain"]
+- ["Ps5Error", "_getEmbeddedNSError"]
+- ["Ps5Error", "_userInfo"]
+- ["Ps5Error", "debugDescription"]
+- ["Ps5Error", "documentationLinks"]
+- !private ["Ps5Error", "functionName"]
+- ["Ps5Error", "gitHubIssues"]
+- ["Ps5Error", "identifier"]
+- !private ["Ps5Error", "init"]
+- ["Ps5Error", "possibleCauses"]
+- ["Ps5Error", "readableName"]
+- ["Ps5Error", "reason"]
+- !private ["Ps5Error", "returnCode"]
+- ["Ps5Error", "stackOverflowQuestions"]
+- ["Ps5Error", "suggestedFixes"]
+- ["Ps5Error", "typeIdentifier"]
+- ["Ps5Error", ""]
+- !private ["Ps25ExpressibleByArrayLiteral", "init"]
+- !private ["Ps25ExpressibleByArrayLiteral", "withUnsafeMutableBufferPointer"]
+- !private ["Ps27ExpressibleByBooleanLiteral", "_getBuiltinLogicValue"]
+- !private ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "init"]
+- !private ["Ps27ExpressibleByIntegerLiteral", "init"]
+- !private ["Ps26ExpressibleByStringLiteral", "init"]
+- !private ["Ps33ExpressibleByUnicodeScalarLiteral", "init"]
+- !private ["Ps8Hashable", "_getBuiltinLogicValue"]
+- !private ["Ps8Hashable", "init"]
+- !private ["Si", "init"]
+- !private ["Vs5Int32", "init"]
+- !private ["Ps7Integer", "init"]
+- !private ["Ps17IntegerArithmetic", "init"]
+- !private ["Ps25LosslessStringConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps25LosslessStringConvertible", "init"]
+- !private ["Ps10MirrorPath", "init"]
+- !private ["Ps17MutableCollection", "baseAddress"]
+- !private ["Ps17MutableCollection", "init"]
+- !private ["Ps17MutableCollection", "withUnsafeMutableBufferPointer"]
+- !private ["PSo8NSCoding", "init"]
+- !private ["PSo9NSCopying", "init"]
+- !private ["PSo16NSMutableCopying", "init"]
+- !private ["PSo16NSObjectProtocol", "init"]
+- !private ["PSo14NSSecureCoding", "init"]
+- !private ["CSo8NSString", "init"]
+- !private ["Ps22RandomAccessCollection", "baseAddress"]
+- !private ["Ps22RandomAccessCollection", "init"]
+- !private ["Ps22RandomAccessCollection", "withUnsafeMutableBufferPointer"]
+- !private ["Ps26RangeReplaceableCollection", "init"]
+- !private ["Ps26RangeReplaceableCollection", "withUnsafeMutableBufferPointer"]
+- !private ["Ps8Sequence", "baseAddress"]
+- !private ["Ps8Sequence", "init"]
+- !private ["Ps8Sequence", "withUnsafeMutableBufferPointer"]
+- !private ["Ps13SignedInteger", "init"]
+- !private ["Ps12SignedNumber", "init"]
+- !private ["P3TLS6Socket", "Array"]
+- !private ["P3TLS6Socket", "BIO_free"]
+- !private ["P3TLS6Socket", "BIO_new"]
+- !private ["P3TLS6Socket", "BIO_number_written"]
+- !private ["P3TLS6Socket", "BIO_read"]
+- !private ["P3TLS6Socket", "BIO_s_mem"]
+- !private ["P3TLS6Socket", "ERR_print_errors"]
+- !private ["P3TLS6Socket", "Int"]
+- ["P3TLS6Socket", "Int32"]
+- !private ["P3TLS6Socket", "Int8"]
+- !private ["P3TLS6Socket", "SSL_ERROR_SSL"]
+- !private ["P3TLS6Socket", "SSL_ERROR_SYSCALL"]
+- !private ["P3TLS6Socket", "SSL_ERROR_WANT_ACCEPT"]
+- !private ["P3TLS6Socket", "SSL_ERROR_WANT_CONNECT"]
+- !private ["P3TLS6Socket", "SSL_ERROR_WANT_READ"]
+- !private ["P3TLS6Socket", "SSL_ERROR_WANT_WRITE"]
+- !private ["P3TLS6Socket", "SSL_ERROR_WANT_X509_LOOKUP"]
+- !private ["P3TLS6Socket", "SSL_ERROR_ZERO_RETURN"]
+- !private ["P3TLS6Socket", "SSL_get_error"]
+- ["P3TLS6Socket", "String"]
+- ["P3TLS6Socket", "TLSError"]
+- ["P3TLS6Socket", "assert"]
+- !private ["P3TLS6Socket", "cSSL"]
+- !private ["P3TLS6Socket", "context"]
+- !private ["P3TLS6Socket", "errno"]
+- ["P3TLS6Socket", "makeError"]
+- !private ["P3TLS6Socket", "strerror"]
+- !private ["P9Transport6Stream", "Array"]
+- !private ["P9Transport6Stream", "BIO_free"]
+- !private ["P9Transport6Stream", "BIO_new"]
+- !private ["P9Transport6Stream", "BIO_number_written"]
+- !private ["P9Transport6Stream", "BIO_read"]
+- !private ["P9Transport6Stream", "BIO_s_mem"]
+- !private ["P9Transport6Stream", "ERR_print_errors"]
+- !private ["P9Transport6Stream", "Int"]
+- ["P9Transport6Stream", "Int32"]
+- !private ["P9Transport6Stream", "Int8"]
+- !private ["P9Transport6Stream", "SSL_ERROR_SSL"]
+- !private ["P9Transport6Stream", "SSL_ERROR_SYSCALL"]
+- !private ["P9Transport6Stream", "SSL_ERROR_WANT_ACCEPT"]
+- !private ["P9Transport6Stream", "SSL_ERROR_WANT_CONNECT"]
+- !private ["P9Transport6Stream", "SSL_ERROR_WANT_READ"]
+- !private ["P9Transport6Stream", "SSL_ERROR_WANT_WRITE"]
+- !private ["P9Transport6Stream", "SSL_ERROR_WANT_X509_LOOKUP"]
+- !private ["P9Transport6Stream", "SSL_ERROR_ZERO_RETURN"]
+- !private ["P9Transport6Stream", "SSL_get_error"]
+- ["P9Transport6Stream", "String"]
+- ["P9Transport6Stream", "TLSError"]
+- !private ["P9Transport6Stream", "cSSL"]
+- !private ["P9Transport6Stream", "context"]
+- !private ["P9Transport6Stream", "errno"]
+- !private ["P9Transport6Stream", "makeError"]
+- !private ["P9Transport6Stream", "strerror"]
+- !private ["Ps10Strideable", "init"]
+- !private ["SS", "init"]
+- ["V3TLS8TLSError", "Int32"]
+- ["V3TLS8TLSError", "String"]
+- ["V3TLS8TLSError", "_code"]
+- ["V3TLS8TLSError", "_domain"]
+- ["V3TLS8TLSError", "_getEmbeddedNSError"]
+- ["V3TLS8TLSError", "_userInfo"]
+- ["V3TLS8TLSError", "debugDescription"]
+- ["V3TLS8TLSError", "deinit"]
+- ["V3TLS8TLSError", "documentationLinks"]
+- ["V3TLS8TLSError", "functionName"]
+- ["V3TLS8TLSError", "gitHubIssues"]
+- ["V3TLS8TLSError", "identifier"]
+- ["V3TLS8TLSError", "init"]
+- ["V3TLS8TLSError", "possibleCauses"]
+- ["V3TLS8TLSError", "readableName"]
+- ["V3TLS8TLSError", "reason"]
+- ["V3TLS8TLSError", "returnCode"]
+- ["V3TLS8TLSError", "stackOverflowQuestions"]
+- ["V3TLS8TLSError", "suggestedFixes"]
+- ["V3TLS8TLSError", "typeIdentifier"]
+- !private ["Ps16TextOutputStream", "init"]
+- !private ["Ps20TextOutputStreamable", "init"]
+- !private ["Sr", "baseAddress"]
+- !private ["Ps14_ArrayProtocol", "init"]
+- !private ["Ps14_ArrayProtocol", "withUnsafeMutableBufferPointer"]
+- !private ["Ps23_BidirectionalIndexable", "baseAddress"]
+- !private ["Ps23_BidirectionalIndexable", "init"]
+- !private ["Ps23_BidirectionalIndexable", "withUnsafeMutableBufferPointer"]
+- !private ["Ps24_DestructorSafeContainer", "init"]
+- !private ["Ps24_DestructorSafeContainer", "withUnsafeMutableBufferPointer"]
+- !private ["Ps35_ExpressibleByBuiltinBooleanLiteral", "_getBuiltinLogicValue"]
+- !private ["Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral", "init"]
+- !private ["Ps35_ExpressibleByBuiltinIntegerLiteral", "init"]
+- !private ["Ps34_ExpressibleByBuiltinStringLiteral", "init"]
+- !private ["Ps39_ExpressibleByBuiltinUTF16StringLiteral", "init"]
+- !private ["Ps41_ExpressibleByBuiltinUnicodeScalarLiteral", "init"]
+- !private ["Ps33_ExpressibleByStringInterpolation", "init"]
+- !private ["Ps35_HasCustomAnyHashableRepresentation", "init"]
+- !private ["Ps9_Hashable", "_getBuiltinLogicValue"]
+- !private ["Ps9_Hashable", "init"]
+- !private ["Ps14_Incrementable", "init"]
+- !private ["Ps10_Indexable", "baseAddress"]
+- !private ["Ps10_Indexable", "init"]
+- !private ["Ps10_Indexable", "withUnsafeMutableBufferPointer"]
+- !private ["Ps14_IndexableBase", "baseAddress"]
+- !private ["Ps14_IndexableBase", "init"]
+- !private ["Ps14_IndexableBase", "withUnsafeMutableBufferPointer"]
+- !private ["Ps8_Integer", "init"]
+- !private ["Ps18_IntegerArithmetic", "init"]
+- !private ["Ps17_MutableIndexable", "baseAddress"]
+- !private ["Ps17_MutableIndexable", "init"]
+- !private ["Ps17_MutableIndexable", "withUnsafeMutableBufferPointer"]
+- !private ["Ps21_ObjectiveCBridgeable", "_getBuiltinLogicValue"]
+- !private ["Ps21_ObjectiveCBridgeable", "init"]
+- !private ["Ps21_ObjectiveCBridgeable", "withUnsafeMutableBufferPointer"]
+- !private ["Ps22_RandomAccessIndexable", "baseAddress"]
+- !private ["Ps22_RandomAccessIndexable", "init"]
+- !private ["Ps22_RandomAccessIndexable", "withUnsafeMutableBufferPointer"]
+- !private ["Ps26_RangeReplaceableIndexable", "init"]
+- !private ["Ps26_RangeReplaceableIndexable", "withUnsafeMutableBufferPointer"]
+- !private ["Ps14_SignedInteger", "init"]
+- !private ["Ps11_Strideable", "init"]
+depends-nominal:
+- !private "Ps9AnyObject"
+- !private "Sa"
+- !private "Ps23BidirectionalCollection"
+- !private "Ps17BitwiseOperations"
+- !private "Sb"
+- !private "P4Bits16BytesConvertible"
+- !private "P4Bits18BytesInitializable"
+- !private "P4Bits18BytesRepresentable"
+- !private "Ps7CVarArg"
+- !private "Ps10Collection"
+- !private "Ps10Comparable"
+- "C3TLS7Context"
+- "Ps28CustomDebugStringConvertible"
+- !private "Ps29CustomPlaygroundQuickLookable"
+- !private "Ps17CustomReflectable"
+- !private "Ps23CustomStringConvertible"
+- "P9Debugging10Debuggable"
+- !private "Ps9Equatable"
+- "Ps5Error"
+- !private "Ps25ExpressibleByArrayLiteral"
+- !private "Ps27ExpressibleByBooleanLiteral"
+- !private "Ps43ExpressibleByExtendedGraphemeClusterLiteral"
+- !private "Ps27ExpressibleByIntegerLiteral"
+- !private "Ps26ExpressibleByStringLiteral"
+- !private "Ps33ExpressibleByUnicodeScalarLiteral"
+- !private "Ps8Hashable"
+- !private "Si"
+- !private "Vs5Int32"
+- !private "Ps7Integer"
+- !private "Ps17IntegerArithmetic"
+- !private "Ps25LosslessStringConvertible"
+- !private "Ps10MirrorPath"
+- !private "Ps17MutableCollection"
+- !private "PSo8NSCoding"
+- !private "PSo9NSCopying"
+- !private "PSo16NSMutableCopying"
+- !private "PSo16NSObjectProtocol"
+- !private "PSo14NSSecureCoding"
+- !private "CSo8NSString"
+- !private "Ps22RandomAccessCollection"
+- !private "Ps26RangeReplaceableCollection"
+- !private "Ps8Sequence"
+- !private "Ps13SignedInteger"
+- !private "Ps12SignedNumber"
+- "P3TLS6Socket"
+- "P9Transport6Stream"
+- !private "Ps10Strideable"
+- !private "SS"
+- "V3TLS8TLSError"
+- !private "Ps16TextOutputStream"
+- !private "Ps20TextOutputStreamable"
+- !private "Sr"
+- !private "Ps14_ArrayProtocol"
+- !private "Ps23_BidirectionalIndexable"
+- !private "Ps24_DestructorSafeContainer"
+- !private "Ps35_ExpressibleByBuiltinBooleanLiteral"
+- !private "Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral"
+- !private "Ps35_ExpressibleByBuiltinIntegerLiteral"
+- !private "Ps34_ExpressibleByBuiltinStringLiteral"
+- !private "Ps39_ExpressibleByBuiltinUTF16StringLiteral"
+- !private "Ps41_ExpressibleByBuiltinUnicodeScalarLiteral"
+- !private "Ps33_ExpressibleByStringInterpolation"
+- !private "Ps35_HasCustomAnyHashableRepresentation"
+- !private "Ps9_Hashable"
+- !private "Ps14_Incrementable"
+- !private "Ps10_Indexable"
+- !private "Ps14_IndexableBase"
+- !private "Ps8_Integer"
+- !private "Ps18_IntegerArithmetic"
+- !private "Ps17_MutableIndexable"
+- !private "Ps21_ObjectiveCBridgeable"
+- !private "Ps22_RandomAccessIndexable"
+- !private "Ps26_RangeReplaceableIndexable"
+- !private "Ps14_SignedInteger"
+- !private "Ps11_Strideable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/ObjectiveC.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Foundation.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreGraphics.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreText.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/ObjectiveC.swiftmodule"
+- "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/debug/libc.swiftmodule"
+- "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/debug/Core.swiftmodule"
+- "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/debug/Debugging.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreGraphics.swiftmodule"
+- "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/debug/Sockets.swiftmodule"
+- "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/debug/Bits.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/IOKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/debug/Transport.swiftmodule"
+- "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/checkouts/ctls.git-9210868160426949823/module.modulemap"
+- "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/debug/CHTTP.build/module.modulemap"
+- "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/debug/CSQLite.build/module.modulemap"
+interface-hash: "6507f821d2292d0e2c1a493ffe39c912"

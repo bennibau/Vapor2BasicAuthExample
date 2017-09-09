@@ -1,0 +1,291 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+provides-nominal:
+provides-member:
+- ["V4Node4Node", ""]
+- ["V4Node4Node", "rendered"]
+provides-dynamic-lookup:
+depends-top-level:
+- "Bytes"
+- !private "Date"
+- "Node"
+depends-member:
+- !private ["Ps9AnyObject", "htmlEscaped"]
+- !private ["Ps9AnyObject", "makeBytes"]
+- !private ["Ps9AnyObject", "string"]
+- !private ["Sb", "description"]
+- !private ["P4Bits16BytesConvertible", "htmlEscaped"]
+- !private ["P4Bits16BytesConvertible", "makeBytes"]
+- !private ["P4Bits18BytesInitializable", "htmlEscaped"]
+- !private ["P4Bits18BytesInitializable", "makeBytes"]
+- !private ["P4Bits18BytesRepresentable", "htmlEscaped"]
+- !private ["P4Bits18BytesRepresentable", "makeBytes"]
+- !private ["Ps7CVarArg", "htmlEscaped"]
+- !private ["Ps7CVarArg", "makeBytes"]
+- !private ["Ps7CVarArg", "string"]
+- !private ["Ps10Comparable", "htmlEscaped"]
+- !private ["Ps10Comparable", "makeBytes"]
+- !private ["Ps10Comparable", "outgoingDateFormatter"]
+- !private ["Ps28CustomDebugStringConvertible", "htmlEscaped"]
+- !private ["Ps28CustomDebugStringConvertible", "makeBytes"]
+- !private ["Ps28CustomDebugStringConvertible", "outgoingDateFormatter"]
+- !private ["Ps28CustomDebugStringConvertible", "string"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "description"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "htmlEscaped"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "makeBytes"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "outgoingDateFormatter"]
+- !private ["Ps17CustomReflectable", "description"]
+- !private ["Ps17CustomReflectable", "htmlEscaped"]
+- !private ["Ps17CustomReflectable", "makeBytes"]
+- !private ["Ps17CustomReflectable", "outgoingDateFormatter"]
+- ["Ps23CustomStringConvertible", "array"]
+- ["Ps23CustomStringConvertible", "bool"]
+- ["Ps23CustomStringConvertible", "bytes"]
+- ["Ps23CustomStringConvertible", "date"]
+- !private ["Ps23CustomStringConvertible", "description"]
+- !private ["Ps23CustomStringConvertible", "htmlEscaped"]
+- !private ["Ps23CustomStringConvertible", "makeBytes"]
+- ["Ps23CustomStringConvertible", "null"]
+- ["Ps23CustomStringConvertible", "number"]
+- ["Ps23CustomStringConvertible", "object"]
+- !private ["Ps23CustomStringConvertible", "outgoingDateFormatter"]
+- ["Ps23CustomStringConvertible", "string"]
+- !private ["V10Foundation4Date", "outgoingDateFormatter"]
+- !private ["CSo13DateFormatter", "string"]
+- !private ["Ps9Equatable", "Date"]
+- ["Ps9Equatable", "array"]
+- ["Ps9Equatable", "bool"]
+- ["Ps9Equatable", "bytes"]
+- ["Ps9Equatable", "date"]
+- !private ["Ps9Equatable", "description"]
+- !private ["Ps9Equatable", "htmlEscaped"]
+- !private ["Ps9Equatable", "makeBytes"]
+- ["Ps9Equatable", "null"]
+- ["Ps9Equatable", "number"]
+- ["Ps9Equatable", "object"]
+- !private ["Ps9Equatable", "outgoingDateFormatter"]
+- ["Ps9Equatable", "string"]
+- !private ["Ps9Equatable", "wrapped"]
+- !private ["Ps25ExpressibleByArrayLiteral", "Date"]
+- !private ["Ps25ExpressibleByArrayLiteral", "wrapped"]
+- !private ["Ps27ExpressibleByBooleanLiteral", "Date"]
+- !private ["Ps27ExpressibleByBooleanLiteral", "description"]
+- !private ["Ps27ExpressibleByBooleanLiteral", "wrapped"]
+- !private ["Ps30ExpressibleByDictionaryLiteral", "Date"]
+- !private ["Ps30ExpressibleByDictionaryLiteral", "wrapped"]
+- !private ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "Date"]
+- !private ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "htmlEscaped"]
+- !private ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "makeBytes"]
+- !private ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "wrapped"]
+- !private ["Ps25ExpressibleByFloatLiteral", "Date"]
+- !private ["Ps25ExpressibleByFloatLiteral", "description"]
+- !private ["Ps25ExpressibleByFloatLiteral", "wrapped"]
+- !private ["Ps27ExpressibleByIntegerLiteral", "Date"]
+- !private ["Ps27ExpressibleByIntegerLiteral", "description"]
+- !private ["Ps27ExpressibleByIntegerLiteral", "wrapped"]
+- !private ["Ps23ExpressibleByNilLiteral", "Date"]
+- !private ["Ps23ExpressibleByNilLiteral", "wrapped"]
+- !private ["Ps26ExpressibleByStringLiteral", "Date"]
+- !private ["Ps26ExpressibleByStringLiteral", "htmlEscaped"]
+- !private ["Ps26ExpressibleByStringLiteral", "makeBytes"]
+- !private ["Ps26ExpressibleByStringLiteral", "wrapped"]
+- !private ["Ps33ExpressibleByUnicodeScalarLiteral", "Date"]
+- !private ["Ps33ExpressibleByUnicodeScalarLiteral", "htmlEscaped"]
+- !private ["Ps33ExpressibleByUnicodeScalarLiteral", "makeBytes"]
+- !private ["Ps33ExpressibleByUnicodeScalarLiteral", "wrapped"]
+- !private ["CSo9Formatter", "string"]
+- !private ["P4Node14FuzzyConverter", "Date"]
+- !private ["P4Node14FuzzyConverter", "wrapped"]
+- !private ["Ps8Hashable", "description"]
+- !private ["Ps8Hashable", "htmlEscaped"]
+- !private ["Ps8Hashable", "makeBytes"]
+- !private ["Ps8Hashable", "outgoingDateFormatter"]
+- !private ["Ps8Hashable", "string"]
+- !private ["Ps25LosslessStringConvertible", "description"]
+- !private ["Ps25LosslessStringConvertible", "htmlEscaped"]
+- !private ["Ps25LosslessStringConvertible", "makeBytes"]
+- !private ["Ps10MirrorPath", "htmlEscaped"]
+- !private ["Ps10MirrorPath", "makeBytes"]
+- !private ["PSo8NSCoding", "htmlEscaped"]
+- !private ["PSo8NSCoding", "makeBytes"]
+- !private ["PSo8NSCoding", "string"]
+- !private ["PSo9NSCopying", "htmlEscaped"]
+- !private ["PSo9NSCopying", "makeBytes"]
+- !private ["PSo9NSCopying", "string"]
+- !private ["PSo16NSMutableCopying", "htmlEscaped"]
+- !private ["PSo16NSMutableCopying", "makeBytes"]
+- !private ["CSo8NSObject", "htmlEscaped"]
+- !private ["CSo8NSObject", "makeBytes"]
+- !private ["CSo8NSObject", "string"]
+- !private ["PSo16NSObjectProtocol", "htmlEscaped"]
+- !private ["PSo16NSObjectProtocol", "makeBytes"]
+- !private ["PSo16NSObjectProtocol", "string"]
+- !private ["PSo14NSSecureCoding", "htmlEscaped"]
+- !private ["PSo14NSSecureCoding", "makeBytes"]
+- !private ["CSo8NSString", "htmlEscaped"]
+- !private ["CSo8NSString", "makeBytes"]
+- ["V4Node4Node", "Bytes"]
+- !private ["V4Node4Node", "Date"]
+- ["V4Node4Node", "rendered"]
+- !private ["V4Node4Node", "wrapped"]
+- !private ["P4Node17NodeInitializable", "Date"]
+- ["P4Node17NodeInitializable", "array"]
+- ["P4Node17NodeInitializable", "bool"]
+- ["P4Node17NodeInitializable", "bytes"]
+- ["P4Node17NodeInitializable", "date"]
+- !private ["P4Node17NodeInitializable", "description"]
+- !private ["P4Node17NodeInitializable", "htmlEscaped"]
+- !private ["P4Node17NodeInitializable", "makeBytes"]
+- ["P4Node17NodeInitializable", "null"]
+- ["P4Node17NodeInitializable", "number"]
+- ["P4Node17NodeInitializable", "object"]
+- !private ["P4Node17NodeInitializable", "outgoingDateFormatter"]
+- ["P4Node17NodeInitializable", "string"]
+- !private ["P4Node17NodeInitializable", "wrapped"]
+- !private ["P4Node17NodeRepresentable", "Date"]
+- ["P4Node17NodeRepresentable", "array"]
+- ["P4Node17NodeRepresentable", "bool"]
+- ["P4Node17NodeRepresentable", "bytes"]
+- ["P4Node17NodeRepresentable", "date"]
+- !private ["P4Node17NodeRepresentable", "description"]
+- !private ["P4Node17NodeRepresentable", "htmlEscaped"]
+- !private ["P4Node17NodeRepresentable", "makeBytes"]
+- ["P4Node17NodeRepresentable", "null"]
+- ["P4Node17NodeRepresentable", "number"]
+- ["P4Node17NodeRepresentable", "object"]
+- !private ["P4Node17NodeRepresentable", "outgoingDateFormatter"]
+- ["P4Node17NodeRepresentable", "string"]
+- !private ["P4Node17NodeRepresentable", "wrapped"]
+- !private ["OO4Node14StructuredData6Number", "description"]
+- !private ["P13PathIndexable13PathIndexable", "Date"]
+- ["P13PathIndexable13PathIndexable", "array"]
+- ["P13PathIndexable13PathIndexable", "bool"]
+- ["P13PathIndexable13PathIndexable", "bytes"]
+- ["P13PathIndexable13PathIndexable", "date"]
+- ["P13PathIndexable13PathIndexable", "null"]
+- ["P13PathIndexable13PathIndexable", "number"]
+- ["P13PathIndexable13PathIndexable", "object"]
+- ["P13PathIndexable13PathIndexable", "string"]
+- !private ["P13PathIndexable13PathIndexable", "wrapped"]
+- !private ["P13PathIndexable11PathIndexer", "htmlEscaped"]
+- !private ["P13PathIndexable11PathIndexer", "makeBytes"]
+- !private ["P10Foundation20ReferenceConvertible", "outgoingDateFormatter"]
+- !private ["SS", "htmlEscaped"]
+- !private ["SS", "makeBytes"]
+- ["O4Node14StructuredData", "array"]
+- ["O4Node14StructuredData", "bool"]
+- ["O4Node14StructuredData", "bytes"]
+- ["O4Node14StructuredData", "date"]
+- ["O4Node14StructuredData", "null"]
+- ["O4Node14StructuredData", "number"]
+- ["O4Node14StructuredData", "object"]
+- ["O4Node14StructuredData", "string"]
+- !private ["P4Node21StructuredDataWrapper", "Date"]
+- !private ["P4Node21StructuredDataWrapper", "wrapped"]
+- !private ["Ps16TextOutputStream", "htmlEscaped"]
+- !private ["Ps16TextOutputStream", "makeBytes"]
+- !private ["Ps20TextOutputStreamable", "htmlEscaped"]
+- !private ["Ps20TextOutputStreamable", "makeBytes"]
+- !private ["Ps35_ExpressibleByBuiltinBooleanLiteral", "description"]
+- !private ["Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral", "htmlEscaped"]
+- !private ["Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral", "makeBytes"]
+- !private ["Ps34_ExpressibleByBuiltinStringLiteral", "htmlEscaped"]
+- !private ["Ps34_ExpressibleByBuiltinStringLiteral", "makeBytes"]
+- !private ["Ps39_ExpressibleByBuiltinUTF16StringLiteral", "htmlEscaped"]
+- !private ["Ps39_ExpressibleByBuiltinUTF16StringLiteral", "makeBytes"]
+- !private ["Ps41_ExpressibleByBuiltinUnicodeScalarLiteral", "htmlEscaped"]
+- !private ["Ps41_ExpressibleByBuiltinUnicodeScalarLiteral", "makeBytes"]
+- !private ["Ps33_ExpressibleByStringInterpolation", "htmlEscaped"]
+- !private ["Ps33_ExpressibleByStringInterpolation", "makeBytes"]
+- !private ["Ps35_HasCustomAnyHashableRepresentation", "htmlEscaped"]
+- !private ["Ps35_HasCustomAnyHashableRepresentation", "makeBytes"]
+- !private ["Ps9_Hashable", "description"]
+- !private ["Ps9_Hashable", "htmlEscaped"]
+- !private ["Ps9_Hashable", "makeBytes"]
+- !private ["Ps9_Hashable", "outgoingDateFormatter"]
+- !private ["Ps9_Hashable", "string"]
+- !private ["Ps21_ObjectiveCBridgeable", "description"]
+- !private ["Ps21_ObjectiveCBridgeable", "htmlEscaped"]
+- !private ["Ps21_ObjectiveCBridgeable", "makeBytes"]
+- !private ["Ps21_ObjectiveCBridgeable", "outgoingDateFormatter"]
+depends-nominal:
+- !private "Ps9AnyObject"
+- !private "Sb"
+- !private "P4Bits16BytesConvertible"
+- !private "P4Bits18BytesInitializable"
+- !private "P4Bits18BytesRepresentable"
+- !private "Ps7CVarArg"
+- !private "Ps10Comparable"
+- !private "Ps28CustomDebugStringConvertible"
+- !private "Ps29CustomPlaygroundQuickLookable"
+- !private "Ps17CustomReflectable"
+- "Ps23CustomStringConvertible"
+- !private "V10Foundation4Date"
+- !private "CSo13DateFormatter"
+- "Ps9Equatable"
+- !private "Ps25ExpressibleByArrayLiteral"
+- !private "Ps27ExpressibleByBooleanLiteral"
+- !private "Ps30ExpressibleByDictionaryLiteral"
+- !private "Ps43ExpressibleByExtendedGraphemeClusterLiteral"
+- !private "Ps25ExpressibleByFloatLiteral"
+- !private "Ps27ExpressibleByIntegerLiteral"
+- !private "Ps23ExpressibleByNilLiteral"
+- !private "Ps26ExpressibleByStringLiteral"
+- !private "Ps33ExpressibleByUnicodeScalarLiteral"
+- !private "CSo9Formatter"
+- !private "P4Node14FuzzyConverter"
+- !private "Ps8Hashable"
+- !private "Ps25LosslessStringConvertible"
+- !private "Ps10MirrorPath"
+- !private "PSo8NSCoding"
+- !private "PSo9NSCopying"
+- !private "PSo16NSMutableCopying"
+- !private "CSo8NSObject"
+- !private "PSo16NSObjectProtocol"
+- !private "PSo14NSSecureCoding"
+- !private "CSo8NSString"
+- "V4Node4Node"
+- "P4Node17NodeInitializable"
+- "P4Node17NodeRepresentable"
+- !private "OO4Node14StructuredData6Number"
+- "P13PathIndexable13PathIndexable"
+- !private "P13PathIndexable11PathIndexer"
+- !private "P10Foundation20ReferenceConvertible"
+- !private "SS"
+- "O4Node14StructuredData"
+- !private "P4Node21StructuredDataWrapper"
+- !private "Ps16TextOutputStream"
+- !private "Ps20TextOutputStreamable"
+- !private "Ps35_ExpressibleByBuiltinBooleanLiteral"
+- !private "Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral"
+- !private "Ps34_ExpressibleByBuiltinStringLiteral"
+- !private "Ps39_ExpressibleByBuiltinUTF16StringLiteral"
+- !private "Ps41_ExpressibleByBuiltinUnicodeScalarLiteral"
+- !private "Ps33_ExpressibleByStringInterpolation"
+- !private "Ps35_HasCustomAnyHashableRepresentation"
+- !private "Ps9_Hashable"
+- !private "Ps21_ObjectiveCBridgeable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/ObjectiveC.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Foundation.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreGraphics.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreText.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/ObjectiveC.swiftmodule"
+- "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/debug/libc.swiftmodule"
+- "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/debug/Node.swiftmodule"
+- "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/debug/PathIndexable.swiftmodule"
+- "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/debug/Core.swiftmodule"
+- "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/debug/Debugging.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreGraphics.swiftmodule"
+- "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/debug/Bits.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/IOKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/debug/CHTTP.build/module.modulemap"
+- "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/debug/CSQLite.build/module.modulemap"
+interface-hash: "e62feac0b77db6e4f4ac32f191a8f7e5"

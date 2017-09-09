@@ -1,0 +1,102 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+provides-nominal:
+provides-member:
+- ["V4Node4Node", ""]
+- ["V4Node4Node", "merged"]
+provides-dynamic-lookup:
+depends-top-level:
+- "Node"
+depends-member:
+- !private ["Ps7CVarArg", "merge"]
+- !private ["Ps10Collection", "merge"]
+- !private ["Ps28CustomDebugStringConvertible", "merge"]
+- !private ["Ps28CustomDebugStringConvertible", "object"]
+- !private ["Ps17CustomReflectable", "merge"]
+- !private ["Ps17CustomReflectable", "object"]
+- !private ["Ps23CustomStringConvertible", "merge"]
+- !private ["Vs10Dictionary", "deinit"]
+- !private ["Vs10Dictionary", "merge"]
+- !private ["Ps9Equatable", "object"]
+- !private ["Ps25ExpressibleByArrayLiteral", "object"]
+- !private ["Ps27ExpressibleByBooleanLiteral", "object"]
+- !private ["Ps30ExpressibleByDictionaryLiteral", "merge"]
+- !private ["Ps30ExpressibleByDictionaryLiteral", "object"]
+- !private ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "object"]
+- !private ["Ps25ExpressibleByFloatLiteral", "object"]
+- !private ["Ps27ExpressibleByIntegerLiteral", "object"]
+- !private ["Ps23ExpressibleByNilLiteral", "object"]
+- !private ["Ps26ExpressibleByStringLiteral", "object"]
+- !private ["Ps33ExpressibleByUnicodeScalarLiteral", "object"]
+- !private ["P4Node14FuzzyConverter", "object"]
+- !private ["P7Configs13KeyAccessible", "merge"]
+- ["V4Node4Node", "Node"]
+- ["V4Node4Node", "merged"]
+- !private ["V4Node4Node", "object"]
+- !private ["P4Node17NodeInitializable", "merge"]
+- !private ["P4Node17NodeInitializable", "object"]
+- !private ["P4Node17NodeRepresentable", "merge"]
+- !private ["P4Node17NodeRepresentable", "object"]
+- !private ["Sq", "object"]
+- !private ["P13PathIndexable13PathIndexable", "object"]
+- !private ["Ps8Sequence", "merge"]
+- !private ["P4Node21StructuredDataWrapper", "object"]
+- !private ["Ps10_Indexable", "merge"]
+- !private ["Ps14_IndexableBase", "merge"]
+- !private ["Ps21_ObjectiveCBridgeable", "merge"]
+- !private ["Ps21_ObjectiveCBridgeable", "object"]
+depends-nominal:
+- !private "Ps7CVarArg"
+- !private "Ps10Collection"
+- !private "Ps28CustomDebugStringConvertible"
+- !private "Ps17CustomReflectable"
+- !private "Ps23CustomStringConvertible"
+- !private "Vs10Dictionary"
+- !private "Ps9Equatable"
+- !private "Ps25ExpressibleByArrayLiteral"
+- !private "Ps27ExpressibleByBooleanLiteral"
+- !private "Ps30ExpressibleByDictionaryLiteral"
+- !private "Ps43ExpressibleByExtendedGraphemeClusterLiteral"
+- !private "Ps25ExpressibleByFloatLiteral"
+- !private "Ps27ExpressibleByIntegerLiteral"
+- !private "Ps23ExpressibleByNilLiteral"
+- !private "Ps26ExpressibleByStringLiteral"
+- !private "Ps33ExpressibleByUnicodeScalarLiteral"
+- !private "P4Node14FuzzyConverter"
+- !private "P7Configs13KeyAccessible"
+- "V4Node4Node"
+- !private "P4Node17NodeInitializable"
+- !private "P4Node17NodeRepresentable"
+- !private "Sq"
+- !private "P13PathIndexable13PathIndexable"
+- !private "Ps8Sequence"
+- !private "P4Node21StructuredDataWrapper"
+- !private "Ps10_Indexable"
+- !private "Ps14_IndexableBase"
+- !private "Ps21_ObjectiveCBridgeable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/ObjectiveC.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Foundation.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreGraphics.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreText.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/ObjectiveC.swiftmodule"
+- "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/debug/JSON.swiftmodule"
+- "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/debug/libc.swiftmodule"
+- "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/debug/Node.swiftmodule"
+- "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/debug/PathIndexable.swiftmodule"
+- "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/debug/Core.swiftmodule"
+- "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/debug/Debugging.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreGraphics.swiftmodule"
+- "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/debug/Bits.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/IOKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/checkouts/ctls.git-9210868160426949823/module.modulemap"
+- "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/debug/CHTTP.build/module.modulemap"
+- "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/debug/CSQLite.build/module.modulemap"
+interface-hash: "63f51f4026e03afd574c5ef8e584a300"

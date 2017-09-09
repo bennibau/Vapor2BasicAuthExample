@@ -1,0 +1,13 @@
+version: "Apple Swift version 3.1 (swiftlang-802.0.53 clang-802.0.42)"
+options: "14010318f1a29d9b748c877a1ea1c2c4"
+build_time: [558250006, 522002000]
+inputs:
+  "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/checkouts/bcrypt.git-6177224099894028443/Sources/BCrypt/Base64.swift": [557941171, 0]
+  "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/checkouts/bcrypt.git-6177224099894028443/Sources/BCrypt/BCryptError.swift": [557941171, 0]
+  "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/checkouts/bcrypt.git-6177224099894028443/Sources/BCrypt/Convenience.swift": [557941171, 0]
+  "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/checkouts/bcrypt.git-6177224099894028443/Sources/BCrypt/Export.swift": [557941171, 0]
+  "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/checkouts/bcrypt.git-6177224099894028443/Sources/BCrypt/Hash.swift": [557941171, 0]
+  "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/checkouts/bcrypt.git-6177224099894028443/Sources/BCrypt/Keys.swift": [557941171, 0]
+  "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/checkouts/bcrypt.git-6177224099894028443/Sources/BCrypt/Parser.swift": [557941171, 0]
+  "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/checkouts/bcrypt.git-6177224099894028443/Sources/BCrypt/Salt.swift": [557941171, 0]
+  "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/checkouts/bcrypt.git-6177224099894028443/Sources/BCrypt/Serializer.swift": [557941171, 0]

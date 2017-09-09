@@ -1,0 +1,121 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "Action"
+- "Aggregate"
+- "Schema"
+- "=="
+- "=="
+- "=="
+provides-nominal:
+- "O6Fluent6Action"
+- "O6Fluent9Aggregate"
+- "O6Fluent6Schema"
+provides-member:
+- ["O6Fluent6Action", ""]
+- ["O6Fluent9Aggregate", ""]
+- ["O6Fluent6Schema", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "&&"
+- "=="
+- "Action"
+- "Aggregate"
+- "Bool"
+- !private "BooleanLiteralType"
+- "ComputedField"
+- "Equatable"
+- "Field"
+- "ForeignKey"
+- "Index"
+- "RawOr"
+- "Schema"
+- "String"
+depends-member:
+- ["O6Fluent6Action", "=="]
+- ["O6Fluent6Action", "Action"]
+- ["O6Fluent6Action", "Aggregate"]
+- ["O6Fluent6Action", "Bool"]
+- ["O6Fluent6Action", "ComputedField"]
+- ["O6Fluent6Action", "RawOr"]
+- ["O6Fluent6Action", "Schema"]
+- ["O6Fluent6Action", "String"]
+- ["O6Fluent6Action", "aggregate"]
+- ["O6Fluent6Action", "create"]
+- ["O6Fluent6Action", "deinit"]
+- ["O6Fluent6Action", "delete"]
+- ["O6Fluent6Action", "fetch"]
+- ["O6Fluent6Action", "modify"]
+- ["O6Fluent6Action", "schema"]
+- ["O6Fluent9Aggregate", "=="]
+- ["O6Fluent9Aggregate", "Aggregate"]
+- ["O6Fluent9Aggregate", "Bool"]
+- ["O6Fluent9Aggregate", "String"]
+- ["O6Fluent9Aggregate", "average"]
+- ["O6Fluent9Aggregate", "count"]
+- ["O6Fluent9Aggregate", "custom"]
+- ["O6Fluent9Aggregate", "deinit"]
+- ["O6Fluent9Aggregate", "max"]
+- ["O6Fluent9Aggregate", "min"]
+- ["O6Fluent9Aggregate", "sum"]
+- ["Ps9Equatable", "aggregate"]
+- ["Ps9Equatable", "average"]
+- ["Ps9Equatable", "count"]
+- ["Ps9Equatable", "create"]
+- ["Ps9Equatable", "createIndex"]
+- ["Ps9Equatable", "custom"]
+- ["Ps9Equatable", "delete"]
+- ["Ps9Equatable", "deleteIndex"]
+- ["Ps9Equatable", "fetch"]
+- ["Ps9Equatable", "max"]
+- ["Ps9Equatable", "min"]
+- ["Ps9Equatable", "modify"]
+- ["Ps9Equatable", "schema"]
+- ["Ps9Equatable", "sum"]
+- ["Ps9Equatable", ""]
+- !private ["O6Fluent5RawOr", "deinit"]
+- ["O6Fluent6Schema", "=="]
+- ["O6Fluent6Schema", "Bool"]
+- ["O6Fluent6Schema", "Field"]
+- ["O6Fluent6Schema", "ForeignKey"]
+- ["O6Fluent6Schema", "Index"]
+- ["O6Fluent6Schema", "RawOr"]
+- ["O6Fluent6Schema", "Schema"]
+- ["O6Fluent6Schema", "create"]
+- ["O6Fluent6Schema", "createIndex"]
+- ["O6Fluent6Schema", "deinit"]
+- ["O6Fluent6Schema", "delete"]
+- ["O6Fluent6Schema", "deleteIndex"]
+- ["O6Fluent6Schema", "modify"]
+depends-nominal:
+- "O6Fluent6Action"
+- "O6Fluent9Aggregate"
+- "Ps9Equatable"
+- !private "O6Fluent5RawOr"
+- "O6Fluent6Schema"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/ObjectiveC.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Foundation.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreGraphics.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreText.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/ObjectiveC.swiftmodule"
+- "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/debug/libc.swiftmodule"
+- "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/debug/Node.swiftmodule"
+- "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/debug/PathIndexable.swiftmodule"
+- "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/debug/Core.swiftmodule"
+- "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/debug/SQLite.swiftmodule"
+- "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/debug/Debugging.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.swiftmodule"
+- "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/debug/Random.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreGraphics.swiftmodule"
+- "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/debug/Bits.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/IOKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/checkouts/sqlite.git--8232814251736334455/Sources/CSQLite/include/sqlite3.h"
+- "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/debug/CHTTP.build/module.modulemap"
+- "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/debug/CSQLite.build/module.modulemap"
+interface-hash: "044f2739e3140b1e62f513a1d6df45e3"

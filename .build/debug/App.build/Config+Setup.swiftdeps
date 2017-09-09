@@ -1,0 +1,331 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+provides-nominal:
+provides-member:
+- ["C7Configs6Config", ""]
+- ["C7Configs6Config", "setup"]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "Array"
+- "AssignmentPrecedence"
+- !private "AuthProvider"
+- "Config"
+- !private "FluentProvider"
+- !private "JSON"
+- !private "LeafProvider"
+- !private "Node"
+- !private "Row"
+- !private "User"
+depends-member:
+- !private ["Ps9AnyObject", "AuthProvider"]
+- !private ["Ps9AnyObject", "FluentProvider"]
+- !private ["Ps9AnyObject", "JSON"]
+- !private ["Ps9AnyObject", "LeafProvider"]
+- !private ["Ps9AnyObject", "Node"]
+- !private ["Ps9AnyObject", "Row"]
+- !private ["Ps9AnyObject", "User"]
+- !private ["Ps9AnyObject", "addProvider"]
+- !private ["Ps9AnyObject", "preparations"]
+- !private ["Ps9AnyObject", "setupPreparations"]
+- !private ["Ps9AnyObject", "setupProviders"]
+- !private ["Sa", "append"]
+- !private ["Ps23BidirectionalCollection", "append"]
+- !private ["Ps7CVarArg", "append"]
+- !private ["Ps10Collection", "append"]
+- !private ["C7Configs6Config", "AuthProvider"]
+- !private ["C7Configs6Config", "FluentProvider"]
+- !private ["C7Configs6Config", "JSON"]
+- !private ["C7Configs6Config", "LeafProvider"]
+- !private ["C7Configs6Config", "Node"]
+- !private ["C7Configs6Config", "Row"]
+- !private ["C7Configs6Config", "User"]
+- !private ["C7Configs6Config", "addProvider"]
+- !private ["C7Configs6Config", "preparations"]
+- ["C7Configs6Config", "setup"]
+- !private ["C7Configs6Config", "setupPreparations"]
+- !private ["C7Configs6Config", "setupProviders"]
+- !private ["Ps28CustomDebugStringConvertible", "append"]
+- !private ["Ps17CustomReflectable", "append"]
+- !private ["Ps23CustomStringConvertible", "append"]
+- !private ["Ps9Equatable", "AuthProvider"]
+- !private ["Ps9Equatable", "FluentProvider"]
+- !private ["Ps9Equatable", "JSON"]
+- !private ["Ps9Equatable", "LeafProvider"]
+- !private ["Ps9Equatable", "Node"]
+- !private ["Ps9Equatable", "Row"]
+- !private ["Ps9Equatable", "User"]
+- !private ["Ps9Equatable", "addProvider"]
+- !private ["Ps9Equatable", "fuzzy"]
+- !private ["Ps9Equatable", "preparations"]
+- !private ["Ps9Equatable", "setupPreparations"]
+- !private ["Ps9Equatable", "setupProviders"]
+- !private ["Ps25ExpressibleByArrayLiteral", "AuthProvider"]
+- !private ["Ps25ExpressibleByArrayLiteral", "FluentProvider"]
+- !private ["Ps25ExpressibleByArrayLiteral", "JSON"]
+- !private ["Ps25ExpressibleByArrayLiteral", "LeafProvider"]
+- !private ["Ps25ExpressibleByArrayLiteral", "Node"]
+- !private ["Ps25ExpressibleByArrayLiteral", "Row"]
+- !private ["Ps25ExpressibleByArrayLiteral", "User"]
+- !private ["Ps25ExpressibleByArrayLiteral", "addProvider"]
+- !private ["Ps25ExpressibleByArrayLiteral", "append"]
+- !private ["Ps25ExpressibleByArrayLiteral", "fuzzy"]
+- !private ["Ps25ExpressibleByArrayLiteral", "preparations"]
+- !private ["Ps25ExpressibleByArrayLiteral", "setupPreparations"]
+- !private ["Ps25ExpressibleByArrayLiteral", "setupProviders"]
+- !private ["Ps27ExpressibleByBooleanLiteral", "AuthProvider"]
+- !private ["Ps27ExpressibleByBooleanLiteral", "FluentProvider"]
+- !private ["Ps27ExpressibleByBooleanLiteral", "JSON"]
+- !private ["Ps27ExpressibleByBooleanLiteral", "LeafProvider"]
+- !private ["Ps27ExpressibleByBooleanLiteral", "Node"]
+- !private ["Ps27ExpressibleByBooleanLiteral", "Row"]
+- !private ["Ps27ExpressibleByBooleanLiteral", "User"]
+- !private ["Ps27ExpressibleByBooleanLiteral", "addProvider"]
+- !private ["Ps27ExpressibleByBooleanLiteral", "fuzzy"]
+- !private ["Ps27ExpressibleByBooleanLiteral", "preparations"]
+- !private ["Ps27ExpressibleByBooleanLiteral", "setupPreparations"]
+- !private ["Ps27ExpressibleByBooleanLiteral", "setupProviders"]
+- !private ["Ps30ExpressibleByDictionaryLiteral", "AuthProvider"]
+- !private ["Ps30ExpressibleByDictionaryLiteral", "FluentProvider"]
+- !private ["Ps30ExpressibleByDictionaryLiteral", "JSON"]
+- !private ["Ps30ExpressibleByDictionaryLiteral", "LeafProvider"]
+- !private ["Ps30ExpressibleByDictionaryLiteral", "Node"]
+- !private ["Ps30ExpressibleByDictionaryLiteral", "Row"]
+- !private ["Ps30ExpressibleByDictionaryLiteral", "User"]
+- !private ["Ps30ExpressibleByDictionaryLiteral", "addProvider"]
+- !private ["Ps30ExpressibleByDictionaryLiteral", "fuzzy"]
+- !private ["Ps30ExpressibleByDictionaryLiteral", "preparations"]
+- !private ["Ps30ExpressibleByDictionaryLiteral", "setupPreparations"]
+- !private ["Ps30ExpressibleByDictionaryLiteral", "setupProviders"]
+- !private ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "AuthProvider"]
+- !private ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "FluentProvider"]
+- !private ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "JSON"]
+- !private ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "LeafProvider"]
+- !private ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "Node"]
+- !private ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "Row"]
+- !private ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "User"]
+- !private ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "addProvider"]
+- !private ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "fuzzy"]
+- !private ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "preparations"]
+- !private ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "setupPreparations"]
+- !private ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "setupProviders"]
+- !private ["Ps25ExpressibleByFloatLiteral", "AuthProvider"]
+- !private ["Ps25ExpressibleByFloatLiteral", "FluentProvider"]
+- !private ["Ps25ExpressibleByFloatLiteral", "JSON"]
+- !private ["Ps25ExpressibleByFloatLiteral", "LeafProvider"]
+- !private ["Ps25ExpressibleByFloatLiteral", "Node"]
+- !private ["Ps25ExpressibleByFloatLiteral", "Row"]
+- !private ["Ps25ExpressibleByFloatLiteral", "User"]
+- !private ["Ps25ExpressibleByFloatLiteral", "addProvider"]
+- !private ["Ps25ExpressibleByFloatLiteral", "fuzzy"]
+- !private ["Ps25ExpressibleByFloatLiteral", "preparations"]
+- !private ["Ps25ExpressibleByFloatLiteral", "setupPreparations"]
+- !private ["Ps25ExpressibleByFloatLiteral", "setupProviders"]
+- !private ["Ps27ExpressibleByIntegerLiteral", "AuthProvider"]
+- !private ["Ps27ExpressibleByIntegerLiteral", "FluentProvider"]
+- !private ["Ps27ExpressibleByIntegerLiteral", "JSON"]
+- !private ["Ps27ExpressibleByIntegerLiteral", "LeafProvider"]
+- !private ["Ps27ExpressibleByIntegerLiteral", "Node"]
+- !private ["Ps27ExpressibleByIntegerLiteral", "Row"]
+- !private ["Ps27ExpressibleByIntegerLiteral", "User"]
+- !private ["Ps27ExpressibleByIntegerLiteral", "addProvider"]
+- !private ["Ps27ExpressibleByIntegerLiteral", "fuzzy"]
+- !private ["Ps27ExpressibleByIntegerLiteral", "preparations"]
+- !private ["Ps27ExpressibleByIntegerLiteral", "setupPreparations"]
+- !private ["Ps27ExpressibleByIntegerLiteral", "setupProviders"]
+- !private ["Ps23ExpressibleByNilLiteral", "AuthProvider"]
+- !private ["Ps23ExpressibleByNilLiteral", "FluentProvider"]
+- !private ["Ps23ExpressibleByNilLiteral", "JSON"]
+- !private ["Ps23ExpressibleByNilLiteral", "LeafProvider"]
+- !private ["Ps23ExpressibleByNilLiteral", "Node"]
+- !private ["Ps23ExpressibleByNilLiteral", "Row"]
+- !private ["Ps23ExpressibleByNilLiteral", "User"]
+- !private ["Ps23ExpressibleByNilLiteral", "addProvider"]
+- !private ["Ps23ExpressibleByNilLiteral", "fuzzy"]
+- !private ["Ps23ExpressibleByNilLiteral", "preparations"]
+- !private ["Ps23ExpressibleByNilLiteral", "setupPreparations"]
+- !private ["Ps23ExpressibleByNilLiteral", "setupProviders"]
+- !private ["Ps26ExpressibleByStringLiteral", "AuthProvider"]
+- !private ["Ps26ExpressibleByStringLiteral", "FluentProvider"]
+- !private ["Ps26ExpressibleByStringLiteral", "JSON"]
+- !private ["Ps26ExpressibleByStringLiteral", "LeafProvider"]
+- !private ["Ps26ExpressibleByStringLiteral", "Node"]
+- !private ["Ps26ExpressibleByStringLiteral", "Row"]
+- !private ["Ps26ExpressibleByStringLiteral", "User"]
+- !private ["Ps26ExpressibleByStringLiteral", "addProvider"]
+- !private ["Ps26ExpressibleByStringLiteral", "fuzzy"]
+- !private ["Ps26ExpressibleByStringLiteral", "preparations"]
+- !private ["Ps26ExpressibleByStringLiteral", "setupPreparations"]
+- !private ["Ps26ExpressibleByStringLiteral", "setupProviders"]
+- !private ["Ps33ExpressibleByUnicodeScalarLiteral", "AuthProvider"]
+- !private ["Ps33ExpressibleByUnicodeScalarLiteral", "FluentProvider"]
+- !private ["Ps33ExpressibleByUnicodeScalarLiteral", "JSON"]
+- !private ["Ps33ExpressibleByUnicodeScalarLiteral", "LeafProvider"]
+- !private ["Ps33ExpressibleByUnicodeScalarLiteral", "Node"]
+- !private ["Ps33ExpressibleByUnicodeScalarLiteral", "Row"]
+- !private ["Ps33ExpressibleByUnicodeScalarLiteral", "User"]
+- !private ["Ps33ExpressibleByUnicodeScalarLiteral", "addProvider"]
+- !private ["Ps33ExpressibleByUnicodeScalarLiteral", "fuzzy"]
+- !private ["Ps33ExpressibleByUnicodeScalarLiteral", "preparations"]
+- !private ["Ps33ExpressibleByUnicodeScalarLiteral", "setupPreparations"]
+- !private ["Ps33ExpressibleByUnicodeScalarLiteral", "setupProviders"]
+- !private ["P4Node14FuzzyConverter", "fuzzy"]
+- !private ["Ps17MutableCollection", "append"]
+- !private ["V4Node4Node", "fuzzy"]
+- !private ["P4Node17NodeInitializable", "AuthProvider"]
+- !private ["P4Node17NodeInitializable", "FluentProvider"]
+- !private ["P4Node17NodeInitializable", "JSON"]
+- !private ["P4Node17NodeInitializable", "LeafProvider"]
+- !private ["P4Node17NodeInitializable", "Node"]
+- !private ["P4Node17NodeInitializable", "Row"]
+- !private ["P4Node17NodeInitializable", "User"]
+- !private ["P4Node17NodeInitializable", "addProvider"]
+- !private ["P4Node17NodeInitializable", "append"]
+- !private ["P4Node17NodeInitializable", "fuzzy"]
+- !private ["P4Node17NodeInitializable", "preparations"]
+- !private ["P4Node17NodeInitializable", "setupPreparations"]
+- !private ["P4Node17NodeInitializable", "setupProviders"]
+- !private ["P4Node17NodeRepresentable", "AuthProvider"]
+- !private ["P4Node17NodeRepresentable", "FluentProvider"]
+- !private ["P4Node17NodeRepresentable", "JSON"]
+- !private ["P4Node17NodeRepresentable", "LeafProvider"]
+- !private ["P4Node17NodeRepresentable", "Node"]
+- !private ["P4Node17NodeRepresentable", "Row"]
+- !private ["P4Node17NodeRepresentable", "User"]
+- !private ["P4Node17NodeRepresentable", "addProvider"]
+- !private ["P4Node17NodeRepresentable", "append"]
+- !private ["P4Node17NodeRepresentable", "fuzzy"]
+- !private ["P4Node17NodeRepresentable", "preparations"]
+- !private ["P4Node17NodeRepresentable", "setupPreparations"]
+- !private ["P4Node17NodeRepresentable", "setupProviders"]
+- !private ["P13PathIndexable13PathIndexable", "AuthProvider"]
+- !private ["P13PathIndexable13PathIndexable", "FluentProvider"]
+- !private ["P13PathIndexable13PathIndexable", "JSON"]
+- !private ["P13PathIndexable13PathIndexable", "LeafProvider"]
+- !private ["P13PathIndexable13PathIndexable", "Node"]
+- !private ["P13PathIndexable13PathIndexable", "Row"]
+- !private ["P13PathIndexable13PathIndexable", "User"]
+- !private ["P13PathIndexable13PathIndexable", "addProvider"]
+- !private ["P13PathIndexable13PathIndexable", "fuzzy"]
+- !private ["P13PathIndexable13PathIndexable", "preparations"]
+- !private ["P13PathIndexable13PathIndexable", "setupPreparations"]
+- !private ["P13PathIndexable13PathIndexable", "setupProviders"]
+- !private ["Ps22RandomAccessCollection", "append"]
+- !private ["Ps26RangeReplaceableCollection", "append"]
+- !private ["Ps8Sequence", "append"]
+- !private ["P4Node21StructuredDataWrapper", "AuthProvider"]
+- !private ["P4Node21StructuredDataWrapper", "FluentProvider"]
+- !private ["P4Node21StructuredDataWrapper", "JSON"]
+- !private ["P4Node21StructuredDataWrapper", "LeafProvider"]
+- !private ["P4Node21StructuredDataWrapper", "Node"]
+- !private ["P4Node21StructuredDataWrapper", "Row"]
+- !private ["P4Node21StructuredDataWrapper", "User"]
+- !private ["P4Node21StructuredDataWrapper", "addProvider"]
+- !private ["P4Node21StructuredDataWrapper", "fuzzy"]
+- !private ["P4Node21StructuredDataWrapper", "preparations"]
+- !private ["P4Node21StructuredDataWrapper", "setupPreparations"]
+- !private ["P4Node21StructuredDataWrapper", "setupProviders"]
+- !private ["Ps14_ArrayProtocol", "append"]
+- !private ["Ps23_BidirectionalIndexable", "append"]
+- !private ["Ps24_DestructorSafeContainer", "append"]
+- !private ["Ps10_Indexable", "append"]
+- !private ["Ps14_IndexableBase", "append"]
+- !private ["Ps17_MutableIndexable", "append"]
+- !private ["Ps21_ObjectiveCBridgeable", "append"]
+- !private ["Ps22_RandomAccessIndexable", "append"]
+- !private ["Ps26_RangeReplaceableIndexable", "append"]
+depends-nominal:
+- !private "Ps9AnyObject"
+- !private "Sa"
+- !private "Ps23BidirectionalCollection"
+- !private "Ps7CVarArg"
+- !private "Ps10Collection"
+- "C7Configs6Config"
+- !private "Ps28CustomDebugStringConvertible"
+- !private "Ps17CustomReflectable"
+- !private "Ps23CustomStringConvertible"
+- !private "Ps9Equatable"
+- !private "Ps25ExpressibleByArrayLiteral"
+- !private "Ps27ExpressibleByBooleanLiteral"
+- !private "Ps30ExpressibleByDictionaryLiteral"
+- !private "Ps43ExpressibleByExtendedGraphemeClusterLiteral"
+- !private "Ps25ExpressibleByFloatLiteral"
+- !private "Ps27ExpressibleByIntegerLiteral"
+- !private "Ps23ExpressibleByNilLiteral"
+- !private "Ps26ExpressibleByStringLiteral"
+- !private "Ps33ExpressibleByUnicodeScalarLiteral"
+- !private "P4Node14FuzzyConverter"
+- !private "Ps17MutableCollection"
+- !private "V4Node4Node"
+- !private "P4Node17NodeInitializable"
+- !private "P4Node17NodeRepresentable"
+- !private "P13PathIndexable13PathIndexable"
+- !private "Ps22RandomAccessCollection"
+- !private "Ps26RangeReplaceableCollection"
+- !private "Ps8Sequence"
+- !private "P4Node21StructuredDataWrapper"
+- !private "Ps14_ArrayProtocol"
+- !private "Ps23_BidirectionalIndexable"
+- !private "Ps24_DestructorSafeContainer"
+- !private "Ps10_Indexable"
+- !private "Ps14_IndexableBase"
+- !private "Ps17_MutableIndexable"
+- !private "Ps21_ObjectiveCBridgeable"
+- !private "Ps22_RandomAccessIndexable"
+- !private "Ps26_RangeReplaceableIndexable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/ObjectiveC.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Foundation.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreGraphics.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreText.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/ObjectiveC.swiftmodule"
+- "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/debug/URI.swiftmodule"
+- "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/debug/JSON.swiftmodule"
+- "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/debug/SMTP.swiftmodule"
+- "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/debug/HTTP.swiftmodule"
+- "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/debug/TLS.swiftmodule"
+- "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/debug/FormData.swiftmodule"
+- "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/debug/libc.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/simd.swiftmodule"
+- "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/debug/Node.swiftmodule"
+- "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/debug/Cache.swiftmodule"
+- "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/debug/PathIndexable.swiftmodule"
+- "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/debug/Console.swiftmodule"
+- "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/debug/Core.swiftmodule"
+- "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/debug/SQLite.swiftmodule"
+- "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/debug/Leaf.swiftmodule"
+- "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/debug/Debugging.swiftmodule"
+- "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/debug/Routing.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.swiftmodule"
+- "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/debug/Random.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Darwin.swiftmodule"
+- "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/debug/Authentication.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Foundation.swiftmodule"
+- "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/debug/Authorization.swiftmodule"
+- "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/debug/Crypto.swiftmodule"
+- "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/debug/LeafProvider.swiftmodule"
+- "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/debug/AuthProvider.swiftmodule"
+- "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/debug/FluentProvider.swiftmodule"
+- "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/debug/Vapor.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreGraphics.swiftmodule"
+- "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/debug/Branches.swiftmodule"
+- "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/debug/Cookies.swiftmodule"
+- "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/debug/Configs.swiftmodule"
+- "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/debug/Sessions.swiftmodule"
+- "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/debug/Sockets.swiftmodule"
+- "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/debug/WebSockets.swiftmodule"
+- "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/debug/Bits.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/IOKit.swiftmodule"
+- "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/debug/Fluent.swiftmodule"
+- "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/debug/BCrypt.swiftmodule"
+- "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/debug/Multipart.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/debug/Transport.swiftmodule"
+- "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/checkouts/sqlite.git--8232814251736334455/Sources/CSQLite/include/sqlite3.h"
+- "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/checkouts/engine.git-3311994267206676365/Sources/CHTTP/include/http_parser.h"
+- "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/checkouts/ctls.git-9210868160426949823/module.modulemap"
+- "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/debug/CHTTP.build/module.modulemap"
+- "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/debug/CSQLite.build/module.modulemap"
+interface-hash: "7fa56ac5d4c56d7d4bd2878007312af3"

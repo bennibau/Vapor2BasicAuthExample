@@ -1,0 +1,387 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+provides-nominal:
+- "Si"
+- "Vs4Int8"
+- "Vs5Int16"
+- "Vs5Int32"
+- "Vs5Int64"
+provides-member:
+- ["Si", ""]
+- ["Vs4Int8", ""]
+- ["Vs5Int16", ""]
+- ["Vs5Int32", ""]
+- ["Vs5Int64", ""]
+- ["Ps13SignedInteger", ""]
+- ["Ps13SignedInteger", "init"]
+- ["Ps13SignedInteger", "makeNode"]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "Array"
+- "Context"
+- "Int"
+- "Int16"
+- "Int32"
+- "Int64"
+- "Int8"
+- "Node"
+- "NodeConvertible"
+- !private "NodeError"
+- "SignedInteger"
+- !private "StringLiteralType"
+- !private "StructuredData"
+depends-member:
+- !private ["Ps9AnyObject", "init"]
+- ["Ps17BitwiseOperations", "Context"]
+- ["Ps17BitwiseOperations", "Node"]
+- !private ["Ps17BitwiseOperations", "NodeError"]
+- !private ["Ps17BitwiseOperations", "Self"]
+- !private ["Ps17BitwiseOperations", "StructuredData"]
+- ["Ps17BitwiseOperations", "init"]
+- ["Ps17BitwiseOperations", "makeNode"]
+- !private ["Ps17BitwiseOperations", "toIntMax"]
+- !private ["P4Bits16BytesConvertible", "init"]
+- !private ["P4Bits18BytesInitializable", "init"]
+- !private ["P4Bits18BytesRepresentable", "init"]
+- ["Ps7CVarArg", "init"]
+- ["Ps7CVarArg", "makeNode"]
+- !private ["Ps7CVarArg", "toIntMax"]
+- ["Ps10Comparable", "Context"]
+- ["Ps10Comparable", "Node"]
+- !private ["Ps10Comparable", "NodeError"]
+- !private ["Ps10Comparable", "Self"]
+- !private ["Ps10Comparable", "StructuredData"]
+- ["Ps10Comparable", "init"]
+- ["Ps10Comparable", "makeNode"]
+- !private ["Ps10Comparable", "toIntMax"]
+- !private ["Ps28CustomDebugStringConvertible", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "unableToConvert"]
+- ["Ps29CustomPlaygroundQuickLookable", "init"]
+- ["Ps29CustomPlaygroundQuickLookable", "makeNode"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "toIntMax"]
+- ["Ps17CustomReflectable", "init"]
+- ["Ps17CustomReflectable", "makeNode"]
+- !private ["Ps17CustomReflectable", "toIntMax"]
+- ["Ps23CustomStringConvertible", "Context"]
+- ["Ps23CustomStringConvertible", "Node"]
+- !private ["Ps23CustomStringConvertible", "NodeError"]
+- !private ["Ps23CustomStringConvertible", "Number"]
+- !private ["Ps23CustomStringConvertible", "Self"]
+- !private ["Ps23CustomStringConvertible", "StructuredData"]
+- ["Ps23CustomStringConvertible", "init"]
+- ["Ps23CustomStringConvertible", "makeNode"]
+- !private ["Ps23CustomStringConvertible", "toIntMax"]
+- !private ["P9Debugging10Debuggable", "unableToConvert"]
+- ["Ps9Equatable", "Context"]
+- ["Ps9Equatable", "Node"]
+- !private ["Ps9Equatable", "NodeError"]
+- !private ["Ps9Equatable", "Number"]
+- !private ["Ps9Equatable", "Self"]
+- !private ["Ps9Equatable", "StructuredData"]
+- ["Ps9Equatable", "init"]
+- !private ["Ps9Equatable", "int"]
+- ["Ps9Equatable", "makeNode"]
+- !private ["Ps9Equatable", "number"]
+- !private ["Ps9Equatable", "toIntMax"]
+- !private ["Ps5Error", "unableToConvert"]
+- !private ["Ps25ExpressibleByArrayLiteral", "int"]
+- !private ["Ps25ExpressibleByArrayLiteral", "number"]
+- !private ["Ps27ExpressibleByBooleanLiteral", "int"]
+- !private ["Ps27ExpressibleByBooleanLiteral", "number"]
+- !private ["Ps30ExpressibleByDictionaryLiteral", "int"]
+- !private ["Ps30ExpressibleByDictionaryLiteral", "number"]
+- !private ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "init"]
+- !private ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "int"]
+- !private ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "number"]
+- !private ["Ps25ExpressibleByFloatLiteral", "init"]
+- !private ["Ps25ExpressibleByFloatLiteral", "int"]
+- !private ["Ps25ExpressibleByFloatLiteral", "number"]
+- ["Ps27ExpressibleByIntegerLiteral", "Context"]
+- ["Ps27ExpressibleByIntegerLiteral", "Node"]
+- !private ["Ps27ExpressibleByIntegerLiteral", "NodeError"]
+- !private ["Ps27ExpressibleByIntegerLiteral", "Self"]
+- !private ["Ps27ExpressibleByIntegerLiteral", "StructuredData"]
+- ["Ps27ExpressibleByIntegerLiteral", "init"]
+- !private ["Ps27ExpressibleByIntegerLiteral", "int"]
+- ["Ps27ExpressibleByIntegerLiteral", "makeNode"]
+- !private ["Ps27ExpressibleByIntegerLiteral", "number"]
+- !private ["Ps27ExpressibleByIntegerLiteral", "toIntMax"]
+- !private ["Ps23ExpressibleByNilLiteral", "int"]
+- !private ["Ps23ExpressibleByNilLiteral", "number"]
+- !private ["Ps26ExpressibleByStringLiteral", "init"]
+- !private ["Ps26ExpressibleByStringLiteral", "int"]
+- !private ["Ps26ExpressibleByStringLiteral", "number"]
+- !private ["Ps33ExpressibleByUnicodeScalarLiteral", "init"]
+- !private ["Ps33ExpressibleByUnicodeScalarLiteral", "int"]
+- !private ["Ps33ExpressibleByUnicodeScalarLiteral", "number"]
+- !private ["P4Node14FuzzyConverter", "int"]
+- !private ["P4Node14FuzzyConverter", "number"]
+- ["Ps8Hashable", "Context"]
+- ["Ps8Hashable", "Node"]
+- !private ["Ps8Hashable", "NodeError"]
+- !private ["Ps8Hashable", "Self"]
+- !private ["Ps8Hashable", "StructuredData"]
+- ["Ps8Hashable", "init"]
+- ["Ps8Hashable", "makeNode"]
+- !private ["Ps8Hashable", "toIntMax"]
+- ["Si", "deinit"]
+- ["Si", "init"]
+- ["Si", "makeNode"]
+- !private ["Si", "toIntMax"]
+- ["Vs5Int16", "deinit"]
+- ["Vs5Int16", "init"]
+- ["Vs5Int16", "makeNode"]
+- ["Vs5Int32", "deinit"]
+- ["Vs5Int32", "init"]
+- ["Vs5Int32", "makeNode"]
+- ["Vs5Int64", "deinit"]
+- ["Vs5Int64", "init"]
+- ["Vs5Int64", "makeNode"]
+- ["Vs4Int8", "deinit"]
+- ["Vs4Int8", "init"]
+- ["Vs4Int8", "makeNode"]
+- ["Ps7Integer", "Context"]
+- ["Ps7Integer", "Node"]
+- !private ["Ps7Integer", "NodeError"]
+- !private ["Ps7Integer", "Self"]
+- !private ["Ps7Integer", "StructuredData"]
+- ["Ps7Integer", "init"]
+- ["Ps7Integer", "makeNode"]
+- !private ["Ps7Integer", "toIntMax"]
+- ["Ps17IntegerArithmetic", "Context"]
+- ["Ps17IntegerArithmetic", "Node"]
+- !private ["Ps17IntegerArithmetic", "NodeError"]
+- !private ["Ps17IntegerArithmetic", "Self"]
+- !private ["Ps17IntegerArithmetic", "StructuredData"]
+- ["Ps17IntegerArithmetic", "init"]
+- ["Ps17IntegerArithmetic", "makeNode"]
+- !private ["Ps17IntegerArithmetic", "toIntMax"]
+- !private ["Ps25LosslessStringConvertible", "init"]
+- ["Ps10MirrorPath", "init"]
+- ["Ps10MirrorPath", "makeNode"]
+- !private ["Ps10MirrorPath", "toIntMax"]
+- !private ["PSo8NSCoding", "init"]
+- !private ["PSo9NSCopying", "init"]
+- !private ["PSo16NSMutableCopying", "init"]
+- !private ["PSo16NSObjectProtocol", "init"]
+- !private ["PSo14NSSecureCoding", "init"]
+- !private ["CSo8NSString", "init"]
+- !private ["V4Node4Node", "deinit"]
+- !private ["V4Node4Node", "int"]
+- !private ["V4Node4Node", "number"]
+- !private ["O4Node9NodeError", "deinit"]
+- !private ["O4Node9NodeError", "unableToConvert"]
+- !private ["P4Node17NodeInitializable", "Number"]
+- ["P4Node17NodeInitializable", "init"]
+- !private ["P4Node17NodeInitializable", "int"]
+- ["P4Node17NodeInitializable", "makeNode"]
+- !private ["P4Node17NodeInitializable", "number"]
+- !private ["P4Node17NodeInitializable", "toIntMax"]
+- ["P4Node17NodeInitializable", ""]
+- !private ["P4Node17NodeRepresentable", "Number"]
+- ["P4Node17NodeRepresentable", "init"]
+- !private ["P4Node17NodeRepresentable", "int"]
+- ["P4Node17NodeRepresentable", "makeNode"]
+- !private ["P4Node17NodeRepresentable", "number"]
+- !private ["P4Node17NodeRepresentable", "toIntMax"]
+- ["P4Node17NodeRepresentable", ""]
+- !private ["OO4Node14StructuredData6Number", "deinit"]
+- !private ["OO4Node14StructuredData6Number", "init"]
+- !private ["P13PathIndexable13PathIndexable", "Number"]
+- !private ["P13PathIndexable13PathIndexable", "int"]
+- !private ["P13PathIndexable13PathIndexable", "number"]
+- ["P13PathIndexable11PathIndexer", "init"]
+- ["P13PathIndexable11PathIndexer", "makeNode"]
+- !private ["P13PathIndexable11PathIndexer", "toIntMax"]
+- ["Ps13SignedInteger", "Context"]
+- ["Ps13SignedInteger", "Node"]
+- !private ["Ps13SignedInteger", "NodeError"]
+- !private ["Ps13SignedInteger", "Self"]
+- !private ["Ps13SignedInteger", "StructuredData"]
+- ["Ps13SignedInteger", "init"]
+- ["Ps13SignedInteger", "makeNode"]
+- !private ["Ps13SignedInteger", "toIntMax"]
+- ["Ps12SignedNumber", "Context"]
+- ["Ps12SignedNumber", "Node"]
+- !private ["Ps12SignedNumber", "NodeError"]
+- !private ["Ps12SignedNumber", "Self"]
+- !private ["Ps12SignedNumber", "StructuredData"]
+- ["Ps12SignedNumber", "init"]
+- ["Ps12SignedNumber", "makeNode"]
+- !private ["Ps12SignedNumber", "toIntMax"]
+- ["Ps10Strideable", "Context"]
+- ["Ps10Strideable", "Node"]
+- !private ["Ps10Strideable", "NodeError"]
+- !private ["Ps10Strideable", "Self"]
+- !private ["Ps10Strideable", "StructuredData"]
+- ["Ps10Strideable", "init"]
+- ["Ps10Strideable", "makeNode"]
+- !private ["Ps10Strideable", "toIntMax"]
+- !private ["SS", "deinit"]
+- !private ["SS", "init"]
+- !private ["O4Node14StructuredData", "Number"]
+- !private ["P4Node21StructuredDataWrapper", "int"]
+- !private ["P4Node21StructuredDataWrapper", "number"]
+- !private ["Ps16TextOutputStream", "init"]
+- !private ["Ps20TextOutputStreamable", "init"]
+- ["Ps15_CVarArgAligned", "init"]
+- ["Ps15_CVarArgAligned", "makeNode"]
+- !private ["Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral", "init"]
+- ["Ps35_ExpressibleByBuiltinIntegerLiteral", "Context"]
+- ["Ps35_ExpressibleByBuiltinIntegerLiteral", "Node"]
+- !private ["Ps35_ExpressibleByBuiltinIntegerLiteral", "NodeError"]
+- !private ["Ps35_ExpressibleByBuiltinIntegerLiteral", "Self"]
+- !private ["Ps35_ExpressibleByBuiltinIntegerLiteral", "StructuredData"]
+- ["Ps35_ExpressibleByBuiltinIntegerLiteral", "init"]
+- ["Ps35_ExpressibleByBuiltinIntegerLiteral", "makeNode"]
+- !private ["Ps35_ExpressibleByBuiltinIntegerLiteral", "toIntMax"]
+- !private ["Ps34_ExpressibleByBuiltinStringLiteral", "init"]
+- !private ["Ps39_ExpressibleByBuiltinUTF16StringLiteral", "init"]
+- !private ["Ps41_ExpressibleByBuiltinUnicodeScalarLiteral", "init"]
+- !private ["Ps33_ExpressibleByStringInterpolation", "init"]
+- !private ["Ps35_HasCustomAnyHashableRepresentation", "init"]
+- ["Ps9_Hashable", "Context"]
+- ["Ps9_Hashable", "Node"]
+- !private ["Ps9_Hashable", "NodeError"]
+- !private ["Ps9_Hashable", "Self"]
+- !private ["Ps9_Hashable", "StructuredData"]
+- ["Ps9_Hashable", "init"]
+- ["Ps9_Hashable", "makeNode"]
+- !private ["Ps9_Hashable", "toIntMax"]
+- ["Ps14_Incrementable", "Context"]
+- ["Ps14_Incrementable", "Node"]
+- !private ["Ps14_Incrementable", "NodeError"]
+- !private ["Ps14_Incrementable", "Self"]
+- !private ["Ps14_Incrementable", "StructuredData"]
+- ["Ps14_Incrementable", "init"]
+- ["Ps14_Incrementable", "makeNode"]
+- !private ["Ps14_Incrementable", "toIntMax"]
+- ["Ps8_Integer", "Context"]
+- ["Ps8_Integer", "Node"]
+- !private ["Ps8_Integer", "NodeError"]
+- !private ["Ps8_Integer", "Self"]
+- !private ["Ps8_Integer", "StructuredData"]
+- ["Ps8_Integer", "init"]
+- ["Ps8_Integer", "makeNode"]
+- !private ["Ps8_Integer", "toIntMax"]
+- ["Ps18_IntegerArithmetic", "Context"]
+- ["Ps18_IntegerArithmetic", "Node"]
+- !private ["Ps18_IntegerArithmetic", "NodeError"]
+- !private ["Ps18_IntegerArithmetic", "Self"]
+- !private ["Ps18_IntegerArithmetic", "StructuredData"]
+- ["Ps18_IntegerArithmetic", "init"]
+- ["Ps18_IntegerArithmetic", "makeNode"]
+- !private ["Ps18_IntegerArithmetic", "toIntMax"]
+- ["Ps21_ObjectiveCBridgeable", "init"]
+- ["Ps21_ObjectiveCBridgeable", "makeNode"]
+- !private ["Ps21_ObjectiveCBridgeable", "toIntMax"]
+- ["Ps14_SignedInteger", "Context"]
+- ["Ps14_SignedInteger", "Node"]
+- !private ["Ps14_SignedInteger", "NodeError"]
+- !private ["Ps14_SignedInteger", "Self"]
+- !private ["Ps14_SignedInteger", "StructuredData"]
+- ["Ps14_SignedInteger", "init"]
+- ["Ps14_SignedInteger", "makeNode"]
+- !private ["Ps14_SignedInteger", "toIntMax"]
+- ["Ps11_Strideable", "Context"]
+- ["Ps11_Strideable", "Node"]
+- !private ["Ps11_Strideable", "NodeError"]
+- !private ["Ps11_Strideable", "Self"]
+- !private ["Ps11_Strideable", "StructuredData"]
+- ["Ps11_Strideable", "init"]
+- ["Ps11_Strideable", "makeNode"]
+- !private ["Ps11_Strideable", "toIntMax"]
+depends-nominal:
+- !private "Ps9AnyObject"
+- "Ps17BitwiseOperations"
+- !private "P4Bits16BytesConvertible"
+- !private "P4Bits18BytesInitializable"
+- !private "P4Bits18BytesRepresentable"
+- "Ps7CVarArg"
+- "Ps10Comparable"
+- !private "Ps28CustomDebugStringConvertible"
+- "Ps29CustomPlaygroundQuickLookable"
+- "Ps17CustomReflectable"
+- "Ps23CustomStringConvertible"
+- !private "P9Debugging10Debuggable"
+- "Ps9Equatable"
+- !private "Ps5Error"
+- !private "Ps25ExpressibleByArrayLiteral"
+- !private "Ps27ExpressibleByBooleanLiteral"
+- !private "Ps30ExpressibleByDictionaryLiteral"
+- !private "Ps43ExpressibleByExtendedGraphemeClusterLiteral"
+- !private "Ps25ExpressibleByFloatLiteral"
+- "Ps27ExpressibleByIntegerLiteral"
+- !private "Ps23ExpressibleByNilLiteral"
+- !private "Ps26ExpressibleByStringLiteral"
+- !private "Ps33ExpressibleByUnicodeScalarLiteral"
+- !private "P4Node14FuzzyConverter"
+- "Ps8Hashable"
+- "Si"
+- "Vs5Int16"
+- "Vs5Int32"
+- "Vs5Int64"
+- "Vs4Int8"
+- "Ps7Integer"
+- "Ps17IntegerArithmetic"
+- !private "Ps25LosslessStringConvertible"
+- "Ps10MirrorPath"
+- !private "PSo8NSCoding"
+- !private "PSo9NSCopying"
+- !private "PSo16NSMutableCopying"
+- !private "PSo16NSObjectProtocol"
+- !private "PSo14NSSecureCoding"
+- !private "CSo8NSString"
+- !private "V4Node4Node"
+- !private "O4Node9NodeError"
+- "P4Node17NodeInitializable"
+- "P4Node17NodeRepresentable"
+- !private "OO4Node14StructuredData6Number"
+- !private "P13PathIndexable13PathIndexable"
+- "P13PathIndexable11PathIndexer"
+- "Ps13SignedInteger"
+- "Ps12SignedNumber"
+- "Ps10Strideable"
+- !private "SS"
+- !private "O4Node14StructuredData"
+- !private "P4Node21StructuredDataWrapper"
+- !private "Ps16TextOutputStream"
+- !private "Ps20TextOutputStreamable"
+- "Ps15_CVarArgAligned"
+- !private "Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral"
+- "Ps35_ExpressibleByBuiltinIntegerLiteral"
+- !private "Ps34_ExpressibleByBuiltinStringLiteral"
+- !private "Ps39_ExpressibleByBuiltinUTF16StringLiteral"
+- !private "Ps41_ExpressibleByBuiltinUnicodeScalarLiteral"
+- !private "Ps33_ExpressibleByStringInterpolation"
+- !private "Ps35_HasCustomAnyHashableRepresentation"
+- "Ps9_Hashable"
+- "Ps14_Incrementable"
+- "Ps8_Integer"
+- "Ps18_IntegerArithmetic"
+- "Ps21_ObjectiveCBridgeable"
+- "Ps14_SignedInteger"
+- "Ps11_Strideable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/ObjectiveC.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Foundation.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreGraphics.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreText.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/ObjectiveC.swiftmodule"
+- "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/debug/libc.swiftmodule"
+- "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/debug/PathIndexable.swiftmodule"
+- "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/debug/Core.swiftmodule"
+- "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/debug/Debugging.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreGraphics.swiftmodule"
+- "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/debug/Bits.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/IOKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/debug/CHTTP.build/module.modulemap"
+- "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/debug/CSQLite.build/module.modulemap"
+interface-hash: "81b74c720bb7ebbae88acdf9ec5a1632"

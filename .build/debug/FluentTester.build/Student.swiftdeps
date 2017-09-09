@@ -1,0 +1,402 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "Student"
+provides-nominal:
+- "C12FluentTester7Student"
+provides-member:
+- ["C12FluentTester7Student", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- "AssignmentPrecedence"
+- "Bool"
+- "BooleanLiteralType"
+- "Database"
+- "Entity"
+- "Int"
+- "Node"
+- "Row"
+- "Storage"
+- "String"
+- !private "StringLiteralType"
+- "Student"
+depends-member:
+- !private ["Ps9AnyObject", "Row"]
+- ["Ps9AnyObject", "Storage"]
+- !private ["Ps9AnyObject", "age"]
+- !private ["Ps9AnyObject", "bool"]
+- ["Ps9AnyObject", "computedFields"]
+- !private ["Ps9AnyObject", "create"]
+- !private ["Ps9AnyObject", "custom"]
+- !private ["Ps9AnyObject", "delete"]
+- ["Ps9AnyObject", "didCreate"]
+- ["Ps9AnyObject", "didDelete"]
+- ["Ps9AnyObject", "didUpdate"]
+- !private ["Ps9AnyObject", "donor"]
+- ["Ps9AnyObject", "entity"]
+- ["Ps9AnyObject", "foreignIdKey"]
+- ["Ps9AnyObject", "id"]
+- ["Ps9AnyObject", "idKey"]
+- ["Ps9AnyObject", "idType"]
+- ["Ps9AnyObject", "identifier"]
+- ["Ps9AnyObject", "init"]
+- !private ["Ps9AnyObject", "int"]
+- ["Ps9AnyObject", "keyNamingConvention"]
+- ["Ps9AnyObject", "makeRow"]
+- !private ["Ps9AnyObject", "meta"]
+- !private ["Ps9AnyObject", "modify"]
+- ["Ps9AnyObject", "name"]
+- !private ["Ps9AnyObject", "ssn"]
+- ["Ps9AnyObject", "storage"]
+- !private ["Ps9AnyObject", "string"]
+- ["Ps9AnyObject", "willCreate"]
+- ["Ps9AnyObject", "willDelete"]
+- ["Ps9AnyObject", "willUpdate"]
+- ["Ps9AnyObject", ""]
+- !private ["P6Fluent7Builder", "bool"]
+- !private ["P6Fluent7Builder", "custom"]
+- !private ["P6Fluent7Builder", "id"]
+- !private ["P6Fluent7Builder", "int"]
+- !private ["P6Fluent7Builder", "string"]
+- !private ["P4Bits16BytesConvertible", "init"]
+- !private ["P4Bits18BytesInitializable", "init"]
+- !private ["P4Bits18BytesRepresentable", "init"]
+- !private ["Ps7CVarArg", "init"]
+- !private ["Ps10Comparable", "init"]
+- !private ["C6Fluent7Creator", "bool"]
+- !private ["C6Fluent7Creator", "id"]
+- !private ["C6Fluent7Creator", "int"]
+- !private ["C6Fluent7Creator", "string"]
+- !private ["Ps28CustomDebugStringConvertible", "init"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "init"]
+- !private ["Ps17CustomReflectable", "init"]
+- !private ["Ps23CustomStringConvertible", "init"]
+- !private ["C6Fluent8Database", "create"]
+- !private ["C6Fluent8Database", "delete"]
+- !private ["C6Fluent8Database", "modify"]
+- !private ["P6Fluent6Entity", "Row"]
+- ["P6Fluent6Entity", "Storage"]
+- !private ["P6Fluent6Entity", "age"]
+- ["P6Fluent6Entity", "computedFields"]
+- ["P6Fluent6Entity", "didCreate"]
+- ["P6Fluent6Entity", "didDelete"]
+- ["P6Fluent6Entity", "didUpdate"]
+- !private ["P6Fluent6Entity", "donor"]
+- ["P6Fluent6Entity", "entity"]
+- ["P6Fluent6Entity", "foreignIdKey"]
+- ["P6Fluent6Entity", "id"]
+- ["P6Fluent6Entity", "idKey"]
+- ["P6Fluent6Entity", "idType"]
+- ["P6Fluent6Entity", "identifier"]
+- ["P6Fluent6Entity", "init"]
+- ["P6Fluent6Entity", "keyNamingConvention"]
+- ["P6Fluent6Entity", "makeRow"]
+- !private ["P6Fluent6Entity", "meta"]
+- ["P6Fluent6Entity", "name"]
+- !private ["P6Fluent6Entity", "ssn"]
+- ["P6Fluent6Entity", "storage"]
+- ["P6Fluent6Entity", "willCreate"]
+- ["P6Fluent6Entity", "willDelete"]
+- ["P6Fluent6Entity", "willUpdate"]
+- ["P6Fluent6Entity", ""]
+- !private ["Ps9Equatable", "get"]
+- !private ["Ps9Equatable", "init"]
+- !private ["Ps9Equatable", "set"]
+- !private ["P6Fluent8Executor", "create"]
+- !private ["P6Fluent8Executor", "delete"]
+- !private ["P6Fluent8Executor", "modify"]
+- !private ["Ps25ExpressibleByArrayLiteral", "get"]
+- !private ["Ps25ExpressibleByArrayLiteral", "init"]
+- !private ["Ps25ExpressibleByArrayLiteral", "set"]
+- !private ["Ps27ExpressibleByBooleanLiteral", "get"]
+- !private ["Ps27ExpressibleByBooleanLiteral", "init"]
+- !private ["Ps27ExpressibleByBooleanLiteral", "set"]
+- !private ["Ps30ExpressibleByDictionaryLiteral", "get"]
+- !private ["Ps30ExpressibleByDictionaryLiteral", "init"]
+- !private ["Ps30ExpressibleByDictionaryLiteral", "set"]
+- !private ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "get"]
+- !private ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "init"]
+- !private ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "set"]
+- !private ["Ps25ExpressibleByFloatLiteral", "get"]
+- !private ["Ps25ExpressibleByFloatLiteral", "init"]
+- !private ["Ps25ExpressibleByFloatLiteral", "set"]
+- !private ["Ps27ExpressibleByIntegerLiteral", "get"]
+- !private ["Ps27ExpressibleByIntegerLiteral", "init"]
+- !private ["Ps27ExpressibleByIntegerLiteral", "set"]
+- !private ["Ps23ExpressibleByNilLiteral", "get"]
+- !private ["Ps23ExpressibleByNilLiteral", "init"]
+- !private ["Ps23ExpressibleByNilLiteral", "set"]
+- !private ["Ps26ExpressibleByStringLiteral", "get"]
+- !private ["Ps26ExpressibleByStringLiteral", "init"]
+- !private ["Ps26ExpressibleByStringLiteral", "set"]
+- !private ["Ps33ExpressibleByUnicodeScalarLiteral", "get"]
+- !private ["Ps33ExpressibleByUnicodeScalarLiteral", "init"]
+- !private ["Ps33ExpressibleByUnicodeScalarLiteral", "set"]
+- !private ["P4Node14FuzzyConverter", "get"]
+- !private ["P4Node14FuzzyConverter", "init"]
+- !private ["P4Node14FuzzyConverter", "set"]
+- !private ["Ps8Hashable", "init"]
+- !private ["Ps25LosslessStringConvertible", "init"]
+- !private ["Ps10MirrorPath", "init"]
+- !private ["C6Fluent8Modifier", "custom"]
+- !private ["PSo8NSCoding", "init"]
+- !private ["PSo9NSCopying", "init"]
+- !private ["PSo16NSMutableCopying", "init"]
+- !private ["PSo16NSObjectProtocol", "init"]
+- !private ["PSo14NSSecureCoding", "init"]
+- !private ["CSo8NSString", "init"]
+- !private ["P4Node17NodeInitializable", "get"]
+- !private ["P4Node17NodeInitializable", "init"]
+- !private ["P4Node17NodeInitializable", "set"]
+- !private ["P4Node17NodeRepresentable", "get"]
+- !private ["P4Node17NodeRepresentable", "init"]
+- !private ["P4Node17NodeRepresentable", "set"]
+- !private ["P13PathIndexable13PathIndexable", "get"]
+- !private ["P13PathIndexable13PathIndexable", "init"]
+- !private ["P13PathIndexable13PathIndexable", "set"]
+- !private ["P13PathIndexable11PathIndexer", "init"]
+- !private ["P6Fluent11QueryLogger", "create"]
+- !private ["P6Fluent11QueryLogger", "delete"]
+- !private ["P6Fluent11QueryLogger", "modify"]
+- !private ["V6Fluent3Row", "get"]
+- !private ["V6Fluent3Row", "init"]
+- !private ["V6Fluent3Row", "set"]
+- !private ["P6Fluent14RowConvertible", "Row"]
+- ["P6Fluent14RowConvertible", "Storage"]
+- !private ["P6Fluent14RowConvertible", "age"]
+- ["P6Fluent14RowConvertible", "computedFields"]
+- ["P6Fluent14RowConvertible", "didCreate"]
+- ["P6Fluent14RowConvertible", "didDelete"]
+- ["P6Fluent14RowConvertible", "didUpdate"]
+- !private ["P6Fluent14RowConvertible", "donor"]
+- ["P6Fluent14RowConvertible", "entity"]
+- ["P6Fluent14RowConvertible", "foreignIdKey"]
+- ["P6Fluent14RowConvertible", "id"]
+- ["P6Fluent14RowConvertible", "idKey"]
+- ["P6Fluent14RowConvertible", "idType"]
+- ["P6Fluent14RowConvertible", "identifier"]
+- ["P6Fluent14RowConvertible", "init"]
+- ["P6Fluent14RowConvertible", "keyNamingConvention"]
+- ["P6Fluent14RowConvertible", "makeRow"]
+- !private ["P6Fluent14RowConvertible", "meta"]
+- ["P6Fluent14RowConvertible", "name"]
+- !private ["P6Fluent14RowConvertible", "ssn"]
+- ["P6Fluent14RowConvertible", "storage"]
+- ["P6Fluent14RowConvertible", "willCreate"]
+- ["P6Fluent14RowConvertible", "willDelete"]
+- ["P6Fluent14RowConvertible", "willUpdate"]
+- ["P6Fluent14RowConvertible", ""]
+- !private ["P6Fluent16RowInitializable", "Row"]
+- ["P6Fluent16RowInitializable", "Storage"]
+- !private ["P6Fluent16RowInitializable", "age"]
+- ["P6Fluent16RowInitializable", "computedFields"]
+- ["P6Fluent16RowInitializable", "didCreate"]
+- ["P6Fluent16RowInitializable", "didDelete"]
+- ["P6Fluent16RowInitializable", "didUpdate"]
+- !private ["P6Fluent16RowInitializable", "donor"]
+- ["P6Fluent16RowInitializable", "entity"]
+- ["P6Fluent16RowInitializable", "foreignIdKey"]
+- ["P6Fluent16RowInitializable", "id"]
+- ["P6Fluent16RowInitializable", "idKey"]
+- ["P6Fluent16RowInitializable", "idType"]
+- ["P6Fluent16RowInitializable", "identifier"]
+- ["P6Fluent16RowInitializable", "init"]
+- ["P6Fluent16RowInitializable", "keyNamingConvention"]
+- ["P6Fluent16RowInitializable", "makeRow"]
+- !private ["P6Fluent16RowInitializable", "meta"]
+- ["P6Fluent16RowInitializable", "name"]
+- !private ["P6Fluent16RowInitializable", "ssn"]
+- ["P6Fluent16RowInitializable", "storage"]
+- ["P6Fluent16RowInitializable", "willCreate"]
+- ["P6Fluent16RowInitializable", "willDelete"]
+- ["P6Fluent16RowInitializable", "willUpdate"]
+- ["P6Fluent16RowInitializable", ""]
+- !private ["P6Fluent16RowRepresentable", "Row"]
+- ["P6Fluent16RowRepresentable", "Storage"]
+- !private ["P6Fluent16RowRepresentable", "age"]
+- ["P6Fluent16RowRepresentable", "computedFields"]
+- ["P6Fluent16RowRepresentable", "didCreate"]
+- ["P6Fluent16RowRepresentable", "didDelete"]
+- ["P6Fluent16RowRepresentable", "didUpdate"]
+- !private ["P6Fluent16RowRepresentable", "donor"]
+- ["P6Fluent16RowRepresentable", "entity"]
+- ["P6Fluent16RowRepresentable", "foreignIdKey"]
+- ["P6Fluent16RowRepresentable", "id"]
+- ["P6Fluent16RowRepresentable", "idKey"]
+- ["P6Fluent16RowRepresentable", "idType"]
+- ["P6Fluent16RowRepresentable", "identifier"]
+- ["P6Fluent16RowRepresentable", "init"]
+- ["P6Fluent16RowRepresentable", "keyNamingConvention"]
+- ["P6Fluent16RowRepresentable", "makeRow"]
+- !private ["P6Fluent16RowRepresentable", "meta"]
+- ["P6Fluent16RowRepresentable", "name"]
+- !private ["P6Fluent16RowRepresentable", "ssn"]
+- ["P6Fluent16RowRepresentable", "storage"]
+- ["P6Fluent16RowRepresentable", "willCreate"]
+- ["P6Fluent16RowRepresentable", "willDelete"]
+- ["P6Fluent16RowRepresentable", "willUpdate"]
+- ["P6Fluent16RowRepresentable", ""]
+- !private ["P6Fluent8Storable", "Row"]
+- ["P6Fluent8Storable", "Storage"]
+- !private ["P6Fluent8Storable", "age"]
+- ["P6Fluent8Storable", "computedFields"]
+- ["P6Fluent8Storable", "didCreate"]
+- ["P6Fluent8Storable", "didDelete"]
+- ["P6Fluent8Storable", "didUpdate"]
+- !private ["P6Fluent8Storable", "donor"]
+- ["P6Fluent8Storable", "entity"]
+- ["P6Fluent8Storable", "foreignIdKey"]
+- ["P6Fluent8Storable", "id"]
+- ["P6Fluent8Storable", "idKey"]
+- ["P6Fluent8Storable", "idType"]
+- ["P6Fluent8Storable", "identifier"]
+- ["P6Fluent8Storable", "init"]
+- ["P6Fluent8Storable", "keyNamingConvention"]
+- ["P6Fluent8Storable", "makeRow"]
+- !private ["P6Fluent8Storable", "meta"]
+- ["P6Fluent8Storable", "name"]
+- !private ["P6Fluent8Storable", "ssn"]
+- ["P6Fluent8Storable", "storage"]
+- ["P6Fluent8Storable", "willCreate"]
+- ["P6Fluent8Storable", "willDelete"]
+- ["P6Fluent8Storable", "willUpdate"]
+- ["P6Fluent8Storable", ""]
+- ["C6Fluent7Storage", "init"]
+- !private ["SS", "init"]
+- !private ["P4Node21StructuredDataWrapper", "get"]
+- !private ["P4Node21StructuredDataWrapper", "init"]
+- !private ["P4Node21StructuredDataWrapper", "set"]
+- ["C12FluentTester7Student", "Bool"]
+- ["C12FluentTester7Student", "Database"]
+- ["C12FluentTester7Student", "Int"]
+- ["C12FluentTester7Student", "Node"]
+- ["C12FluentTester7Student", "Row"]
+- ["C12FluentTester7Student", "Storage"]
+- ["C12FluentTester7Student", "String"]
+- ["C12FluentTester7Student", "age"]
+- ["C12FluentTester7Student", "computedFields"]
+- ["C12FluentTester7Student", "deinit"]
+- ["C12FluentTester7Student", "didCreate"]
+- ["C12FluentTester7Student", "didDelete"]
+- ["C12FluentTester7Student", "didUpdate"]
+- ["C12FluentTester7Student", "donor"]
+- ["C12FluentTester7Student", "entity"]
+- ["C12FluentTester7Student", "foreignIdKey"]
+- ["C12FluentTester7Student", "id"]
+- ["C12FluentTester7Student", "idKey"]
+- ["C12FluentTester7Student", "idType"]
+- ["C12FluentTester7Student", "identifier"]
+- ["C12FluentTester7Student", "init"]
+- ["C12FluentTester7Student", "keyNamingConvention"]
+- ["C12FluentTester7Student", "makeRow"]
+- ["C12FluentTester7Student", "meta"]
+- ["C12FluentTester7Student", "name"]
+- ["C12FluentTester7Student", "prepare"]
+- ["C12FluentTester7Student", "revert"]
+- ["C12FluentTester7Student", "ssn"]
+- ["C12FluentTester7Student", "storage"]
+- ["C12FluentTester7Student", "willCreate"]
+- ["C12FluentTester7Student", "willDelete"]
+- ["C12FluentTester7Student", "willUpdate"]
+- !private ["Ps16TextOutputStream", "init"]
+- !private ["Ps20TextOutputStreamable", "init"]
+- !private ["P6Fluent12Transactable", "create"]
+- !private ["P6Fluent12Transactable", "delete"]
+- !private ["P6Fluent12Transactable", "modify"]
+- !private ["Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral", "init"]
+- !private ["Ps34_ExpressibleByBuiltinStringLiteral", "init"]
+- !private ["Ps39_ExpressibleByBuiltinUTF16StringLiteral", "init"]
+- !private ["Ps41_ExpressibleByBuiltinUnicodeScalarLiteral", "init"]
+- !private ["Ps33_ExpressibleByStringInterpolation", "init"]
+- !private ["Ps35_HasCustomAnyHashableRepresentation", "init"]
+- !private ["Ps9_Hashable", "init"]
+- !private ["Ps21_ObjectiveCBridgeable", "init"]
+depends-nominal:
+- "Ps9AnyObject"
+- !private "P6Fluent7Builder"
+- !private "P4Bits16BytesConvertible"
+- !private "P4Bits18BytesInitializable"
+- !private "P4Bits18BytesRepresentable"
+- !private "Ps7CVarArg"
+- !private "Ps10Comparable"
+- !private "C6Fluent7Creator"
+- !private "Ps28CustomDebugStringConvertible"
+- !private "Ps29CustomPlaygroundQuickLookable"
+- !private "Ps17CustomReflectable"
+- !private "Ps23CustomStringConvertible"
+- !private "C6Fluent8Database"
+- "P6Fluent6Entity"
+- !private "Ps9Equatable"
+- !private "P6Fluent8Executor"
+- !private "Ps25ExpressibleByArrayLiteral"
+- !private "Ps27ExpressibleByBooleanLiteral"
+- !private "Ps30ExpressibleByDictionaryLiteral"
+- !private "Ps43ExpressibleByExtendedGraphemeClusterLiteral"
+- !private "Ps25ExpressibleByFloatLiteral"
+- !private "Ps27ExpressibleByIntegerLiteral"
+- !private "Ps23ExpressibleByNilLiteral"
+- !private "Ps26ExpressibleByStringLiteral"
+- !private "Ps33ExpressibleByUnicodeScalarLiteral"
+- !private "P4Node14FuzzyConverter"
+- !private "Ps8Hashable"
+- !private "Ps25LosslessStringConvertible"
+- !private "Ps10MirrorPath"
+- !private "C6Fluent8Modifier"
+- !private "PSo8NSCoding"
+- !private "PSo9NSCopying"
+- !private "PSo16NSMutableCopying"
+- !private "PSo16NSObjectProtocol"
+- !private "PSo14NSSecureCoding"
+- !private "CSo8NSString"
+- !private "P4Node17NodeInitializable"
+- !private "P4Node17NodeRepresentable"
+- !private "P13PathIndexable13PathIndexable"
+- !private "P13PathIndexable11PathIndexer"
+- !private "P6Fluent11QueryLogger"
+- !private "V6Fluent3Row"
+- "P6Fluent14RowConvertible"
+- "P6Fluent16RowInitializable"
+- "P6Fluent16RowRepresentable"
+- "P6Fluent8Storable"
+- "C6Fluent7Storage"
+- !private "SS"
+- !private "P4Node21StructuredDataWrapper"
+- "C12FluentTester7Student"
+- !private "Ps16TextOutputStream"
+- !private "Ps20TextOutputStreamable"
+- !private "P6Fluent12Transactable"
+- !private "Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral"
+- !private "Ps34_ExpressibleByBuiltinStringLiteral"
+- !private "Ps39_ExpressibleByBuiltinUTF16StringLiteral"
+- !private "Ps41_ExpressibleByBuiltinUnicodeScalarLiteral"
+- !private "Ps33_ExpressibleByStringInterpolation"
+- !private "Ps35_HasCustomAnyHashableRepresentation"
+- !private "Ps9_Hashable"
+- !private "Ps21_ObjectiveCBridgeable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/ObjectiveC.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Foundation.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreGraphics.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreText.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/ObjectiveC.swiftmodule"
+- "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/debug/libc.swiftmodule"
+- "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/debug/Node.swiftmodule"
+- "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/debug/PathIndexable.swiftmodule"
+- "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/debug/Core.swiftmodule"
+- "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/debug/SQLite.swiftmodule"
+- "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/debug/Debugging.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.swiftmodule"
+- "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/debug/Random.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreGraphics.swiftmodule"
+- "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/debug/Bits.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/IOKit.swiftmodule"
+- "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/debug/Fluent.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/checkouts/sqlite.git--8232814251736334455/Sources/CSQLite/include/sqlite3.h"
+- "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/debug/CHTTP.build/module.modulemap"
+- "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/debug/CSQLite.build/module.modulemap"
+interface-hash: "245538aa922ff7c33dde54ad9b9c6ed9"

@@ -1,0 +1,182 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+provides-nominal:
+- "Vs3Set"
+provides-member:
+- ["Vs3Set", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "Array"
+- "AssignmentPrecedence"
+- "Context"
+- "Node"
+- "NodeConvertible"
+- "Set"
+depends-member:
+- !private ["Sa", "deinit"]
+- !private ["Sa", "init"]
+- !private ["Sa", "makeNode"]
+- !private ["Ps23BidirectionalCollection", "init"]
+- !private ["Ps23BidirectionalCollection", "makeNode"]
+- !private ["Ps7CVarArg", "Array"]
+- !private ["Ps7CVarArg", "Element"]
+- !private ["Ps7CVarArg", "Set"]
+- ["Ps7CVarArg", "init"]
+- ["Ps7CVarArg", "makeNode"]
+- !private ["Ps10Collection", "Array"]
+- !private ["Ps10Collection", "Element"]
+- !private ["Ps10Collection", "Set"]
+- ["Ps10Collection", "init"]
+- ["Ps10Collection", "makeNode"]
+- !private ["Ps28CustomDebugStringConvertible", "Array"]
+- !private ["Ps28CustomDebugStringConvertible", "Element"]
+- !private ["Ps28CustomDebugStringConvertible", "Set"]
+- ["Ps28CustomDebugStringConvertible", "init"]
+- ["Ps28CustomDebugStringConvertible", "makeNode"]
+- !private ["Ps17CustomReflectable", "Array"]
+- !private ["Ps17CustomReflectable", "Element"]
+- !private ["Ps17CustomReflectable", "Set"]
+- ["Ps17CustomReflectable", "init"]
+- ["Ps17CustomReflectable", "makeNode"]
+- !private ["Ps23CustomStringConvertible", "Array"]
+- !private ["Ps23CustomStringConvertible", "Element"]
+- !private ["Ps23CustomStringConvertible", "Set"]
+- ["Ps23CustomStringConvertible", "init"]
+- ["Ps23CustomStringConvertible", "makeNode"]
+- !private ["Ps9Equatable", "Array"]
+- !private ["Ps9Equatable", "Element"]
+- !private ["Ps9Equatable", "Set"]
+- ["Ps9Equatable", "init"]
+- ["Ps9Equatable", "makeNode"]
+- !private ["Ps25ExpressibleByArrayLiteral", "Array"]
+- !private ["Ps25ExpressibleByArrayLiteral", "Element"]
+- !private ["Ps25ExpressibleByArrayLiteral", "Set"]
+- ["Ps25ExpressibleByArrayLiteral", "init"]
+- ["Ps25ExpressibleByArrayLiteral", "makeNode"]
+- !private ["Ps8Hashable", "Array"]
+- !private ["Ps8Hashable", "Element"]
+- !private ["Ps8Hashable", "Set"]
+- ["Ps8Hashable", "init"]
+- ["Ps8Hashable", "makeNode"]
+- !private ["Ps17MutableCollection", "init"]
+- !private ["Ps17MutableCollection", "makeNode"]
+- !private ["V4Node4Node", "deinit"]
+- !private ["P4Node17NodeInitializable", "Array"]
+- !private ["P4Node17NodeInitializable", "Element"]
+- !private ["P4Node17NodeInitializable", "Set"]
+- ["P4Node17NodeInitializable", "init"]
+- ["P4Node17NodeInitializable", "makeNode"]
+- ["P4Node17NodeInitializable", ""]
+- !private ["P4Node17NodeRepresentable", "Array"]
+- !private ["P4Node17NodeRepresentable", "Element"]
+- !private ["P4Node17NodeRepresentable", "Set"]
+- ["P4Node17NodeRepresentable", "init"]
+- ["P4Node17NodeRepresentable", "makeNode"]
+- ["P4Node17NodeRepresentable", ""]
+- !private ["Ps22RandomAccessCollection", "init"]
+- !private ["Ps22RandomAccessCollection", "makeNode"]
+- !private ["Ps26RangeReplaceableCollection", "init"]
+- !private ["Ps26RangeReplaceableCollection", "makeNode"]
+- !private ["Ps8Sequence", "Array"]
+- !private ["Ps8Sequence", "Element"]
+- !private ["Ps8Sequence", "Set"]
+- ["Ps8Sequence", "init"]
+- ["Ps8Sequence", "makeNode"]
+- !private ["Vs3Set", "Array"]
+- ["Vs3Set", "Context"]
+- !private ["Vs3Set", "Element"]
+- ["Vs3Set", "Node"]
+- !private ["Vs3Set", "Set"]
+- ["Vs3Set", "deinit"]
+- ["Vs3Set", "init"]
+- ["Vs3Set", "makeNode"]
+- !private ["Ps10SetAlgebra", "Array"]
+- !private ["Ps10SetAlgebra", "Element"]
+- !private ["Ps10SetAlgebra", "Set"]
+- ["Ps10SetAlgebra", "init"]
+- ["Ps10SetAlgebra", "makeNode"]
+- !private ["Ps14_ArrayProtocol", "init"]
+- !private ["Ps14_ArrayProtocol", "makeNode"]
+- !private ["Ps23_BidirectionalIndexable", "init"]
+- !private ["Ps23_BidirectionalIndexable", "makeNode"]
+- !private ["Ps24_DestructorSafeContainer", "init"]
+- !private ["Ps24_DestructorSafeContainer", "makeNode"]
+- !private ["Ps9_Hashable", "Array"]
+- !private ["Ps9_Hashable", "Element"]
+- !private ["Ps9_Hashable", "Set"]
+- ["Ps9_Hashable", "init"]
+- ["Ps9_Hashable", "makeNode"]
+- !private ["Ps10_Indexable", "Array"]
+- !private ["Ps10_Indexable", "Element"]
+- !private ["Ps10_Indexable", "Set"]
+- ["Ps10_Indexable", "init"]
+- ["Ps10_Indexable", "makeNode"]
+- !private ["Ps14_IndexableBase", "Array"]
+- !private ["Ps14_IndexableBase", "Element"]
+- !private ["Ps14_IndexableBase", "Set"]
+- ["Ps14_IndexableBase", "init"]
+- ["Ps14_IndexableBase", "makeNode"]
+- !private ["Ps17_MutableIndexable", "init"]
+- !private ["Ps17_MutableIndexable", "makeNode"]
+- !private ["Ps21_ObjectiveCBridgeable", "Array"]
+- !private ["Ps21_ObjectiveCBridgeable", "Element"]
+- !private ["Ps21_ObjectiveCBridgeable", "Set"]
+- ["Ps21_ObjectiveCBridgeable", "init"]
+- ["Ps21_ObjectiveCBridgeable", "makeNode"]
+- !private ["Ps22_RandomAccessIndexable", "init"]
+- !private ["Ps22_RandomAccessIndexable", "makeNode"]
+- !private ["Ps26_RangeReplaceableIndexable", "init"]
+- !private ["Ps26_RangeReplaceableIndexable", "makeNode"]
+depends-nominal:
+- !private "Sa"
+- !private "Ps23BidirectionalCollection"
+- "Ps7CVarArg"
+- "Ps10Collection"
+- "Ps28CustomDebugStringConvertible"
+- "Ps17CustomReflectable"
+- "Ps23CustomStringConvertible"
+- "Ps9Equatable"
+- "Ps25ExpressibleByArrayLiteral"
+- "Ps8Hashable"
+- !private "Ps17MutableCollection"
+- !private "V4Node4Node"
+- "P4Node17NodeInitializable"
+- "P4Node17NodeRepresentable"
+- !private "Ps22RandomAccessCollection"
+- !private "Ps26RangeReplaceableCollection"
+- "Ps8Sequence"
+- "Vs3Set"
+- "Ps10SetAlgebra"
+- !private "Ps14_ArrayProtocol"
+- !private "Ps23_BidirectionalIndexable"
+- !private "Ps24_DestructorSafeContainer"
+- "Ps9_Hashable"
+- "Ps10_Indexable"
+- "Ps14_IndexableBase"
+- !private "Ps17_MutableIndexable"
+- "Ps21_ObjectiveCBridgeable"
+- !private "Ps22_RandomAccessIndexable"
+- !private "Ps26_RangeReplaceableIndexable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/ObjectiveC.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Foundation.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreGraphics.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreText.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/ObjectiveC.swiftmodule"
+- "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/debug/libc.swiftmodule"
+- "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/debug/PathIndexable.swiftmodule"
+- "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/debug/Core.swiftmodule"
+- "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/debug/Debugging.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreGraphics.swiftmodule"
+- "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/debug/Bits.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/IOKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/debug/CHTTP.build/module.modulemap"
+- "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/debug/CSQLite.build/module.modulemap"
+interface-hash: "a4a8a1c2b0d6eeca077190c1d7e0cfe6"

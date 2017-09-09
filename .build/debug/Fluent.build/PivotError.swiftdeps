@@ -1,0 +1,196 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "PivotError"
+provides-nominal:
+- "O6Fluent10PivotError"
+provides-member:
+- ["O6Fluent10PivotError", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- "Debuggable"
+- "Entity"
+- "Error"
+- "PivotError"
+- "String"
+- !private "StringLiteralType"
+depends-member:
+- !private ["Ps9AnyObject", "init"]
+- !private ["P4Bits16BytesConvertible", "init"]
+- !private ["P4Bits18BytesInitializable", "init"]
+- !private ["P4Bits18BytesRepresentable", "init"]
+- !private ["Ps7CVarArg", "init"]
+- !private ["Ps10Comparable", "init"]
+- ["Ps28CustomDebugStringConvertible", "_code"]
+- ["Ps28CustomDebugStringConvertible", "_domain"]
+- ["Ps28CustomDebugStringConvertible", "_getEmbeddedNSError"]
+- ["Ps28CustomDebugStringConvertible", "_userInfo"]
+- ["Ps28CustomDebugStringConvertible", "debugDescription"]
+- ["Ps28CustomDebugStringConvertible", "documentationLinks"]
+- ["Ps28CustomDebugStringConvertible", "existRequired"]
+- ["Ps28CustomDebugStringConvertible", "gitHubIssues"]
+- ["Ps28CustomDebugStringConvertible", "idRequired"]
+- ["Ps28CustomDebugStringConvertible", "identifier"]
+- !private ["Ps28CustomDebugStringConvertible", "init"]
+- ["Ps28CustomDebugStringConvertible", "possibleCauses"]
+- ["Ps28CustomDebugStringConvertible", "readableName"]
+- ["Ps28CustomDebugStringConvertible", "reason"]
+- ["Ps28CustomDebugStringConvertible", "stackOverflowQuestions"]
+- ["Ps28CustomDebugStringConvertible", "suggestedFixes"]
+- ["Ps28CustomDebugStringConvertible", "typeIdentifier"]
+- ["Ps28CustomDebugStringConvertible", "unspecified"]
+- ["Ps28CustomDebugStringConvertible", ""]
+- !private ["Ps29CustomPlaygroundQuickLookable", "init"]
+- !private ["Ps17CustomReflectable", "init"]
+- !private ["Ps23CustomStringConvertible", "init"]
+- ["P9Debugging10Debuggable", "_code"]
+- ["P9Debugging10Debuggable", "_domain"]
+- ["P9Debugging10Debuggable", "_getEmbeddedNSError"]
+- ["P9Debugging10Debuggable", "_userInfo"]
+- ["P9Debugging10Debuggable", "debugDescription"]
+- ["P9Debugging10Debuggable", "documentationLinks"]
+- ["P9Debugging10Debuggable", "existRequired"]
+- ["P9Debugging10Debuggable", "gitHubIssues"]
+- ["P9Debugging10Debuggable", "idRequired"]
+- ["P9Debugging10Debuggable", "identifier"]
+- ["P9Debugging10Debuggable", "possibleCauses"]
+- ["P9Debugging10Debuggable", "readableName"]
+- ["P9Debugging10Debuggable", "reason"]
+- ["P9Debugging10Debuggable", "stackOverflowQuestions"]
+- ["P9Debugging10Debuggable", "suggestedFixes"]
+- ["P9Debugging10Debuggable", "typeIdentifier"]
+- ["P9Debugging10Debuggable", "unspecified"]
+- ["P9Debugging10Debuggable", ""]
+- !private ["Ps9Equatable", "init"]
+- ["Ps5Error", "_code"]
+- ["Ps5Error", "_domain"]
+- ["Ps5Error", "_getEmbeddedNSError"]
+- ["Ps5Error", "_userInfo"]
+- ["Ps5Error", "debugDescription"]
+- ["Ps5Error", "documentationLinks"]
+- ["Ps5Error", "existRequired"]
+- ["Ps5Error", "gitHubIssues"]
+- ["Ps5Error", "idRequired"]
+- ["Ps5Error", "identifier"]
+- ["Ps5Error", "possibleCauses"]
+- ["Ps5Error", "readableName"]
+- ["Ps5Error", "reason"]
+- ["Ps5Error", "stackOverflowQuestions"]
+- ["Ps5Error", "suggestedFixes"]
+- ["Ps5Error", "typeIdentifier"]
+- ["Ps5Error", "unspecified"]
+- ["Ps5Error", ""]
+- !private ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "init"]
+- !private ["Ps26ExpressibleByStringLiteral", "init"]
+- !private ["Ps33ExpressibleByUnicodeScalarLiteral", "init"]
+- !private ["Ps8Hashable", "init"]
+- !private ["Ps25LosslessStringConvertible", "init"]
+- !private ["Ps10MirrorPath", "init"]
+- !private ["PSo8NSCoding", "init"]
+- !private ["PSo9NSCopying", "init"]
+- !private ["PSo16NSMutableCopying", "init"]
+- !private ["PSo16NSObjectProtocol", "init"]
+- !private ["PSo14NSSecureCoding", "init"]
+- !private ["CSo8NSString", "init"]
+- !private ["P4Node17NodeInitializable", "init"]
+- !private ["P4Node17NodeRepresentable", "init"]
+- !private ["P13PathIndexable11PathIndexer", "init"]
+- ["O6Fluent10PivotError", "Entity"]
+- ["O6Fluent10PivotError", "Error"]
+- ["O6Fluent10PivotError", "String"]
+- ["O6Fluent10PivotError", "_code"]
+- ["O6Fluent10PivotError", "_domain"]
+- ["O6Fluent10PivotError", "_getEmbeddedNSError"]
+- ["O6Fluent10PivotError", "_userInfo"]
+- ["O6Fluent10PivotError", "debugDescription"]
+- ["O6Fluent10PivotError", "deinit"]
+- ["O6Fluent10PivotError", "documentationLinks"]
+- ["O6Fluent10PivotError", "existRequired"]
+- ["O6Fluent10PivotError", "gitHubIssues"]
+- ["O6Fluent10PivotError", "idRequired"]
+- ["O6Fluent10PivotError", "identifier"]
+- ["O6Fluent10PivotError", "possibleCauses"]
+- ["O6Fluent10PivotError", "readableName"]
+- ["O6Fluent10PivotError", "reason"]
+- ["O6Fluent10PivotError", "stackOverflowQuestions"]
+- ["O6Fluent10PivotError", "suggestedFixes"]
+- ["O6Fluent10PivotError", "typeIdentifier"]
+- ["O6Fluent10PivotError", "unspecified"]
+- !private ["SS", "init"]
+- !private ["Ps16TextOutputStream", "init"]
+- !private ["Ps20TextOutputStreamable", "init"]
+- !private ["Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral", "init"]
+- !private ["Ps34_ExpressibleByBuiltinStringLiteral", "init"]
+- !private ["Ps39_ExpressibleByBuiltinUTF16StringLiteral", "init"]
+- !private ["Ps41_ExpressibleByBuiltinUnicodeScalarLiteral", "init"]
+- !private ["Ps33_ExpressibleByStringInterpolation", "init"]
+- !private ["Ps35_HasCustomAnyHashableRepresentation", "init"]
+- !private ["Ps9_Hashable", "init"]
+- !private ["Ps21_ObjectiveCBridgeable", "init"]
+depends-nominal:
+- !private "Ps9AnyObject"
+- !private "P4Bits16BytesConvertible"
+- !private "P4Bits18BytesInitializable"
+- !private "P4Bits18BytesRepresentable"
+- !private "Ps7CVarArg"
+- !private "Ps10Comparable"
+- "Ps28CustomDebugStringConvertible"
+- !private "Ps29CustomPlaygroundQuickLookable"
+- !private "Ps17CustomReflectable"
+- !private "Ps23CustomStringConvertible"
+- "P9Debugging10Debuggable"
+- !private "Ps9Equatable"
+- "Ps5Error"
+- !private "Ps43ExpressibleByExtendedGraphemeClusterLiteral"
+- !private "Ps26ExpressibleByStringLiteral"
+- !private "Ps33ExpressibleByUnicodeScalarLiteral"
+- !private "Ps8Hashable"
+- !private "Ps25LosslessStringConvertible"
+- !private "Ps10MirrorPath"
+- !private "PSo8NSCoding"
+- !private "PSo9NSCopying"
+- !private "PSo16NSMutableCopying"
+- !private "PSo16NSObjectProtocol"
+- !private "PSo14NSSecureCoding"
+- !private "CSo8NSString"
+- !private "P4Node17NodeInitializable"
+- !private "P4Node17NodeRepresentable"
+- !private "P13PathIndexable11PathIndexer"
+- "O6Fluent10PivotError"
+- !private "SS"
+- !private "Ps16TextOutputStream"
+- !private "Ps20TextOutputStreamable"
+- !private "Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral"
+- !private "Ps34_ExpressibleByBuiltinStringLiteral"
+- !private "Ps39_ExpressibleByBuiltinUTF16StringLiteral"
+- !private "Ps41_ExpressibleByBuiltinUnicodeScalarLiteral"
+- !private "Ps33_ExpressibleByStringInterpolation"
+- !private "Ps35_HasCustomAnyHashableRepresentation"
+- !private "Ps9_Hashable"
+- !private "Ps21_ObjectiveCBridgeable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/ObjectiveC.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Foundation.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreGraphics.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreText.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/ObjectiveC.swiftmodule"
+- "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/debug/libc.swiftmodule"
+- "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/debug/Node.swiftmodule"
+- "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/debug/PathIndexable.swiftmodule"
+- "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/debug/Core.swiftmodule"
+- "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/debug/SQLite.swiftmodule"
+- "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/debug/Debugging.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.swiftmodule"
+- "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/debug/Random.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreGraphics.swiftmodule"
+- "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/debug/Bits.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/IOKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/checkouts/sqlite.git--8232814251736334455/Sources/CSQLite/include/sqlite3.h"
+- "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/debug/CHTTP.build/module.modulemap"
+- "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/debug/CSQLite.build/module.modulemap"
+interface-hash: "93f6c0e09627538e954e215cbd7b85af"

@@ -1,0 +1,450 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "supportOptionsRequests"
+- "RouterError"
+provides-nominal:
+- "C7Routing6Router"
+- "O7Routing11RouterError"
+provides-member:
+- ["C7Routing6Router", ""]
+- ["C4HTTP7Request", ""]
+- ["O7Routing11RouterError", ""]
+- ["C4HTTP7Request", "copy"]
+- ["O7Routing11RouterError", "identifier"]
+- ["O7Routing11RouterError", "reason"]
+- ["O7Routing11RouterError", "suggestedFixes"]
+- ["O7Routing11RouterError", "possibleCauses"]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "!="
+- !private "=="
+- !private "Array"
+- !private "AssignmentPrecedence"
+- "BooleanLiteralType"
+- !private "Branch"
+- "Debuggable"
+- !private "Dictionary"
+- !private "Method"
+- "Request"
+- "Responder"
+- "Response"
+- "Router"
+- "RouterError"
+- "String"
+- !private "StringLiteralType"
+- "Swift"
+- "supportOptionsRequests"
+depends-member:
+- !private ["Ps9AnyObject", "Method"]
+- !private ["Ps9AnyObject", "Request"]
+- !private ["Ps9AnyObject", "Response"]
+- !private ["Ps9AnyObject", "RouterError"]
+- !private ["Ps9AnyObject", "allSubBranches"]
+- !private ["Ps9AnyObject", "base"]
+- !private ["Ps9AnyObject", "body"]
+- !private ["Ps9AnyObject", "copy"]
+- !private ["Ps9AnyObject", "fallbackResponse"]
+- !private ["Ps9AnyObject", "fetch"]
+- !private ["Ps9AnyObject", "headers"]
+- !private ["Ps9AnyObject", "host"]
+- !private ["Ps9AnyObject", "init"]
+- !private ["Ps9AnyObject", "method"]
+- !private ["Ps9AnyObject", "name"]
+- !private ["Ps9AnyObject", "options"]
+- ["Ps9AnyObject", "respond"]
+- !private ["Ps9AnyObject", "route"]
+- !private ["Ps9AnyObject", "supportOptionsRequests"]
+- !private ["Ps9AnyObject", "supportedMethods"]
+- !private ["Ps9AnyObject", "uri"]
+- !private ["Ps9AnyObject", "version"]
+- !private ["Sa", "filter"]
+- !private ["Sa", "joined"]
+- !private ["Sa", "map"]
+- !private ["Ps23BidirectionalCollection", "filter"]
+- !private ["Ps23BidirectionalCollection", "joined"]
+- !private ["Ps23BidirectionalCollection", "map"]
+- !private ["P4HTTP17BodyRepresentable", "init"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["C8Branches6Branch", "allSubBranches"]
+- !private ["C8Branches6Branch", "fetch"]
+- !private ["C8Branches6Branch", "name"]
+- !private ["P4Bits16BytesConvertible", "init"]
+- !private ["P4Bits18BytesInitializable", "init"]
+- !private ["P4Bits18BytesRepresentable", "init"]
+- !private ["Ps7CVarArg", "filter"]
+- !private ["Ps7CVarArg", "init"]
+- !private ["Ps7CVarArg", "joined"]
+- !private ["Ps7CVarArg", "map"]
+- !private ["Ps10Collection", "filter"]
+- !private ["Ps10Collection", "joined"]
+- !private ["Ps10Collection", "map"]
+- !private ["Ps10Comparable", "init"]
+- ["Ps28CustomDebugStringConvertible", "_code"]
+- ["Ps28CustomDebugStringConvertible", "_domain"]
+- ["Ps28CustomDebugStringConvertible", "_getEmbeddedNSError"]
+- ["Ps28CustomDebugStringConvertible", "_userInfo"]
+- ["Ps28CustomDebugStringConvertible", "debugDescription"]
+- ["Ps28CustomDebugStringConvertible", "documentationLinks"]
+- !private ["Ps28CustomDebugStringConvertible", "filter"]
+- ["Ps28CustomDebugStringConvertible", "gitHubIssues"]
+- ["Ps28CustomDebugStringConvertible", "identifier"]
+- !private ["Ps28CustomDebugStringConvertible", "init"]
+- ["Ps28CustomDebugStringConvertible", "invalidParameter"]
+- !private ["Ps28CustomDebugStringConvertible", "joined"]
+- !private ["Ps28CustomDebugStringConvertible", "map"]
+- ["Ps28CustomDebugStringConvertible", "missingRoute"]
+- ["Ps28CustomDebugStringConvertible", "possibleCauses"]
+- ["Ps28CustomDebugStringConvertible", "readableName"]
+- ["Ps28CustomDebugStringConvertible", "reason"]
+- ["Ps28CustomDebugStringConvertible", "stackOverflowQuestions"]
+- ["Ps28CustomDebugStringConvertible", "suggestedFixes"]
+- ["Ps28CustomDebugStringConvertible", "typeIdentifier"]
+- ["Ps28CustomDebugStringConvertible", "unspecified"]
+- ["Ps28CustomDebugStringConvertible", ""]
+- !private ["Ps29CustomPlaygroundQuickLookable", "_getBuiltinLogicValue"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "init"]
+- !private ["Ps17CustomReflectable", "_getBuiltinLogicValue"]
+- !private ["Ps17CustomReflectable", "filter"]
+- !private ["Ps17CustomReflectable", "init"]
+- !private ["Ps17CustomReflectable", "joined"]
+- !private ["Ps17CustomReflectable", "map"]
+- !private ["Ps23CustomStringConvertible", "Request"]
+- !private ["Ps23CustomStringConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps23CustomStringConvertible", "body"]
+- !private ["Ps23CustomStringConvertible", "copy"]
+- !private ["Ps23CustomStringConvertible", "description"]
+- !private ["Ps23CustomStringConvertible", "filter"]
+- !private ["Ps23CustomStringConvertible", "headers"]
+- !private ["Ps23CustomStringConvertible", "hostname"]
+- !private ["Ps23CustomStringConvertible", "init"]
+- !private ["Ps23CustomStringConvertible", "joined"]
+- !private ["Ps23CustomStringConvertible", "map"]
+- !private ["Ps23CustomStringConvertible", "method"]
+- !private ["Ps23CustomStringConvertible", "options"]
+- !private ["Ps23CustomStringConvertible", "path"]
+- !private ["Ps23CustomStringConvertible", "uri"]
+- !private ["Ps23CustomStringConvertible", "version"]
+- ["P9Debugging10Debuggable", "_code"]
+- ["P9Debugging10Debuggable", "_domain"]
+- ["P9Debugging10Debuggable", "_getEmbeddedNSError"]
+- ["P9Debugging10Debuggable", "_userInfo"]
+- ["P9Debugging10Debuggable", "debugDescription"]
+- ["P9Debugging10Debuggable", "documentationLinks"]
+- ["P9Debugging10Debuggable", "gitHubIssues"]
+- ["P9Debugging10Debuggable", "identifier"]
+- ["P9Debugging10Debuggable", "invalidParameter"]
+- ["P9Debugging10Debuggable", "missingRoute"]
+- ["P9Debugging10Debuggable", "possibleCauses"]
+- ["P9Debugging10Debuggable", "readableName"]
+- ["P9Debugging10Debuggable", "reason"]
+- ["P9Debugging10Debuggable", "stackOverflowQuestions"]
+- ["P9Debugging10Debuggable", "suggestedFixes"]
+- ["P9Debugging10Debuggable", "typeIdentifier"]
+- ["P9Debugging10Debuggable", "unspecified"]
+- ["P9Debugging10Debuggable", ""]
+- !private ["Ps9Equatable", "_getBuiltinLogicValue"]
+- !private ["Ps9Equatable", "description"]
+- !private ["Ps9Equatable", "init"]
+- !private ["Ps9Equatable", "ok"]
+- !private ["Ps9Equatable", "options"]
+- ["Ps5Error", "_code"]
+- ["Ps5Error", "_domain"]
+- ["Ps5Error", "_getEmbeddedNSError"]
+- ["Ps5Error", "_userInfo"]
+- ["Ps5Error", "debugDescription"]
+- ["Ps5Error", "documentationLinks"]
+- ["Ps5Error", "gitHubIssues"]
+- ["Ps5Error", "identifier"]
+- ["Ps5Error", "invalidParameter"]
+- ["Ps5Error", "missingRoute"]
+- ["Ps5Error", "possibleCauses"]
+- ["Ps5Error", "readableName"]
+- ["Ps5Error", "reason"]
+- ["Ps5Error", "stackOverflowQuestions"]
+- ["Ps5Error", "suggestedFixes"]
+- ["Ps5Error", "typeIdentifier"]
+- ["Ps5Error", "unspecified"]
+- ["Ps5Error", ""]
+- !private ["Ps25ExpressibleByArrayLiteral", "filter"]
+- !private ["Ps25ExpressibleByArrayLiteral", "joined"]
+- !private ["Ps25ExpressibleByArrayLiteral", "map"]
+- !private ["Ps27ExpressibleByBooleanLiteral", "_getBuiltinLogicValue"]
+- !private ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "init"]
+- !private ["Ps26ExpressibleByStringLiteral", "init"]
+- !private ["Ps33ExpressibleByUnicodeScalarLiteral", "init"]
+- !private ["Ps8Hashable", "_getBuiltinLogicValue"]
+- !private ["Ps8Hashable", "description"]
+- !private ["Ps8Hashable", "init"]
+- !private ["Ps8Hashable", "ok"]
+- !private ["Ps8Hashable", "options"]
+- !private ["V4HTTP9HeaderKey", "init"]
+- !private ["Ps25LosslessStringConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps25LosslessStringConvertible", "init"]
+- !private ["P4HTTP7Message", "Request"]
+- !private ["P4HTTP7Message", "body"]
+- !private ["P4HTTP7Message", "copy"]
+- !private ["P4HTTP7Message", "headers"]
+- !private ["P4HTTP7Message", "init"]
+- !private ["P4HTTP7Message", "method"]
+- !private ["P4HTTP7Message", "uri"]
+- !private ["P4HTTP7Message", "version"]
+- !private ["O4HTTP6Method", "description"]
+- !private ["O4HTTP6Method", "init"]
+- !private ["O4HTTP6Method", "options"]
+- !private ["Ps10MirrorPath", "init"]
+- !private ["Ps17MutableCollection", "filter"]
+- !private ["Ps17MutableCollection", "joined"]
+- !private ["Ps17MutableCollection", "map"]
+- !private ["PSo8NSCoding", "init"]
+- !private ["PSo9NSCopying", "init"]
+- !private ["PSo16NSMutableCopying", "init"]
+- !private ["PSo16NSObjectProtocol", "init"]
+- !private ["PSo14NSSecureCoding", "init"]
+- !private ["CSo8NSString", "init"]
+- !private ["P4Node17NodeInitializable", "_getBuiltinLogicValue"]
+- !private ["P4Node17NodeInitializable", "filter"]
+- !private ["P4Node17NodeInitializable", "init"]
+- !private ["P4Node17NodeInitializable", "joined"]
+- !private ["P4Node17NodeInitializable", "map"]
+- !private ["P4Node17NodeRepresentable", "_getBuiltinLogicValue"]
+- !private ["P4Node17NodeRepresentable", "filter"]
+- !private ["P4Node17NodeRepresentable", "init"]
+- !private ["P4Node17NodeRepresentable", "joined"]
+- !private ["P4Node17NodeRepresentable", "map"]
+- !private ["P7Routing15Parameterizable", "init"]
+- !private ["P13PathIndexable11PathIndexer", "init"]
+- !private ["Ps22RandomAccessCollection", "filter"]
+- !private ["Ps22RandomAccessCollection", "joined"]
+- !private ["Ps22RandomAccessCollection", "map"]
+- !private ["Ps26RangeReplaceableCollection", "filter"]
+- !private ["Ps26RangeReplaceableCollection", "joined"]
+- !private ["Ps26RangeReplaceableCollection", "map"]
+- ["C4HTTP7Request", "Request"]
+- !private ["C4HTTP7Request", "body"]
+- ["C4HTTP7Request", "copy"]
+- !private ["C4HTTP7Request", "headers"]
+- !private ["C4HTTP7Request", "init"]
+- !private ["C4HTTP7Request", "method"]
+- !private ["C4HTTP7Request", "uri"]
+- !private ["C4HTTP7Request", "version"]
+- !private ["P4HTTP9Responder", "Method"]
+- !private ["P4HTTP9Responder", "Response"]
+- !private ["P4HTTP9Responder", "RouterError"]
+- !private ["P4HTTP9Responder", "base"]
+- !private ["P4HTTP9Responder", "fallbackResponse"]
+- !private ["P4HTTP9Responder", "host"]
+- !private ["P4HTTP9Responder", "options"]
+- ["P4HTTP9Responder", "respond"]
+- !private ["P4HTTP9Responder", "route"]
+- !private ["P4HTTP9Responder", "supportOptionsRequests"]
+- !private ["P4HTTP9Responder", "supportedMethods"]
+- ["P4HTTP9Responder", ""]
+- !private ["C4HTTP8Response", "init"]
+- !private ["P4HTTP21ResponseRepresentable", "init"]
+- !private ["P7Routing12RouteBuilder", "Method"]
+- !private ["P7Routing12RouteBuilder", "Response"]
+- !private ["P7Routing12RouteBuilder", "RouterError"]
+- !private ["P7Routing12RouteBuilder", "base"]
+- !private ["P7Routing12RouteBuilder", "fallbackResponse"]
+- !private ["P7Routing12RouteBuilder", "host"]
+- !private ["P7Routing12RouteBuilder", "options"]
+- ["P7Routing12RouteBuilder", "respond"]
+- !private ["P7Routing12RouteBuilder", "route"]
+- !private ["P7Routing12RouteBuilder", "supportOptionsRequests"]
+- !private ["P7Routing12RouteBuilder", "supportedMethods"]
+- !private ["C7Routing6Router", "Branch"]
+- !private ["C7Routing6Router", "Method"]
+- ["C7Routing6Router", "Request"]
+- !private ["C7Routing6Router", "Responder"]
+- ["C7Routing6Router", "Response"]
+- !private ["C7Routing6Router", "RouterError"]
+- !private ["C7Routing6Router", "String"]
+- !private ["C7Routing6Router", "base"]
+- ["C7Routing6Router", "deinit"]
+- !private ["C7Routing6Router", "fallbackResponse"]
+- !private ["C7Routing6Router", "host"]
+- !private ["C7Routing6Router", "options"]
+- ["C7Routing6Router", "respond"]
+- !private ["C7Routing6Router", "route"]
+- !private ["C7Routing6Router", "supportOptionsRequests"]
+- !private ["C7Routing6Router", "supportedMethods"]
+- ["O7Routing11RouterError", "Request"]
+- ["O7Routing11RouterError", "String"]
+- ["O7Routing11RouterError", "Swift"]
+- ["O7Routing11RouterError", "_code"]
+- ["O7Routing11RouterError", "_domain"]
+- ["O7Routing11RouterError", "_getEmbeddedNSError"]
+- ["O7Routing11RouterError", "_userInfo"]
+- ["O7Routing11RouterError", "debugDescription"]
+- ["O7Routing11RouterError", "deinit"]
+- ["O7Routing11RouterError", "documentationLinks"]
+- ["O7Routing11RouterError", "gitHubIssues"]
+- ["O7Routing11RouterError", "identifier"]
+- ["O7Routing11RouterError", "invalidParameter"]
+- ["O7Routing11RouterError", "missingRoute"]
+- ["O7Routing11RouterError", "possibleCauses"]
+- ["O7Routing11RouterError", "readableName"]
+- ["O7Routing11RouterError", "reason"]
+- ["O7Routing11RouterError", "stackOverflowQuestions"]
+- ["O7Routing11RouterError", "suggestedFixes"]
+- ["O7Routing11RouterError", "typeIdentifier"]
+- ["O7Routing11RouterError", "unspecified"]
+- !private ["Ps8Sequence", "filter"]
+- !private ["Ps8Sequence", "joined"]
+- !private ["Ps8Sequence", "map"]
+- !private ["O4HTTP6Status", "ok"]
+- !private ["SS", "init"]
+- !private ["Ps16TextOutputStream", "init"]
+- !private ["Ps20TextOutputStreamable", "init"]
+- !private ["V3URI3URI", "hostname"]
+- !private ["V3URI3URI", "path"]
+- !private ["Ps14_ArrayProtocol", "filter"]
+- !private ["Ps14_ArrayProtocol", "joined"]
+- !private ["Ps14_ArrayProtocol", "map"]
+- !private ["Ps23_BidirectionalIndexable", "filter"]
+- !private ["Ps23_BidirectionalIndexable", "joined"]
+- !private ["Ps23_BidirectionalIndexable", "map"]
+- !private ["Ps24_DestructorSafeContainer", "filter"]
+- !private ["Ps24_DestructorSafeContainer", "joined"]
+- !private ["Ps24_DestructorSafeContainer", "map"]
+- !private ["Ps35_ExpressibleByBuiltinBooleanLiteral", "_getBuiltinLogicValue"]
+- !private ["Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral", "init"]
+- !private ["Ps34_ExpressibleByBuiltinStringLiteral", "init"]
+- !private ["Ps39_ExpressibleByBuiltinUTF16StringLiteral", "init"]
+- !private ["Ps41_ExpressibleByBuiltinUnicodeScalarLiteral", "init"]
+- !private ["Ps33_ExpressibleByStringInterpolation", "init"]
+- !private ["Ps35_HasCustomAnyHashableRepresentation", "init"]
+- !private ["Ps9_Hashable", "_getBuiltinLogicValue"]
+- !private ["Ps9_Hashable", "description"]
+- !private ["Ps9_Hashable", "init"]
+- !private ["Ps9_Hashable", "ok"]
+- !private ["Ps9_Hashable", "options"]
+- !private ["Ps10_Indexable", "filter"]
+- !private ["Ps10_Indexable", "joined"]
+- !private ["Ps10_Indexable", "map"]
+- !private ["Ps14_IndexableBase", "filter"]
+- !private ["Ps14_IndexableBase", "joined"]
+- !private ["Ps14_IndexableBase", "map"]
+- !private ["Ps17_MutableIndexable", "filter"]
+- !private ["Ps17_MutableIndexable", "joined"]
+- !private ["Ps17_MutableIndexable", "map"]
+- !private ["Ps21_ObjectiveCBridgeable", "_getBuiltinLogicValue"]
+- !private ["Ps21_ObjectiveCBridgeable", "filter"]
+- !private ["Ps21_ObjectiveCBridgeable", "init"]
+- !private ["Ps21_ObjectiveCBridgeable", "joined"]
+- !private ["Ps21_ObjectiveCBridgeable", "map"]
+- !private ["Ps22_RandomAccessIndexable", "filter"]
+- !private ["Ps22_RandomAccessIndexable", "joined"]
+- !private ["Ps22_RandomAccessIndexable", "map"]
+- !private ["Ps26_RangeReplaceableIndexable", "filter"]
+- !private ["Ps26_RangeReplaceableIndexable", "joined"]
+- !private ["Ps26_RangeReplaceableIndexable", "map"]
+depends-nominal:
+- "Ps9AnyObject"
+- !private "Sa"
+- !private "Ps23BidirectionalCollection"
+- !private "P4HTTP17BodyRepresentable"
+- !private "Sb"
+- !private "C8Branches6Branch"
+- !private "P4Bits16BytesConvertible"
+- !private "P4Bits18BytesInitializable"
+- !private "P4Bits18BytesRepresentable"
+- !private "Ps7CVarArg"
+- !private "Ps10Collection"
+- !private "Ps10Comparable"
+- "Ps28CustomDebugStringConvertible"
+- !private "Ps29CustomPlaygroundQuickLookable"
+- !private "Ps17CustomReflectable"
+- !private "Ps23CustomStringConvertible"
+- "P9Debugging10Debuggable"
+- !private "Ps9Equatable"
+- "Ps5Error"
+- !private "Ps25ExpressibleByArrayLiteral"
+- !private "Ps27ExpressibleByBooleanLiteral"
+- !private "Ps43ExpressibleByExtendedGraphemeClusterLiteral"
+- !private "Ps26ExpressibleByStringLiteral"
+- !private "Ps33ExpressibleByUnicodeScalarLiteral"
+- !private "Ps8Hashable"
+- !private "V4HTTP9HeaderKey"
+- !private "Ps25LosslessStringConvertible"
+- !private "P4HTTP7Message"
+- !private "O4HTTP6Method"
+- !private "Ps10MirrorPath"
+- !private "Ps17MutableCollection"
+- !private "PSo8NSCoding"
+- !private "PSo9NSCopying"
+- !private "PSo16NSMutableCopying"
+- !private "PSo16NSObjectProtocol"
+- !private "PSo14NSSecureCoding"
+- !private "CSo8NSString"
+- !private "P4Node17NodeInitializable"
+- !private "P4Node17NodeRepresentable"
+- !private "P7Routing15Parameterizable"
+- !private "P13PathIndexable11PathIndexer"
+- !private "Ps22RandomAccessCollection"
+- !private "Ps26RangeReplaceableCollection"
+- "C4HTTP7Request"
+- "P4HTTP9Responder"
+- !private "C4HTTP8Response"
+- !private "P4HTTP21ResponseRepresentable"
+- "P7Routing12RouteBuilder"
+- "C7Routing6Router"
+- "O7Routing11RouterError"
+- !private "Ps8Sequence"
+- !private "O4HTTP6Status"
+- !private "SS"
+- !private "Ps16TextOutputStream"
+- !private "Ps20TextOutputStreamable"
+- !private "V3URI3URI"
+- !private "Ps14_ArrayProtocol"
+- !private "Ps23_BidirectionalIndexable"
+- !private "Ps24_DestructorSafeContainer"
+- !private "Ps35_ExpressibleByBuiltinBooleanLiteral"
+- !private "Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral"
+- !private "Ps34_ExpressibleByBuiltinStringLiteral"
+- !private "Ps39_ExpressibleByBuiltinUTF16StringLiteral"
+- !private "Ps41_ExpressibleByBuiltinUnicodeScalarLiteral"
+- !private "Ps33_ExpressibleByStringInterpolation"
+- !private "Ps35_HasCustomAnyHashableRepresentation"
+- !private "Ps9_Hashable"
+- !private "Ps10_Indexable"
+- !private "Ps14_IndexableBase"
+- !private "Ps17_MutableIndexable"
+- !private "Ps21_ObjectiveCBridgeable"
+- !private "Ps22_RandomAccessIndexable"
+- !private "Ps26_RangeReplaceableIndexable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/ObjectiveC.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Foundation.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreGraphics.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreText.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/ObjectiveC.swiftmodule"
+- "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/debug/URI.swiftmodule"
+- "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/debug/HTTP.swiftmodule"
+- "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/debug/TLS.swiftmodule"
+- "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/debug/libc.swiftmodule"
+- "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/debug/Node.swiftmodule"
+- "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/debug/PathIndexable.swiftmodule"
+- "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/debug/Core.swiftmodule"
+- "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/debug/Debugging.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.swiftmodule"
+- "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/debug/Random.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Foundation.swiftmodule"
+- "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/debug/Crypto.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreGraphics.swiftmodule"
+- "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/debug/Branches.swiftmodule"
+- "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/debug/Sockets.swiftmodule"
+- "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/debug/WebSockets.swiftmodule"
+- "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/debug/Bits.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/IOKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/debug/Transport.swiftmodule"
+- "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/checkouts/engine.git-3311994267206676365/Sources/CHTTP/include/http_parser.h"
+- "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/checkouts/ctls.git-9210868160426949823/module.modulemap"
+- "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/debug/CHTTP.build/module.modulemap"
+- "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/debug/CSQLite.build/module.modulemap"
+interface-hash: "c81d06bb6b6cf42ef976702da7519220"

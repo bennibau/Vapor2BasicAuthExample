@@ -1,0 +1,6 @@
+version: "Apple Swift version 3.1 (swiftlang-802.0.53 clang-802.0.42)"
+options: "ee394fb39f3cbf2e6b2111868382bd58"
+build_time: [558250021, 808382000]
+inputs:
+  "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/checkouts/vapor.git-5492988889259800272/Sources/Cache/CacheProtocol.swift": [557939703, 0]
+  "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/checkouts/vapor.git-5492988889259800272/Sources/Cache/MemoryCache.swift": [557939703, 0]

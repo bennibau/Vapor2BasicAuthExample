@@ -1,0 +1,111 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "QueryClosure"
+provides-nominal:
+provides-member:
+- ["P6Fluent18QueryRepresentable", ""]
+- ["P6Fluent18QueryRepresentable", "group"]
+- ["P6Fluent18QueryRepresentable", "and"]
+- ["P6Fluent18QueryRepresentable", "or"]
+provides-dynamic-lookup:
+depends-top-level:
+- "Entity"
+- "ExecutorRepresentable"
+- "Filter"
+- "Query"
+- "QueryClosure"
+- "QueryRepresentable"
+depends-member:
+- !private ["Ps9AnyObject", "executor"]
+- !private ["Ps9AnyObject", "filter"]
+- !private ["Ps9AnyObject", "filters"]
+- !private ["Ps9AnyObject", "init"]
+- ["Ps23CustomStringConvertible", "Relation"]
+- !private ["Ps23CustomStringConvertible", "init"]
+- !private ["Ps9Equatable", "and"]
+- !private ["Ps9Equatable", "or"]
+- ["P6Fluent21ExecutorRepresentable", "E"]
+- ["P6Fluent21ExecutorRepresentable", "Filter"]
+- ["P6Fluent21ExecutorRepresentable", "Query"]
+- ["P6Fluent21ExecutorRepresentable", "QueryClosure"]
+- !private ["P6Fluent21ExecutorRepresentable", "executor"]
+- !private ["P6Fluent21ExecutorRepresentable", "filter"]
+- !private ["P6Fluent21ExecutorRepresentable", "filters"]
+- !private ["P6Fluent21ExecutorRepresentable", "group"]
+- !private ["P6Fluent21ExecutorRepresentable", "init"]
+- !private ["P6Fluent21ExecutorRepresentable", "makeQuery"]
+- ["V6Fluent6Filter", "Relation"]
+- !private ["V6Fluent6Filter", "deinit"]
+- !private ["V6Fluent6Filter", "init"]
+- !private ["Ps8Hashable", "and"]
+- !private ["Ps8Hashable", "or"]
+- !private ["OV6Fluent6Filter6Method", "group"]
+- ["P4Node17NodeInitializable", "Relation"]
+- !private ["P4Node17NodeInitializable", "group"]
+- !private ["P4Node17NodeInitializable", "init"]
+- ["P4Node17NodeRepresentable", "Relation"]
+- !private ["P4Node17NodeRepresentable", "group"]
+- !private ["P4Node17NodeRepresentable", "init"]
+- !private ["C6Fluent5Query", "deinit"]
+- !private ["C6Fluent5Query", "executor"]
+- !private ["C6Fluent5Query", "filter"]
+- !private ["C6Fluent5Query", "filters"]
+- !private ["C6Fluent5Query", "init"]
+- ["P6Fluent18QueryRepresentable", "E"]
+- ["P6Fluent18QueryRepresentable", "ExecutorRepresentable"]
+- ["P6Fluent18QueryRepresentable", "Filter"]
+- ["P6Fluent18QueryRepresentable", "Query"]
+- ["P6Fluent18QueryRepresentable", "QueryClosure"]
+- ["P6Fluent18QueryRepresentable", "and"]
+- !private ["P6Fluent18QueryRepresentable", "executor"]
+- !private ["P6Fluent18QueryRepresentable", "filter"]
+- !private ["P6Fluent18QueryRepresentable", "filters"]
+- ["P6Fluent18QueryRepresentable", "group"]
+- !private ["P6Fluent18QueryRepresentable", "init"]
+- !private ["P6Fluent18QueryRepresentable", "makeQuery"]
+- ["P6Fluent18QueryRepresentable", "or"]
+- !private ["OV6Fluent6Filter8Relation", "and"]
+- !private ["OV6Fluent6Filter8Relation", "or"]
+- !private ["Ps9_Hashable", "and"]
+- !private ["Ps9_Hashable", "or"]
+depends-nominal:
+- !private "Ps9AnyObject"
+- "Ps23CustomStringConvertible"
+- !private "Ps9Equatable"
+- "P6Fluent21ExecutorRepresentable"
+- "V6Fluent6Filter"
+- !private "Ps8Hashable"
+- !private "OV6Fluent6Filter6Method"
+- "P4Node17NodeInitializable"
+- "P4Node17NodeRepresentable"
+- !private "C6Fluent5Query"
+- "P6Fluent18QueryRepresentable"
+- !private "OV6Fluent6Filter8Relation"
+- !private "Ps9_Hashable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/ObjectiveC.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Foundation.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreGraphics.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreText.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/ObjectiveC.swiftmodule"
+- "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/debug/libc.swiftmodule"
+- "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/debug/Node.swiftmodule"
+- "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/debug/PathIndexable.swiftmodule"
+- "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/debug/Core.swiftmodule"
+- "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/debug/SQLite.swiftmodule"
+- "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/debug/Debugging.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.swiftmodule"
+- "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/debug/Random.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreGraphics.swiftmodule"
+- "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/debug/Bits.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/IOKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/checkouts/sqlite.git--8232814251736334455/Sources/CSQLite/include/sqlite3.h"
+- "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/debug/CHTTP.build/module.modulemap"
+- "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/debug/CSQLite.build/module.modulemap"
+interface-hash: "71305138925e2bb27421fe1ee06c0c87"

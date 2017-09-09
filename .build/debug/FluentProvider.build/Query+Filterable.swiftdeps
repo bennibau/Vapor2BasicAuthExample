@@ -1,0 +1,160 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+provides-nominal:
+provides-member:
+- ["P6Fluent18QueryRepresentable", ""]
+- ["P6Fluent6Entity", ""]
+- ["P6Fluent18QueryRepresentable", "filter"]
+- ["P6Fluent6Entity", "filter"]
+provides-dynamic-lookup:
+depends-top-level:
+- "Entity"
+- "ExecutorRepresentable"
+- "Filterable"
+- "Query"
+- "QueryRepresentable"
+- "Request"
+depends-member:
+- !private ["Ps9AnyObject", "data"]
+- !private ["Ps9AnyObject", "filter"]
+- !private ["Ps9AnyObject", "subscript"]
+- !private ["C5Vapor7Content", "subscript"]
+- !private ["Ps23CustomStringConvertible", "data"]
+- ["P6Fluent6Entity", "Filterable"]
+- ["P6Fluent6Entity", "Query"]
+- ["P6Fluent6Entity", "Request"]
+- ["P6Fluent6Entity", "Self"]
+- ["P6Fluent6Entity", "filter"]
+- !private ["P6Fluent6Entity", "filterableKeys"]
+- !private ["P6Fluent6Entity", "makeQuery"]
+- ["P6Fluent21ExecutorRepresentable", "E"]
+- ["P6Fluent21ExecutorRepresentable", "Query"]
+- ["P6Fluent21ExecutorRepresentable", "Request"]
+- !private ["P6Fluent21ExecutorRepresentable", "filter"]
+- !private ["P6Fluent21ExecutorRepresentable", "makeQuery"]
+- !private ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "comparison"]
+- !private ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "publicKey"]
+- !private ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "queryKey"]
+- !private ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "valueMap"]
+- !private ["Ps26ExpressibleByStringLiteral", "comparison"]
+- !private ["Ps26ExpressibleByStringLiteral", "publicKey"]
+- !private ["Ps26ExpressibleByStringLiteral", "queryKey"]
+- !private ["Ps26ExpressibleByStringLiteral", "valueMap"]
+- !private ["Ps33ExpressibleByUnicodeScalarLiteral", "comparison"]
+- !private ["Ps33ExpressibleByUnicodeScalarLiteral", "publicKey"]
+- !private ["Ps33ExpressibleByUnicodeScalarLiteral", "queryKey"]
+- !private ["Ps33ExpressibleByUnicodeScalarLiteral", "valueMap"]
+- ["P14FluentProvider10Filterable", "Query"]
+- ["P14FluentProvider10Filterable", "Request"]
+- ["P14FluentProvider10Filterable", "Self"]
+- !private ["P14FluentProvider10Filterable", "filterableKeys"]
+- !private ["P14FluentProvider10Filterable", "makeQuery"]
+- !private ["V14FluentProvider13FilterableKey", "comparison"]
+- !private ["V14FluentProvider13FilterableKey", "publicKey"]
+- !private ["V14FluentProvider13FilterableKey", "queryKey"]
+- !private ["V14FluentProvider13FilterableKey", "valueMap"]
+- !private ["P4HTTP7Message", "data"]
+- !private ["P4Node17NodeRepresentable", "data"]
+- !private ["C6Fluent5Query", "filter"]
+- ["P6Fluent18QueryRepresentable", "E"]
+- ["P6Fluent18QueryRepresentable", "ExecutorRepresentable"]
+- ["P6Fluent18QueryRepresentable", "Filterable"]
+- ["P6Fluent18QueryRepresentable", "Query"]
+- ["P6Fluent18QueryRepresentable", "Request"]
+- ["P6Fluent18QueryRepresentable", "filter"]
+- !private ["P6Fluent18QueryRepresentable", "makeQuery"]
+- !private ["C4HTTP7Request", "data"]
+- ["P6Fluent14RowConvertible", "Filterable"]
+- ["P6Fluent14RowConvertible", "Query"]
+- ["P6Fluent14RowConvertible", "Request"]
+- ["P6Fluent14RowConvertible", "Self"]
+- !private ["P6Fluent14RowConvertible", "filterableKeys"]
+- !private ["P6Fluent14RowConvertible", "makeQuery"]
+- ["P6Fluent16RowInitializable", "Filterable"]
+- ["P6Fluent16RowInitializable", "Query"]
+- ["P6Fluent16RowInitializable", "Request"]
+- ["P6Fluent16RowInitializable", "Self"]
+- !private ["P6Fluent16RowInitializable", "filterableKeys"]
+- !private ["P6Fluent16RowInitializable", "makeQuery"]
+- ["P6Fluent16RowRepresentable", "Filterable"]
+- ["P6Fluent16RowRepresentable", "Query"]
+- ["P6Fluent16RowRepresentable", "Request"]
+- ["P6Fluent16RowRepresentable", "Self"]
+- !private ["P6Fluent16RowRepresentable", "filterableKeys"]
+- !private ["P6Fluent16RowRepresentable", "makeQuery"]
+- ["P6Fluent8Storable", "Filterable"]
+- ["P6Fluent8Storable", "Query"]
+- ["P6Fluent8Storable", "Request"]
+- ["P6Fluent8Storable", "Self"]
+- !private ["P6Fluent8Storable", "filterableKeys"]
+- !private ["P6Fluent8Storable", "makeQuery"]
+depends-nominal:
+- !private "Ps9AnyObject"
+- !private "C5Vapor7Content"
+- !private "Ps23CustomStringConvertible"
+- "P6Fluent6Entity"
+- "P6Fluent21ExecutorRepresentable"
+- !private "Ps43ExpressibleByExtendedGraphemeClusterLiteral"
+- !private "Ps26ExpressibleByStringLiteral"
+- !private "Ps33ExpressibleByUnicodeScalarLiteral"
+- "P14FluentProvider10Filterable"
+- !private "V14FluentProvider13FilterableKey"
+- !private "P4HTTP7Message"
+- !private "P4Node17NodeRepresentable"
+- !private "C6Fluent5Query"
+- "P6Fluent18QueryRepresentable"
+- !private "C4HTTP7Request"
+- "P6Fluent14RowConvertible"
+- "P6Fluent16RowInitializable"
+- "P6Fluent16RowRepresentable"
+- "P6Fluent8Storable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/ObjectiveC.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Foundation.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreGraphics.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreText.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/ObjectiveC.swiftmodule"
+- "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/debug/URI.swiftmodule"
+- "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/debug/JSON.swiftmodule"
+- "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/debug/SMTP.swiftmodule"
+- "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/debug/HTTP.swiftmodule"
+- "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/debug/TLS.swiftmodule"
+- "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/debug/FormData.swiftmodule"
+- "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/debug/libc.swiftmodule"
+- "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/debug/Node.swiftmodule"
+- "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/debug/Cache.swiftmodule"
+- "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/debug/PathIndexable.swiftmodule"
+- "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/debug/Console.swiftmodule"
+- "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/debug/Core.swiftmodule"
+- "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/debug/SQLite.swiftmodule"
+- "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/debug/Debugging.swiftmodule"
+- "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/debug/Routing.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.swiftmodule"
+- "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/debug/Random.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Foundation.swiftmodule"
+- "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/debug/Crypto.swiftmodule"
+- "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/debug/Vapor.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreGraphics.swiftmodule"
+- "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/debug/Branches.swiftmodule"
+- "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/debug/Cookies.swiftmodule"
+- "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/debug/Configs.swiftmodule"
+- "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/debug/Sessions.swiftmodule"
+- "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/debug/Sockets.swiftmodule"
+- "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/debug/WebSockets.swiftmodule"
+- "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/debug/Bits.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/IOKit.swiftmodule"
+- "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/debug/Fluent.swiftmodule"
+- "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/debug/BCrypt.swiftmodule"
+- "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/debug/Multipart.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/debug/Transport.swiftmodule"
+- "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/checkouts/sqlite.git--8232814251736334455/Sources/CSQLite/include/sqlite3.h"
+- "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/checkouts/engine.git-3311994267206676365/Sources/CHTTP/include/http_parser.h"
+- "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/checkouts/ctls.git-9210868160426949823/module.modulemap"
+- "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/debug/CHTTP.build/module.modulemap"
+- "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/debug/CSQLite.build/module.modulemap"
+interface-hash: "7f429a4414b2d090b234609229867619"

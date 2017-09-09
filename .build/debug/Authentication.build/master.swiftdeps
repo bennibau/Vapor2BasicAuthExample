@@ -1,0 +1,14 @@
+version: "Apple Swift version 3.1 (swiftlang-802.0.53 clang-802.0.42)"
+options: "81d033e804a42db34feae55e12a36c41"
+build_time: [558250028, 807669000]
+inputs:
+  "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/checkouts/auth.git-9199502942084726963/Sources/Authentication/AuthenticationError.swift": [557940831, 0]
+  "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/checkouts/auth.git-9199502942084726963/Sources/Authentication/Authenticatable/Authenticatable.swift": [557940831, 0]
+  "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/checkouts/auth.git-9199502942084726963/Sources/Authentication/Authenticatable/PasswordAuthenticatable.swift": [557940831, 0]
+  "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/checkouts/auth.git-9199502942084726963/Sources/Authentication/Authenticatable/TokenAuthenticatable.swift": [557940831, 0]
+  "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/checkouts/auth.git-9199502942084726963/Sources/Authentication/Credentials/Credentials.swift": [557940831, 0]
+  "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/checkouts/auth.git-9199502942084726963/Sources/Authentication/Credentials/Token.swift": [557940831, 0]
+  "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/checkouts/auth.git-9199502942084726963/Sources/Authentication/Credentials/UsernamePassword.swift": [557940831, 0]
+  "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/checkouts/auth.git-9199502942084726963/Sources/Authentication/Header/Authorization.swift": [557940831, 0]
+  "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/checkouts/auth.git-9199502942084726963/Sources/Authentication/Header/Basic.swift": [557940831, 0]
+  "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/checkouts/auth.git-9199502942084726963/Sources/Authentication/Header/Bearer.swift": [557940831, 0]

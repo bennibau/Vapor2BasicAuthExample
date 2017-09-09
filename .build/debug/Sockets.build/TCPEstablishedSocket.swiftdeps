@@ -1,0 +1,122 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "TCPEstablishedSocket"
+provides-nominal:
+- "C7Sockets20TCPEstablishedSocket"
+provides-member:
+- ["C7Sockets20TCPEstablishedSocket", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- "AssignmentPrecedence"
+- "BooleanLiteralType"
+- "Descriptor"
+- "TCPEstablishedSocket"
+- "TCPReadableSocket"
+- "TCPSocket"
+- "TCPWriteableSocket"
+depends-member:
+- ["Ps9AnyObject", "close"]
+- ["Ps9AnyObject", "descriptor"]
+- ["Ps9AnyObject", "isClosed"]
+- ["Ps9AnyObject", "read"]
+- ["Ps9AnyObject", "setTimeout"]
+- ["Ps9AnyObject", "write"]
+- ["Ps9AnyObject", ""]
+- ["P7Sockets8Pipeable", "close"]
+- ["P7Sockets8Pipeable", "descriptor"]
+- ["P7Sockets8Pipeable", "isClosed"]
+- ["P7Sockets8Pipeable", "read"]
+- ["P7Sockets8Pipeable", "setTimeout"]
+- ["P7Sockets8Pipeable", "write"]
+- ["P7Sockets9RawSocket", "close"]
+- ["P7Sockets9RawSocket", "descriptor"]
+- ["P7Sockets9RawSocket", "isClosed"]
+- ["P7Sockets9RawSocket", "read"]
+- ["P7Sockets9RawSocket", "setTimeout"]
+- ["P7Sockets9RawSocket", "write"]
+- ["P7Sockets9RawSocket", ""]
+- ["P9Transport14ReadableStream", "close"]
+- ["P9Transport14ReadableStream", "descriptor"]
+- ["P9Transport14ReadableStream", "isClosed"]
+- ["P9Transport14ReadableStream", "read"]
+- ["P9Transport14ReadableStream", "setTimeout"]
+- ["P9Transport14ReadableStream", "write"]
+- ["P9Transport14ReadableStream", ""]
+- ["P9Transport6Stream", "close"]
+- ["P9Transport6Stream", "descriptor"]
+- ["P9Transport6Stream", "isClosed"]
+- ["P9Transport6Stream", "read"]
+- ["P9Transport6Stream", "setTimeout"]
+- ["P9Transport6Stream", "write"]
+- ["P9Transport6Stream", ""]
+- ["C7Sockets20TCPEstablishedSocket", "Descriptor"]
+- ["C7Sockets20TCPEstablishedSocket", "close"]
+- ["C7Sockets20TCPEstablishedSocket", "deinit"]
+- ["C7Sockets20TCPEstablishedSocket", "descriptor"]
+- ["C7Sockets20TCPEstablishedSocket", "init"]
+- ["C7Sockets20TCPEstablishedSocket", "isClosed"]
+- ["C7Sockets20TCPEstablishedSocket", "read"]
+- ["C7Sockets20TCPEstablishedSocket", "setTimeout"]
+- ["C7Sockets20TCPEstablishedSocket", "write"]
+- ["P7Sockets17TCPReadableSocket", "close"]
+- ["P7Sockets17TCPReadableSocket", "descriptor"]
+- ["P7Sockets17TCPReadableSocket", "isClosed"]
+- ["P7Sockets17TCPReadableSocket", "read"]
+- ["P7Sockets17TCPReadableSocket", "setTimeout"]
+- ["P7Sockets17TCPReadableSocket", "write"]
+- ["P7Sockets17TCPReadableSocket", ""]
+- ["P7Sockets9TCPSocket", "close"]
+- ["P7Sockets9TCPSocket", "descriptor"]
+- ["P7Sockets9TCPSocket", "isClosed"]
+- ["P7Sockets9TCPSocket", "read"]
+- ["P7Sockets9TCPSocket", "setTimeout"]
+- ["P7Sockets9TCPSocket", "write"]
+- ["P7Sockets9TCPSocket", ""]
+- ["P7Sockets18TCPWriteableSocket", "close"]
+- ["P7Sockets18TCPWriteableSocket", "descriptor"]
+- ["P7Sockets18TCPWriteableSocket", "isClosed"]
+- ["P7Sockets18TCPWriteableSocket", "read"]
+- ["P7Sockets18TCPWriteableSocket", "setTimeout"]
+- ["P7Sockets18TCPWriteableSocket", "write"]
+- ["P7Sockets18TCPWriteableSocket", ""]
+- ["P9Transport15WriteableStream", "close"]
+- ["P9Transport15WriteableStream", "descriptor"]
+- ["P9Transport15WriteableStream", "isClosed"]
+- ["P9Transport15WriteableStream", "read"]
+- ["P9Transport15WriteableStream", "setTimeout"]
+- ["P9Transport15WriteableStream", "write"]
+- ["P9Transport15WriteableStream", ""]
+depends-nominal:
+- "Ps9AnyObject"
+- "P7Sockets8Pipeable"
+- "P7Sockets9RawSocket"
+- "P9Transport14ReadableStream"
+- "P9Transport6Stream"
+- "C7Sockets20TCPEstablishedSocket"
+- "P7Sockets17TCPReadableSocket"
+- "P7Sockets9TCPSocket"
+- "P7Sockets18TCPWriteableSocket"
+- "P9Transport15WriteableStream"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/ObjectiveC.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Foundation.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreGraphics.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreText.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/ObjectiveC.swiftmodule"
+- "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/debug/libc.swiftmodule"
+- "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/debug/Core.swiftmodule"
+- "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/debug/Debugging.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreGraphics.swiftmodule"
+- "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/debug/Bits.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/IOKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/debug/Transport.swiftmodule"
+- "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/debug/CHTTP.build/module.modulemap"
+- "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/debug/CSQLite.build/module.modulemap"
+interface-hash: "56666135db5dbc47fd8f918b67e82be5"

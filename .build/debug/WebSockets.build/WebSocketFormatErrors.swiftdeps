@@ -1,0 +1,103 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "=="
+provides-nominal:
+- "OC10WebSockets9WebSocket11FormatError"
+provides-member:
+- ["C10WebSockets9WebSocket", ""]
+- ["OC10WebSockets9WebSocket11FormatError", ""]
+- ["C10WebSockets9WebSocket", "FormatError"]
+provides-dynamic-lookup:
+depends-top-level:
+- "=="
+- "Bool"
+- !private "BooleanLiteralType"
+- "Equatable"
+- "Status"
+- "Swift"
+- "WebSocket"
+depends-member:
+- ["Ps9AnyObject", "FormatError"]
+- ["Ps9Equatable", "_code"]
+- ["Ps9Equatable", "_domain"]
+- ["Ps9Equatable", "_getEmbeddedNSError"]
+- ["Ps9Equatable", "_userInfo"]
+- ["Ps9Equatable", "invalidOrUnsupportedStatus"]
+- ["Ps9Equatable", "invalidOrUnsupportedVersion"]
+- ["Ps9Equatable", "invalidSecAcceptHeader"]
+- ["Ps9Equatable", "invalidURI"]
+- ["Ps9Equatable", "missingConnectionHeader"]
+- ["Ps9Equatable", "missingSecAcceptHeader"]
+- ["Ps9Equatable", "missingSecKeyHeader"]
+- ["Ps9Equatable", "missingUpgradeHeader"]
+- ["Ps9Equatable", ""]
+- ["Ps5Error", "_code"]
+- ["Ps5Error", "_domain"]
+- ["Ps5Error", "_getEmbeddedNSError"]
+- ["Ps5Error", "_userInfo"]
+- ["Ps5Error", "invalidOrUnsupportedStatus"]
+- ["Ps5Error", "invalidOrUnsupportedVersion"]
+- ["Ps5Error", "invalidSecAcceptHeader"]
+- ["Ps5Error", "invalidURI"]
+- ["Ps5Error", "missingConnectionHeader"]
+- ["Ps5Error", "missingSecAcceptHeader"]
+- ["Ps5Error", "missingSecKeyHeader"]
+- ["Ps5Error", "missingUpgradeHeader"]
+- ["Ps5Error", ""]
+- ["OC10WebSockets9WebSocket11FormatError", "=="]
+- ["OC10WebSockets9WebSocket11FormatError", "Bool"]
+- ["OC10WebSockets9WebSocket11FormatError", "Status"]
+- ["OC10WebSockets9WebSocket11FormatError", "WebSocket"]
+- ["OC10WebSockets9WebSocket11FormatError", "_code"]
+- ["OC10WebSockets9WebSocket11FormatError", "_domain"]
+- ["OC10WebSockets9WebSocket11FormatError", "_getEmbeddedNSError"]
+- ["OC10WebSockets9WebSocket11FormatError", "_userInfo"]
+- ["OC10WebSockets9WebSocket11FormatError", "deinit"]
+- ["OC10WebSockets9WebSocket11FormatError", "invalidOrUnsupportedStatus"]
+- ["OC10WebSockets9WebSocket11FormatError", "invalidOrUnsupportedVersion"]
+- ["OC10WebSockets9WebSocket11FormatError", "invalidSecAcceptHeader"]
+- ["OC10WebSockets9WebSocket11FormatError", "invalidURI"]
+- ["OC10WebSockets9WebSocket11FormatError", "missingConnectionHeader"]
+- ["OC10WebSockets9WebSocket11FormatError", "missingSecAcceptHeader"]
+- ["OC10WebSockets9WebSocket11FormatError", "missingSecKeyHeader"]
+- ["OC10WebSockets9WebSocket11FormatError", "missingUpgradeHeader"]
+- ["C10WebSockets9WebSocket", "FormatError"]
+- ["C10WebSockets9WebSocket", "Status"]
+- ["C10WebSockets9WebSocket", "Swift"]
+depends-nominal:
+- "Ps9AnyObject"
+- "Ps9Equatable"
+- "Ps5Error"
+- "OC10WebSockets9WebSocket11FormatError"
+- "C10WebSockets9WebSocket"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/ObjectiveC.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Foundation.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreGraphics.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreText.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/ObjectiveC.swiftmodule"
+- "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/debug/URI.swiftmodule"
+- "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/debug/HTTP.swiftmodule"
+- "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/debug/TLS.swiftmodule"
+- "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/debug/libc.swiftmodule"
+- "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/debug/Core.swiftmodule"
+- "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/debug/Debugging.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.swiftmodule"
+- "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/debug/Random.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Foundation.swiftmodule"
+- "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/debug/Crypto.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreGraphics.swiftmodule"
+- "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/debug/Sockets.swiftmodule"
+- "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/debug/Bits.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/IOKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/debug/Transport.swiftmodule"
+- "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/checkouts/engine.git-3311994267206676365/Sources/CHTTP/include/http_parser.h"
+- "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/checkouts/ctls.git-9210868160426949823/module.modulemap"
+- "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/debug/CHTTP.build/module.modulemap"
+- "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/debug/CSQLite.build/module.modulemap"
+interface-hash: "62fa7db3d3ac18f09dc11d9f606150c7"

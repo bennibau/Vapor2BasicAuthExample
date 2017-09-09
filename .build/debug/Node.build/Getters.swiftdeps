@@ -1,0 +1,145 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+provides-nominal:
+provides-member:
+- ["P4Node21StructuredDataWrapper", ""]
+- ["P4Node21StructuredDataWrapper", "get"]
+- ["P4Node21StructuredDataWrapper", "get"]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "??"
+- "NodeInitializable"
+- "PathIndexer"
+- "StructuredDataWrapper"
+depends-member:
+- !private ["Ps28CustomDebugStringConvertible", "null"]
+- !private ["Ps17CustomReflectable", "null"]
+- ["Ps9Equatable", "NodeInitializable"]
+- ["Ps9Equatable", "PathIndexer"]
+- !private ["Ps9Equatable", "context"]
+- !private ["Ps9Equatable", "get"]
+- !private ["Ps9Equatable", "null"]
+- !private ["Ps9Equatable", "subscript"]
+- ["Ps25ExpressibleByArrayLiteral", "NodeInitializable"]
+- ["Ps25ExpressibleByArrayLiteral", "PathIndexer"]
+- !private ["Ps25ExpressibleByArrayLiteral", "context"]
+- !private ["Ps25ExpressibleByArrayLiteral", "get"]
+- !private ["Ps25ExpressibleByArrayLiteral", "null"]
+- !private ["Ps25ExpressibleByArrayLiteral", "subscript"]
+- ["Ps27ExpressibleByBooleanLiteral", "NodeInitializable"]
+- ["Ps27ExpressibleByBooleanLiteral", "PathIndexer"]
+- !private ["Ps27ExpressibleByBooleanLiteral", "context"]
+- !private ["Ps27ExpressibleByBooleanLiteral", "get"]
+- !private ["Ps27ExpressibleByBooleanLiteral", "null"]
+- !private ["Ps27ExpressibleByBooleanLiteral", "subscript"]
+- ["Ps30ExpressibleByDictionaryLiteral", "NodeInitializable"]
+- ["Ps30ExpressibleByDictionaryLiteral", "PathIndexer"]
+- !private ["Ps30ExpressibleByDictionaryLiteral", "context"]
+- !private ["Ps30ExpressibleByDictionaryLiteral", "get"]
+- !private ["Ps30ExpressibleByDictionaryLiteral", "null"]
+- !private ["Ps30ExpressibleByDictionaryLiteral", "subscript"]
+- ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "NodeInitializable"]
+- ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "PathIndexer"]
+- !private ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "context"]
+- !private ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "get"]
+- !private ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "null"]
+- !private ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "subscript"]
+- ["Ps25ExpressibleByFloatLiteral", "NodeInitializable"]
+- ["Ps25ExpressibleByFloatLiteral", "PathIndexer"]
+- !private ["Ps25ExpressibleByFloatLiteral", "context"]
+- !private ["Ps25ExpressibleByFloatLiteral", "get"]
+- !private ["Ps25ExpressibleByFloatLiteral", "null"]
+- !private ["Ps25ExpressibleByFloatLiteral", "subscript"]
+- ["Ps27ExpressibleByIntegerLiteral", "NodeInitializable"]
+- ["Ps27ExpressibleByIntegerLiteral", "PathIndexer"]
+- !private ["Ps27ExpressibleByIntegerLiteral", "context"]
+- !private ["Ps27ExpressibleByIntegerLiteral", "get"]
+- !private ["Ps27ExpressibleByIntegerLiteral", "null"]
+- !private ["Ps27ExpressibleByIntegerLiteral", "subscript"]
+- ["Ps23ExpressibleByNilLiteral", "NodeInitializable"]
+- ["Ps23ExpressibleByNilLiteral", "PathIndexer"]
+- !private ["Ps23ExpressibleByNilLiteral", "context"]
+- !private ["Ps23ExpressibleByNilLiteral", "get"]
+- !private ["Ps23ExpressibleByNilLiteral", "null"]
+- !private ["Ps23ExpressibleByNilLiteral", "subscript"]
+- ["Ps26ExpressibleByStringLiteral", "NodeInitializable"]
+- ["Ps26ExpressibleByStringLiteral", "PathIndexer"]
+- !private ["Ps26ExpressibleByStringLiteral", "context"]
+- !private ["Ps26ExpressibleByStringLiteral", "get"]
+- !private ["Ps26ExpressibleByStringLiteral", "null"]
+- !private ["Ps26ExpressibleByStringLiteral", "subscript"]
+- ["Ps33ExpressibleByUnicodeScalarLiteral", "NodeInitializable"]
+- ["Ps33ExpressibleByUnicodeScalarLiteral", "PathIndexer"]
+- !private ["Ps33ExpressibleByUnicodeScalarLiteral", "context"]
+- !private ["Ps33ExpressibleByUnicodeScalarLiteral", "get"]
+- !private ["Ps33ExpressibleByUnicodeScalarLiteral", "null"]
+- !private ["Ps33ExpressibleByUnicodeScalarLiteral", "subscript"]
+- ["P4Node17NodeInitializable", "NodeInitializable"]
+- ["P4Node17NodeInitializable", "PathIndexer"]
+- !private ["P4Node17NodeInitializable", "context"]
+- !private ["P4Node17NodeInitializable", "get"]
+- !private ["P4Node17NodeInitializable", "init"]
+- !private ["P4Node17NodeInitializable", "null"]
+- !private ["P4Node17NodeInitializable", "subscript"]
+- ["P4Node17NodeRepresentable", "NodeInitializable"]
+- ["P4Node17NodeRepresentable", "PathIndexer"]
+- !private ["P4Node17NodeRepresentable", "context"]
+- !private ["P4Node17NodeRepresentable", "get"]
+- !private ["P4Node17NodeRepresentable", "null"]
+- !private ["P4Node17NodeRepresentable", "subscript"]
+- !private ["Sq", "null"]
+- ["P13PathIndexable13PathIndexable", "NodeInitializable"]
+- ["P13PathIndexable13PathIndexable", "PathIndexer"]
+- !private ["P13PathIndexable13PathIndexable", "context"]
+- !private ["P13PathIndexable13PathIndexable", "get"]
+- !private ["P13PathIndexable13PathIndexable", "null"]
+- !private ["P13PathIndexable13PathIndexable", "subscript"]
+- ["P4Node21StructuredDataWrapper", "NodeInitializable"]
+- ["P4Node21StructuredDataWrapper", "PathIndexer"]
+- !private ["P4Node21StructuredDataWrapper", "context"]
+- ["P4Node21StructuredDataWrapper", "get"]
+- !private ["P4Node21StructuredDataWrapper", "null"]
+- !private ["P4Node21StructuredDataWrapper", "subscript"]
+- !private ["Ps21_ObjectiveCBridgeable", "null"]
+depends-nominal:
+- !private "Ps28CustomDebugStringConvertible"
+- !private "Ps17CustomReflectable"
+- "Ps9Equatable"
+- "Ps25ExpressibleByArrayLiteral"
+- "Ps27ExpressibleByBooleanLiteral"
+- "Ps30ExpressibleByDictionaryLiteral"
+- "Ps43ExpressibleByExtendedGraphemeClusterLiteral"
+- "Ps25ExpressibleByFloatLiteral"
+- "Ps27ExpressibleByIntegerLiteral"
+- "Ps23ExpressibleByNilLiteral"
+- "Ps26ExpressibleByStringLiteral"
+- "Ps33ExpressibleByUnicodeScalarLiteral"
+- "P4Node17NodeInitializable"
+- "P4Node17NodeRepresentable"
+- !private "Sq"
+- "P13PathIndexable13PathIndexable"
+- "P4Node21StructuredDataWrapper"
+- !private "Ps21_ObjectiveCBridgeable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/ObjectiveC.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Foundation.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreGraphics.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreText.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/ObjectiveC.swiftmodule"
+- "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/debug/libc.swiftmodule"
+- "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/debug/PathIndexable.swiftmodule"
+- "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/debug/Core.swiftmodule"
+- "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/debug/Debugging.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreGraphics.swiftmodule"
+- "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/debug/Bits.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/IOKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/debug/CHTTP.build/module.modulemap"
+- "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/debug/CSQLite.build/module.modulemap"
+interface-hash: "147bf115965c73ef64323fc840489be6"

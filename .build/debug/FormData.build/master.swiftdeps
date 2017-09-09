@@ -1,0 +1,8 @@
+version: "Apple Swift version 3.1 (swiftlang-802.0.53 clang-802.0.42)"
+options: "9e29197738e5fa870ac90c9085007e0c"
+build_time: [558250020, 333578000]
+inputs:
+  "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/checkouts/multipart.git-4210556629793786970/Sources/FormData/ContentDispositionParser.swift": [557941170, 0]
+  "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/checkouts/multipart.git-4210556629793786970/Sources/FormData/Field.swift": [557941170, 0]
+  "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/checkouts/multipart.git-4210556629793786970/Sources/FormData/Parser.swift": [557941170, 0]
+  "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/checkouts/multipart.git-4210556629793786970/Sources/FormData/Serializer.swift": [557941170, 0]

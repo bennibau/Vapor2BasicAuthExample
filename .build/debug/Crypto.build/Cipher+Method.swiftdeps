@@ -1,0 +1,501 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "=="
+- "=="
+- "=="
+- "=="
+- "=="
+- "=="
+- "=="
+- "=="
+- "=="
+- "=="
+- "=="
+- "=="
+- "=="
+provides-nominal:
+- "OC6Crypto6Cipher6Method"
+- "OOC6Crypto6Cipher6Method12BlowfishMode"
+- "OOC6Crypto6Cipher6Method7DESMode"
+- "OOOC6Crypto6Cipher6Method7DESMode8NoneMode"
+- "OOOC6Crypto6Cipher6Method7DESMode7EDEMode"
+- "OOOC6Crypto6Cipher6Method7DESMode8EDE3Mode"
+- "OOC6Crypto6Cipher6Method7RC2Mode"
+- "OOC6Crypto6Cipher6Method7RC4Mode"
+- "OOC6Crypto6Cipher6Method9CAST5Mode"
+- "OOC6Crypto6Cipher6Method10AES128Mode"
+- "OOC6Crypto6Cipher6Method10AES192Mode"
+- "OOC6Crypto6Cipher6Method10AES256Mode"
+- "OOC6Crypto6Cipher6Method15Camellia128Mode"
+- "OOC6Crypto6Cipher6Method15Camellia192Mode"
+- "OOC6Crypto6Cipher6Method15Camellia256Mode"
+provides-member:
+- ["C6Crypto6Cipher", ""]
+- ["OC6Crypto6Cipher6Method", ""]
+- ["OOC6Crypto6Cipher6Method12BlowfishMode", ""]
+- ["OOC6Crypto6Cipher6Method7DESMode", ""]
+- ["OOOC6Crypto6Cipher6Method7DESMode8NoneMode", ""]
+- ["OOOC6Crypto6Cipher6Method7DESMode7EDEMode", ""]
+- ["OOOC6Crypto6Cipher6Method7DESMode8EDE3Mode", ""]
+- ["OOC6Crypto6Cipher6Method7RC2Mode", ""]
+- ["OOC6Crypto6Cipher6Method7RC4Mode", ""]
+- ["OOC6Crypto6Cipher6Method9CAST5Mode", ""]
+- ["OOC6Crypto6Cipher6Method10AES128Mode", ""]
+- ["OOC6Crypto6Cipher6Method10AES192Mode", ""]
+- ["OOC6Crypto6Cipher6Method10AES256Mode", ""]
+- ["OOC6Crypto6Cipher6Method15Camellia128Mode", ""]
+- ["OOC6Crypto6Cipher6Method15Camellia192Mode", ""]
+- ["OOC6Crypto6Cipher6Method15Camellia256Mode", ""]
+- ["C6Crypto6Cipher", "Method"]
+- ["OC6Crypto6Cipher6Method", "evp"]
+provides-dynamic-lookup:
+depends-top-level:
+- "=="
+- "Cipher"
+- "EVP_CIPHER"
+- !private "EVP_aes_128_cbc"
+- !private "EVP_aes_128_cfb1"
+- !private "EVP_aes_128_cfb128"
+- !private "EVP_aes_128_cfb8"
+- !private "EVP_aes_128_ctr"
+- !private "EVP_aes_128_ecb"
+- !private "EVP_aes_128_ofb"
+- !private "EVP_aes_128_xts"
+- !private "EVP_aes_192_cbc"
+- !private "EVP_aes_192_cfb1"
+- !private "EVP_aes_192_cfb128"
+- !private "EVP_aes_192_cfb8"
+- !private "EVP_aes_192_ctr"
+- !private "EVP_aes_192_ecb"
+- !private "EVP_aes_192_ofb"
+- !private "EVP_aes_256_cbc"
+- !private "EVP_aes_256_cfb1"
+- !private "EVP_aes_256_cfb128"
+- !private "EVP_aes_256_cfb8"
+- !private "EVP_aes_256_ctr"
+- !private "EVP_aes_256_ecb"
+- !private "EVP_aes_256_ofb"
+- !private "EVP_aes_256_xts"
+- !private "EVP_bf_cbc"
+- !private "EVP_bf_cfb64"
+- !private "EVP_bf_ofb"
+- !private "EVP_camellia_128_cbc"
+- !private "EVP_camellia_128_cfb1"
+- !private "EVP_camellia_128_cfb128"
+- !private "EVP_camellia_128_cfb8"
+- !private "EVP_camellia_128_ecb"
+- !private "EVP_camellia_128_ofb"
+- !private "EVP_camellia_192_cbc"
+- !private "EVP_camellia_192_cfb1"
+- !private "EVP_camellia_192_cfb128"
+- !private "EVP_camellia_192_cfb8"
+- !private "EVP_camellia_192_ecb"
+- !private "EVP_camellia_192_ofb"
+- !private "EVP_camellia_256_cbc"
+- !private "EVP_camellia_256_cfb1"
+- !private "EVP_camellia_256_cfb128"
+- !private "EVP_camellia_256_cfb8"
+- !private "EVP_camellia_256_ecb"
+- !private "EVP_camellia_256_ofb"
+- !private "EVP_cast5_cbc"
+- !private "EVP_cast5_cfb64"
+- !private "EVP_cast5_ecb"
+- !private "EVP_cast5_ofb"
+- !private "EVP_des_cbc"
+- !private "EVP_des_cfb1"
+- !private "EVP_des_cfb64"
+- !private "EVP_des_cfb8"
+- !private "EVP_des_ecb"
+- !private "EVP_des_ede"
+- !private "EVP_des_ede3"
+- !private "EVP_des_ede3_cbc"
+- !private "EVP_des_ede3_cfb64"
+- !private "EVP_des_ede3_cfb8"
+- !private "EVP_des_ede3_ecb"
+- !private "EVP_des_ede3_ofb"
+- !private "EVP_des_ede_cbc"
+- !private "EVP_des_ede_cfb64"
+- !private "EVP_des_ede_ecb"
+- !private "EVP_des_ede_ofb"
+- !private "EVP_des_ofb"
+- !private "EVP_rc2_40_cbc"
+- !private "EVP_rc2_64_cbc"
+- !private "EVP_rc2_cfb64"
+- !private "EVP_rc2_ecb"
+- !private "EVP_rc2_ofb"
+- !private "EVP_rc4"
+- !private "EVP_rc4_40"
+- !private "EVP_rc4_hmac_md5"
+- !private "FloatLiteralType"
+- !private "IntegerLiteralType"
+- "UnsafePointer"
+depends-member:
+- ["OOC6Crypto6Cipher6Method10AES128Mode", "=="]
+- ["OOC6Crypto6Cipher6Method10AES128Mode", "_toAnyHashable"]
+- ["OOC6Crypto6Cipher6Method10AES128Mode", "cbc"]
+- ["OOC6Crypto6Cipher6Method10AES128Mode", "cfb1"]
+- ["OOC6Crypto6Cipher6Method10AES128Mode", "cfb128"]
+- ["OOC6Crypto6Cipher6Method10AES128Mode", "cfb8"]
+- ["OOC6Crypto6Cipher6Method10AES128Mode", "ctr"]
+- ["OOC6Crypto6Cipher6Method10AES128Mode", "deinit"]
+- ["OOC6Crypto6Cipher6Method10AES128Mode", "ecb"]
+- ["OOC6Crypto6Cipher6Method10AES128Mode", "hashValue"]
+- ["OOC6Crypto6Cipher6Method10AES128Mode", "ofb"]
+- ["OOC6Crypto6Cipher6Method10AES128Mode", "xts"]
+- ["OOC6Crypto6Cipher6Method10AES192Mode", "=="]
+- ["OOC6Crypto6Cipher6Method10AES192Mode", "_toAnyHashable"]
+- ["OOC6Crypto6Cipher6Method10AES192Mode", "cbc"]
+- ["OOC6Crypto6Cipher6Method10AES192Mode", "cfb1"]
+- ["OOC6Crypto6Cipher6Method10AES192Mode", "cfb128"]
+- ["OOC6Crypto6Cipher6Method10AES192Mode", "cfb8"]
+- ["OOC6Crypto6Cipher6Method10AES192Mode", "ctr"]
+- ["OOC6Crypto6Cipher6Method10AES192Mode", "deinit"]
+- ["OOC6Crypto6Cipher6Method10AES192Mode", "ecb"]
+- ["OOC6Crypto6Cipher6Method10AES192Mode", "hashValue"]
+- ["OOC6Crypto6Cipher6Method10AES192Mode", "ofb"]
+- ["OOC6Crypto6Cipher6Method10AES256Mode", "=="]
+- ["OOC6Crypto6Cipher6Method10AES256Mode", "_toAnyHashable"]
+- ["OOC6Crypto6Cipher6Method10AES256Mode", "cbc"]
+- ["OOC6Crypto6Cipher6Method10AES256Mode", "cfb1"]
+- ["OOC6Crypto6Cipher6Method10AES256Mode", "cfb128"]
+- ["OOC6Crypto6Cipher6Method10AES256Mode", "cfb8"]
+- ["OOC6Crypto6Cipher6Method10AES256Mode", "ctr"]
+- ["OOC6Crypto6Cipher6Method10AES256Mode", "deinit"]
+- ["OOC6Crypto6Cipher6Method10AES256Mode", "ecb"]
+- ["OOC6Crypto6Cipher6Method10AES256Mode", "hashValue"]
+- ["OOC6Crypto6Cipher6Method10AES256Mode", "ofb"]
+- ["OOC6Crypto6Cipher6Method10AES256Mode", "xts"]
+- !private ["Ps17BitwiseOperations", "hashValue"]
+- ["OOC6Crypto6Cipher6Method12BlowfishMode", "=="]
+- ["OOC6Crypto6Cipher6Method12BlowfishMode", "_toAnyHashable"]
+- ["OOC6Crypto6Cipher6Method12BlowfishMode", "cbc"]
+- ["OOC6Crypto6Cipher6Method12BlowfishMode", "cfb64"]
+- ["OOC6Crypto6Cipher6Method12BlowfishMode", "deinit"]
+- ["OOC6Crypto6Cipher6Method12BlowfishMode", "ecb"]
+- ["OOC6Crypto6Cipher6Method12BlowfishMode", "hashValue"]
+- ["OOC6Crypto6Cipher6Method12BlowfishMode", "ofb"]
+- ["OOC6Crypto6Cipher6Method9CAST5Mode", "=="]
+- ["OOC6Crypto6Cipher6Method9CAST5Mode", "_toAnyHashable"]
+- ["OOC6Crypto6Cipher6Method9CAST5Mode", "cbc"]
+- ["OOC6Crypto6Cipher6Method9CAST5Mode", "cfb64"]
+- ["OOC6Crypto6Cipher6Method9CAST5Mode", "deinit"]
+- ["OOC6Crypto6Cipher6Method9CAST5Mode", "ecb"]
+- ["OOC6Crypto6Cipher6Method9CAST5Mode", "hashValue"]
+- ["OOC6Crypto6Cipher6Method9CAST5Mode", "ofb"]
+- !private ["Ps7CVarArg", "hashValue"]
+- ["OOC6Crypto6Cipher6Method15Camellia128Mode", "=="]
+- ["OOC6Crypto6Cipher6Method15Camellia128Mode", "_toAnyHashable"]
+- ["OOC6Crypto6Cipher6Method15Camellia128Mode", "cbc"]
+- ["OOC6Crypto6Cipher6Method15Camellia128Mode", "cfb1"]
+- ["OOC6Crypto6Cipher6Method15Camellia128Mode", "cfb128"]
+- ["OOC6Crypto6Cipher6Method15Camellia128Mode", "cfb8"]
+- ["OOC6Crypto6Cipher6Method15Camellia128Mode", "deinit"]
+- ["OOC6Crypto6Cipher6Method15Camellia128Mode", "ecb"]
+- ["OOC6Crypto6Cipher6Method15Camellia128Mode", "hashValue"]
+- ["OOC6Crypto6Cipher6Method15Camellia128Mode", "ofb"]
+- ["OOC6Crypto6Cipher6Method15Camellia192Mode", "=="]
+- ["OOC6Crypto6Cipher6Method15Camellia192Mode", "_toAnyHashable"]
+- ["OOC6Crypto6Cipher6Method15Camellia192Mode", "cbc"]
+- ["OOC6Crypto6Cipher6Method15Camellia192Mode", "cfb1"]
+- ["OOC6Crypto6Cipher6Method15Camellia192Mode", "cfb128"]
+- ["OOC6Crypto6Cipher6Method15Camellia192Mode", "cfb8"]
+- ["OOC6Crypto6Cipher6Method15Camellia192Mode", "deinit"]
+- ["OOC6Crypto6Cipher6Method15Camellia192Mode", "ecb"]
+- ["OOC6Crypto6Cipher6Method15Camellia192Mode", "hashValue"]
+- ["OOC6Crypto6Cipher6Method15Camellia192Mode", "ofb"]
+- ["OOC6Crypto6Cipher6Method15Camellia256Mode", "=="]
+- ["OOC6Crypto6Cipher6Method15Camellia256Mode", "_toAnyHashable"]
+- ["OOC6Crypto6Cipher6Method15Camellia256Mode", "cbc"]
+- ["OOC6Crypto6Cipher6Method15Camellia256Mode", "cfb1"]
+- ["OOC6Crypto6Cipher6Method15Camellia256Mode", "cfb128"]
+- ["OOC6Crypto6Cipher6Method15Camellia256Mode", "cfb8"]
+- ["OOC6Crypto6Cipher6Method15Camellia256Mode", "deinit"]
+- ["OOC6Crypto6Cipher6Method15Camellia256Mode", "ecb"]
+- ["OOC6Crypto6Cipher6Method15Camellia256Mode", "hashValue"]
+- ["OOC6Crypto6Cipher6Method15Camellia256Mode", "ofb"]
+- ["C6Crypto6Cipher", "Method"]
+- !private ["Ps10Comparable", "hashValue"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "hashValue"]
+- !private ["Ps17CustomReflectable", "hashValue"]
+- !private ["Ps23CustomStringConvertible", "hashValue"]
+- ["OOC6Crypto6Cipher6Method7DESMode", "EDE3Mode"]
+- ["OOC6Crypto6Cipher6Method7DESMode", "EDEMode"]
+- ["OOC6Crypto6Cipher6Method7DESMode", "NoneMode"]
+- ["OOC6Crypto6Cipher6Method7DESMode", "ede"]
+- ["OOC6Crypto6Cipher6Method7DESMode", "ede3"]
+- ["OOC6Crypto6Cipher6Method7DESMode", "none"]
+- ["OOOC6Crypto6Cipher6Method7DESMode8EDE3Mode", "=="]
+- ["OOOC6Crypto6Cipher6Method7DESMode8EDE3Mode", "_toAnyHashable"]
+- ["OOOC6Crypto6Cipher6Method7DESMode8EDE3Mode", "cbc"]
+- ["OOOC6Crypto6Cipher6Method7DESMode8EDE3Mode", "cfb64"]
+- ["OOOC6Crypto6Cipher6Method7DESMode8EDE3Mode", "cfb8"]
+- ["OOOC6Crypto6Cipher6Method7DESMode8EDE3Mode", "deinit"]
+- ["OOOC6Crypto6Cipher6Method7DESMode8EDE3Mode", "ecb"]
+- ["OOOC6Crypto6Cipher6Method7DESMode8EDE3Mode", "hashValue"]
+- ["OOOC6Crypto6Cipher6Method7DESMode8EDE3Mode", "none"]
+- ["OOOC6Crypto6Cipher6Method7DESMode8EDE3Mode", "ofb"]
+- ["OOOC6Crypto6Cipher6Method7DESMode7EDEMode", "=="]
+- ["OOOC6Crypto6Cipher6Method7DESMode7EDEMode", "_toAnyHashable"]
+- ["OOOC6Crypto6Cipher6Method7DESMode7EDEMode", "cbc"]
+- ["OOOC6Crypto6Cipher6Method7DESMode7EDEMode", "cfb64"]
+- ["OOOC6Crypto6Cipher6Method7DESMode7EDEMode", "deinit"]
+- ["OOOC6Crypto6Cipher6Method7DESMode7EDEMode", "ecb"]
+- ["OOOC6Crypto6Cipher6Method7DESMode7EDEMode", "hashValue"]
+- ["OOOC6Crypto6Cipher6Method7DESMode7EDEMode", "none"]
+- ["OOOC6Crypto6Cipher6Method7DESMode7EDEMode", "ofb"]
+- ["Ps9Equatable", "_toAnyHashable"]
+- ["Ps9Equatable", "cbc"]
+- ["Ps9Equatable", "cfb1"]
+- ["Ps9Equatable", "cfb128"]
+- ["Ps9Equatable", "cfb64"]
+- ["Ps9Equatable", "cfb8"]
+- ["Ps9Equatable", "ctr"]
+- ["Ps9Equatable", "ecb"]
+- ["Ps9Equatable", "forty"]
+- ["Ps9Equatable", "fortyCBC"]
+- ["Ps9Equatable", "hashValue"]
+- ["Ps9Equatable", "hmacMD5"]
+- ["Ps9Equatable", "none"]
+- ["Ps9Equatable", "ofb"]
+- ["Ps9Equatable", "sixtyFourCBC"]
+- ["Ps9Equatable", "xts"]
+- ["Ps9Equatable", ""]
+- !private ["Ps27ExpressibleByIntegerLiteral", "hashValue"]
+- ["Ps8Hashable", "_toAnyHashable"]
+- ["Ps8Hashable", "cbc"]
+- ["Ps8Hashable", "cfb1"]
+- ["Ps8Hashable", "cfb128"]
+- ["Ps8Hashable", "cfb64"]
+- ["Ps8Hashable", "cfb8"]
+- ["Ps8Hashable", "ctr"]
+- ["Ps8Hashable", "ecb"]
+- ["Ps8Hashable", "forty"]
+- ["Ps8Hashable", "fortyCBC"]
+- ["Ps8Hashable", "hashValue"]
+- ["Ps8Hashable", "hmacMD5"]
+- ["Ps8Hashable", "none"]
+- ["Ps8Hashable", "ofb"]
+- ["Ps8Hashable", "sixtyFourCBC"]
+- ["Ps8Hashable", "xts"]
+- ["Ps8Hashable", ""]
+- !private ["Si", "hashValue"]
+- !private ["Ps7Integer", "hashValue"]
+- !private ["Ps17IntegerArithmetic", "hashValue"]
+- ["OC6Crypto6Cipher6Method", "AES128Mode"]
+- ["OC6Crypto6Cipher6Method", "AES192Mode"]
+- ["OC6Crypto6Cipher6Method", "AES256Mode"]
+- ["OC6Crypto6Cipher6Method", "BlowfishMode"]
+- ["OC6Crypto6Cipher6Method", "CAST5Mode"]
+- ["OC6Crypto6Cipher6Method", "Camellia128Mode"]
+- ["OC6Crypto6Cipher6Method", "Camellia192Mode"]
+- ["OC6Crypto6Cipher6Method", "Camellia256Mode"]
+- ["OC6Crypto6Cipher6Method", "DESMode"]
+- ["OC6Crypto6Cipher6Method", "EVP_CIPHER"]
+- !private ["OC6Crypto6Cipher6Method", "EVP_aes_128_cbc"]
+- !private ["OC6Crypto6Cipher6Method", "EVP_aes_128_cfb1"]
+- !private ["OC6Crypto6Cipher6Method", "EVP_aes_128_cfb128"]
+- !private ["OC6Crypto6Cipher6Method", "EVP_aes_128_cfb8"]
+- !private ["OC6Crypto6Cipher6Method", "EVP_aes_128_ctr"]
+- !private ["OC6Crypto6Cipher6Method", "EVP_aes_128_ecb"]
+- !private ["OC6Crypto6Cipher6Method", "EVP_aes_128_ofb"]
+- !private ["OC6Crypto6Cipher6Method", "EVP_aes_128_xts"]
+- !private ["OC6Crypto6Cipher6Method", "EVP_aes_192_cbc"]
+- !private ["OC6Crypto6Cipher6Method", "EVP_aes_192_cfb1"]
+- !private ["OC6Crypto6Cipher6Method", "EVP_aes_192_cfb128"]
+- !private ["OC6Crypto6Cipher6Method", "EVP_aes_192_cfb8"]
+- !private ["OC6Crypto6Cipher6Method", "EVP_aes_192_ctr"]
+- !private ["OC6Crypto6Cipher6Method", "EVP_aes_192_ecb"]
+- !private ["OC6Crypto6Cipher6Method", "EVP_aes_192_ofb"]
+- !private ["OC6Crypto6Cipher6Method", "EVP_aes_256_cbc"]
+- !private ["OC6Crypto6Cipher6Method", "EVP_aes_256_cfb1"]
+- !private ["OC6Crypto6Cipher6Method", "EVP_aes_256_cfb128"]
+- !private ["OC6Crypto6Cipher6Method", "EVP_aes_256_cfb8"]
+- !private ["OC6Crypto6Cipher6Method", "EVP_aes_256_ctr"]
+- !private ["OC6Crypto6Cipher6Method", "EVP_aes_256_ecb"]
+- !private ["OC6Crypto6Cipher6Method", "EVP_aes_256_ofb"]
+- !private ["OC6Crypto6Cipher6Method", "EVP_aes_256_xts"]
+- !private ["OC6Crypto6Cipher6Method", "EVP_bf_cbc"]
+- !private ["OC6Crypto6Cipher6Method", "EVP_bf_cfb64"]
+- !private ["OC6Crypto6Cipher6Method", "EVP_bf_ofb"]
+- !private ["OC6Crypto6Cipher6Method", "EVP_camellia_128_cbc"]
+- !private ["OC6Crypto6Cipher6Method", "EVP_camellia_128_cfb1"]
+- !private ["OC6Crypto6Cipher6Method", "EVP_camellia_128_cfb128"]
+- !private ["OC6Crypto6Cipher6Method", "EVP_camellia_128_cfb8"]
+- !private ["OC6Crypto6Cipher6Method", "EVP_camellia_128_ecb"]
+- !private ["OC6Crypto6Cipher6Method", "EVP_camellia_128_ofb"]
+- !private ["OC6Crypto6Cipher6Method", "EVP_camellia_192_cbc"]
+- !private ["OC6Crypto6Cipher6Method", "EVP_camellia_192_cfb1"]
+- !private ["OC6Crypto6Cipher6Method", "EVP_camellia_192_cfb128"]
+- !private ["OC6Crypto6Cipher6Method", "EVP_camellia_192_cfb8"]
+- !private ["OC6Crypto6Cipher6Method", "EVP_camellia_192_ecb"]
+- !private ["OC6Crypto6Cipher6Method", "EVP_camellia_192_ofb"]
+- !private ["OC6Crypto6Cipher6Method", "EVP_camellia_256_cbc"]
+- !private ["OC6Crypto6Cipher6Method", "EVP_camellia_256_cfb1"]
+- !private ["OC6Crypto6Cipher6Method", "EVP_camellia_256_cfb128"]
+- !private ["OC6Crypto6Cipher6Method", "EVP_camellia_256_cfb8"]
+- !private ["OC6Crypto6Cipher6Method", "EVP_camellia_256_ecb"]
+- !private ["OC6Crypto6Cipher6Method", "EVP_camellia_256_ofb"]
+- !private ["OC6Crypto6Cipher6Method", "EVP_cast5_cbc"]
+- !private ["OC6Crypto6Cipher6Method", "EVP_cast5_cfb64"]
+- !private ["OC6Crypto6Cipher6Method", "EVP_cast5_ecb"]
+- !private ["OC6Crypto6Cipher6Method", "EVP_cast5_ofb"]
+- !private ["OC6Crypto6Cipher6Method", "EVP_des_cbc"]
+- !private ["OC6Crypto6Cipher6Method", "EVP_des_cfb1"]
+- !private ["OC6Crypto6Cipher6Method", "EVP_des_cfb64"]
+- !private ["OC6Crypto6Cipher6Method", "EVP_des_cfb8"]
+- !private ["OC6Crypto6Cipher6Method", "EVP_des_ecb"]
+- !private ["OC6Crypto6Cipher6Method", "EVP_des_ede"]
+- !private ["OC6Crypto6Cipher6Method", "EVP_des_ede3"]
+- !private ["OC6Crypto6Cipher6Method", "EVP_des_ede3_cbc"]
+- !private ["OC6Crypto6Cipher6Method", "EVP_des_ede3_cfb64"]
+- !private ["OC6Crypto6Cipher6Method", "EVP_des_ede3_cfb8"]
+- !private ["OC6Crypto6Cipher6Method", "EVP_des_ede3_ecb"]
+- !private ["OC6Crypto6Cipher6Method", "EVP_des_ede3_ofb"]
+- !private ["OC6Crypto6Cipher6Method", "EVP_des_ede_cbc"]
+- !private ["OC6Crypto6Cipher6Method", "EVP_des_ede_cfb64"]
+- !private ["OC6Crypto6Cipher6Method", "EVP_des_ede_ecb"]
+- !private ["OC6Crypto6Cipher6Method", "EVP_des_ede_ofb"]
+- !private ["OC6Crypto6Cipher6Method", "EVP_des_ofb"]
+- !private ["OC6Crypto6Cipher6Method", "EVP_rc2_40_cbc"]
+- !private ["OC6Crypto6Cipher6Method", "EVP_rc2_64_cbc"]
+- !private ["OC6Crypto6Cipher6Method", "EVP_rc2_cfb64"]
+- !private ["OC6Crypto6Cipher6Method", "EVP_rc2_ecb"]
+- !private ["OC6Crypto6Cipher6Method", "EVP_rc2_ofb"]
+- !private ["OC6Crypto6Cipher6Method", "EVP_rc4"]
+- !private ["OC6Crypto6Cipher6Method", "EVP_rc4_40"]
+- !private ["OC6Crypto6Cipher6Method", "EVP_rc4_hmac_md5"]
+- ["OC6Crypto6Cipher6Method", "RC2Mode"]
+- ["OC6Crypto6Cipher6Method", "RC4Mode"]
+- ["OC6Crypto6Cipher6Method", "UnsafePointer"]
+- ["OC6Crypto6Cipher6Method", "aes128"]
+- ["OC6Crypto6Cipher6Method", "aes192"]
+- ["OC6Crypto6Cipher6Method", "aes256"]
+- ["OC6Crypto6Cipher6Method", "blowfish"]
+- ["OC6Crypto6Cipher6Method", "camellia128"]
+- ["OC6Crypto6Cipher6Method", "camellia192"]
+- ["OC6Crypto6Cipher6Method", "camellia256"]
+- ["OC6Crypto6Cipher6Method", "cast5"]
+- ["OC6Crypto6Cipher6Method", "des"]
+- ["OC6Crypto6Cipher6Method", "evp"]
+- ["OC6Crypto6Cipher6Method", "rc2"]
+- ["OC6Crypto6Cipher6Method", "rc4"]
+- !private ["Ps10MirrorPath", "hashValue"]
+- ["OOOC6Crypto6Cipher6Method7DESMode8NoneMode", "=="]
+- ["OOOC6Crypto6Cipher6Method7DESMode8NoneMode", "_toAnyHashable"]
+- ["OOOC6Crypto6Cipher6Method7DESMode8NoneMode", "cbc"]
+- ["OOOC6Crypto6Cipher6Method7DESMode8NoneMode", "cfb1"]
+- ["OOOC6Crypto6Cipher6Method7DESMode8NoneMode", "cfb64"]
+- ["OOOC6Crypto6Cipher6Method7DESMode8NoneMode", "cfb8"]
+- ["OOOC6Crypto6Cipher6Method7DESMode8NoneMode", "deinit"]
+- ["OOOC6Crypto6Cipher6Method7DESMode8NoneMode", "ecb"]
+- ["OOOC6Crypto6Cipher6Method7DESMode8NoneMode", "hashValue"]
+- ["OOOC6Crypto6Cipher6Method7DESMode8NoneMode", "ofb"]
+- ["OOC6Crypto6Cipher6Method7RC2Mode", "=="]
+- ["OOC6Crypto6Cipher6Method7RC2Mode", "_toAnyHashable"]
+- ["OOC6Crypto6Cipher6Method7RC2Mode", "cbc"]
+- ["OOC6Crypto6Cipher6Method7RC2Mode", "cfb64"]
+- ["OOC6Crypto6Cipher6Method7RC2Mode", "deinit"]
+- ["OOC6Crypto6Cipher6Method7RC2Mode", "ecb"]
+- ["OOC6Crypto6Cipher6Method7RC2Mode", "fortyCBC"]
+- ["OOC6Crypto6Cipher6Method7RC2Mode", "hashValue"]
+- ["OOC6Crypto6Cipher6Method7RC2Mode", "ofb"]
+- ["OOC6Crypto6Cipher6Method7RC2Mode", "sixtyFourCBC"]
+- ["OOC6Crypto6Cipher6Method7RC4Mode", "=="]
+- ["OOC6Crypto6Cipher6Method7RC4Mode", "_toAnyHashable"]
+- ["OOC6Crypto6Cipher6Method7RC4Mode", "deinit"]
+- ["OOC6Crypto6Cipher6Method7RC4Mode", "forty"]
+- ["OOC6Crypto6Cipher6Method7RC4Mode", "hashValue"]
+- ["OOC6Crypto6Cipher6Method7RC4Mode", "hmacMD5"]
+- ["OOC6Crypto6Cipher6Method7RC4Mode", "none"]
+- !private ["Ps13SignedInteger", "hashValue"]
+- !private ["Ps12SignedNumber", "hashValue"]
+- !private ["Ps10Strideable", "hashValue"]
+- !private ["Ps35_ExpressibleByBuiltinIntegerLiteral", "hashValue"]
+- ["Ps9_Hashable", "_toAnyHashable"]
+- ["Ps9_Hashable", "cbc"]
+- ["Ps9_Hashable", "cfb1"]
+- ["Ps9_Hashable", "cfb128"]
+- ["Ps9_Hashable", "cfb64"]
+- ["Ps9_Hashable", "cfb8"]
+- ["Ps9_Hashable", "ctr"]
+- ["Ps9_Hashable", "ecb"]
+- ["Ps9_Hashable", "forty"]
+- ["Ps9_Hashable", "fortyCBC"]
+- ["Ps9_Hashable", "hashValue"]
+- ["Ps9_Hashable", "hmacMD5"]
+- ["Ps9_Hashable", "none"]
+- ["Ps9_Hashable", "ofb"]
+- ["Ps9_Hashable", "sixtyFourCBC"]
+- ["Ps9_Hashable", "xts"]
+- ["Ps9_Hashable", ""]
+- !private ["Ps14_Incrementable", "hashValue"]
+- !private ["Ps8_Integer", "hashValue"]
+- !private ["Ps18_IntegerArithmetic", "hashValue"]
+- !private ["Ps21_ObjectiveCBridgeable", "hashValue"]
+- !private ["Ps14_SignedInteger", "hashValue"]
+- !private ["Ps11_Strideable", "hashValue"]
+depends-nominal:
+- "OOC6Crypto6Cipher6Method10AES128Mode"
+- "OOC6Crypto6Cipher6Method10AES192Mode"
+- "OOC6Crypto6Cipher6Method10AES256Mode"
+- !private "Ps17BitwiseOperations"
+- "OOC6Crypto6Cipher6Method12BlowfishMode"
+- "OOC6Crypto6Cipher6Method9CAST5Mode"
+- !private "Ps7CVarArg"
+- "OOC6Crypto6Cipher6Method15Camellia128Mode"
+- "OOC6Crypto6Cipher6Method15Camellia192Mode"
+- "OOC6Crypto6Cipher6Method15Camellia256Mode"
+- "C6Crypto6Cipher"
+- !private "Ps10Comparable"
+- !private "Ps29CustomPlaygroundQuickLookable"
+- !private "Ps17CustomReflectable"
+- !private "Ps23CustomStringConvertible"
+- "OOC6Crypto6Cipher6Method7DESMode"
+- "OOOC6Crypto6Cipher6Method7DESMode8EDE3Mode"
+- "OOOC6Crypto6Cipher6Method7DESMode7EDEMode"
+- "Ps9Equatable"
+- !private "Ps27ExpressibleByIntegerLiteral"
+- "Ps8Hashable"
+- !private "Si"
+- !private "Ps7Integer"
+- !private "Ps17IntegerArithmetic"
+- "OC6Crypto6Cipher6Method"
+- !private "Ps10MirrorPath"
+- "OOOC6Crypto6Cipher6Method7DESMode8NoneMode"
+- "OOC6Crypto6Cipher6Method7RC2Mode"
+- "OOC6Crypto6Cipher6Method7RC4Mode"
+- !private "Ps13SignedInteger"
+- !private "Ps12SignedNumber"
+- !private "Ps10Strideable"
+- !private "Ps35_ExpressibleByBuiltinIntegerLiteral"
+- "Ps9_Hashable"
+- !private "Ps14_Incrementable"
+- !private "Ps8_Integer"
+- !private "Ps18_IntegerArithmetic"
+- !private "Ps21_ObjectiveCBridgeable"
+- !private "Ps14_SignedInteger"
+- !private "Ps11_Strideable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/ObjectiveC.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Foundation.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreGraphics.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreText.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/ObjectiveC.swiftmodule"
+- "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/debug/libc.swiftmodule"
+- "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/debug/Core.swiftmodule"
+- "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/debug/Debugging.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.swiftmodule"
+- "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/debug/Random.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreGraphics.swiftmodule"
+- "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/debug/Bits.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/IOKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/checkouts/ctls.git-9210868160426949823/module.modulemap"
+- "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/debug/CHTTP.build/module.modulemap"
+- "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/debug/CSQLite.build/module.modulemap"
+interface-hash: "17f0ac3dc72a5c681d973a663dd91e09"

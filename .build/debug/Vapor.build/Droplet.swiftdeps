@@ -1,0 +1,1007 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "VERSION"
+- "Droplet"
+provides-nominal:
+- "C5Vapor7Droplet"
+provides-member:
+- ["C5Vapor7Droplet", ""]
+- ["C5Vapor7Droplet", "init"]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "+"
+- !private "=="
+- !private "??"
+- "Array"
+- "AssignmentPrecedence"
+- !private "BCryptHasher"
+- !private "CORSMiddleware"
+- "CacheProtocol"
+- !private "CacheSessions"
+- "CipherProtocol"
+- "ClientFactoryProtocol"
+- "Command"
+- "Config"
+- !private "ConsoleLogger"
+- "ConsoleProtocol"
+- !private "CryptoCipher"
+- !private "CryptoHasher"
+- !private "DateMiddleware"
+- !private "Dictionary"
+- "Droplet"
+- !private "DumpConfig"
+- !private "EngineClient"
+- !private "EngineServer"
+- !private "ErrorMiddleware"
+- !private "FileMiddleware"
+- !private "FoundationClient"
+- "HashProtocol"
+- !private "LogLevel"
+- "LogProtocol"
+- "MailProtocol"
+- !private "Mailgun"
+- !private "MemoryCache"
+- !private "MemorySessions"
+- "Middleware"
+- !private "ProviderInstall"
+- !private "Request"
+- "Responder"
+- !private "Response"
+- !private "RouteList"
+- "Router"
+- !private "Serve"
+- "ServerFactoryProtocol"
+- !private "SessionsMiddleware"
+- !private "StaticViewRenderer"
+- "String"
+- "StringLiteralType"
+- !private "Terminal"
+- "UnicodeScalarType"
+- "VERSION"
+- "ViewRenderer"
+- !private "_VersionCommand"
+depends-member:
+- !private ["P5Vapor10AbortError", "internalServerError"]
+- !private ["Ps9AnyObject", "BCryptHasher"]
+- !private ["Ps9AnyObject", "CORSMiddleware"]
+- !private ["Ps9AnyObject", "CacheSessions"]
+- !private ["Ps9AnyObject", "Config"]
+- !private ["Ps9AnyObject", "ConsoleLogger"]
+- !private ["Ps9AnyObject", "CryptoCipher"]
+- !private ["Ps9AnyObject", "CryptoHasher"]
+- !private ["Ps9AnyObject", "DateMiddleware"]
+- !private ["Ps9AnyObject", "DumpConfig"]
+- !private ["Ps9AnyObject", "EngineClient"]
+- !private ["Ps9AnyObject", "EngineServer"]
+- !private ["Ps9AnyObject", "ErrorMiddleware"]
+- !private ["Ps9AnyObject", "FileMiddleware"]
+- !private ["Ps9AnyObject", "FoundationClient"]
+- !private ["Ps9AnyObject", "Handler"]
+- !private ["Ps9AnyObject", "LogLevel"]
+- !private ["Ps9AnyObject", "Mailgun"]
+- !private ["Ps9AnyObject", "MemoryCache"]
+- !private ["Ps9AnyObject", "MemorySessions"]
+- !private ["Ps9AnyObject", "ProviderInstall"]
+- !private ["Ps9AnyObject", "Request"]
+- !private ["Ps9AnyObject", "Response"]
+- !private ["Ps9AnyObject", "RouteList"]
+- !private ["Ps9AnyObject", "Router"]
+- !private ["Ps9AnyObject", "Serve"]
+- !private ["Ps9AnyObject", "SessionsMiddleware"]
+- !private ["Ps9AnyObject", "StaticViewRenderer"]
+- !private ["Ps9AnyObject", "Terminal"]
+- !private ["Ps9AnyObject", "_VersionCommand"]
+- !private ["Ps9AnyObject", "addConfigurable"]
+- !private ["Ps9AnyObject", "arguments"]
+- !private ["Ps9AnyObject", "body"]
+- !private ["Ps9AnyObject", "cache"]
+- !private ["Ps9AnyObject", "cipher"]
+- !private ["Ps9AnyObject", "client"]
+- !private ["Ps9AnyObject", "commands"]
+- !private ["Ps9AnyObject", "config"]
+- !private ["Ps9AnyObject", "console"]
+- !private ["Ps9AnyObject", "environment"]
+- !private ["Ps9AnyObject", "hash"]
+- ["Ps9AnyObject", "init"]
+- !private ["Ps9AnyObject", "int"]
+- !private ["Ps9AnyObject", "log"]
+- !private ["Ps9AnyObject", "mail"]
+- !private ["Ps9AnyObject", "makeServerConfig"]
+- !private ["Ps9AnyObject", "method"]
+- !private ["Ps9AnyObject", "middleware"]
+- !private ["Ps9AnyObject", "providers"]
+- !private ["Ps9AnyObject", "publicDir"]
+- !private ["Ps9AnyObject", "resolveCache"]
+- !private ["Ps9AnyObject", "resolveCipher"]
+- !private ["Ps9AnyObject", "resolveClient"]
+- !private ["Ps9AnyObject", "resolveCommands"]
+- !private ["Ps9AnyObject", "resolveConsole"]
+- !private ["Ps9AnyObject", "resolveHash"]
+- !private ["Ps9AnyObject", "resolveLog"]
+- !private ["Ps9AnyObject", "resolveMail"]
+- !private ["Ps9AnyObject", "resolveMiddleware"]
+- !private ["Ps9AnyObject", "resolveServer"]
+- !private ["Ps9AnyObject", "resolveView"]
+- !private ["Ps9AnyObject", "responder"]
+- !private ["Ps9AnyObject", "router"]
+- !private ["Ps9AnyObject", "server"]
+- !private ["Ps9AnyObject", "set"]
+- !private ["Ps9AnyObject", "storage"]
+- !private ["Ps9AnyObject", "uri"]
+- !private ["Ps9AnyObject", "view"]
+- !private ["Ps9AnyObject", "viewsDir"]
+- ["Ps9AnyObject", ""]
+- !private ["Sa", "chain"]
+- !private ["Sa", "value"]
+- !private ["C5Vapor12BCryptHasher", "deinit"]
+- !private ["C5Vapor12BCryptHasher", "init"]
+- !private ["V4HTTP14BasicResponder", "init"]
+- !private ["Ps23BidirectionalCollection", "chain"]
+- !private ["Ps23BidirectionalCollection", "value"]
+- !private ["O4HTTP4Body", "data"]
+- !private ["P4HTTP17BodyRepresentable", "data"]
+- ["P4HTTP17BodyRepresentable", "init"]
+- !private ["P4HTTP17BodyRepresentable", "int"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- ["P4Bits16BytesConvertible", "init"]
+- !private ["P4Bits16BytesConvertible", "int"]
+- ["P4Bits18BytesInitializable", "init"]
+- !private ["P4Bits18BytesInitializable", "int"]
+- ["P4Bits18BytesRepresentable", "init"]
+- !private ["P4Bits18BytesRepresentable", "int"]
+- !private ["C5Vapor14CORSMiddleware", "deinit"]
+- !private ["C5Vapor14CORSMiddleware", "init"]
+- !private ["Ps7CVarArg", "chain"]
+- ["Ps7CVarArg", "init"]
+- !private ["Ps7CVarArg", "int"]
+- !private ["Ps7CVarArg", "value"]
+- !private ["P5Cache13CacheProtocol", "init"]
+- !private ["C8Sessions13CacheSessions", "init"]
+- !private ["P5Vapor14CipherProtocol", "init"]
+- !private ["Ps10Collection", "chain"]
+- !private ["Ps10Collection", "value"]
+- !private ["P7Console7Command", "init"]
+- ["Ps10Comparable", "init"]
+- !private ["Ps10Comparable", "int"]
+- !private ["C7Configs6Config", "addConfigurable"]
+- !private ["C7Configs6Config", "arguments"]
+- !private ["C7Configs6Config", "environment"]
+- !private ["C7Configs6Config", "init"]
+- !private ["C7Configs6Config", "makeServerConfig"]
+- !private ["C7Configs6Config", "providers"]
+- !private ["C7Configs6Config", "publicDir"]
+- !private ["C7Configs6Config", "resolveCache"]
+- !private ["C7Configs6Config", "resolveCipher"]
+- !private ["C7Configs6Config", "resolveClient"]
+- !private ["C7Configs6Config", "resolveCommands"]
+- !private ["C7Configs6Config", "resolveConsole"]
+- !private ["C7Configs6Config", "resolveHash"]
+- !private ["C7Configs6Config", "resolveLog"]
+- !private ["C7Configs6Config", "resolveMail"]
+- !private ["C7Configs6Config", "resolveMiddleware"]
+- !private ["C7Configs6Config", "resolveServer"]
+- !private ["C7Configs6Config", "resolveView"]
+- !private ["C7Configs6Config", "set"]
+- !private ["C7Configs6Config", "viewsDir"]
+- !private ["P7Configs19ConfigInitializable", "boot"]
+- !private ["P7Configs19ConfigInitializable", "init"]
+- !private ["C5Vapor13ConsoleLogger", "deinit"]
+- !private ["C5Vapor13ConsoleLogger", "init"]
+- !private ["P7Console15ConsoleProtocol", "init"]
+- !private ["C5Vapor12CryptoCipher", "deinit"]
+- !private ["C5Vapor12CryptoCipher", "init"]
+- !private ["C5Vapor12CryptoHasher", "deinit"]
+- !private ["C5Vapor12CryptoHasher", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "chain"]
+- ["Ps28CustomDebugStringConvertible", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "int"]
+- !private ["Ps28CustomDebugStringConvertible", "value"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "_getBuiltinLogicValue"]
+- ["Ps29CustomPlaygroundQuickLookable", "init"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "int"]
+- !private ["Ps17CustomReflectable", "_getBuiltinLogicValue"]
+- !private ["Ps17CustomReflectable", "chain"]
+- ["Ps17CustomReflectable", "init"]
+- !private ["Ps17CustomReflectable", "int"]
+- !private ["Ps17CustomReflectable", "value"]
+- !private ["Ps23CustomStringConvertible", "Handler"]
+- !private ["Ps23CustomStringConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps23CustomStringConvertible", "all"]
+- !private ["Ps23CustomStringConvertible", "body"]
+- !private ["Ps23CustomStringConvertible", "chain"]
+- ["Ps23CustomStringConvertible", "development"]
+- !private ["Ps23CustomStringConvertible", "error"]
+- !private ["Ps23CustomStringConvertible", "fatal"]
+- !private ["Ps23CustomStringConvertible", "get"]
+- !private ["Ps23CustomStringConvertible", "head"]
+- !private ["Ps23CustomStringConvertible", "info"]
+- ["Ps23CustomStringConvertible", "init"]
+- !private ["Ps23CustomStringConvertible", "int"]
+- !private ["Ps23CustomStringConvertible", "method"]
+- !private ["Ps23CustomStringConvertible", "path"]
+- ["Ps23CustomStringConvertible", "production"]
+- !private ["Ps23CustomStringConvertible", "uri"]
+- !private ["Ps23CustomStringConvertible", "value"]
+- !private ["Ps23CustomStringConvertible", "warning"]
+- !private ["C5Vapor14DateMiddleware", "deinit"]
+- !private ["C5Vapor14DateMiddleware", "init"]
+- !private ["C5Vapor7Droplet", "BCryptHasher"]
+- !private ["C5Vapor7Droplet", "CORSMiddleware"]
+- ["C5Vapor7Droplet", "CacheProtocol"]
+- !private ["C5Vapor7Droplet", "CacheSessions"]
+- ["C5Vapor7Droplet", "CipherProtocol"]
+- ["C5Vapor7Droplet", "ClientFactoryProtocol"]
+- ["C5Vapor7Droplet", "Command"]
+- ["C5Vapor7Droplet", "Config"]
+- !private ["C5Vapor7Droplet", "ConsoleLogger"]
+- ["C5Vapor7Droplet", "ConsoleProtocol"]
+- !private ["C5Vapor7Droplet", "CryptoCipher"]
+- !private ["C5Vapor7Droplet", "CryptoHasher"]
+- !private ["C5Vapor7Droplet", "DateMiddleware"]
+- !private ["C5Vapor7Droplet", "DumpConfig"]
+- !private ["C5Vapor7Droplet", "EngineClient"]
+- !private ["C5Vapor7Droplet", "EngineServer"]
+- !private ["C5Vapor7Droplet", "ErrorMiddleware"]
+- !private ["C5Vapor7Droplet", "FileMiddleware"]
+- !private ["C5Vapor7Droplet", "FoundationClient"]
+- ["C5Vapor7Droplet", "HashProtocol"]
+- !private ["C5Vapor7Droplet", "LogLevel"]
+- ["C5Vapor7Droplet", "LogProtocol"]
+- ["C5Vapor7Droplet", "MailProtocol"]
+- !private ["C5Vapor7Droplet", "Mailgun"]
+- !private ["C5Vapor7Droplet", "MemoryCache"]
+- !private ["C5Vapor7Droplet", "MemorySessions"]
+- ["C5Vapor7Droplet", "Middleware"]
+- !private ["C5Vapor7Droplet", "ProviderInstall"]
+- !private ["C5Vapor7Droplet", "Request"]
+- ["C5Vapor7Droplet", "Responder"]
+- !private ["C5Vapor7Droplet", "Response"]
+- !private ["C5Vapor7Droplet", "RouteList"]
+- ["C5Vapor7Droplet", "Router"]
+- !private ["C5Vapor7Droplet", "Serve"]
+- ["C5Vapor7Droplet", "ServerFactoryProtocol"]
+- !private ["C5Vapor7Droplet", "SessionsMiddleware"]
+- !private ["C5Vapor7Droplet", "StaticViewRenderer"]
+- ["C5Vapor7Droplet", "String"]
+- !private ["C5Vapor7Droplet", "Terminal"]
+- ["C5Vapor7Droplet", "ViewRenderer"]
+- !private ["C5Vapor7Droplet", "_VersionCommand"]
+- ["C5Vapor7Droplet", "cache"]
+- ["C5Vapor7Droplet", "cipher"]
+- ["C5Vapor7Droplet", "client"]
+- ["C5Vapor7Droplet", "commands"]
+- ["C5Vapor7Droplet", "config"]
+- ["C5Vapor7Droplet", "console"]
+- ["C5Vapor7Droplet", "deinit"]
+- ["C5Vapor7Droplet", "hash"]
+- ["C5Vapor7Droplet", "init"]
+- ["C5Vapor7Droplet", "log"]
+- ["C5Vapor7Droplet", "mail"]
+- ["C5Vapor7Droplet", "middleware"]
+- ["C5Vapor7Droplet", "responder"]
+- ["C5Vapor7Droplet", "router"]
+- ["C5Vapor7Droplet", "server"]
+- ["C5Vapor7Droplet", "storage"]
+- ["C5Vapor7Droplet", "view"]
+- !private ["C5Vapor10DumpConfig", "deinit"]
+- !private ["C5Vapor10DumpConfig", "init"]
+- ["P4SMTP25EmailAddressRepresentable", "init"]
+- !private ["P4SMTP25EmailAddressRepresentable", "int"]
+- ["P4SMTP22EmailBodyRepresentable", "init"]
+- !private ["P4SMTP22EmailBodyRepresentable", "int"]
+- !private ["C5Vapor12EngineClient", "deinit"]
+- !private ["C5Vapor12EngineServer", "deinit"]
+- ["O7Configs11Environment", "development"]
+- ["O7Configs11Environment", "production"]
+- !private ["Ps9Equatable", "_getBuiltinLogicValue"]
+- !private ["Ps9Equatable", "addConfigurable"]
+- !private ["Ps9Equatable", "all"]
+- !private ["Ps9Equatable", "arguments"]
+- ["Ps9Equatable", "development"]
+- !private ["Ps9Equatable", "environment"]
+- !private ["Ps9Equatable", "error"]
+- !private ["Ps9Equatable", "fatal"]
+- !private ["Ps9Equatable", "get"]
+- !private ["Ps9Equatable", "head"]
+- !private ["Ps9Equatable", "info"]
+- ["Ps9Equatable", "init"]
+- !private ["Ps9Equatable", "int"]
+- !private ["Ps9Equatable", "internalServerError"]
+- !private ["Ps9Equatable", "makeServerConfig"]
+- ["Ps9Equatable", "production"]
+- !private ["Ps9Equatable", "providers"]
+- !private ["Ps9Equatable", "publicDir"]
+- !private ["Ps9Equatable", "resolveCache"]
+- !private ["Ps9Equatable", "resolveCipher"]
+- !private ["Ps9Equatable", "resolveClient"]
+- !private ["Ps9Equatable", "resolveCommands"]
+- !private ["Ps9Equatable", "resolveConsole"]
+- !private ["Ps9Equatable", "resolveHash"]
+- !private ["Ps9Equatable", "resolveLog"]
+- !private ["Ps9Equatable", "resolveMail"]
+- !private ["Ps9Equatable", "resolveMiddleware"]
+- !private ["Ps9Equatable", "resolveServer"]
+- !private ["Ps9Equatable", "resolveView"]
+- !private ["Ps9Equatable", "set"]
+- !private ["Ps9Equatable", "viewsDir"]
+- !private ["Ps9Equatable", "warning"]
+- !private ["Ps5Error", "internalServerError"]
+- !private ["C5Vapor15ErrorMiddleware", "deinit"]
+- !private ["C5Vapor15ErrorMiddleware", "init"]
+- !private ["Ps25ExpressibleByArrayLiteral", "addConfigurable"]
+- !private ["Ps25ExpressibleByArrayLiteral", "arguments"]
+- !private ["Ps25ExpressibleByArrayLiteral", "chain"]
+- !private ["Ps25ExpressibleByArrayLiteral", "data"]
+- !private ["Ps25ExpressibleByArrayLiteral", "environment"]
+- !private ["Ps25ExpressibleByArrayLiteral", "init"]
+- !private ["Ps25ExpressibleByArrayLiteral", "makeServerConfig"]
+- !private ["Ps25ExpressibleByArrayLiteral", "providers"]
+- !private ["Ps25ExpressibleByArrayLiteral", "publicDir"]
+- !private ["Ps25ExpressibleByArrayLiteral", "resolveCache"]
+- !private ["Ps25ExpressibleByArrayLiteral", "resolveCipher"]
+- !private ["Ps25ExpressibleByArrayLiteral", "resolveClient"]
+- !private ["Ps25ExpressibleByArrayLiteral", "resolveCommands"]
+- !private ["Ps25ExpressibleByArrayLiteral", "resolveConsole"]
+- !private ["Ps25ExpressibleByArrayLiteral", "resolveHash"]
+- !private ["Ps25ExpressibleByArrayLiteral", "resolveLog"]
+- !private ["Ps25ExpressibleByArrayLiteral", "resolveMail"]
+- !private ["Ps25ExpressibleByArrayLiteral", "resolveMiddleware"]
+- !private ["Ps25ExpressibleByArrayLiteral", "resolveServer"]
+- !private ["Ps25ExpressibleByArrayLiteral", "resolveView"]
+- !private ["Ps25ExpressibleByArrayLiteral", "set"]
+- !private ["Ps25ExpressibleByArrayLiteral", "value"]
+- !private ["Ps25ExpressibleByArrayLiteral", "viewsDir"]
+- !private ["Ps27ExpressibleByBooleanLiteral", "_getBuiltinLogicValue"]
+- !private ["Ps27ExpressibleByBooleanLiteral", "addConfigurable"]
+- !private ["Ps27ExpressibleByBooleanLiteral", "arguments"]
+- !private ["Ps27ExpressibleByBooleanLiteral", "environment"]
+- !private ["Ps27ExpressibleByBooleanLiteral", "init"]
+- !private ["Ps27ExpressibleByBooleanLiteral", "makeServerConfig"]
+- !private ["Ps27ExpressibleByBooleanLiteral", "providers"]
+- !private ["Ps27ExpressibleByBooleanLiteral", "publicDir"]
+- !private ["Ps27ExpressibleByBooleanLiteral", "resolveCache"]
+- !private ["Ps27ExpressibleByBooleanLiteral", "resolveCipher"]
+- !private ["Ps27ExpressibleByBooleanLiteral", "resolveClient"]
+- !private ["Ps27ExpressibleByBooleanLiteral", "resolveCommands"]
+- !private ["Ps27ExpressibleByBooleanLiteral", "resolveConsole"]
+- !private ["Ps27ExpressibleByBooleanLiteral", "resolveHash"]
+- !private ["Ps27ExpressibleByBooleanLiteral", "resolveLog"]
+- !private ["Ps27ExpressibleByBooleanLiteral", "resolveMail"]
+- !private ["Ps27ExpressibleByBooleanLiteral", "resolveMiddleware"]
+- !private ["Ps27ExpressibleByBooleanLiteral", "resolveServer"]
+- !private ["Ps27ExpressibleByBooleanLiteral", "resolveView"]
+- !private ["Ps27ExpressibleByBooleanLiteral", "set"]
+- !private ["Ps27ExpressibleByBooleanLiteral", "viewsDir"]
+- !private ["Ps30ExpressibleByDictionaryLiteral", "addConfigurable"]
+- !private ["Ps30ExpressibleByDictionaryLiteral", "arguments"]
+- !private ["Ps30ExpressibleByDictionaryLiteral", "environment"]
+- !private ["Ps30ExpressibleByDictionaryLiteral", "init"]
+- !private ["Ps30ExpressibleByDictionaryLiteral", "makeServerConfig"]
+- !private ["Ps30ExpressibleByDictionaryLiteral", "providers"]
+- !private ["Ps30ExpressibleByDictionaryLiteral", "publicDir"]
+- !private ["Ps30ExpressibleByDictionaryLiteral", "resolveCache"]
+- !private ["Ps30ExpressibleByDictionaryLiteral", "resolveCipher"]
+- !private ["Ps30ExpressibleByDictionaryLiteral", "resolveClient"]
+- !private ["Ps30ExpressibleByDictionaryLiteral", "resolveCommands"]
+- !private ["Ps30ExpressibleByDictionaryLiteral", "resolveConsole"]
+- !private ["Ps30ExpressibleByDictionaryLiteral", "resolveHash"]
+- !private ["Ps30ExpressibleByDictionaryLiteral", "resolveLog"]
+- !private ["Ps30ExpressibleByDictionaryLiteral", "resolveMail"]
+- !private ["Ps30ExpressibleByDictionaryLiteral", "resolveMiddleware"]
+- !private ["Ps30ExpressibleByDictionaryLiteral", "resolveServer"]
+- !private ["Ps30ExpressibleByDictionaryLiteral", "resolveView"]
+- !private ["Ps30ExpressibleByDictionaryLiteral", "set"]
+- !private ["Ps30ExpressibleByDictionaryLiteral", "viewsDir"]
+- !private ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "addConfigurable"]
+- !private ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "arguments"]
+- !private ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "environment"]
+- ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "init"]
+- !private ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "int"]
+- !private ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "makeServerConfig"]
+- !private ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "providers"]
+- !private ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "publicDir"]
+- !private ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "resolveCache"]
+- !private ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "resolveCipher"]
+- !private ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "resolveClient"]
+- !private ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "resolveCommands"]
+- !private ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "resolveConsole"]
+- !private ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "resolveHash"]
+- !private ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "resolveLog"]
+- !private ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "resolveMail"]
+- !private ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "resolveMiddleware"]
+- !private ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "resolveServer"]
+- !private ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "resolveView"]
+- !private ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "set"]
+- !private ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "viewsDir"]
+- !private ["Ps25ExpressibleByFloatLiteral", "addConfigurable"]
+- !private ["Ps25ExpressibleByFloatLiteral", "arguments"]
+- !private ["Ps25ExpressibleByFloatLiteral", "environment"]
+- !private ["Ps25ExpressibleByFloatLiteral", "init"]
+- !private ["Ps25ExpressibleByFloatLiteral", "makeServerConfig"]
+- !private ["Ps25ExpressibleByFloatLiteral", "providers"]
+- !private ["Ps25ExpressibleByFloatLiteral", "publicDir"]
+- !private ["Ps25ExpressibleByFloatLiteral", "resolveCache"]
+- !private ["Ps25ExpressibleByFloatLiteral", "resolveCipher"]
+- !private ["Ps25ExpressibleByFloatLiteral", "resolveClient"]
+- !private ["Ps25ExpressibleByFloatLiteral", "resolveCommands"]
+- !private ["Ps25ExpressibleByFloatLiteral", "resolveConsole"]
+- !private ["Ps25ExpressibleByFloatLiteral", "resolveHash"]
+- !private ["Ps25ExpressibleByFloatLiteral", "resolveLog"]
+- !private ["Ps25ExpressibleByFloatLiteral", "resolveMail"]
+- !private ["Ps25ExpressibleByFloatLiteral", "resolveMiddleware"]
+- !private ["Ps25ExpressibleByFloatLiteral", "resolveServer"]
+- !private ["Ps25ExpressibleByFloatLiteral", "resolveView"]
+- !private ["Ps25ExpressibleByFloatLiteral", "set"]
+- !private ["Ps25ExpressibleByFloatLiteral", "viewsDir"]
+- !private ["Ps27ExpressibleByIntegerLiteral", "addConfigurable"]
+- !private ["Ps27ExpressibleByIntegerLiteral", "arguments"]
+- !private ["Ps27ExpressibleByIntegerLiteral", "environment"]
+- !private ["Ps27ExpressibleByIntegerLiteral", "init"]
+- !private ["Ps27ExpressibleByIntegerLiteral", "makeServerConfig"]
+- !private ["Ps27ExpressibleByIntegerLiteral", "providers"]
+- !private ["Ps27ExpressibleByIntegerLiteral", "publicDir"]
+- !private ["Ps27ExpressibleByIntegerLiteral", "resolveCache"]
+- !private ["Ps27ExpressibleByIntegerLiteral", "resolveCipher"]
+- !private ["Ps27ExpressibleByIntegerLiteral", "resolveClient"]
+- !private ["Ps27ExpressibleByIntegerLiteral", "resolveCommands"]
+- !private ["Ps27ExpressibleByIntegerLiteral", "resolveConsole"]
+- !private ["Ps27ExpressibleByIntegerLiteral", "resolveHash"]
+- !private ["Ps27ExpressibleByIntegerLiteral", "resolveLog"]
+- !private ["Ps27ExpressibleByIntegerLiteral", "resolveMail"]
+- !private ["Ps27ExpressibleByIntegerLiteral", "resolveMiddleware"]
+- !private ["Ps27ExpressibleByIntegerLiteral", "resolveServer"]
+- !private ["Ps27ExpressibleByIntegerLiteral", "resolveView"]
+- !private ["Ps27ExpressibleByIntegerLiteral", "set"]
+- !private ["Ps27ExpressibleByIntegerLiteral", "viewsDir"]
+- !private ["Ps23ExpressibleByNilLiteral", "addConfigurable"]
+- !private ["Ps23ExpressibleByNilLiteral", "arguments"]
+- !private ["Ps23ExpressibleByNilLiteral", "environment"]
+- !private ["Ps23ExpressibleByNilLiteral", "init"]
+- !private ["Ps23ExpressibleByNilLiteral", "makeServerConfig"]
+- !private ["Ps23ExpressibleByNilLiteral", "providers"]
+- !private ["Ps23ExpressibleByNilLiteral", "publicDir"]
+- !private ["Ps23ExpressibleByNilLiteral", "resolveCache"]
+- !private ["Ps23ExpressibleByNilLiteral", "resolveCipher"]
+- !private ["Ps23ExpressibleByNilLiteral", "resolveClient"]
+- !private ["Ps23ExpressibleByNilLiteral", "resolveCommands"]
+- !private ["Ps23ExpressibleByNilLiteral", "resolveConsole"]
+- !private ["Ps23ExpressibleByNilLiteral", "resolveHash"]
+- !private ["Ps23ExpressibleByNilLiteral", "resolveLog"]
+- !private ["Ps23ExpressibleByNilLiteral", "resolveMail"]
+- !private ["Ps23ExpressibleByNilLiteral", "resolveMiddleware"]
+- !private ["Ps23ExpressibleByNilLiteral", "resolveServer"]
+- !private ["Ps23ExpressibleByNilLiteral", "resolveView"]
+- !private ["Ps23ExpressibleByNilLiteral", "set"]
+- !private ["Ps23ExpressibleByNilLiteral", "viewsDir"]
+- !private ["Ps26ExpressibleByStringLiteral", "addConfigurable"]
+- !private ["Ps26ExpressibleByStringLiteral", "arguments"]
+- !private ["Ps26ExpressibleByStringLiteral", "environment"]
+- ["Ps26ExpressibleByStringLiteral", "init"]
+- !private ["Ps26ExpressibleByStringLiteral", "int"]
+- !private ["Ps26ExpressibleByStringLiteral", "makeServerConfig"]
+- !private ["Ps26ExpressibleByStringLiteral", "providers"]
+- !private ["Ps26ExpressibleByStringLiteral", "publicDir"]
+- !private ["Ps26ExpressibleByStringLiteral", "resolveCache"]
+- !private ["Ps26ExpressibleByStringLiteral", "resolveCipher"]
+- !private ["Ps26ExpressibleByStringLiteral", "resolveClient"]
+- !private ["Ps26ExpressibleByStringLiteral", "resolveCommands"]
+- !private ["Ps26ExpressibleByStringLiteral", "resolveConsole"]
+- !private ["Ps26ExpressibleByStringLiteral", "resolveHash"]
+- !private ["Ps26ExpressibleByStringLiteral", "resolveLog"]
+- !private ["Ps26ExpressibleByStringLiteral", "resolveMail"]
+- !private ["Ps26ExpressibleByStringLiteral", "resolveMiddleware"]
+- !private ["Ps26ExpressibleByStringLiteral", "resolveServer"]
+- !private ["Ps26ExpressibleByStringLiteral", "resolveView"]
+- !private ["Ps26ExpressibleByStringLiteral", "set"]
+- !private ["Ps26ExpressibleByStringLiteral", "viewsDir"]
+- !private ["Ps33ExpressibleByUnicodeScalarLiteral", "addConfigurable"]
+- !private ["Ps33ExpressibleByUnicodeScalarLiteral", "arguments"]
+- !private ["Ps33ExpressibleByUnicodeScalarLiteral", "environment"]
+- ["Ps33ExpressibleByUnicodeScalarLiteral", "init"]
+- !private ["Ps33ExpressibleByUnicodeScalarLiteral", "int"]
+- !private ["Ps33ExpressibleByUnicodeScalarLiteral", "makeServerConfig"]
+- !private ["Ps33ExpressibleByUnicodeScalarLiteral", "providers"]
+- !private ["Ps33ExpressibleByUnicodeScalarLiteral", "publicDir"]
+- !private ["Ps33ExpressibleByUnicodeScalarLiteral", "resolveCache"]
+- !private ["Ps33ExpressibleByUnicodeScalarLiteral", "resolveCipher"]
+- !private ["Ps33ExpressibleByUnicodeScalarLiteral", "resolveClient"]
+- !private ["Ps33ExpressibleByUnicodeScalarLiteral", "resolveCommands"]
+- !private ["Ps33ExpressibleByUnicodeScalarLiteral", "resolveConsole"]
+- !private ["Ps33ExpressibleByUnicodeScalarLiteral", "resolveHash"]
+- !private ["Ps33ExpressibleByUnicodeScalarLiteral", "resolveLog"]
+- !private ["Ps33ExpressibleByUnicodeScalarLiteral", "resolveMail"]
+- !private ["Ps33ExpressibleByUnicodeScalarLiteral", "resolveMiddleware"]
+- !private ["Ps33ExpressibleByUnicodeScalarLiteral", "resolveServer"]
+- !private ["Ps33ExpressibleByUnicodeScalarLiteral", "resolveView"]
+- !private ["Ps33ExpressibleByUnicodeScalarLiteral", "set"]
+- !private ["Ps33ExpressibleByUnicodeScalarLiteral", "viewsDir"]
+- !private ["P4Core10Extendable", "init"]
+- !private ["C5Vapor14FileMiddleware", "deinit"]
+- !private ["C5Vapor14FileMiddleware", "init"]
+- !private ["C5Vapor16FoundationClient", "deinit"]
+- !private ["P5Vapor12HashProtocol", "init"]
+- !private ["Ps8Hashable", "_getBuiltinLogicValue"]
+- !private ["Ps8Hashable", "get"]
+- !private ["Ps8Hashable", "head"]
+- ["Ps8Hashable", "init"]
+- !private ["Ps8Hashable", "int"]
+- !private ["Ps8Hashable", "internalServerError"]
+- !private ["O5Vapor8LogLevel", "all"]
+- !private ["O5Vapor8LogLevel", "error"]
+- !private ["O5Vapor8LogLevel", "fatal"]
+- !private ["O5Vapor8LogLevel", "info"]
+- !private ["O5Vapor8LogLevel", "warning"]
+- !private ["P5Vapor11LogProtocol", "enabled"]
+- !private ["P5Vapor11LogProtocol", "error"]
+- !private ["P5Vapor11LogProtocol", "info"]
+- !private ["P5Vapor11LogProtocol", "init"]
+- !private ["Ps25LosslessStringConvertible", "_getBuiltinLogicValue"]
+- ["Ps25LosslessStringConvertible", "init"]
+- !private ["Ps25LosslessStringConvertible", "int"]
+- !private ["P5Vapor12MailProtocol", "init"]
+- !private ["C5Vapor7Mailgun", "deinit"]
+- !private ["C5Vapor7Mailgun", "init"]
+- !private ["C5Cache11MemoryCache", "init"]
+- !private ["C8Sessions14MemorySessions", "init"]
+- !private ["P4HTTP7Message", "Handler"]
+- !private ["P4HTTP7Message", "body"]
+- !private ["P4HTTP7Message", "init"]
+- !private ["P4HTTP7Message", "method"]
+- !private ["P4HTTP7Message", "uri"]
+- !private ["O4HTTP6Method", "get"]
+- !private ["O4HTTP6Method", "head"]
+- !private ["P4HTTP10Middleware", "init"]
+- ["Ps10MirrorPath", "init"]
+- !private ["Ps10MirrorPath", "int"]
+- !private ["Ps17MutableCollection", "chain"]
+- !private ["Ps17MutableCollection", "value"]
+- ["PSo8NSCoding", "init"]
+- !private ["PSo8NSCoding", "int"]
+- ["PSo9NSCopying", "init"]
+- !private ["PSo9NSCopying", "int"]
+- ["PSo16NSMutableCopying", "init"]
+- !private ["PSo16NSMutableCopying", "int"]
+- !private ["CSo8NSObject", "int"]
+- ["PSo16NSObjectProtocol", "init"]
+- !private ["PSo16NSObjectProtocol", "int"]
+- ["PSo14NSSecureCoding", "init"]
+- !private ["PSo14NSSecureCoding", "int"]
+- ["CSo8NSString", "init"]
+- !private ["CSo8NSString", "int"]
+- !private ["P4Node17NodeInitializable", "_getBuiltinLogicValue"]
+- !private ["P4Node17NodeInitializable", "addConfigurable"]
+- !private ["P4Node17NodeInitializable", "arguments"]
+- !private ["P4Node17NodeInitializable", "chain"]
+- !private ["P4Node17NodeInitializable", "environment"]
+- ["P4Node17NodeInitializable", "init"]
+- !private ["P4Node17NodeInitializable", "int"]
+- !private ["P4Node17NodeInitializable", "makeServerConfig"]
+- !private ["P4Node17NodeInitializable", "providers"]
+- !private ["P4Node17NodeInitializable", "publicDir"]
+- !private ["P4Node17NodeInitializable", "resolveCache"]
+- !private ["P4Node17NodeInitializable", "resolveCipher"]
+- !private ["P4Node17NodeInitializable", "resolveClient"]
+- !private ["P4Node17NodeInitializable", "resolveCommands"]
+- !private ["P4Node17NodeInitializable", "resolveConsole"]
+- !private ["P4Node17NodeInitializable", "resolveHash"]
+- !private ["P4Node17NodeInitializable", "resolveLog"]
+- !private ["P4Node17NodeInitializable", "resolveMail"]
+- !private ["P4Node17NodeInitializable", "resolveMiddleware"]
+- !private ["P4Node17NodeInitializable", "resolveServer"]
+- !private ["P4Node17NodeInitializable", "resolveView"]
+- !private ["P4Node17NodeInitializable", "set"]
+- !private ["P4Node17NodeInitializable", "value"]
+- !private ["P4Node17NodeInitializable", "viewsDir"]
+- !private ["P4Node17NodeRepresentable", "Handler"]
+- !private ["P4Node17NodeRepresentable", "_getBuiltinLogicValue"]
+- !private ["P4Node17NodeRepresentable", "addConfigurable"]
+- !private ["P4Node17NodeRepresentable", "arguments"]
+- !private ["P4Node17NodeRepresentable", "chain"]
+- !private ["P4Node17NodeRepresentable", "environment"]
+- ["P4Node17NodeRepresentable", "init"]
+- !private ["P4Node17NodeRepresentable", "int"]
+- !private ["P4Node17NodeRepresentable", "makeServerConfig"]
+- !private ["P4Node17NodeRepresentable", "method"]
+- !private ["P4Node17NodeRepresentable", "path"]
+- !private ["P4Node17NodeRepresentable", "providers"]
+- !private ["P4Node17NodeRepresentable", "publicDir"]
+- !private ["P4Node17NodeRepresentable", "resolveCache"]
+- !private ["P4Node17NodeRepresentable", "resolveCipher"]
+- !private ["P4Node17NodeRepresentable", "resolveClient"]
+- !private ["P4Node17NodeRepresentable", "resolveCommands"]
+- !private ["P4Node17NodeRepresentable", "resolveConsole"]
+- !private ["P4Node17NodeRepresentable", "resolveHash"]
+- !private ["P4Node17NodeRepresentable", "resolveLog"]
+- !private ["P4Node17NodeRepresentable", "resolveMail"]
+- !private ["P4Node17NodeRepresentable", "resolveMiddleware"]
+- !private ["P4Node17NodeRepresentable", "resolveServer"]
+- !private ["P4Node17NodeRepresentable", "resolveView"]
+- !private ["P4Node17NodeRepresentable", "set"]
+- !private ["P4Node17NodeRepresentable", "uri"]
+- !private ["P4Node17NodeRepresentable", "value"]
+- !private ["P4Node17NodeRepresentable", "viewsDir"]
+- ["P7Routing15Parameterizable", "init"]
+- !private ["P7Routing15Parameterizable", "int"]
+- !private ["P13PathIndexable13PathIndexable", "addConfigurable"]
+- !private ["P13PathIndexable13PathIndexable", "arguments"]
+- !private ["P13PathIndexable13PathIndexable", "environment"]
+- !private ["P13PathIndexable13PathIndexable", "init"]
+- !private ["P13PathIndexable13PathIndexable", "makeServerConfig"]
+- !private ["P13PathIndexable13PathIndexable", "providers"]
+- !private ["P13PathIndexable13PathIndexable", "publicDir"]
+- !private ["P13PathIndexable13PathIndexable", "resolveCache"]
+- !private ["P13PathIndexable13PathIndexable", "resolveCipher"]
+- !private ["P13PathIndexable13PathIndexable", "resolveClient"]
+- !private ["P13PathIndexable13PathIndexable", "resolveCommands"]
+- !private ["P13PathIndexable13PathIndexable", "resolveConsole"]
+- !private ["P13PathIndexable13PathIndexable", "resolveHash"]
+- !private ["P13PathIndexable13PathIndexable", "resolveLog"]
+- !private ["P13PathIndexable13PathIndexable", "resolveMail"]
+- !private ["P13PathIndexable13PathIndexable", "resolveMiddleware"]
+- !private ["P13PathIndexable13PathIndexable", "resolveServer"]
+- !private ["P13PathIndexable13PathIndexable", "resolveView"]
+- !private ["P13PathIndexable13PathIndexable", "set"]
+- !private ["P13PathIndexable13PathIndexable", "viewsDir"]
+- ["P13PathIndexable11PathIndexer", "init"]
+- !private ["P13PathIndexable11PathIndexer", "int"]
+- !private ["P5Vapor8Provider", "boot"]
+- !private ["C5Vapor15ProviderInstall", "deinit"]
+- !private ["C5Vapor15ProviderInstall", "init"]
+- !private ["Ps22RandomAccessCollection", "chain"]
+- !private ["Ps22RandomAccessCollection", "value"]
+- !private ["Ps26RangeReplaceableCollection", "chain"]
+- !private ["Ps26RangeReplaceableCollection", "value"]
+- !private ["C4HTTP7Request", "Handler"]
+- !private ["C4HTTP7Request", "method"]
+- !private ["C4HTTP7Request", "uri"]
+- ["P5Vapor23RequestContentSubscript", "init"]
+- !private ["P5Vapor23RequestContentSubscript", "int"]
+- !private ["P4HTTP9Responder", "BCryptHasher"]
+- !private ["P4HTTP9Responder", "CORSMiddleware"]
+- !private ["P4HTTP9Responder", "CacheSessions"]
+- !private ["P4HTTP9Responder", "Config"]
+- !private ["P4HTTP9Responder", "ConsoleLogger"]
+- !private ["P4HTTP9Responder", "CryptoCipher"]
+- !private ["P4HTTP9Responder", "CryptoHasher"]
+- !private ["P4HTTP9Responder", "DateMiddleware"]
+- !private ["P4HTTP9Responder", "DumpConfig"]
+- !private ["P4HTTP9Responder", "EngineClient"]
+- !private ["P4HTTP9Responder", "EngineServer"]
+- !private ["P4HTTP9Responder", "ErrorMiddleware"]
+- !private ["P4HTTP9Responder", "FileMiddleware"]
+- !private ["P4HTTP9Responder", "FoundationClient"]
+- !private ["P4HTTP9Responder", "LogLevel"]
+- !private ["P4HTTP9Responder", "Mailgun"]
+- !private ["P4HTTP9Responder", "MemoryCache"]
+- !private ["P4HTTP9Responder", "MemorySessions"]
+- !private ["P4HTTP9Responder", "ProviderInstall"]
+- !private ["P4HTTP9Responder", "Request"]
+- !private ["P4HTTP9Responder", "Response"]
+- !private ["P4HTTP9Responder", "RouteList"]
+- !private ["P4HTTP9Responder", "Router"]
+- !private ["P4HTTP9Responder", "Serve"]
+- !private ["P4HTTP9Responder", "SessionsMiddleware"]
+- !private ["P4HTTP9Responder", "StaticViewRenderer"]
+- !private ["P4HTTP9Responder", "Terminal"]
+- !private ["P4HTTP9Responder", "_VersionCommand"]
+- !private ["P4HTTP9Responder", "cache"]
+- !private ["P4HTTP9Responder", "cipher"]
+- !private ["P4HTTP9Responder", "client"]
+- !private ["P4HTTP9Responder", "commands"]
+- !private ["P4HTTP9Responder", "config"]
+- !private ["P4HTTP9Responder", "console"]
+- !private ["P4HTTP9Responder", "hash"]
+- !private ["P4HTTP9Responder", "init"]
+- !private ["P4HTTP9Responder", "log"]
+- !private ["P4HTTP9Responder", "mail"]
+- !private ["P4HTTP9Responder", "middleware"]
+- !private ["P4HTTP9Responder", "respond"]
+- !private ["P4HTTP9Responder", "responder"]
+- !private ["P4HTTP9Responder", "router"]
+- !private ["P4HTTP9Responder", "server"]
+- !private ["P4HTTP9Responder", "storage"]
+- !private ["P4HTTP9Responder", "view"]
+- !private ["C4HTTP8Response", "body"]
+- !private ["C4HTTP8Response", "init"]
+- !private ["P4HTTP21ResponseRepresentable", "body"]
+- ["P4HTTP21ResponseRepresentable", "init"]
+- !private ["P4HTTP21ResponseRepresentable", "int"]
+- !private ["P7Routing12RouteBuilder", "BCryptHasher"]
+- !private ["P7Routing12RouteBuilder", "CORSMiddleware"]
+- !private ["P7Routing12RouteBuilder", "CacheSessions"]
+- !private ["P7Routing12RouteBuilder", "Config"]
+- !private ["P7Routing12RouteBuilder", "ConsoleLogger"]
+- !private ["P7Routing12RouteBuilder", "CryptoCipher"]
+- !private ["P7Routing12RouteBuilder", "CryptoHasher"]
+- !private ["P7Routing12RouteBuilder", "DateMiddleware"]
+- !private ["P7Routing12RouteBuilder", "DumpConfig"]
+- !private ["P7Routing12RouteBuilder", "EngineClient"]
+- !private ["P7Routing12RouteBuilder", "EngineServer"]
+- !private ["P7Routing12RouteBuilder", "ErrorMiddleware"]
+- !private ["P7Routing12RouteBuilder", "FileMiddleware"]
+- !private ["P7Routing12RouteBuilder", "FoundationClient"]
+- !private ["P7Routing12RouteBuilder", "LogLevel"]
+- !private ["P7Routing12RouteBuilder", "Mailgun"]
+- !private ["P7Routing12RouteBuilder", "MemoryCache"]
+- !private ["P7Routing12RouteBuilder", "MemorySessions"]
+- !private ["P7Routing12RouteBuilder", "ProviderInstall"]
+- !private ["P7Routing12RouteBuilder", "Request"]
+- !private ["P7Routing12RouteBuilder", "Response"]
+- !private ["P7Routing12RouteBuilder", "RouteList"]
+- !private ["P7Routing12RouteBuilder", "Router"]
+- !private ["P7Routing12RouteBuilder", "Serve"]
+- !private ["P7Routing12RouteBuilder", "SessionsMiddleware"]
+- !private ["P7Routing12RouteBuilder", "StaticViewRenderer"]
+- !private ["P7Routing12RouteBuilder", "Terminal"]
+- !private ["P7Routing12RouteBuilder", "_VersionCommand"]
+- !private ["P7Routing12RouteBuilder", "cache"]
+- !private ["P7Routing12RouteBuilder", "cipher"]
+- !private ["P7Routing12RouteBuilder", "client"]
+- !private ["P7Routing12RouteBuilder", "commands"]
+- !private ["P7Routing12RouteBuilder", "config"]
+- !private ["P7Routing12RouteBuilder", "console"]
+- !private ["P7Routing12RouteBuilder", "hash"]
+- !private ["P7Routing12RouteBuilder", "init"]
+- !private ["P7Routing12RouteBuilder", "log"]
+- !private ["P7Routing12RouteBuilder", "mail"]
+- !private ["P7Routing12RouteBuilder", "middleware"]
+- !private ["P7Routing12RouteBuilder", "responder"]
+- !private ["P7Routing12RouteBuilder", "router"]
+- !private ["P7Routing12RouteBuilder", "server"]
+- !private ["P7Routing12RouteBuilder", "storage"]
+- !private ["P7Routing12RouteBuilder", "view"]
+- !private ["C5Vapor9RouteList", "deinit"]
+- !private ["C5Vapor9RouteList", "init"]
+- !private ["C7Routing6Router", "init"]
+- !private ["P7Console8Runnable", "init"]
+- !private ["Ps8Sequence", "chain"]
+- !private ["Ps8Sequence", "value"]
+- !private ["C5Vapor5Serve", "deinit"]
+- !private ["C5Vapor5Serve", "init"]
+- !private ["C8Sessions18SessionsMiddleware", "init"]
+- !private ["P8Sessions16SessionsProtocol", "init"]
+- !private ["C5Vapor18StaticViewRenderer", "deinit"]
+- !private ["C5Vapor18StaticViewRenderer", "init"]
+- !private ["O4HTTP6Status", "internalServerError"]
+- ["SS", "init"]
+- !private ["SS", "int"]
+- !private ["P4Node21StructuredDataWrapper", "addConfigurable"]
+- !private ["P4Node21StructuredDataWrapper", "arguments"]
+- !private ["P4Node21StructuredDataWrapper", "environment"]
+- !private ["P4Node21StructuredDataWrapper", "init"]
+- !private ["P4Node21StructuredDataWrapper", "makeServerConfig"]
+- !private ["P4Node21StructuredDataWrapper", "providers"]
+- !private ["P4Node21StructuredDataWrapper", "publicDir"]
+- !private ["P4Node21StructuredDataWrapper", "resolveCache"]
+- !private ["P4Node21StructuredDataWrapper", "resolveCipher"]
+- !private ["P4Node21StructuredDataWrapper", "resolveClient"]
+- !private ["P4Node21StructuredDataWrapper", "resolveCommands"]
+- !private ["P4Node21StructuredDataWrapper", "resolveConsole"]
+- !private ["P4Node21StructuredDataWrapper", "resolveHash"]
+- !private ["P4Node21StructuredDataWrapper", "resolveLog"]
+- !private ["P4Node21StructuredDataWrapper", "resolveMail"]
+- !private ["P4Node21StructuredDataWrapper", "resolveMiddleware"]
+- !private ["P4Node21StructuredDataWrapper", "resolveServer"]
+- !private ["P4Node21StructuredDataWrapper", "resolveView"]
+- !private ["P4Node21StructuredDataWrapper", "set"]
+- !private ["P4Node21StructuredDataWrapper", "viewsDir"]
+- !private ["C7Console8Terminal", "init"]
+- ["Ps16TextOutputStream", "init"]
+- !private ["Ps16TextOutputStream", "int"]
+- ["Ps20TextOutputStreamable", "init"]
+- !private ["Ps20TextOutputStreamable", "int"]
+- !private ["V3URI3URI", "path"]
+- !private ["P5Vapor12ViewRenderer", "init"]
+- !private ["P5Vapor12ViewRenderer", "shouldCache"]
+- !private ["Ps14_ArrayProtocol", "chain"]
+- !private ["Ps14_ArrayProtocol", "value"]
+- !private ["Ps23_BidirectionalIndexable", "chain"]
+- !private ["Ps23_BidirectionalIndexable", "value"]
+- !private ["Ps24_DestructorSafeContainer", "chain"]
+- !private ["Ps24_DestructorSafeContainer", "value"]
+- !private ["Ps35_ExpressibleByBuiltinBooleanLiteral", "_getBuiltinLogicValue"]
+- ["Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral", "init"]
+- !private ["Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral", "int"]
+- ["Ps34_ExpressibleByBuiltinStringLiteral", "init"]
+- !private ["Ps34_ExpressibleByBuiltinStringLiteral", "int"]
+- ["Ps39_ExpressibleByBuiltinUTF16StringLiteral", "init"]
+- !private ["Ps39_ExpressibleByBuiltinUTF16StringLiteral", "int"]
+- ["Ps41_ExpressibleByBuiltinUnicodeScalarLiteral", "init"]
+- !private ["Ps41_ExpressibleByBuiltinUnicodeScalarLiteral", "int"]
+- ["Ps33_ExpressibleByStringInterpolation", "init"]
+- !private ["Ps33_ExpressibleByStringInterpolation", "int"]
+- ["Ps35_HasCustomAnyHashableRepresentation", "init"]
+- !private ["Ps35_HasCustomAnyHashableRepresentation", "int"]
+- !private ["Ps9_Hashable", "_getBuiltinLogicValue"]
+- !private ["Ps9_Hashable", "get"]
+- !private ["Ps9_Hashable", "head"]
+- ["Ps9_Hashable", "init"]
+- !private ["Ps9_Hashable", "int"]
+- !private ["Ps9_Hashable", "internalServerError"]
+- !private ["Ps10_Indexable", "chain"]
+- !private ["Ps10_Indexable", "value"]
+- !private ["Ps14_IndexableBase", "chain"]
+- !private ["Ps14_IndexableBase", "value"]
+- !private ["Ps17_MutableIndexable", "chain"]
+- !private ["Ps17_MutableIndexable", "value"]
+- !private ["Ps21_ObjectiveCBridgeable", "_getBuiltinLogicValue"]
+- !private ["Ps21_ObjectiveCBridgeable", "chain"]
+- ["Ps21_ObjectiveCBridgeable", "init"]
+- !private ["Ps21_ObjectiveCBridgeable", "int"]
+- !private ["Ps21_ObjectiveCBridgeable", "value"]
+- !private ["Ps22_RandomAccessIndexable", "chain"]
+- !private ["Ps22_RandomAccessIndexable", "value"]
+- !private ["Ps26_RangeReplaceableIndexable", "chain"]
+- !private ["Ps26_RangeReplaceableIndexable", "value"]
+- !private ["C5Vapor15_VersionCommand", "deinit"]
+- !private ["C5Vapor15_VersionCommand", "init"]
+depends-nominal:
+- !private "P5Vapor10AbortError"
+- "Ps9AnyObject"
+- !private "Sa"
+- !private "C5Vapor12BCryptHasher"
+- !private "V4HTTP14BasicResponder"
+- !private "Ps23BidirectionalCollection"
+- !private "O4HTTP4Body"
+- "P4HTTP17BodyRepresentable"
+- !private "Sb"
+- "P4Bits16BytesConvertible"
+- "P4Bits18BytesInitializable"
+- "P4Bits18BytesRepresentable"
+- !private "C5Vapor14CORSMiddleware"
+- "Ps7CVarArg"
+- !private "P5Cache13CacheProtocol"
+- !private "C8Sessions13CacheSessions"
+- !private "P5Vapor14CipherProtocol"
+- !private "Ps10Collection"
+- !private "P7Console7Command"
+- "Ps10Comparable"
+- !private "C7Configs6Config"
+- !private "P7Configs19ConfigInitializable"
+- !private "C5Vapor13ConsoleLogger"
+- !private "P7Console15ConsoleProtocol"
+- !private "C5Vapor12CryptoCipher"
+- !private "C5Vapor12CryptoHasher"
+- "Ps28CustomDebugStringConvertible"
+- "Ps29CustomPlaygroundQuickLookable"
+- "Ps17CustomReflectable"
+- "Ps23CustomStringConvertible"
+- !private "C5Vapor14DateMiddleware"
+- "C5Vapor7Droplet"
+- !private "C5Vapor10DumpConfig"
+- "P4SMTP25EmailAddressRepresentable"
+- "P4SMTP22EmailBodyRepresentable"
+- !private "C5Vapor12EngineClient"
+- !private "C5Vapor12EngineServer"
+- "O7Configs11Environment"
+- "Ps9Equatable"
+- !private "Ps5Error"
+- !private "C5Vapor15ErrorMiddleware"
+- !private "Ps25ExpressibleByArrayLiteral"
+- !private "Ps27ExpressibleByBooleanLiteral"
+- !private "Ps30ExpressibleByDictionaryLiteral"
+- "Ps43ExpressibleByExtendedGraphemeClusterLiteral"
+- !private "Ps25ExpressibleByFloatLiteral"
+- !private "Ps27ExpressibleByIntegerLiteral"
+- !private "Ps23ExpressibleByNilLiteral"
+- "Ps26ExpressibleByStringLiteral"
+- "Ps33ExpressibleByUnicodeScalarLiteral"
+- !private "P4Core10Extendable"
+- !private "C5Vapor14FileMiddleware"
+- !private "C5Vapor16FoundationClient"
+- !private "P5Vapor12HashProtocol"
+- "Ps8Hashable"
+- !private "O5Vapor8LogLevel"
+- !private "P5Vapor11LogProtocol"
+- "Ps25LosslessStringConvertible"
+- !private "P5Vapor12MailProtocol"
+- !private "C5Vapor7Mailgun"
+- !private "C5Cache11MemoryCache"
+- !private "C8Sessions14MemorySessions"
+- !private "P4HTTP7Message"
+- !private "O4HTTP6Method"
+- !private "P4HTTP10Middleware"
+- "Ps10MirrorPath"
+- !private "Ps17MutableCollection"
+- "PSo8NSCoding"
+- "PSo9NSCopying"
+- "PSo16NSMutableCopying"
+- !private "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- "PSo14NSSecureCoding"
+- "CSo8NSString"
+- "P4Node17NodeInitializable"
+- "P4Node17NodeRepresentable"
+- "P7Routing15Parameterizable"
+- !private "P13PathIndexable13PathIndexable"
+- "P13PathIndexable11PathIndexer"
+- !private "P5Vapor8Provider"
+- !private "C5Vapor15ProviderInstall"
+- !private "Ps22RandomAccessCollection"
+- !private "Ps26RangeReplaceableCollection"
+- !private "C4HTTP7Request"
+- "P5Vapor23RequestContentSubscript"
+- !private "P4HTTP9Responder"
+- !private "C4HTTP8Response"
+- "P4HTTP21ResponseRepresentable"
+- !private "P7Routing12RouteBuilder"
+- !private "C5Vapor9RouteList"
+- !private "C7Routing6Router"
+- !private "P7Console8Runnable"
+- !private "Ps8Sequence"
+- !private "C5Vapor5Serve"
+- !private "C8Sessions18SessionsMiddleware"
+- !private "P8Sessions16SessionsProtocol"
+- !private "C5Vapor18StaticViewRenderer"
+- !private "O4HTTP6Status"
+- "SS"
+- !private "P4Node21StructuredDataWrapper"
+- !private "C7Console8Terminal"
+- "Ps16TextOutputStream"
+- "Ps20TextOutputStreamable"
+- !private "V3URI3URI"
+- !private "P5Vapor12ViewRenderer"
+- !private "Ps14_ArrayProtocol"
+- !private "Ps23_BidirectionalIndexable"
+- !private "Ps24_DestructorSafeContainer"
+- !private "Ps35_ExpressibleByBuiltinBooleanLiteral"
+- "Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral"
+- "Ps34_ExpressibleByBuiltinStringLiteral"
+- "Ps39_ExpressibleByBuiltinUTF16StringLiteral"
+- "Ps41_ExpressibleByBuiltinUnicodeScalarLiteral"
+- "Ps33_ExpressibleByStringInterpolation"
+- "Ps35_HasCustomAnyHashableRepresentation"
+- "Ps9_Hashable"
+- !private "Ps10_Indexable"
+- !private "Ps14_IndexableBase"
+- !private "Ps17_MutableIndexable"
+- "Ps21_ObjectiveCBridgeable"
+- !private "Ps22_RandomAccessIndexable"
+- !private "Ps26_RangeReplaceableIndexable"
+- !private "C5Vapor15_VersionCommand"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/ObjectiveC.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Foundation.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreGraphics.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreText.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/ObjectiveC.swiftmodule"
+- "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/debug/URI.swiftmodule"
+- "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/debug/JSON.swiftmodule"
+- "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/debug/SMTP.swiftmodule"
+- "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/debug/HTTP.swiftmodule"
+- "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/debug/TLS.swiftmodule"
+- "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/debug/FormData.swiftmodule"
+- "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/debug/libc.swiftmodule"
+- "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/debug/Node.swiftmodule"
+- "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/debug/Cache.swiftmodule"
+- "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/debug/PathIndexable.swiftmodule"
+- "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/debug/Console.swiftmodule"
+- "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/debug/Core.swiftmodule"
+- "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/debug/Debugging.swiftmodule"
+- "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/debug/Routing.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.swiftmodule"
+- "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/debug/Random.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Foundation.swiftmodule"
+- "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/debug/Crypto.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreGraphics.swiftmodule"
+- "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/debug/Branches.swiftmodule"
+- "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/debug/Cookies.swiftmodule"
+- "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/debug/Configs.swiftmodule"
+- "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/debug/Sessions.swiftmodule"
+- "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/debug/Sockets.swiftmodule"
+- "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/debug/WebSockets.swiftmodule"
+- "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/debug/Bits.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/IOKit.swiftmodule"
+- "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/debug/BCrypt.swiftmodule"
+- "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/debug/Multipart.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/debug/Transport.swiftmodule"
+- "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/checkouts/engine.git-3311994267206676365/Sources/CHTTP/include/http_parser.h"
+- "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/checkouts/ctls.git-9210868160426949823/module.modulemap"
+- "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/debug/CHTTP.build/module.modulemap"
+- "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/debug/CSQLite.build/module.modulemap"
+interface-hash: "e02a349f50097e503e7ded21b1d0077b"

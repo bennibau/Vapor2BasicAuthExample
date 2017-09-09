@@ -1,0 +1,10 @@
+version: "Apple Swift version 3.1 (swiftlang-802.0.53 clang-802.0.42)"
+options: "8febbe2accbe8dca998a66747e7fb050"
+build_time: [558250005, 207463000]
+inputs:
+  "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/checkouts/random.git--3118593962244350674/Sources/Random/Array+Random.swift": [557939703, 0]
+  "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/checkouts/random.git--3118593962244350674/Sources/Random/EmptyInitializable.swift": [557939703, 0]
+  "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/checkouts/random.git--3118593962244350674/Sources/Random/Exports.swift": [557939703, 0]
+  "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/checkouts/random.git--3118593962244350674/Sources/Random/OSRandom.swift": [557941169, 0]
+  "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/checkouts/random.git--3118593962244350674/Sources/Random/RandomProtocol.swift": [557939703, 0]
+  "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/checkouts/random.git--3118593962244350674/Sources/Random/URandom.swift": [557939703, 0]

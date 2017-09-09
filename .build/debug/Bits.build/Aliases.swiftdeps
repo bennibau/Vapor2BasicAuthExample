@@ -1,0 +1,148 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "Byte"
+- "Bytes"
+- "BytesSlice"
+provides-nominal:
+provides-member:
+- ["Si", ""]
+- ["Si", "bytes"]
+- ["Si", "kilobytes"]
+- ["Si", "megabytes"]
+- ["Si", "gigabytes"]
+provides-dynamic-lookup:
+depends-top-level:
+- "*"
+- "ArraySlice"
+- "Byte"
+- "Bytes"
+- "BytesSlice"
+- "FloatLiteralType"
+- "Int"
+- "IntegerLiteralType"
+- "UInt8"
+- "_bytes"
+- !private "_gigabytes"
+- "_kilobytes"
+- "_megabytes"
+depends-member:
+- !private ["Ps17BitwiseOperations", "_gigabytes"]
+- !private ["Ps17BitwiseOperations", "_kilobytes"]
+- !private ["Ps17BitwiseOperations", "_megabytes"]
+- !private ["Ps7CVarArg", "_gigabytes"]
+- !private ["Ps7CVarArg", "_kilobytes"]
+- !private ["Ps7CVarArg", "_megabytes"]
+- !private ["Ps10Comparable", "_gigabytes"]
+- !private ["Ps10Comparable", "_kilobytes"]
+- !private ["Ps10Comparable", "_megabytes"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "_gigabytes"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "_kilobytes"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "_megabytes"]
+- !private ["Ps17CustomReflectable", "_gigabytes"]
+- !private ["Ps17CustomReflectable", "_kilobytes"]
+- !private ["Ps17CustomReflectable", "_megabytes"]
+- !private ["Ps23CustomStringConvertible", "_gigabytes"]
+- !private ["Ps23CustomStringConvertible", "_kilobytes"]
+- !private ["Ps23CustomStringConvertible", "_megabytes"]
+- !private ["Ps9Equatable", "_gigabytes"]
+- !private ["Ps9Equatable", "_kilobytes"]
+- !private ["Ps9Equatable", "_megabytes"]
+- !private ["Ps27ExpressibleByIntegerLiteral", "_gigabytes"]
+- !private ["Ps27ExpressibleByIntegerLiteral", "_kilobytes"]
+- !private ["Ps27ExpressibleByIntegerLiteral", "_megabytes"]
+- !private ["Ps8Hashable", "_gigabytes"]
+- !private ["Ps8Hashable", "_kilobytes"]
+- !private ["Ps8Hashable", "_megabytes"]
+- ["Si", "Int"]
+- !private ["Si", "_gigabytes"]
+- !private ["Si", "_kilobytes"]
+- !private ["Si", "_megabytes"]
+- ["Si", "bytes"]
+- ["Si", "gigabytes"]
+- ["Si", "kilobytes"]
+- ["Si", "megabytes"]
+- !private ["Ps7Integer", "_gigabytes"]
+- !private ["Ps7Integer", "_kilobytes"]
+- !private ["Ps7Integer", "_megabytes"]
+- !private ["Ps17IntegerArithmetic", "_gigabytes"]
+- !private ["Ps17IntegerArithmetic", "_kilobytes"]
+- !private ["Ps17IntegerArithmetic", "_megabytes"]
+- !private ["Ps10MirrorPath", "_gigabytes"]
+- !private ["Ps10MirrorPath", "_kilobytes"]
+- !private ["Ps10MirrorPath", "_megabytes"]
+- !private ["Ps13SignedInteger", "_gigabytes"]
+- !private ["Ps13SignedInteger", "_kilobytes"]
+- !private ["Ps13SignedInteger", "_megabytes"]
+- !private ["Ps12SignedNumber", "_gigabytes"]
+- !private ["Ps12SignedNumber", "_kilobytes"]
+- !private ["Ps12SignedNumber", "_megabytes"]
+- !private ["Ps10Strideable", "_gigabytes"]
+- !private ["Ps10Strideable", "_kilobytes"]
+- !private ["Ps10Strideable", "_megabytes"]
+- !private ["Ps35_ExpressibleByBuiltinIntegerLiteral", "_gigabytes"]
+- !private ["Ps35_ExpressibleByBuiltinIntegerLiteral", "_kilobytes"]
+- !private ["Ps35_ExpressibleByBuiltinIntegerLiteral", "_megabytes"]
+- !private ["Ps9_Hashable", "_gigabytes"]
+- !private ["Ps9_Hashable", "_kilobytes"]
+- !private ["Ps9_Hashable", "_megabytes"]
+- !private ["Ps14_Incrementable", "_gigabytes"]
+- !private ["Ps14_Incrementable", "_kilobytes"]
+- !private ["Ps14_Incrementable", "_megabytes"]
+- !private ["Ps8_Integer", "_gigabytes"]
+- !private ["Ps8_Integer", "_kilobytes"]
+- !private ["Ps8_Integer", "_megabytes"]
+- !private ["Ps18_IntegerArithmetic", "_gigabytes"]
+- !private ["Ps18_IntegerArithmetic", "_kilobytes"]
+- !private ["Ps18_IntegerArithmetic", "_megabytes"]
+- !private ["Ps21_ObjectiveCBridgeable", "_gigabytes"]
+- !private ["Ps21_ObjectiveCBridgeable", "_kilobytes"]
+- !private ["Ps21_ObjectiveCBridgeable", "_megabytes"]
+- !private ["Ps14_SignedInteger", "_gigabytes"]
+- !private ["Ps14_SignedInteger", "_kilobytes"]
+- !private ["Ps14_SignedInteger", "_megabytes"]
+- !private ["Ps11_Strideable", "_gigabytes"]
+- !private ["Ps11_Strideable", "_kilobytes"]
+- !private ["Ps11_Strideable", "_megabytes"]
+depends-nominal:
+- !private "Ps17BitwiseOperations"
+- !private "Ps7CVarArg"
+- !private "Ps10Comparable"
+- !private "Ps29CustomPlaygroundQuickLookable"
+- !private "Ps17CustomReflectable"
+- !private "Ps23CustomStringConvertible"
+- !private "Ps9Equatable"
+- !private "Ps27ExpressibleByIntegerLiteral"
+- !private "Ps8Hashable"
+- "Si"
+- !private "Ps7Integer"
+- !private "Ps17IntegerArithmetic"
+- !private "Ps10MirrorPath"
+- !private "Ps13SignedInteger"
+- !private "Ps12SignedNumber"
+- !private "Ps10Strideable"
+- !private "Ps35_ExpressibleByBuiltinIntegerLiteral"
+- !private "Ps9_Hashable"
+- !private "Ps14_Incrementable"
+- !private "Ps8_Integer"
+- !private "Ps18_IntegerArithmetic"
+- !private "Ps21_ObjectiveCBridgeable"
+- !private "Ps14_SignedInteger"
+- !private "Ps11_Strideable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/ObjectiveC.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Foundation.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreGraphics.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreText.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/IOKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/debug/CHTTP.build/module.modulemap"
+- "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/debug/CSQLite.build/module.modulemap"
+interface-hash: "e8b1f4c8f60cf55f52bca92fd6a93369"
