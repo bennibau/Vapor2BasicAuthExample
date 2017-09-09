@@ -1,0 +1,4 @@
+module CHTTP {
+    umbrella "/Users/benjamin.baumann/Documents/Private/Tutorials/Vapor2BasicAuthExample/.build/checkouts/engine.git-3311994267206676365/Sources/CHTTP/include"
+    export *
+}
