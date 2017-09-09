@@ -1,5 +1,0 @@
-version: "Apple Swift version 3.1 (swiftlang-802.0.53 clang-802.0.42)"
-options: "7cfe61df74a2b2a9e45d31d683ca7192"
-build_time: [558250034, 763242000]
-inputs:
-  "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/Sources/Models/User.swift": [558249388, 0]

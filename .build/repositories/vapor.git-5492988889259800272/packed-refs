@@ -1,14 +1,19 @@
 # pack-refs with: peeled fully-peeled 
 c5e74759785c7b8b0956c20111dc0a28856d8bbf refs/heads/1
-7f37fc3b3d79f270ec930bd3a361af1b88853873 refs/heads/beta
+fe91c2fa5e54f5b7ce84c8243a1d7a45c06e0d67 refs/heads/beta
 1d9d8de2173d15a3727f1ab651069ad80e11abf6 refs/heads/cache-data
 70bd1b38d647820afa98735584e3065395a124dd refs/heads/ctls
-50a5829e13659c6730b82dc6e8d306c3258cb1c6 refs/heads/http-codable
+26ed21da74759c5ddf70b072b21486fbf4b19359 refs/heads/http-codable
+a3cb999ed5a128325232dad409e652fb53c54c6d refs/heads/logging
+73b33ef55f5915ef4bbac54a1df443134b26f0e6 refs/heads/manifestos
 59bde985edbdf6480c541485317c8d41cc5fefb7 refs/heads/master
 2c9c3105fd1fcec17d3c98eb0e926024709f7906 refs/heads/merge
-0691934e0cd39b7764d97bdb51d8d027784adfa0 refs/heads/mysql
+e77b81f85d847b42b9d7f1229ce3916f5fe05d16 refs/heads/mysql
+27e0b26ab989c181471da11046398f48ba09a1f9 refs/heads/routing-features
+ddbb275910c73e5444b25224e388edd5f1650b34 refs/heads/sessions
 f5c171e5ebd1022ec8351f2b5942ac63841337da refs/heads/siemensikkema-patch-1
 37a300b78586a76fdabc36753968c33b34c7ba47 refs/heads/swift-2-2
+e3f2e33ace47c6e6bfc8345114eb31247fe781e4 refs/heads/validation
 5fad44e4a2a72464f1eb1ece878aec9c02f475e6 refs/tags/0.0.0
 74a146601f95fa94307e32ba093ddd11dd61bafa refs/tags/0.0.0.0
 fb061da4686c05556ac83fe6342895ec02a82fee refs/tags/0.1.0

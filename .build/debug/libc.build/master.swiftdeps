@@ -1,5 +1,0 @@
-version: "Apple Swift version 3.1 (swiftlang-802.0.53 clang-802.0.42)"
-options: "caa171b6283bd3ccc499250ebd2b9d52"
-build_time: [558250004, 157553000]
-inputs:
-  "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/checkouts/core.git-9210800844849382486/Sources/libc/libc.swift": [557941169, 0]

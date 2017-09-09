@@ -1,7 +1,0 @@
-version: "Apple Swift version 3.1 (swiftlang-802.0.53 clang-802.0.42)"
-options: "6c1eea5cfe0592610a845d24d3d1fec8"
-build_time: [558250029, 724654000]
-inputs:
-  "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/checkouts/auth.git-9199502942084726963/Sources/Authorization/Authorizable.swift": [557940831, 0]
-  "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/checkouts/auth.git-9199502942084726963/Sources/Authorization/AuthorizationError.swift": [557940831, 0]
-  "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/checkouts/auth.git-9199502942084726963/Sources/Authorization/Permission.swift": [557940831, 0]

@@ -1,4 +1,4 @@
 module CSQLite {
-    umbrella "/Users/benjamin.baumann/Documents/Private/Tutorials/BasicAuth/.build/checkouts/sqlite.git--8232814251736334455/Sources/CSQLite/include"
+    umbrella "/Users/benjamin.baumann/Documents/Private/Tutorials/Vapor2BasicAuthExample/.build/checkouts/sqlite.git--8232814251736334455/Sources/CSQLite/include"
     export *
 }
